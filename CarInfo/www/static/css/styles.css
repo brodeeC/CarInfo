@@ -1,6 +1,14 @@
 h1{
     font-size:100px
 }
+.HeadText{
+    text-align: center;
+    font-size: 150%;
+}
+.BodyText{
+    text-align: center;
+    font-size: 100%;
+}
 
 #logo{
     width: 100px;
