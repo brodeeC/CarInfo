@@ -9,7 +9,7 @@ function displayMenu() {
   }
 
   //Function that makes the site dark based on the users settings.
-  function App() {
+  function darkMode() {
 
     const isDark = window.matchMedia("(prefers-color-scheme:dark)").matches
   
