@@ -35,15 +35,18 @@ h1{
     top: 0;
   }
   
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  /* default, light mode styling */
+.element {
+    background-color: #fff;
+    color: #000;
   }
   
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: #04AA6D;
-    color: white;
+  /* if user switches the system settings to dark mode */
+  /* this media query will be applied */
+  @media (prefers-color-scheme: dark) {
+    .element {
+      background-color: #000;
+      color: #fff;
+    }
   }
  
