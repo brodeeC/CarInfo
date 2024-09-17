@@ -15,14 +15,17 @@
     p{
       display:flex;
       justify-content: center;
+      text-align: center;
       align-items: center;
-      margin-left: 5%;
-      margin-right: 5%
+      
+      margin: 1%
       /*padding: 5px 5px;*/
     }
-    .LargeText{
-      display: flexbox;
-      justify-content: center;
+    .large-text{
+      font-size: 1.2em;/*Increases the font size for better readability*/
+      line-height: 1.6; /*Improve line spacing*/
+      
+      margin-top: 0px;
       padding-left: 2px;
       padding-right: 2px;
     }
