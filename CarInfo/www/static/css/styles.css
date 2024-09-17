@@ -23,11 +23,9 @@
     }
     .large-text{
       font-size: 1.2em;/*Increases the font size for better readability*/
-      line-height: 1.6; /*Improve line spacing*/
-      
+      line-height: 2.0; /*Improve line spacing*/
       margin-top: 0px;
-      padding-left: 2px;
-      padding-right: 2px;
+     
     }
 }
 
