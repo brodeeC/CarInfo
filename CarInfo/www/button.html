@@ -1,0 +1,28 @@
+<html>
+
+    <body>
+        <h1>Click to change background color</h1>
+        <button id="colorButton" onclick="changeColors()">
+            Click me!
+        </button>
+
+        <script>
+            function changeColors(){
+                if (document.body.style.background == "blue"){
+                    document.body.style.background = "white"
+                    document.body.style.color = "black"
+                }
+                else{
+                    document.body.style.background = "blue"
+                    document.body.style.color = "red"
+                }
+                
+            }
+        </script>
+    </body>
+
+
+
+
+
+</html>
