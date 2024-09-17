@@ -1,6 +1,6 @@
 //Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 function displayMenu() {
-    let x = document.getElementById("myLinks");
+    const x = document.getElementById("myLinks");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
