@@ -1,3 +1,19 @@
+<style>
+  #ford{
+    display:block
+  }
+  #suburu{
+    display:block
+  }
+  #fordHidden{
+    display:none
+  }
+  #suburuHidden{
+    display:none
+  }
+  
+</style>
+
 <html> 
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,46 +47,32 @@
           </div>
 
           <!--Inspiration taken from W3 schools-->
-          <label onclick = "displayCountries()">Choose a country</label>
+          <label id = "dropdown" onchange = "displayCountries()">Choose a country</label>
           <select name = "Countries" id = "countries">
             <option value = "None">None</option>
-            <option onclick = "displayCountries('American')" value = "American">American</option>
-            <option onclick = "displayCountries('Japanse')" value = "Japanese">Japanese</option>
+            <option value = "American">American</option>
+            <option value = "Japanese">Japanese</option>
           </select>
 
           <div class = "brands">
-            <button class = "American" onclick="window.location.href = 'brandsHTML/ford.html'">Ford</button>
-            <button class = "Japanese" onclick="window.location.href = '#'">Suburu</button>
+            <button id = "ford" onclick="window.location.href = 'brandsHTML/ford.html'">Ford</button>
+            <button id = "suburu" onclick="window.location.href = '#'">Suburu</button>
           </div>
 
           <script>
-            function displayCountries(country){
-              // let x = document.getElementById("countries")
-              // let country = x.getAttribute("value")
+            function displayCountries(){
+              const country = document.querySelector("#dropdown");
 
-              // const brands = document.getElementsByClassName(country)
-              // if (brands.style.display === "none"){
-              //   brands.style.display = "block"
-              // }
+              let sub = document.getElementById("suburu");
+              let ford = document.getElementById("ford");
 
-              // if (brands != "American"){
-              //   const notBrands = document.getElementsByClassName("American")
-              //   notBrands.style.display = "none"
-              // }
+              if(country == "American"){
+                sub.id = "suburuHidden";
+              }
 
-              // if (brands != "Japanese"){
-              //   const notBrands = document.getElementsByClassName("Japanese")
-              //   notBrands.style.display = "none"
-              // }
-
-              const x = document.getElementsByClassName("brands")
-              x.style.display = "none"
-
-              const disp = document.getElementsByClassName(country)
-              disp.style.display = "block"
-
-
-
+              else{
+                ford.id = "fordHidden";
+              }
             }
 
           </script>
