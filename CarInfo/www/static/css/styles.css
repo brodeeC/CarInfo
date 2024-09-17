@@ -11,23 +11,11 @@
 .BodyText{   
     text-align: center;
     font-size: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
+    
     h2 {
       font-family: "Comfortaa", sans-serif;
-    }
-    p{
-      display:flex;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-      
-      margin: 1%
-      /*padding: 5px 5px;*/
-    }
-    .large-text{
-      font-size: 1.2em;/*Increases the font size for better readability*/
-      line-height: 2.0; /*Improve line spacing*/
-      margin-top: 0px;
-     
     }
 }
 
