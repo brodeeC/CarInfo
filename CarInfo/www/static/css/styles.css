@@ -6,12 +6,27 @@
 }
 
 /*Changes to the the BodyText Class*/
-.BodyText{
-  h2 {
-    font-family: "Comfortaa", sans-serif;
-  }
+.BodyText{   
     text-align: center;
     font-size: 100%;
+    h2 {
+      font-family: "Comfortaa", sans-serif;
+    }
+    p{
+      display:flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      
+      margin: 1%
+      /*padding: 5px 5px;*/
+    }
+    .large-text{
+      font-size: 1.2em;/*Increases the font size for better readability*/
+      line-height: 2.0; /*Improve line spacing*/
+      margin-top: 0px;
+     
+    }
 }
 
 #logo{
