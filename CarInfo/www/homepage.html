@@ -36,7 +36,7 @@
         <!-- Full-width images with number and caption text -->
         <div class="mySlides">
           <div class="numbertext">1 / 4</div>
-          <img src="images/Porsche930TurboD.jpeg" style="width:100%">
+          <img src="images/Porsche930TurboD.jpeg" onload="currentSlide(1)" style="width:100%">
         </div>
 
         <div class="mySlides">
@@ -60,6 +60,7 @@
 </div>
 <br>
 
+<!--Need unload to load the first images because nothing has occurred quite yet.-->
 <!-- The dots/circles -->
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
