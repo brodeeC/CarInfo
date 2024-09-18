@@ -1,15 +1,9 @@
 <style>
-  #ford{
+  .American{
     display:block
   }
-  #suburu{
+  .Japanese{
     display:block
-  }
-  #fordHidden{
-    display:none
-  }
-  #suburuHidden{
-    display:none
   }
   
 </style>
@@ -47,32 +41,50 @@
           </div>
 
           <!--Inspiration taken from W3 schools-->
-          <label id = "dropdown" onchange = "displayCountries()">Choose a country</label>
-          <select name = "Countries" id = "countries">
+          <label id = "dropdown" >Choose a country</label>
+          <select name = "Countries" id = "countries" onchange = "displayCountries()">
             <option value = "None">None</option>
             <option value = "American">American</option>
             <option value = "Japanese">Japanese</option>
           </select>
 
           <div class = "brands">
-            <button id = "ford" onclick="window.location.href = 'brandsHTML/ford.html'">Ford</button>
-            <button id = "suburu" onclick="window.location.href = '#'">Suburu</button>
+            <button class = "American" onclick="window.location.href = 'brandsHTML/ford.html'">Ford</button>
+            <button class = "Japanese" onclick="window.location.href = '#'">Subaru</button>
           </div>
 
           <script>
 
             function displayCountries(){
-              const country = document.querySelector("#dropdown");
+              const country = document.querySelector("#countries").value;
 
-              let sub = document.getElementById("suburu");
-              let ford = document.getElementById("ford");
+              let americanButtons = document.querySelectorAll(".American");
+              let japaneseButtons = document.querySelectorAll(".Japanese");
 
-              if(country == "American"){
-                sub.id = "suburuHidden";
-              }
-
-              else{
-                ford.id = "fordHidden";
+              if (country === "American") {
+                  // Show American, hide Japanese
+                  americanButtons.forEach(button => {
+                    button.style.display = "block";
+                  });
+                  japaneseButtons.forEach(button => {
+                    button.style.display = "none";
+                  });
+              } else if (country === "Japanese") {
+                  // Show Japanese, hide American
+                  japaneseButtons.forEach(button => {
+                    button.style.display = "block";
+                  });
+                  americanButtons.forEach(button => {
+                    button.style.display = "none";
+                  });
+              } else {
+                  // Show all if no country is selected
+                  americanButtons.forEach(button => {
+                    button.style.display = "block";
+                  });
+                  japaneseButtons.forEach(button => {
+                    button.style.display = "block";
+                  });
               }
             }
 
