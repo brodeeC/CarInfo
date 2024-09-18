@@ -56,11 +56,14 @@
           <script>
 
             function displayCountries(){
+              //Get selected country from dropdown menu
               const country = document.querySelector("#countries").value;
 
+              //Get all buttons associated with countries
               let americanButtons = document.querySelectorAll(".American");
               let japaneseButtons = document.querySelectorAll(".Japanese");
 
+              //Cases depending on which country is selected
               if (country === "American") {
                   // Show American, hide Japanese
                   americanButtons.forEach(button => {
