@@ -98,6 +98,8 @@ color: #000;
   display: none;
 }
 
+/*Maybe put the images and the pointer button in some sort of box that will allow for the positioning to change.
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
