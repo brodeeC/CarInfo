@@ -99,7 +99,7 @@ color: #000;
 }
 
 
-/* Next & previous buttons */
+/* Next & previous buttons */ /*Try using a flexbox*/
 .prev, .next {
   cursor: pointer;
   position: absolute; /*Already tried realtive when applied the arrows shfit downward.*/
