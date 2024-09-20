@@ -24,6 +24,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+//Implementation for going to the next slide.
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
