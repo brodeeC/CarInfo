@@ -1,10 +1,11 @@
 .HeadText{
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fdf5e6;
   font-size: 600%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /*Changes to the the BodyText Class*/
@@ -16,7 +17,7 @@
     padding-right: 75px;
     
     h2 {
-      font-family: "Comfortaa", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 150%;
     }
 }
@@ -32,7 +33,7 @@
     padding-left: 75px;
     padding-right: 75px;
     .bigger{
-      font-family: "Comfortaa", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 150%;
       font-weight: bold;
       display: flex;
@@ -105,7 +106,7 @@ color: black;
 } 
 
 .active {
-background: linear-gradient(to top, #550000 0%, #550000 50%, #03396c 50%, #03396c 100%);
+background: linear-gradient(to top, #ef1a2d 0%, #ef1a2d 50%, #03396c 50%, #03396c 100%);
 color: white;
 height: 20%;
 }
