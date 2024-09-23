@@ -1,22 +1,64 @@
 .HeadText{
-    font-family: "Comfortaa", sans-serif;
-    color: #fdf5e6;
-    font-size: 600%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: "Comfortaa", sans-serif;
+  color: #fdf5e6;
+  font-size: 600%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Changes to the the BodyText Class*/
 .BodyText{   
-    text-align: center;
+    text-align: justify;
+    text-align-last: left;
     font-size: 100%;
     padding-left: 75px;
     padding-right: 75px;
     
     h2 {
       font-family: "Comfortaa", sans-serif;
+      font-size: 150%;
     }
+}
+
+@media screen and (min-width: 1200px){
+  .Column{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-align-last: left;
+    gap: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+    .bigger{
+      font-family: "Comfortaa", sans-serif;
+      font-size: 150%;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Column {
+    flex-direction: column;
+    justify-content: center; 
+    align-items: stretch; 
+    text-align: justify; 
+    text-align-last: left;
+    gap: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .bigger {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+    font-size: 110%; /* Decrease font size */
+  }
 }
 
 #logo{
@@ -65,7 +107,7 @@ color: black;
 .active {
 background: linear-gradient(to top, #550000 0%, #550000 50%, #03396c 50%, #03396c 100%);
 color: white;
-height: 15%;
+height: 20%;
 }
 
 /* default, light mode styling */
