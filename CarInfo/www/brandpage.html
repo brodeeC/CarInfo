@@ -5,6 +5,12 @@
   .Japanese{
     display:block;
   }
+  .AmericanHidden{
+    display:none;
+  }
+  .JapaneseHidden{
+    display:none;
+  }
   
 </style>
 
@@ -70,26 +76,26 @@
               if (country === "American") {
                   // Show American, hide Japanese
                   americanButtons.forEach(button => {
-                    button.style.display = "block";
+                    //button.style.display = "block";
                   });
                   japaneseButtons.forEach(button => {
-                    button.style.display = "none";
+                    //button.style.display = "none";
                   });
               } else if (country === "Japanese") {
                   // Show Japanese, hide American
                   japaneseButtons.forEach(button => {
-                    button.style.display = "block";
+                    //button.style.display = "block";
                   });
                   americanButtons.forEach(button => {
-                    button.style.display = "none";
+                    //button.style.display = "none";
                   });
               } else {
                   // Show all if no country is selected
                   americanButtons.forEach(button => {
-                    button.style.display = "block";
+                    //button.style.display = "block";
                   });
                   japaneseButtons.forEach(button => {
-                    button.style.display = "block";
+                    //button.style.display = "block";
                   });
               }
             }
