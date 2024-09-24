@@ -22,6 +22,7 @@
     }
 }
 
+/*Make About Us section into columns when screen is greater than 1200px*/
 @media screen and (min-width: 1200px){
   .Column{
     display: flex; 
@@ -43,6 +44,7 @@
   }
 }
 
+/*Make About Us section into rows when screen is less than 1200px*/
 @media screen and (max-width: 1200px) {
   .Column {
     flex-direction: column;
@@ -56,9 +58,9 @@
   }
 
   .bigger {
-    font-family: "Comfortaa", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-size: 110%; /* Decrease font size */
+    font-size: 110%;
   }
 }
 
@@ -108,7 +110,9 @@ color: black;
 .active {
 background: linear-gradient(to top, #ef1a2d 0%, #ef1a2d 50%, #03396c 50%, #03396c 100%);
 color: white;
-height: 20%;
+height: auto;
+max-height: 20%;
+overflow: hidden;
 }
 
 /* default, light mode styling */
