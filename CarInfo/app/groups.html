@@ -14,8 +14,12 @@
                 let groups = await fetch("/csc342groups");
                 console.log(groups);
 
-                currP = document.getElementsByTagName("p");
-                currP.foreach(para=> {para.className = "hidden";})
+                let num = this.id;
+                
+                if (num===6){
+                    currP = document.getElementsByTagName("p");
+                    currP.foreach(para=> {para.className = "hidden";})
+                }
 
                 p = document.createElement("p");
                 div1 = document.createElement("div");
