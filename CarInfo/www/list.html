@@ -15,11 +15,11 @@
                 let but = document.createElement("button");
                 let t = document.createTextNode("Remove");
                 let att = but.setAttribute("onclick", `removeFromList(button${inc})`);
-                let id = but.setAttribute("id", `button${inc}`);
 
                 but.appendChild(t);
 
                 let p = document.createElement("p");
+                let id = listE.setAttribute("id", `button${inc}`);
                 p.appendChild(x);
                 p.appendChild(but);
 
@@ -28,7 +28,11 @@
 
             }
             function removeFromList(id){
-                button = document.querySelectorAll(id);
+                li = document.getElementById(id);
+                document.remove(li);
+
+
+                
                 
             }
         </script>
