@@ -1,14 +1,21 @@
+<style>
+    .show{
+        display:block;
+    }
+    .hidden{
+        display:none;
+    }
+</style>
 <html>
     <title> Groups Page</title>
     <head>
         <script>
-            async function toHTML(num){
+            async function toHTML(){
                 let groups = await fetch("/csc342groups");
+                console.log(groups);
 
-                // if (num === 6){
-                //     currP = document.querySelector("p");
-                //     currP.style.display = "none";
-                // }
+                currP = document.getElementsByTagName("p");
+                currP.foreach(para=> {para.className = "hidden";})
 
                 p = document.createElement("p");
                 div1 = document.createElement("div");
@@ -27,7 +34,7 @@
                 p.appendChild(div2);
                 p.appendChild(div3);
 
-                p.style.display = "block"
+                p.className = "show";
             }
         </script>
         
@@ -38,14 +45,14 @@
             <h1>CSC 342 Groups</h1>
         </div>
 
-        <select>
-            <option onchange = "toHTML(6)">Select a Group</option>
-            <option onchange = "toHTML(0)">Group 1</option>
-            <option onchange = "toHTML(1)">Group 2</option>
-            <option onchange = "toHTML(2)">Group 3</option>
-            <option onchange = "toHTML(3)">Group 4</option>
-            <option onchange = "toHTML(4)">Group 5</option>
-            <option onchange = "toHTML(5)">Group 6</option>
+        <select onchange = "toHTML()">
+            <option>Select a Group</option>
+            <option>Group 1</option>
+            <option>Group 2</option>
+            <option>Group 3</option>
+            <option>Group 4</option>
+            <option>Group 5</option>
+            <option>Group 6</option>
         </select>
     </body>
 </html>
