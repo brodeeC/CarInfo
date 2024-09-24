@@ -1,5 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-@app.route("/hello")
-def hello():
-    return "Hello World!"
+from flask import Flask, jsonif
+from flask_cors import CORS
+
+app = FLask(__name__)
+cors = CORS(app)
