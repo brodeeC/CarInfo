@@ -25,4 +25,4 @@ def csc_342_groups():
             'Designer': ['Charlie Fink'],
             'Programmer(s)': ['Emirhan Gencer']}}
 
-    return jsonify(groups)
+    return jsonify(groups, status=200, mimetype='application/json')
