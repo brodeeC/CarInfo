@@ -12,7 +12,9 @@
         <script>
             async function toHTML(){
                 let groups = await fetch("http://127.0.0.1:5000/csc342groups");
-                let script = JSON.parse(groups);
+                let script = await groups.json();
+                console.log(script);
+                
 
                 let num = this.id;
                 
@@ -26,17 +28,21 @@
                 div2 = document.createElement("div");
                 div2 = document.createElement("div");
 
-                let keys;
-                for (keys in script){
-                    console.log(`${keys}: ${script[keys]}`);
-                    for(key of keys){
+                
+                for (let keys in script){
+                    let groupInfo = script[keys];
+
+  
+                    //console.log(keys)
+                    for(let key in script[keys]){
                         console.log(`${key}: ${keys[key]}`);
+                    
                     }
                 }
 
-                text1 = document.createTextNode(`Content Specialist:${script[num][0]}`);
-                text2 = document.createTextNode(`Designer:${script[num][1]}`);
-                text3 = document.createTextNode(`Programmer(s):${script[num][2]}`);
+                let text1 = document.createTextNode(`Content Specialist:${script[num][0]}`);
+                let text2 = document.createTextNode(`Designer:${script[num][1]}`);
+                let text3 = document.createTextNode(`Programmer(s):${script[num][2]}`);
 
                 div1.appendChild(text1);
                 div2.appendChild(text2);
