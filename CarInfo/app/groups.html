@@ -27,8 +27,10 @@
 
                 let keys;
                 for (keys in groups){
-                    console.log(`${key}: ${groups[key]}`);
-
+                    console.log(`${keys}: ${groups[keys]}`);
+                    for(key in keys){
+                        console.log(`${key}: ${keys[key]}`);
+                    }
                 }
 
                 text1 = document.createTextNode(`Content Specialist:${groups[num][0]}`);
