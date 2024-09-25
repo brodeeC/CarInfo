@@ -12,6 +12,7 @@
         <script>
             async function toHTML(){
                 let groups = await fetch("http://127.0.0.1:5000/csc342groups");
+                let script = JSON.parse(groups);
 
                 let num = this.id;
                 
