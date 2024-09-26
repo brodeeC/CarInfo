@@ -15,28 +15,22 @@
                 let script = await groups.json();
                 console.log(script);
                 
+                if( numm == "6"){
+                    let currP = Array.from(document.getElementsByTagName("p"));
+                    currP.forEach(para => {para.className = "hidden";});
 
-                //let num = this.id;
-                
-                //if (num===6){
-                    //currP = document.getElementsByTagName("p");
-                    //currP.foreach(para=> {para.className = "hidden";})
-                //}
+                }
+               
 
-                let currP = Array.from(document.getElementsByTagName("p"));
-                currP.forEach(para => {para.className = "hidden";});
-
-                p = document.createElement("p");
-                div1 = document.createElement("div");
-                div2 = document.createElement("div");
-                div2 = document.createElement("div");
+                let p = document.createElement("p");
+                let div1 = document.createElement("div");
+                let div2 = document.createElement("div");
+                let div3 = document.createElement("div");
 
                 
                 for (let keys in script){
                     let groupInfo = script[keys];
 
-  
-                    //console.log(keys)
                     for(let key in groupInfo){
                         console.log(`${key}: ${groupInfo[key]}`);
 
