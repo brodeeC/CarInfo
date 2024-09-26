@@ -32,12 +32,14 @@
                 for (let keys in script){
                     let groupInfo = script[keys];
 
+                    //Probably can get rid of this but I want to see what this prints out
                     for(let key in groupInfo){
                         console.log(`${key}: ${groupInfo[key]}`);
 
                     }
                 }
-
+                //Put this inside of loop and try it
+                //Want to see what groupInfo[0] prints out we might can just say group Info
                 let groupInfo = script[num];
                 let text1 = document.createTextNode(`Content Specialist: ${groupInfo[0]}`);
                 let text2 = document.createTextNode(`Designer: ${groupInfo[1]}`);
