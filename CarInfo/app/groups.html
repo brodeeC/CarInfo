@@ -13,9 +13,10 @@
             async function toHTML(){
                 let groups = await fetch("http://127.0.0.1:5000/csc342groups");
                 let script = await groups.json();
+                let num = document.querySelector("select").value;
                 console.log(script);
                 
-                if( numm == "6"){
+                if( num === "6"){
                     let currP = Array.from(document.getElementsByTagName("p"));
                     currP.forEach(para => {para.className = "hidden";});
 
