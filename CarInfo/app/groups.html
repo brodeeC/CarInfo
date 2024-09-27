@@ -15,6 +15,20 @@
                 let script = await groups.json();
                 let num = document.querySelector("select").value;
                 console.log(script);
+
+                let div = document.getElementById("names");
+
+                //Clear the previous content before appending new data
+                div.innerHTML = '';
+
+                //If the default option (value 0) is selected, hide the output
+                if(num === '0'){
+                    div.className = "hidden";
+                    return;
+                }
+
+                //Show the div again if it's hidden
+                div.className = "show";
                 
                 if( num === "6"){
                     let currP = Array.from(document.getElementsByTagName("p"));
@@ -25,18 +39,19 @@
 
                 let p = document.createElement("p");
                 let div1 = document.createElement("div");
-                let div = document.getElementById("names");
+                
 
                 
                 let groupInfo = script[num];
 
-                //Probably can get rid of this but I want to see what this prints out
                 for(let key in groupInfo){
                     console.log(`${key}: ${groupInfo[key]}`);
                     let text1 = document.createTextNode(`${key}: ${groupInfo[key]}`);
-                    div1.appendChild(text1);
-                    p.appendChild(div1);
-                    document.body.appendChild(p);
+                    let br = document.createElement("br"); //Insert a break between each key.
+                    p.appendChild(text1);
+                    p.appendChild(br);
+                    div.appendChild(p);
+                    //document.body.appendChild(p);
 
                 }
             
@@ -65,11 +80,9 @@
 
         </div>
 
+        <!--Names will be entered dynamically here.-->
         <div id ="names">
-            <p>
-
-            </p>
-            
+           
         </div>
 
         
