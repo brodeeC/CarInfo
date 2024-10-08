@@ -121,14 +121,20 @@
               const country = document.querySelector("#countries").value;
 
               //Get all buttons associated with countries
-              let americanButtons = document.querySelectorAll(".American");
-              let japaneseButtons = document.querySelectorAll(".Japanese");
+              let americanButtons = document.querySelectorAll(".USA");
+              let germanButtons = document.querySelectorAll(".Germany");
+              let italyButtons = document.querySelectorAll(".Italy");
+              let englandButtons = document.querySelectorAll(".England");
+              let japanButtons = document.querySelectorAll(".Japan");
+              let sKoreaButtons = document.querySelectorAll(".South Korea");
+              let swedenButtons = document.querySelectorAll(".Sweden");
+              let franceButtons = document.querySelectorAll(".France");
 
               //.forEach() learned from w3Schools. https://www.w3schools.com/jsref/jsref_foreach.asp
               //'=>' saw an example on stacked overflow, learned its functionality from w3Schools. 
               //https://www.w3schools.com/js/js_arrow_function.asp
               //Cases depending on which country is selected
-              if (country === "American") {
+              if (country === "USA") {
                   // Show American, hide Japanese
                   americanButtons.forEach(button => {
                     if (button.classList.length === 2) button.classList.toggle("hidden");
@@ -136,12 +142,204 @@
                   germanButtons.forEach(button => {
                     if (button.classList.length === 1) button.classList.toggle("hidden");
                   });
-              } else if (country === "German") {
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+              } else if (country === "Germany") {
                   // Show German, hide American
                   germanButtons.forEach(button => {
                     if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
                   americanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+              } else if (country === "Italy") {
+                  // Show German, hide American
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  americanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  germanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+              } else if (country === "England") {
+                  // Show German, hide American
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  americanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  germanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+              } else if (country === "Japan") {
+                  // Show German, hide American
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  americanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  germanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+              } else if (country === "South Korea") {
+                  // Show German, hide American
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  americanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  germanyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+              } else if (country === "Sweden") {
+                  // Show German, hide American
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  americanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  germanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+              } else if (country === "France") {
+                  // Show German, hide American
+                  franceButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  americanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
+                  });
+                  germanButtons.forEach(button => {
                     if (button.classList.length === 1) button.classList.toggle("hidden");
                   });
               } else {
@@ -150,6 +348,24 @@
                     if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
                   germanButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  italyButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  englandButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  japanButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  swedenButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  sKoreaButtons.forEach(button => {
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
+                  });
+                  franceButtons.forEach(button => {
                     if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
               }
