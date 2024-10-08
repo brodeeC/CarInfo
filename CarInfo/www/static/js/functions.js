@@ -16,12 +16,16 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
+  //If next will do the plus 1 operation
+  //If previous will do -1 which will result in the previous slide
+  slideIndex = slideIndex + n;
+  showSlides(slideIndex);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  slideIndex = n;
+  showSlides(slideIndex);
 }
 
 //Combine the plus/previous slides into the showSlides function
@@ -32,7 +36,12 @@ function showSlides(n) {
   //Setting variables to correspond with class names mentioned in the homepage.html
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  
+
+  /*
+  if(n = 1){slideIndex= slideIndex + 1}
+
+  if(n = -1){slideIndex = slideIndex - 1}
+  */
 
   //Resets the slide to be the first slide when the user presses the next button on the last slide.
   if (n > slides.length) {slideIndex = 1}
