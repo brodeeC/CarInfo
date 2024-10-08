@@ -34,7 +34,6 @@ def slideshow_dark():
         "FordGT":"2005FordGTD.jpeg",
         "AcuraIntegra":"AcuraIntegraD.jpeg",
     }
-
     return jsonify(dark_mode)
 
 @app.route("/slideshow/light")
@@ -44,5 +43,4 @@ def slideshow_light():
         "FordGT":"2005FordGTL.jpeg",
         "AcuraIntegra":"AcuraIntegraL.jpeg",
     }
-
     return jsonify(dark_mode)
