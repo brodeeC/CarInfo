@@ -68,5 +68,21 @@
 <!--Maybe potentially have a feature that just has the images going by on their own, can you stil click to go to the next one.-->
 
       </div>
+      <script>
+        async function getSlideshowDark(){
+          let images = await fetch("http://127.0.0.1:5000/slideshow/dark");
+          let jsonImages = await images.json();
+          //Once we get more images into JSON, add a randomizer and a way to select
+          //just those images at random indexes
+        }
+
+        function formImages(){
+
+        }
+
+        function addImgToHTML(){
+          
+        }
+      </script>
     </body>
 </html>
