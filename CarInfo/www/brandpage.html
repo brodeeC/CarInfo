@@ -42,13 +42,76 @@
           <label id = "dropdown" >Choose a country</label>
           <select name = "Countries" id = "countries" onchange = "displayCountries()">
             <option value = "None">None</option>
-            <option value = "American">American</option>
-            <option value = "German">German</option>
+            <option value = "USA">USA</option>
+            <option value = "Italy">Italy</option>
+            <option value = "England">England</option>
+            <option value = "Germany">Germany</option>
+            <option value = "Japan">Japan</option>
+            <option value = "South Korea">South_Korea</option>
+            <option value = "Sweden">Sweden</option>
+            <option value = "France">France</option>
+
           </select>
 
           <div class = "brands">
-            <button class = "American" onclick="window.location.href = 'brandsHTML/ford.html'"><img src = "static/img/Car Brand Logos/ford-logo.png"></button>
-            <button class = "German" onclick="window.location.href = '#'"><img src="static/img/Car Brand Logos/volkswagen-logo.png"></button>
+            <button class = "USA" onclick="window.location.href = 'brandsHTML/ford.html'">Ford</button>
+            <button class = "USA" onclick="window.location.href = '#'">Buick</button>
+            <button class = "USA" onclick="window.location.href = '#'">Cadillac</button>
+            <button class = "USA" onclick="window.location.href = '#'">Canoo</button>
+            <button class = "USA" onclick="window.location.href = '#'">Cheverolet</button>
+            <button class = "USA" onclick="window.location.href = '#'">Chrysler</button>
+            <button class = "USA" onclick="window.location.href = '#'">Dodge</button>
+            <button class = "USA" onclick="window.location.href = '#'">GMC</button>
+            <button class = "USA" onclick="window.location.href = '#'">Jeep</button>
+            <button class = "USA" onclick="window.location.href = '#'">Lincoln</button>
+            <button class = "USA" onclick="window.location.href = '#'">Lucid</button>
+            <button class = "USA" onclick="window.location.href = '#'">Oldsmobile</button>
+            <button class = "USA" onclick="window.location.href = '#'">Pontiac</button>
+            <button class = "USA" onclick="window.location.href = '#'">Ram</button>
+            <button class = "USA" onclick="window.location.href = '#'">Rimac</button>
+            <button class = "USA" onclick="window.location.href = '#'">Rivian</button>
+            <button class = "USA" onclick="window.location.href = '#'">Tesla</button>
+
+            <button class = "Japan" onclick="window.location.href = '#'">Subaru</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Acura</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Honda</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Infinity</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Lexus</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Mazda</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Mitsubishi</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Nissan</button>
+            <button class = "Japan" onclick="window.location.href = '#'">Subaru</button>
+           
+            <button class = "England" onclick="window.location.href = '#'">Aston Martin</button>
+            <button class = "England" onclick="window.location.href = '#'">Bentley</button>
+            <button class = "England" onclick="window.location.href = '#'">Jaguar</button>
+            <button class = "England" onclick="window.location.href = '#'">Land Rover</button>
+            <button class = "England" onclick="window.location.href = '#'">Lotus</button>
+            <button class = "England" onclick="window.location.href = '#'">Mini</button>
+            <button class = "England" onclick="window.location.href = '#'">Buick</button>
+            <button class = "England" onclick="window.location.href = '#'">Rolls Royce</button>
+
+            <button class = "Italy" onclick="window.location.href = '#'">Alfa Romeo</button>
+            <button class = "Italy" onclick="window.location.href = '#'">Ferrari</button>
+            <button class = "Italy" onclick="window.location.href = '#'">Fiat</button>
+            <button class = "Italy" onclick="window.location.href = '#'">Maserati</button>
+            <button class = "Italy" onclick="window.location.href = '#'">Lamborghini</button>
+            
+            <button class = "Germany" onclick="window.location.href = '#'">Audi</button>
+            <button class = "Germany" onclick="window.location.href = '#'">BMW</button>
+            <button class = "Germany" onclick="window.location.href = '#'">Mercedes</button>
+            <button class = "Germany" onclick="window.location.href = '#'">Porsche</button>
+            <button class = "Germany" onclick="window.location.href = '#'">Volkswagen</button>
+
+            <button class = "South Korea" onclick="window.location.href = '#'">Genesis</button>
+            <button class = "South Korea" onclick="window.location.href = '#'">Hyundai</button>
+            <button class = "South Korea" onclick="window.location.href = '#'">Kia</button>
+
+            <button class = "Sweden" onclick="window.location.href = '#'">Volvo</button>
+            <button class = "Sweden" onclick="window.location.href = '#'">Polestar</button>
+
+            <button class = "France" onclick="window.location.href = '#'">Bugatti</button>
+
           </div>
 
           <script>
@@ -59,14 +122,14 @@
 
               //Get all buttons associated with countries
               let americanButtons = document.querySelectorAll(".American");
-              let germanButtons = document.querySelectorAll(".German");
+              let japaneseButtons = document.querySelectorAll(".Japanese");
 
               //.forEach() learned from w3Schools. https://www.w3schools.com/jsref/jsref_foreach.asp
               //'=>' saw an example on stacked overflow, learned its functionality from w3Schools. 
               //https://www.w3schools.com/js/js_arrow_function.asp
               //Cases depending on which country is selected
               if (country === "American") {
-                  // Show American, hide German
+                  // Show American, hide Japanese
                   americanButtons.forEach(button => {
                     if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
