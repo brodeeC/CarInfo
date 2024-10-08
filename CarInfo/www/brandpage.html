@@ -1,14 +1,5 @@
 <style>
-  .American{
-    display:block;
-  }
-  .German{
-    display:block;
-  }
-  .AmericanHidden{
-    display:none;
-  }
-  .GermanHidden{
+  .hidden{
     display:none;
   }
   
@@ -77,32 +68,26 @@
               if (country === "American") {
                   // Show American, hide German
                   americanButtons.forEach(button => {
-                    //button.className = "American";
-                    button.style.display = "block";
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
                   germanButtons.forEach(button => {
-                    //button.className = "GermanHidden";
-                    button.style.display = "none";
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
                   });
               } else if (country === "German") {
                   // Show German, hide American
                   germanButtons.forEach(button => {
-                    //button.className = "German";
-                    button.style.display = "block";
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
                   americanButtons.forEach(button => {
-                    //button.className = "AmericanHidden"
-                    button.style.display = "none";
+                    if (button.classList.length === 1) button.classList.toggle("hidden");
                   });
               } else {
                   // Show all if no country is selected
                   americanButtons.forEach(button => {
-                    //button.className = "American";
-                    button.style.display = "block";
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
                   germanButtons.forEach(button => {
-                    //button.className = "German";
-                    button.style.display = "block";
+                    if (button.classList.length === 2) button.classList.toggle("hidden");
                   });
               }
             }

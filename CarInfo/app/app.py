@@ -26,3 +26,9 @@ def csc_342_groups():
             'Programmer(s)': ['Emirhan Gencer']}}
 
     return jsonify(groups)
+
+@app.route("/slideshowImgObj")
+def slideshow_images():
+    images = ""
+
+    return jsonify(images)
