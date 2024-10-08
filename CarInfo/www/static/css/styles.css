@@ -133,19 +133,39 @@ color: #000;
 /*Beginning the construction of the slideshow.  */
 * {box-sizing:border-box}
 
-/* Slideshow container */
-@media screen and (min-width: 1200px) {
+/* Work on the flexbox having certain features overall like the content being centered, 
+while if the screen is less than 1000px then the border goes away.
+*/
+
+/* Slideshow container for mobile screens (below 1200px) */
+@media screen and (min-width: 1000px) {
   .slideshow-container {
+    display:flex;
     max-width: 1000px;
-    position: relative;
+    justify-content: center;
+    align-items: center;
     margin: auto;
   }
-}
 
-/*Adds a border to the image only if the user is viewing it on a computer*/
-@media screen and (min-width: 1200px){
-  .carslide{
+  .carslide {
     border: 0.5rem solid white;
+  }
+
+  /* Adjust caption text size for mobile */
+  .text {
+    font-size: 12px;
+  }
+
+  /* Adjust dot size for mobile */
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+
+  /* Adjust button size for mobile */
+  .prev, .next {
+    font-size: 14px;
+    padding: 10px;
   }
 }
 
