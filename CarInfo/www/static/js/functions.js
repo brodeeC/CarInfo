@@ -21,7 +21,8 @@ function plusSlides(n) {
 
 // Thumbnail image controls
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  slideIndex = n;
+  showSlides(n);
 }
 
 //Implementation for going to the next slide.
