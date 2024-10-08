@@ -29,6 +29,10 @@ def csc_342_groups():
 
 @app.route("/slideshowImgObj")
 def slideshow_images():
-    images = ""
+    dark_mode = {
+        "ToyotaSupra":"1993ToyotaSupraD.avif",
+        "FordGT":"2005FordGTD.jpeg",
+        "AcuraIntegra":"AcuraIntegraD.jpeg",
+    }
 
     return jsonify(images)
