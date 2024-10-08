@@ -27,12 +27,22 @@ def csc_342_groups():
 
     return jsonify(groups)
 
-@app.route("/slideshowImgObj")
-def slideshow_images():
+@app.route("/slideshow/dark")
+def slideshow_dark():
     dark_mode = {
         "ToyotaSupra":"1993ToyotaSupraD.avif",
         "FordGT":"2005FordGTD.jpeg",
         "AcuraIntegra":"AcuraIntegraD.jpeg",
     }
 
-    return jsonify(images)
+    return jsonify(dark_mode)
+
+@app.route("/slideshow/light")
+def slideshow_light():
+    dark_mode = {
+        "ToyotaSupra":"1993ToyotaSupraL.avif",
+        "FordGT":"2005FordGTL.jpeg",
+        "AcuraIntegra":"AcuraIntegraL.jpeg",
+    }
+
+    return jsonify(dark_mode)
