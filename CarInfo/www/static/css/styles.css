@@ -140,14 +140,18 @@ while if the screen is less than 1000px then the border goes away.
 /* Slideshow container for mobile screens (below 1200px) */
 @media screen and (min-width: 1000px) {
   .slideshow-container {
-    display:flex;
-    max-width: 1000px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1000px;
+    position: relative; /* This allows absolute positioning for arrows */
     margin: auto;
   }
 
   .carslide {
+    max-width: 50%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
     border: 0.5rem solid white;
   }
 
@@ -170,26 +174,21 @@ while if the screen is less than 1000px then the border goes away.
 }
 
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
-
-/* Next & previous buttons */ /*Try using a flexbox*/
+/* Style for the previous and next buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute; /*Already tried realtive when applied the arrows shfit downward.*/
+  position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -22px; /* Align vertically */
   padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.5s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: rgba(0,0,0,0.5); /* Adds contrast */
 }
 
 /* Position the "next button" to the right */
@@ -202,6 +201,12 @@ while if the screen is less than 1000px then the border goes away.
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
 
 /* Caption text */
 .text {
