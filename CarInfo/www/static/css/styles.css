@@ -8,6 +8,19 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/*Make Head text smaller when screen is less than 600px*/
+@media screen and (max-width: 600px){
+  .HeadText{
+    font-family: "Roboto", sans-serif;
+    color: #fdf5e6;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
 /*Changes to the the BodyText Class*/
 .BodyText{   
     text-align: justify;
