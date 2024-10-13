@@ -51,8 +51,9 @@
             <option value = "France">France</option>
 
           </select>
-
-          <div class = "brands">
+          <!--Once a JSON file is created I will have Javascript build
+          these buttons on the page rather than having them hard-coded in-->
+          <div class = "brands" id="brands">
             <button class = "USA" onclick="window.location.href = 'brandsHTML/ford.html'"><img src="static/img/Car Brand Logos/ford-logo.png"></button>
             <button class = "USA" onclick="window.location.href = '#'"><img src="static/img/Car Brand Logos/buick-logo.png"></button>
             <button class = "USA" onclick="window.location.href = '#'"><img src="static/img/Car Brand Logos/cadillac-logo.png"></button>
@@ -112,251 +113,30 @@
           </div>
 
           <script>
-
             function displayCountries(){
               //Get selected country from dropdown menu
               const country = document.querySelector("#countries").value;
 
-              //Get all buttons associated with countries
-              let americanButtons = document.querySelectorAll(".USA");
-              let germanButtons = document.querySelectorAll(".Germany");
-              let italyButtons = document.querySelectorAll(".Italy");
-              let englandButtons = document.querySelectorAll(".England");
-              let japanButtons = document.querySelectorAll(".Japan");
-              let sKoreaButtons = document.querySelectorAll(".SouthKorea");
-              let swedenButtons = document.querySelectorAll(".Sweden");
-              let franceButtons = document.querySelectorAll(".France");
+              //Get all brand buttons
+              let allButtons = document.querySelectorAll("#brands button");
 
-              //.forEach() learned from w3Schools. https://www.w3schools.com/jsref/jsref_foreach.asp
-              //'=>' saw an example on stacked overflow, learned its functionality from w3Schools. 
-              //https://www.w3schools.com/js/js_arrow_function.asp
-              //Cases depending on which country is selected
-              if (country === "USA") {
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else if (country === "Germany") {
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else if (country === "Italy") { 
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else if (country === "England") {
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else if (country === "Japan") {
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else if (country === "SouthKorea") {
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else if (country === "Sweden") {
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else if (country === "France") {
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 1) button.classList.toggle("hidden");
-                  });
-              } else {
-                  americanButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  germanButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  italyButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  englandButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  japanButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  swedenButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  sKoreaButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-                  franceButtons.forEach(button => {
-                    if (button.classList.length === 2) button.classList.toggle("hidden");
-                  });
-              }
+              //Iterate through each button
+              allButtons.forEach(button => {
+                //If 'None' is selected in the dropdown
+                if (country === "None" && button.classList.length === 2){
+                  button.classList.toggle("hidden");
+                }
+                //If current button belongs to selected country and is currently being hidden
+                else if (button.classList[0] === country && button.classList.length === 2){
+                  button.classList.toggle("hidden");
+                }
+                //If current button does not belong to selected country, 'None' isn't selected and hidden is
+                //not already applied
+                else if (button.classList[0] !== country && country !== "None" 
+                && button.classList.length !== 2){
+                  button.classList.toggle("hidden");
+                }
+              })
             }
 
           </script>
