@@ -94,15 +94,14 @@
 display: none;
 }
 
-/* Style navigation menu links */
-.topnav a {
-color: white;
-padding: 15px 15px;
-text-decoration: none;
-font-size: 17px;
-display: flex;
-justify-content: center;
-align-items: center;
+/* Style the main navigation links */
+.topnav a:not(.icon) {
+  color: white;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+  display: block; /* Changed from flex to block */
 }
 
 /* Style the hamburger menu */
