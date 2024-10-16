@@ -49,12 +49,6 @@ function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
 
-  /*
-  if(n = 1){slideIndex= slideIndex + 1}
-
-  if(n = -1){slideIndex = slideIndex - 1}
-  */
-
   //Resets the slide to be the first slide when the user presses the next button on the last slide.
   if (n > slides.length) {slideIndex = 1}
   
