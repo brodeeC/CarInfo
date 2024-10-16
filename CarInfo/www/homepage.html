@@ -9,11 +9,23 @@
         <link rel="javascript" href="static/js/functions.js">
     
         <script>
+          //Fetches images for yhe slideshow
           async function fetchImages() {
-            const response = await fetch('carsImages.json'); // Adjust the path if necessary
+            const response = await fetch('carsImages.JSON'); // Adjust the path if necessary
             const data = await response.json();
             return data.images;
       
+          }
+
+          //Randomly shuffles the array
+          function shuffleArray(array){
+            for (let i = array.length - 1; 0<i; i--){
+              //Allows for the images to be selected equally while being placed in any position
+              const j = Math.floor(Math.random() *(i+1)); //Makes sure the random number gets smaller
+              [array[i], array[j] = array[j], array[i]];
+            }
+            return array;
+
           }
   
           // Function to dynamically populate slideshow with random images
@@ -25,7 +37,8 @@
             // Assign random images to each slide
             slides.forEach((slide, index) => {
             if (randomImages[index]) {
-              slide.src = randomImages[index];
+              slide.src = randomImages[index]; 
+             
                 }
               });
           }
