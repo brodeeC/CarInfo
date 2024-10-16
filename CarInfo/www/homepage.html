@@ -11,36 +11,55 @@
         <script>
           //Fetches images for yhe slideshow
           async function fetchImages() {
-            const response = await fetch('carsImages.JSON'); // Adjust the path if necessary
+            const response = await fetch('http://127.0.0.1:5000/cars'); // Adjust the path if necessary
             const data = await response.json();
-            return data.images;
+            return data
       
           }
 
           //Randomly shuffles the array
-          function shuffleArray(array){
-            for (let i = array.length - 1; i > 0; i--){
+          // Once we add functionality, add a parameter that's true or false for dark/light mode to grab
+          //specific images
+          function shuffleArray(data){
+            let array = [];
+            data.forEach(car =>{
+              array.push(car.dark);
+            });
+            newArr = [];
+            for (let i = 5; i > 0; i--){
               //Allows for the images to be selected equally while being placed in any position
-              const j = Math.floor(Math.random() *(i+1)); //Makes sure the random number gets smaller
-              [array[i], array[j] = array[j], array[i]];
+              const ran = Math.floor(Math.random() * (array.length)); //Makes sure the random number gets smaller
+              newArr.push(array[ran]);
             }
-            return array;
+            return newArr;
 
           }
   
           // Function to dynamically populate slideshow with random images
           async function loadRandomImages() {
-            const imageList = await fetchImages(); // Fetch images from JSON
-            const randomImages = shuffleArray(imageList); // Shuffle images randomly
-            const slides = document.querySelectorAll('.mySlides .carslide'); // Get all slide image elements
+            const data = await fetchImages(); // Fetch images from JSON
+            const randomImages = shuffleArray(data); // Shuffle images randomly
+            //const slides = document.querySelectorAll('.mySlides .carslide'); // Get all slide image elements
+
+            let disp = document.getElementById("mySlides");
+            randomImages.forEach(image => {
+              console.log(image);
+              let div = document.createElement("div");
+              div.setAttribute("class", "mySlides");
+              
+              let img = document.createElement("img");
+              img.setAttribute("class", "carslide");
+              img.setAttribute("src", image);
+            })
+
         
             // Assign random images to each slide
-            slides.forEach((slide, index) => {
-            if (randomImages[index]) {
-              slide.src = randomImages[index]; 
+            // slides.forEach((slide, index) => {
+            // if (randomImages[index]) {
+            //   slide.src = randomImages[index]; 
             
-                }
-              });
+            //     }
+            //   });
           }
   
           // Load random images on page load
@@ -96,8 +115,9 @@
       <!--Construction of slideshow of cars.-->
       <div id="Slideshow-Container">
         <!-- Full-width images with number and caption text -->
-        <div class="mySlides">
-          <!--Bug fixed with this line, allows the image to appear with onload.-->
+        <div class="mySlides" id="mySlides">
+<!--           
+          <!--Bug fixed with this line, allows the image to appear with onload.
           <img class="carslide" src="" alt="Car Image 1" onload="currentSlide(1)" >
         </div>
 
@@ -111,6 +131,7 @@
 
         <div class="mySlides">
           <img class="carslide" src="" alt="Car Image 4">
+-->
         </div>
 
         <!-- Next and previous buttons -->
