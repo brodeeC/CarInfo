@@ -7,6 +7,51 @@
         <link rel="stylesheet" href = "static/css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="javascript" href="static/js/functions.js">
+    
+        <script>
+          async function fetchImages() {
+            const response = await fetch('carsImages.json'); // Adjust the path if necessary
+            const data = await response.json();
+            return data.images;
+      
+          }
+  
+          // Function to dynamically populate slideshow with random images
+          async function loadRandomImages() {
+            const imageList = await fetchImages(); // Fetch images from JSON
+            const randomImages = shuffleArray(imageList); // Shuffle images randomly
+            const slides = document.querySelectorAll('.mySlides .carslide'); // Get all slide image elements
+        
+            // Assign random images to each slide
+            slides.forEach((slide, index) => {
+            if (randomImages[index]) {
+              slide.src = randomImages[index];
+                }
+              });
+          }
+  
+          // Load random images on page load
+          window.onload = function() {
+            loadRandomImages(); // Call the function to load images
+          };
+  
+          // async function getSlideshowDark(){
+          //   let images = await fetch("http://127.0.0.1:5000/slideshow/dark");
+          //   let jsonImages = await images.json();
+          //   //Once we get more images into JSON, add a randomizer and a way to select
+          //   //just those images at random indexes
+          // }
+  
+          // function formImages(images){
+          //   //Create HTML lines with <img src="...">
+          //   //Pass HTML line to addImgToHTML
+          // }
+  
+          // function addImgToHTML(img){
+          //   //Build HTML and add to img to HTML of file.
+          // }
+  
+        </script>
     </head>
 
     <title>
@@ -40,19 +85,19 @@
         <!-- Full-width images with number and caption text -->
         <div class="mySlides">
           <!--Bug fixed with this line, allows the image to appear with onload.-->
-          <img class="carslide" src="images/Porsche930TurboD.jpeg" onload="currentSlide(1)" >
+          <img class="carslide" src="" alt="Car Image 1" onload="currentSlide(1)" >
         </div>
 
         <div class="mySlides">
-          <img class="carslide" src="images/Ferari308GTBD.jpeg" >
+          <img class="carslide" src="" alt="Car Image 2">
         </div>
 
         <div class="mySlides">
-          <img class="carslide" src="images/2016FordMustangGT.jpg">
+          <img class="carslide" src="" alt="Car Image 3">
         </div>
 
         <div class="mySlides">
-          <img class="carslide" src="images/2024runner.jpg">
+          <img class="carslide" src="" alt="Car Image 4">
         </div>
 
         <!-- Next and previous buttons -->
@@ -69,61 +114,7 @@
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
 </div>
-<!--Maybe potentially have a feature that just has the images going by on their own, can you stil click to go to the next one.-->
-
-      </div>
-      <script>
-        async function fetchImages() {
-          const response = await fetch('carsImages.json'); // Adjust the path if necessary
-          const data = await response.json();
-          return data.images;
-    
-        }
-
-    // Function to randomly shuffle array
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-        return array;
-    }
-
-    // Function to dynamically populate slideshow with random images
-    async function loadRandomImages() {
-        const imageList = await fetchImages(); // Fetch images from JSON
-        const randomImages = shuffleArray(imageList); // Shuffle images randomly
-        const slides = document.querySelectorAll('.mySlides .carslide'); // Get all slide image elements
-
-        // Assign random images to each slide
-        slides.forEach((slide, index) => {
-            if (randomImages[index]) {
-                slide.src = randomImages[index];
-            }
-        });
-    }
-
-    // Load random images on page load
-    window.onload = function() {
-        loadRandomImages(); // Call the function to load images
-    };
-
-        // async function getSlideshowDark(){
-        //   let images = await fetch("http://127.0.0.1:5000/slideshow/dark");
-        //   let jsonImages = await images.json();
-        //   //Once we get more images into JSON, add a randomizer and a way to select
-        //   //just those images at random indexes
-        // }
-
-        // function formImages(images){
-        //   //Create HTML lines with <img src="...">
-        //   //Pass HTML line to addImgToHTML
-        // }
-
-        // function addImgToHTML(img){
-        //   //Build HTML and add to img to HTML of file.
-        // }
-
-      </script>
+<!--Maybe potentially have a feature that just has the images going by on their own, you can stil click to go to the next one.-->
+     
     </body>
 </html>
