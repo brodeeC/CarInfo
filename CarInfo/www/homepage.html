@@ -73,22 +73,56 @@
 
       </div>
       <script>
-        async function getSlideshowDark(){
-          let images = await fetch("http://127.0.0.1:5000/slideshow/dark");
-          let jsonImages = await images.json();
-          //Once we get more images into JSON, add a randomizer and a way to select
-          //just those images at random indexes
+        async function fetchImages() {
+          const response = await fetch('carsImages.json'); // Adjust the path if necessary
+          const data = await response.json();
+          return data.images;
+    
         }
 
-        function formImages(images){
-          //Create HTML lines with <img src="...">
-          //Pass HTML line to addImgToHTML
+    // Function to randomly shuffle array
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
         }
+        return array;
+    }
 
-        function addImgToHTML(img){
-          //Build HTML and add to img to HTML of file.
-        }
+    // Function to dynamically populate slideshow with random images
+    async function loadRandomImages() {
+        const imageList = await fetchImages(); // Fetch images from JSON
+        const randomImages = shuffleArray(imageList); // Shuffle images randomly
+        const slides = document.querySelectorAll('.mySlides .carslide'); // Get all slide image elements
 
+        // Assign random images to each slide
+        slides.forEach((slide, index) => {
+            if (randomImages[index]) {
+                slide.src = randomImages[index];
+            }
+        });
+    }
+
+    // Load random images on page load
+    window.onload = function() {
+        loadRandomImages(); // Call the function to load images
+    };
+
+        // async function getSlideshowDark(){
+        //   let images = await fetch("http://127.0.0.1:5000/slideshow/dark");
+        //   let jsonImages = await images.json();
+        //   //Once we get more images into JSON, add a randomizer and a way to select
+        //   //just those images at random indexes
+        // }
+
+        // function formImages(images){
+        //   //Create HTML lines with <img src="...">
+        //   //Pass HTML line to addImgToHTML
+        // }
+
+        // function addImgToHTML(img){
+        //   //Build HTML and add to img to HTML of file.
+        // }
 
       </script>
     </body>
