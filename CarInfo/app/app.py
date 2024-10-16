@@ -1,3 +1,4 @@
+import json
 from flask import Flask, jsonify
 from flask_cors import CORS
 
@@ -27,20 +28,10 @@ def csc_342_groups():
 
     return jsonify(groups)
 
-@app.route("/slideshow/dark")
-def slideshow_dark():
-    dark_mode = {
-        "ToyotaSupra":"1993ToyotaSupraD.avif",
-        "FordGT":"2005FordGTD.jpeg",
-        "AcuraIntegra":"AcuraIntegraD.jpeg",
-    }
-    return jsonify(dark_mode)
+@app.route("/cars")
+def cars():
+    with open("cars.JSON") as file:
+        cars = json.load(file)
 
-@app.route("/slideshow/light")
-def slideshow_light():
-    dark_mode = {
-        "ToyotaSupra":"1993ToyotaSupraL.avif",
-        "FordGT":"2005FordGTL.jpeg",
-        "AcuraIntegra":"AcuraIntegraL.jpeg",
-    }
-    return jsonify(dark_mode)
+    return jsonify(cars)
+        
