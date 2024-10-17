@@ -1,3 +1,8 @@
+<style>
+  h2{
+    color:black
+  }
+</style>
 <html> 
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,33 +28,52 @@
           function shuffleArray(data){
             let array = [];
             data.forEach(car =>{
-              array.push(car.dark);
+              array.push(car);
             });
-            newArr = [];
+            let carArr = [];
             for (let i = 5; i > 0; i--){
               //Allows for the images to be selected equally while being placed in any position
-              const ran = Math.floor(Math.random() * (array.length)); //Makes sure the random number gets smaller
-              newArr.push(array[ran]);
+              let ran = Math.floor(Math.random() * (array.length)); //Makes sure the random number gets smaller
+
+              carArr.push(array[ran]);
+
+              let index = array.indexOf(array[ran]);
+              array.splice(index, 1);
             }
-            return newArr;
+            return carArr;
 
           }
   
           // Function to dynamically populate slideshow with random images
           async function loadRandomImages() {
             const data = await fetchImages(); // Fetch images from JSON
-            const randomImages = shuffleArray(data); // Shuffle images randomly
+            const randomCarData = shuffleArray(data); // Shuffle images randomly
             //const slides = document.querySelectorAll('.mySlides .carslide'); // Get all slide image elements
 
-            let disp = document.getElementById("mySlides");
-            randomImages.forEach(image => {
-              console.log(image);
+            let disp = document.getElementById("Slideshow-Container");
+            let count = 0;
+            randomCarData.forEach(car => {
               let div = document.createElement("div");
               div.setAttribute("class", "mySlides");
               
+              /* 
+              Using dark mode pics until we have that functionality
+              */
+
               let img = document.createElement("img");
               img.setAttribute("class", "carslide");
-              img.setAttribute("src", image);
+              img.setAttribute("src", car.dark);
+              if (count === 0){
+                img.setAttribute("onload", "currentSlide(1)");
+              }
+              div.appendChild(img);
+
+              let caption = document.createElement("h2");
+              caption.appendChild(document.createTextNode(`${car.year} ${car.make} ${car.model}`));
+              div.appendChild(caption);
+
+              disp.appendChild(div);
+              count++;
             })
 
         
@@ -115,9 +139,11 @@
       <!--Construction of slideshow of cars.-->
       <div id="Slideshow-Container">
         <!-- Full-width images with number and caption text -->
+        <!--  
         <div class="mySlides" id="mySlides">
-<!--           
-          <!--Bug fixed with this line, allows the image to appear with onload.
+
+         
+          Bug fixed with this line, allows the image to appear with onload.
           <img class="carslide" src="" alt="Car Image 1" onload="currentSlide(1)" >
         </div>
 
