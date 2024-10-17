@@ -2,6 +2,7 @@
   h1{
     color:black
   }
+
 </style>
 <html> 
     <head>
@@ -22,10 +23,9 @@
       
           }
 
-          //Randomly shuffles the array
-          // Once we add functionality, add a parameter that's true or false for dark/light mode to grab
-          //specific images
+          //Randomly shuffles the data
           function shuffleArray(data){
+            //Put car data into an array
             let array = [];
             data.forEach(car =>{
               array.push(car);
@@ -35,13 +35,23 @@
               //Allows for the images to be selected equally while being placed in any position
               let ran = Math.floor(Math.random() * (array.length)); //Makes sure the random number gets smaller
 
+              //Gets random car object
               carArr.push(array[ran]);
 
+              //Remove car from array
               let index = array.indexOf(array[ran]);
               array.splice(index, 1);
             }
             return carArr;
 
+          }
+
+          function imageMode(car){
+            //if dark mode
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+              return car.dark;
+            }
+            else{return car.light};
           }
   
           // Function to dynamically populate slideshow with random images
@@ -54,19 +64,20 @@
             randomCarData.forEach(car => {
               let div = document.createElement("div");
               div.setAttribute("class", "mySlides");
-              
-              /* 
-              Using dark mode pics until we have that functionality
-              */
 
               let img = document.createElement("img");
               img.setAttribute("class", "carslide");
-              img.setAttribute("src", car.dark);
+
+              //get light/dark mode depending on system settings
+              let image = imageMode(car);
+              img.setAttribute("src", image);
               if (count === 0){
                 img.setAttribute("onload", "currentSlide(1)");
               }
+
               div.appendChild(img);
 
+              //Adds caption to images
               let caption = document.createElement("h1");
               caption.appendChild(document.createTextNode(`${car.year} ${car.make} ${car.model}`));
               div.appendChild(caption);
@@ -113,7 +124,7 @@
       <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_slideshow.asp-->
       <!--Construction of slideshow of cars.-->
       <div id="Slideshow-Container">
-        <!-- Full-width images with number and caption text -->
+        
         </div>
 
         <!-- Next and previous buttons -->
