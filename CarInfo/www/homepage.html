@@ -59,7 +59,7 @@
           async function loadRandomImages() {
             const data = await fetchImages(); // Fetch images from JSON
             const randomCarData = shuffleArray(data); // Shuffle images randomly
-
+//
             let disp = document.getElementById("Slideshow-Container");
             let count = 0;
             randomCarData.forEach(car => {
