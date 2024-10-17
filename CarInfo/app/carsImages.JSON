@@ -1,7 +1,7 @@
 {
     "images": [
         "images/Porsche930TurboD.jpeg",
-        "images/Ferari308GTBD.jpeg",
+        "images/Ferarri308GTBD.jpeg",
         "images/2024runner.jpg",
         "images/2016FordMustangGT.jpg",
         "images/ChevyCorvetteZ06.jpg",
@@ -10,5 +10,7 @@
         "images/bmw-e30-m3-lightroom-48.jpg",
         "images/JDPA_Audi Quattro AWD in A4 Allroad.jpg",
         "images/2016FordMustangGT.jpg"
+
+        
     ]
 }
