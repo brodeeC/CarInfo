@@ -31,7 +31,7 @@
               array.push(car);
             });
             let carArr = [];
-            for (let i = 5; i > 0; i--){
+            for (let i = 4; i > 0; i--){
               //Allows for the images to be selected equally while being placed in any position
               let ran = Math.floor(Math.random() * (array.length)); //Makes sure the random number gets smaller
 
@@ -48,7 +48,6 @@
           async function loadRandomImages() {
             const data = await fetchImages(); // Fetch images from JSON
             const randomCarData = shuffleArray(data); // Shuffle images randomly
-            //const slides = document.querySelectorAll('.mySlides .carslide'); // Get all slide image elements
 
             let disp = document.getElementById("Slideshow-Container");
             let count = 0;
@@ -76,36 +75,12 @@
               count++;
             })
 
-        
-            // Assign random images to each slide
-            // slides.forEach((slide, index) => {
-            // if (randomImages[index]) {
-            //   slide.src = randomImages[index]; 
-            
-            //     }
-            //   });
           }
   
           // Load random images on page load
           window.onload = function() {
-            loadRandomImages(); // Call the function to load images
+            loadRandomImages(); 
           };
-  
-          // async function getSlideshowDark(){
-          //   let images = await fetch("http://127.0.0.1:5000/slideshow/dark");
-          //   let jsonImages = await images.json();
-          //   //Once we get more images into JSON, add a randomizer and a way to select
-          //   //just those images at random indexes
-          // }
-  
-          // function formImages(images){
-          //   //Create HTML lines with <img src="...">
-          //   //Pass HTML line to addImgToHTML
-          // }
-  
-          // function addImgToHTML(img){
-          //   //Build HTML and add to img to HTML of file.
-          // }
   
         </script>
     </head>
@@ -139,25 +114,6 @@
       <!--Construction of slideshow of cars.-->
       <div id="Slideshow-Container">
         <!-- Full-width images with number and caption text -->
-        <!--  
-        <div class="mySlides" id="mySlides">
-
-         
-          Bug fixed with this line, allows the image to appear with onload.
-          <img class="carslide" src="" alt="Car Image 1" onload="currentSlide(1)" >
-        </div>
-
-        <div class="mySlides">
-          <img class="carslide" src="" alt="Car Image 2">
-        </div>
-
-        <div class="mySlides">
-          <img class="carslide" src="" alt="Car Image 3">
-        </div>
-
-        <div class="mySlides">
-          <img class="carslide" src="" alt="Car Image 4">
--->
         </div>
 
         <!-- Next and previous buttons -->
