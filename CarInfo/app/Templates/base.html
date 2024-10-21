@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>{{ page_title }}</title>
+
+    </head>
+        <body>
+        <div id="content">
+            <h1> Hey,{{ someone  }} </h1>
+        </div>
+        <div id="footer">
+        {% block footer %} &copy; Copyright
+        2008 by <a
+        href="http://domain.invalid/">you</a>.
+        {% endblock %}
+        </div>
+        </body>
+</html>

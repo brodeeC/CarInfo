@@ -1,5 +1,5 @@
 import json
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -34,4 +34,8 @@ def cars():
         cars = json.load(file)
 
     return jsonify(cars)
+
+@app.route("/shoutout/<someone>")
+def shoutout(someone):
+    return render_template("shoutout.html", page_title = "Hey," + someone, someone =someone)
         
