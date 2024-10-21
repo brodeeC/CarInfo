@@ -2,18 +2,15 @@
 <html>
     <head>
 
-        <title>{{ page_title }}</title>
+        <title>{% block title %}{% endblock %}</title>
 
     </head>
         <body>
         <div id="content">
-            <h1> Hey,{{ someone  }} </h1>
-        </div>
-        <div id="footer">
-        {% block footer %} &copy; Copyright
-        2008 by <a
-        href="http://domain.invalid/">you</a>.
-        {% endblock %}
+            <h1> Hey, 
+            {% block content %}
+            {% endblock %}
+            </h1>
         </div>
         </body>
 </html>

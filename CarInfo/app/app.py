@@ -37,5 +37,5 @@ def cars():
 
 @app.route("/shoutout/<someone>")
 def shoutout(someone):
-    return render_template("shoutout.html", page_title = "Hey," + someone, someone =someone)
+    return render_template("shoutout.html", page_title = "Hey, " + someone, someone =someone)
         
