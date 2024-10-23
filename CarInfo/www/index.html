@@ -25,22 +25,32 @@
 
           //Randomly shuffles the data
           function shuffleArray(data){
-            //Put car data into an array
-            let array = [];
-            data.forEach(car =>{
-              array.push(car);
+            const countries = Object.keys(data);
+            let cars = []
+            countries.forEach(country =>{
+              let makes = Object.keys(data[country]);
+              let brands = data[country];
+              makes.forEach(make=>{
+                models = brands[make];
+
+                Object.values(models).forEach(car =>{
+                  cars.push(car);
+                });
+              });
+
             });
+
             let carArr = [];
             for (let i = 4; i > 0; i--){
               //Allows for the images to be selected equally while being placed in any position
-              let ran = Math.floor(Math.random() * (array.length)); //Makes sure the random number gets smaller
+              let ran = Math.floor(Math.random() * (cars.length)); //Makes sure the random number gets smaller
 
               //Gets random car object
-              carArr.push(array[ran]);
+              carArr.push(cars[ran]);
 
               //Remove car from array
-              let index = array.indexOf(array[ran]);
-              array.splice(index, 1);
+              let index = cars.indexOf(cars[ran]);
+              cars.splice(index, 1);
             }
             return carArr;
 
@@ -59,7 +69,7 @@
           async function loadRandomImages() {
             const data = await fetchImages(); // Fetch images from JSON
             const randomCarData = shuffleArray(data); // Shuffle images randomly
-//
+
             let disp = document.getElementById("Slideshow-Container");
             let count = 0;
             randomCarData.forEach(car => {
