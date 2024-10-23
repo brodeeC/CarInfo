@@ -1,78 +1,78 @@
 [
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/1993ToyotaSupraD.avif",
-        "light":"/CarInfo/www/static/img/Slideshow/1993ToyotaSupraD.avif",
+        "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
+        "light":"/static/img/Slideshow/1993ToyotaSupraL.avif",
         "make":"Toyota",
         "model":"Supra",
         "year":"1993"
 
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/MercedesR107D.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/MercedesR107L.webp",
+        "dark":"/static/img/Slideshow/MercedesR107D.jpeg",
+        "light":"/static/img/Slideshow/MercedesR107L.webp",
         "make":"Mercedes-Benz",
         "model":"R107",
         "year":"1971"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/BMW2002TurboD.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/BMW2002TurboL.jpeg",
+        "dark":"/static/img/Slideshow/BMW2002TurboD.jpeg",
+        "light":"/static/img/Slideshow/BMW2002TurboL.jpeg",
         "make":"BMW",
         "model":"2002 Turbo",
         "year":"1974"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/Porsche930TurboD.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/Porsche930TurboL.webp",
+        "dark":"/static/img/Slideshow/Porsche930TurboD.jpeg",
+        "light":"/static/img/Slideshow/Porsche930TurboL.webp",
         "make":"Porsche",
         "model":"930 Turbo",
         "year":"1975"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/Ferari308GTBD.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/Ferarri308GTBL.jpeg",
+        "dark":"/static/img/Slideshow/Ferari308GTBD.jpeg",
+        "light":"/static/img/Slideshow/Ferarri308GTBL.jpeg",
         "make":"Ferarri",
         "model":"308 GTB",
         "year":"1975"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/JeepCJ-7D.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/JeepCJ-7L.avif",
+        "dark":"/static/img/Slideshow/JeepCJ-7D.jpeg",
+        "light":"/static/img/Slideshow/JeepCJ-7L.avif",
         "make":"Jeep",
         "model":"CJ-7",
         "year":"1976"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/MercedesW124D.webp",
-        "light":"/CarInfo/www/static/img/Slideshow/Mercedes124L.jpeg",
+        "dark":"/static/img/Slideshow/MercedesW124D.webp",
+        "light":"/static/img/Slideshow/Mercedes124L.jpeg",
         "make":"Mercedes-Benz",
         "model":"W124",
         "year":"1985"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/AudiQuattroD.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/AudiQuattroL.webp",
+        "dark":"/static/img/Slideshow/AudiQuattroD.jpeg",
+        "light":"/static/img/Slideshow/AudiQuattroL.webp",
         "make":"Audi",
         "model":"Quattro",
         "year":"1983"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/BMWE30D.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/BMWE30L.jpeg",
+        "dark":"/static/img/Slideshow/BMWE30D.jpeg",
+        "light":"/static/img/Slideshow/BMWE30L.jpeg",
         "make":"BMW",
         "model":"E30 M3",
         "year":"1986"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/Porsche959D.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/Porsche959L.avif",
+        "dark":"/static/img/Slideshow/Porsche959D.jpeg",
+        "light":"/static/img/Slideshow/Porsche959L.avif",
         "make":"Porsche",
         "model":"959",
         "year":"1986"
     },
     {
-        "dark":"/CarInfo/www/static/img/Slideshow/FerarriF40D.jpeg",
-        "light":"/CarInfo/www/static/img/Slideshow/FerarriF40L.jpeg",
+        "dark":"/static/img/Slideshow/FerarriF40D.jpeg",
+        "light":"/static/img/Slideshow/FerarriF40L.jpeg",
         "make":"Ferarri",
         "model":"F40",
         "year":"1987"
