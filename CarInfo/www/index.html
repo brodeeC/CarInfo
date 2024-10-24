@@ -25,14 +25,21 @@
 
           //Randomly shuffles the data
           function shuffleArray(data){
+            //Get list of all countries cars are from
             const countries = Object.keys(data);
             let cars = []
             countries.forEach(country =>{
+              //Get the make of each car within the country
               let makes = Object.keys(data[country]);
+              //Get the full 'make' object
               let brands = data[country];
               makes.forEach(make=>{
+                //Get the 'model' object of each car 
                 models = brands[make];
 
+                delete models.logo
+                //console.log(allMakeInfo);
+                //Get just the values
                 Object.values(models).forEach(car =>{
                   cars.push(car);
                 });
@@ -53,7 +60,6 @@
               cars.splice(index, 1);
             }
             return carArr;
-
           }
 
           function imageMode(car){

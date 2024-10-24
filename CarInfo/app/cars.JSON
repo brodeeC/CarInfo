@@ -1,6 +1,7 @@
 {
     "Japan":{
         "Toyota":{
+            "logo":"#",
             "Supra":{
             "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
             "light":"/static/img/Slideshow/1993ToyotaSupraL.avif",
@@ -13,6 +14,7 @@
     
     "Germany":{
         "Mercedes-Benz":{
+            "logo":"static/img/Car Brand Logos/mercedes-benz-logo.png",
             "R107":{
             "dark":"/static/img/Slideshow/MercedesR107D.jpeg",
             "light":"/static/img/Slideshow/MercedesR107L.webp",
@@ -30,6 +32,7 @@
         },
 
         "BMW":{
+            "logo":"static/img/Car Brand Logos/bmw-logo.png",
             "2002 Turbo":{
                 "dark":"/static/img/Slideshow/BMW2002TurboD.jpeg",
                 "light":"/static/img/Slideshow/BMW2002TurboL.jpeg",
@@ -46,6 +49,7 @@
             }
         },
         "Porsche":{
+            "logo":"static/img/Car Brand Logos/porsche-logo.png",
             "930 Turbo":{
                 "dark":"/static/img/Slideshow/Porsche930TurboD.jpeg",
                 "light":"/static/img/Slideshow/Porsche930TurboL.webp",
@@ -62,6 +66,7 @@
             }
         },
         "Audi":{
+            "logo":"static/img/Car Brand Logos/audi-logo.png",
             "Quattro":{
                 "dark":"/static/img/Slideshow/AudiQuattroD.jpeg",
                 "light":"/static/img/Slideshow/AudiQuattroL.webp",
@@ -74,6 +79,7 @@
     
     "Italy":{
         "Ferarri":{
+            "logo":"static/img/Car Brand Logos/ferrari-logo.png",
             "308 GTB":{
             "dark":"/static/img/Slideshow/Ferari308GTBD.jpeg",
             "light":"/static/img/Slideshow/Ferarri308GTBL.jpeg",
@@ -93,6 +99,7 @@
 
     "USA":{
         "Jeep":{
+            "logo":"static/img/Car Brand Logos/jeep-logo.png",
             "CJ-7":{
             "dark":"/static/img/Slideshow/JeepCJ-7D.jpeg",
             "light":"/static/img/Slideshow/JeepCJ-7L.avif",
