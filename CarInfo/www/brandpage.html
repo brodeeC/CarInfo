@@ -24,30 +24,33 @@
 
           //Get list of all countries cars are from
           const countries = Object.keys(data);
-          let cars = []
           countries.forEach(country =>{
-            //Get the make of each car within the country
-            let makes = Object.keys(data[country]);
-            //Get the full 'make' object
-            let brands = data[country];
-            makes.forEach(make=>{
-              //Get the 'model' object of each car 
-              models = brands[make];
+            
+            //Gets dropdown menu
+            let dropdown = document.querySelector("select");
 
-              //Get just the values
-              Object.values(models).forEach(car =>{
-                cars.push(car);
-              });
-            });
+            //Creates an option
+            let option = document.createElement("option");
+
+            //Gives it the value of the country
+            option.setAttribute("value", country);
+
+            //Adds text node with country as its value
+            option.appendChild(document.createTextNode(country));
+
+            //Apends it to dropdown
+            dropdown.appendChild(option);
 
           });
         }
+
+
       </script>
     </head>
     <title>
         Car Info- Brand Page
     </title>
-    <body class = color-mode>
+    <body class = color-mode onload="loadOptions()">
       <script type="text/javascript" src="static/js/functions.js"></script>
 
         <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
@@ -67,20 +70,9 @@
           </div>
 
           <!--Inspiration taken from W3 schools-->
-          <label id = "dropdown" >Choose a country</label>
-          <select name = "Countries" id = "countries" onchange = "displayCountries()" onload="loadOptions()">
+          <label id = "dropdown">Choose a country</label>
+          <select name = "countries" id = "countries" onchange = "displayCountries()">
             <option value = "None">None</option>
-            <!--
-            <option value = "USA">USA</option>
-            <option value = "Italy">Italy</option>
-            <option value = "England">England</option>
-            <option value = "Germany">Germany</option>
-            <option value = "Japan">Japan</option>
-            <option value = "SouthKorea">South Korea</option>
-            <option value = "Sweden">Sweden</option>
-            <option value = "France">France</option>
-            -->
-
           </select>
           <div class = "brands" id="brands">
 
