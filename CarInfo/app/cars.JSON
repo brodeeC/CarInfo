@@ -1,7 +1,7 @@
 {
     "Japan":{
         "Toyota":{
-            "logo":"#",
+            "logo":"/",
             "Supra":{
             "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
             "light":"/static/img/Slideshow/1993ToyotaSupraL.avif",

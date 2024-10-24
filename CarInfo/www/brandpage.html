@@ -40,17 +40,48 @@
 
             //Apends it to dropdown
             dropdown.appendChild(option);
+          });
+          loadButtons();
+        }
+
+        async function loadButtons(){
+          const response = await fetch('/cars'); 
+          const data = await response.json();
+
+          let div = document.getElementById("brands");
+
+          //Get list of all countries cars are from
+          const countries = Object.keys(data);
+          countries.forEach(country =>{
+            
+            let makeData = Object.keys(data[country]);
+
+            let button = document.createElement("button");
+
+            button.setAttribute("class", country);
+            button.setAttribute("onclick", "#")//Once we get templates ready change this line.
+
+            
+            Object.values(makeData).forEach(make =>{
+              let logoLink = data[country][make]["logo"];
+
+              let image = document.createElement("img");
+              image.setAttribute("src", logoLink);
+
+              button.appendChild(image);
+
+              div.appendChild(button);
+            });
 
           });
         }
-
 
       </script>
     </head>
     <title>
         Car Info- Brand Page
     </title>
-    <body class = color-mode onload="loadOptions()">
+    <body class="color-mode" onload="loadOptions()">
       <script type="text/javascript" src="static/js/functions.js"></script>
 
         <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
@@ -74,8 +105,8 @@
           <select name = "countries" id = "countries" onchange = "displayCountries()">
             <option value = "None">None</option>
           </select>
-          <div class = "brands" id="brands">
 
+          <div class = "brands" id="brands">
 
           <!--Once a JSON file is created I will have Javascript build
           these buttons on the page rather than having them hard-coded in
