@@ -59,10 +59,11 @@
             let button = document.createElement("button");
 
             button.setAttribute("class", country);
-            button.setAttribute("onclick", "#")//Once we get templates ready change this line.
 
             
             Object.values(makeData).forEach(make =>{
+              button.setAttribute("onclick", `window.location.href(/brands/${make})`)
+
               let logoLink = data[country][make]["logo"];
 
               let image = document.createElement("img");
