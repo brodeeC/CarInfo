@@ -1,3 +1,31 @@
 <!DOCTYPE html>
 
 {% extends "base.html" %}
+
+
+
+{%blocktitle%}Car Info{%endblock%}
+
+   
+{% block content %} 
+
+<h1>{{ car_name }}</h1>
+
+<div class="car-image" > 
+    <img src="{{car_image_url}}" alt=""{{ car_name }} image>
+</div>
+
+<h2>{{Car Details}}</h2>
+
+<div class ="car-details">
+    <div class="car-detail"><strong>Model:</strong> {{ car_model }}</div>
+    <div class="car-detail"><strong>Year:</strong> {{ car_year }}</div>
+    <!-- Potential details that would be nice<div class="car-detail"><strong>Engine:</strong> {{ car_engine }}</div>-->
+    <!-- Potential details that would be nice<div class="car-detail"><strong>Horsepower:</strong> {{ car_horsepower }} HP</div>-->
+    <!-- Potential details that would be nice<div class="car-detail"><strong>Fuel Type:</strong> {{ car_fuel_type }}</div>-->
+    <!-- Potential details that would be nice<div class="car-detail"><strong>Price:</strong> ${{ car_price }}</div>-->
+</div>
+
+{% endblock %}
+   
+

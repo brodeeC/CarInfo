@@ -6,9 +6,22 @@
 
     </head>
         <body>
-        <div id="content">
-            {% block content %}
-            {% endblock %}
-        </div>
+            <div id="content">
+                {% block content %}
+                    <h1>{{ car_name }}</h1>
+                    <div class="car-image">
+                        <img src="{{ car_image_url }}" alt="{{ car_name }} image">
+                    </div>
+                    <div class="car-details">
+                        <div class="car-detail"><strong>Model:</strong> {{ car_model }}</div>
+                        <div class="car-detail"><strong>Year:</strong> {{ car_year }}</div>
+                        <div class="car-detail"><strong>Engine:</strong> {{ car_engine }}</div>
+                        <div class="car-detail"><strong>Horsepower:</strong> {{ car_horsepower }} HP</div>
+                        <div class="car-detail"><strong>Fuel Type:</strong> {{ car_fuel_type }}</div>
+                        <div class="car-detail"><strong>Price:</strong> ${{ car_price }}</div>
+                    </div>
+                {% endblock %}
+            </div>
+
         </body>
 </html>
