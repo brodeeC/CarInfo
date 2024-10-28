@@ -62,7 +62,8 @@
 
             
             Object.values(makeData).forEach(make =>{
-              button.setAttribute("onclick", `window.location.href(/brands/${make})`)
+              let url = "window.location.href(" + `/brands/${make}` + ")"
+              button.setAttribute("onclick", url)
 
               let logoLink = data[country][make]["logo"];
 
