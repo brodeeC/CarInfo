@@ -48,7 +48,7 @@ def brands(brand):
 #        car_data = json.load(json_file)
 #    return car_data
 
-#@app.route("/cars")
+#@app.route("/brands/<car>")
 #def car_info():
 #    car_data = car_load_data()
 #    return render_template("car_info.html",**car_data)
