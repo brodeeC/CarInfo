@@ -64,12 +64,12 @@
             
             let makeData = Object.keys(data[country]);
 
-            let button = document.createElement("button");
-
-            button.setAttribute("class", country);
-
             
             Object.values(makeData).forEach(make =>{
+              let button = document.createElement("button");
+
+              button.setAttribute("class", country);
+
               button.setAttribute("onclick", `loadTemplate(${make})`);
 
               let logoLink = data[country][make]["logo"];
