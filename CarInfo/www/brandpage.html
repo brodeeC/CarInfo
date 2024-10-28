@@ -44,6 +44,14 @@
           loadButtons();
         }
 
+        async function loadTemplate(brand){
+          fetch(`/brands/${brand}`)
+            .then(response => response.text())
+            .then(html => {
+              window.location.href = html;
+            });
+        }
+
         async function loadButtons(){
           const response = await fetch('/cars'); 
           const data = await response.json();
@@ -62,8 +70,7 @@
 
             
             Object.values(makeData).forEach(make =>{
-              let url = "window.location.href(" + `/brands/${make}` + ")"
-              button.setAttribute("onclick", url)
+              button.setAttribute("onclick", `loadTemplate(${make})`);
 
               let logoLink = data[country][make]["logo"];
 
