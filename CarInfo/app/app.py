@@ -42,4 +42,14 @@ def shoutout(someone):
 @app.route("/brands/<brand>")
 def brands(brand):
     return render_template("brands.html", brand = brand)
+
+#def car_load_data()
+#    with open("cars.JSON") as json_file:
+#        car_data = json.load(json_file)
+#    return car_data
+
+#@app.route("/cars")
+#def car_info():
+#    car_data = car_load_data()
+#    return render_template("car_info.html",**car_data)
         
