@@ -44,8 +44,9 @@
           loadButtons();
         }
 
-        async function loadTemplate(brand){
-          fetch(`/brands/${brand}`)
+        async function loadTemplate(country, brand, model){
+          fetch(`/car/${country}/${brand}/${model}`)
+          
             .then(response => response.text())
             .then(html => {
               window.location.href = html;
@@ -70,7 +71,8 @@
 
               button.setAttribute("class", country);
 
-              button.setAttribute("onclick", `loadTemplate(${make})`);
+              // Set <a href = 'Flask Route'><button></button></a>
+              button.setAttribute("onclick", `loadTemplate(${country}, ${make})`);
 
               let logoLink = data[country][make]["logo"];
 
