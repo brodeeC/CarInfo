@@ -263,3 +263,19 @@ color: #000;
   gap: 15px;
   padding: 20px;
 }
+
+/*Dark Mode for Brands page*/
+@media (prefers-color-scheme: dark) {
+  #brands button {
+    background-color: #333;
+    color: white;
+  }
+
+  #brands button:hover {
+    background-color: #555;
+  }
+}
+
+#dropdown{
+  font-family: "Roboto", sans-serif;
+}
