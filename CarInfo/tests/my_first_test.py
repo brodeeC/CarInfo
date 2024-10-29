@@ -2,8 +2,8 @@ import sys
 import os
 import pytest
 
-sys.path.insert(0, '/path/to/your/app')
-os.chdir('/path/to/your/app')
+sys.path.insert(0, '~/Documents/GitHub/CarInfo/CarInfo/app/app.py')
+os.chdir('~/Documents/GitHub/CarInfo/CarInfo/app/app.py')
 
 from app import app
 
