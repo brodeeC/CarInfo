@@ -44,15 +44,6 @@
           loadButtons();
         }
 
-        async function loadTemplate(country, brand, model){
-          fetch(`/car/${country}/${brand}/${model}`)
-          
-            .then(response => response.text())
-            .then(html => {
-              window.location.href = html;
-            });
-        }
-
         async function loadButtons(){
           const response = await fetch('/cars'); 
           const data = await response.json();
@@ -68,7 +59,7 @@
             
             Object.values(makeData).forEach(make =>{
               let button = document.createElement("button");
-              let anchor = document.createElement("anchor");
+              let anchor = document.createElement("a");
 
               anchor.setAttribute("href", `/car/${country}/${make}`)
 
