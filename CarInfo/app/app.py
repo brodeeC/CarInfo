@@ -13,13 +13,13 @@ def cars():
         cars = json.load(file)
     return jsonify(cars)
 
+
 # Load JSON data once at app startup
 def load_car_data():
     with open("cars.JSON") as json_file:
         return json.load(json_file)
 
 
-app.config['CAR_DATA'] = load_car_data()
 
 @app.route("/shoutout/<someone>")
 def shoutout(someone):
@@ -30,7 +30,13 @@ def brands(brand):
     return render_template("brands.html", brand = brand)
 
 
+# Load JSON data once at app startup
+def load_car_data():
+    with open("car_data.json") as json_file:
+        return json.load(json_file)
 
+
+app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
 @app.route('/car/<country>/<brand>/<model>')
