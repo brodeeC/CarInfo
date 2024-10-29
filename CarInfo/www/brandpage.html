@@ -68,11 +68,13 @@
             
             Object.values(makeData).forEach(make =>{
               let button = document.createElement("button");
+              let anchor = document.createElement("anchor");
+
+              anchor.setAttribute("href", `/car/${country}/${make}`)
 
               button.setAttribute("class", country);
 
               // Set <a href = 'Flask Route'><button></button></a>
-              button.setAttribute("onclick", `loadTemplate(${country}, ${make})`);
 
               let logoLink = data[country][make]["logo"];
 
@@ -81,7 +83,9 @@
 
               button.appendChild(image);
 
-              div.appendChild(button);
+              anchor.appendChild(button);
+
+              div.appendChild(anchor);
             });
 
           });
