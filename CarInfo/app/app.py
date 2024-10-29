@@ -22,15 +22,26 @@ def shoutout(someone):
 def brands(brand):
     return render_template("brands.html", brand = brand)
 
-def car_load_data():
-    with open("cars.JSON") as json_file:
-        car_data = json.load(json_file)
-    return car_data
+# Load JSON data once at app startup
+def load_car_data():
+    with open("car_data.json") as json_file:
+        return json.load(json_file)
 
-@app.route("/brands/<car>")
+car_data = load_car_data()
+
+@app.route('/car')
 def car_info():
-    car_data = car_load_data()
-    return render_template("car_info.html",**car_data)
+    # Get parameters from query string
+    country = request.args.get('country')
+    brand = request.args.get('brand')
+    model = request.args.get('model')
+    
+    # Validate parameters and get specific car data
+    if country in car_data and brand in car_data[country] and model in car_data[country][brand]:
+        selected_car = car_data[country][brand][model]
+        return render_template("car_info.html", car=selected_car, brand=car_data[country][brand])
+    else:
+        return "Car not found", 404
         
 @app.route("/csc342groups")
 def csc_342_groups():
