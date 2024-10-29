@@ -5,6 +5,33 @@ from flask_cors import CORS
 app = Flask(__name__)
 cors = CORS(app)
 
+
+
+@app.route("/cars")
+def cars():
+    with open("cars.JSON") as file:
+        cars = json.load(file)
+
+    return jsonify(cars)
+
+@app.route("/shoutout/<someone>")
+def shoutout(someone):
+    return render_template("shoutout.html", page_title = "Hey, " + someone, someone =someone)
+
+@app.route("/brands/<brand>")
+def brands(brand):
+    return render_template("brands.html", brand = brand)
+
+def car_load_data():
+    with open("cars.JSON") as json_file:
+        car_data = json.load(json_file)
+    return car_data
+
+@app.route("/brands/<car>")
+def car_info():
+    car_data = car_load_data()
+    return render_template("car_info.html",**car_data)
+        
 @app.route("/csc342groups")
 def csc_342_groups():
     groups = {1: {'Content Specialist': ['Julia Hogg'],
@@ -27,29 +54,3 @@ def csc_342_groups():
             'Programmer(s)': ['Emirhan Gencer']}}
 
     return jsonify(groups)
-
-@app.route("/cars")
-def cars():
-    with open("cars.JSON") as file:
-        cars = json.load(file)
-
-    return jsonify(cars)
-
-@app.route("/shoutout/<someone>")
-def shoutout(someone):
-    return render_template("shoutout.html", page_title = "Hey, " + someone, someone =someone)
-
-@app.route("/brands/<brand>")
-def brands(brand):
-    return render_template("brands.html", brand = brand)
-
-#def car_load_data()
-#    with open("cars.JSON") as json_file:
-#        car_data = json.load(json_file)
-#    return car_data
-
-#@app.route("/brands/<car>")
-#def car_info():
-#    car_data = car_load_data()
-#    return render_template("car_info.html",**car_data)
-        
