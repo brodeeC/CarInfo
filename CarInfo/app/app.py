@@ -32,13 +32,22 @@ def load_car_data():
 # Use path parameters in the URL instead of query parameters
 @app.route('/car/<country>/<brand>/<model>')
 def car_info(country, brand, model):
-    car_data = load_car_data()
-    # Validate parameters and get specific car data
-    if country in car_data and brand in car_data[country] and model in car_data[country][brand]:
-        selected_car = car_data[country][brand][model]
-        return render_template("car_info.html", car=selected_car, brand=car_data[country][brand])
+    print(f"Country: {country}, Brand: {brand}, Model: {model}")
+    # Check if keys exist
+    if country in car_data:
+        if brand in car_data[country]:
+            if model in car_data[country][brand]:
+                selected_car = car_data[country][brand][model]
+                print(f"Selected Car: {selected_car}")
+                return render_template("car_info.html", car=selected_car, brand=car_data[country][brand])
+            else:
+                print("Model not found")
+        else:
+            print("Brand not found")
     else:
-        return "Car not found", 404
+        print("Country not found")
+    return "Car not found", 404
+
         
 @app.route("/csc342groups")
 def csc_342_groups():
