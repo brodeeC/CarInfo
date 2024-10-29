@@ -7,6 +7,8 @@ os.chdir('/mnt/c/Users/mrkcb/OneDrive/Documents/GitHub/CarInfo/CarInfo/app')
 
 #Change to this when using Kyler's route: /mnt/c/Users/mrkcb/OneDrive/Documents/GitHub/CarInfo/CarInfo/app
 
+#Brodee's route = /Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app
+
 from app import app
 
 @pytest.fixture
