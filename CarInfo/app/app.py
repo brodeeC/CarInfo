@@ -36,7 +36,7 @@ def load_car_data():
         return json.load(json_file)
 
 
-#app.config['CAR_DATA'] = load_car_data()
+app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
 @app.route('/car/<country>/<brand>/<model>')
@@ -44,7 +44,7 @@ def car_info(country, brand, model):
   
 
     # Access car data from Flask config
-    #car_data = app.config['CAR_DATA']  
+    car_data = app.config['CAR_DATA']  
     
     print(f"Country: {country}, Brand: {brand}, Model: {model}")
     # Check if keys exist
