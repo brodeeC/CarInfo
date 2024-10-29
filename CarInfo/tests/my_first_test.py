@@ -2,8 +2,8 @@ import sys
 import os
 import pytest
 
-sys.path.insert(0, '~/Documents/GitHub/CarInfo/CarInfo/app/app.py')
-os.chdir('~/Documents/GitHub/CarInfo/CarInfo/app/app.py')
+sys.path.insert(0, '/Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app')
+os.chdir('/Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app')
 
 from app import app
 
@@ -13,6 +13,6 @@ def client():
         yield client
 
 def test_some_route(client):
-    response = client.get('/some_route')
+    response = client.get('/cars')
     assert response.status_code == 200
 
