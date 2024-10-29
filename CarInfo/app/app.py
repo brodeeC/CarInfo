@@ -29,13 +29,9 @@ def load_car_data():
 
 car_data = load_car_data()
 
-@app.route('/car')
-def car_info():
-    # Get parameters from query string
-    country = request.args.get('country')
-    brand = request.args.get('brand')
-    model = request.args.get('model')
-    
+# Use path parameters in the URL instead of query parameters
+@app.route('/car/<country>/<brand>/<model>')
+def car_info(country, brand, model):
     # Validate parameters and get specific car data
     if country in car_data and brand in car_data[country] and model in car_data[country][brand]:
         selected_car = car_data[country][brand][model]
