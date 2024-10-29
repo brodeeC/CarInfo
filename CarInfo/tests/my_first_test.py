@@ -2,8 +2,10 @@ import sys
 import os
 import pytest
 
-sys.path.insert(0, '/Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app')
-os.chdir('/Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app')
+sys.path.insert(0, '/mnt/c/Users/mrkcb/OneDrive/Documents/GitHub/CarInfo/CarInfo/app')
+os.chdir('/mnt/c/Users/mrkcb/OneDrive/Documents/GitHub/CarInfo/CarInfo/app') 
+
+#Change to this when using Kyler's route: /mnt/c/Users/mrkcb/OneDrive/Documents/GitHub/CarInfo/CarInfo/app
 
 from app import app
 
