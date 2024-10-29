@@ -27,11 +27,12 @@ def load_car_data():
     with open("car_data.json") as json_file:
         return json.load(json_file)
 
-car_data = load_car_data()
+
 
 # Use path parameters in the URL instead of query parameters
 @app.route('/car/<country>/<brand>/<model>')
 def car_info(country, brand, model):
+    car_data = load_car_data()
     # Validate parameters and get specific car data
     if country in car_data and brand in car_data[country] and model in car_data[country][brand]:
         selected_car = car_data[country][brand][model]
