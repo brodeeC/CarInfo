@@ -32,7 +32,7 @@ def brands(brand):
 
 # Load JSON data once at app startup
 def load_car_data():
-    with open("car_data.json") as json_file:
+    with open("cars.JSON") as json_file:
         return json.load(json_file)
 
 
