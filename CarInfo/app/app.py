@@ -40,7 +40,7 @@ app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
 @app.route('/car/<country>/<brand>/<model>')
-def car_info(country, brand, model):
+def car_info(country, brand):
   
 
     # Access car data from Flask config
