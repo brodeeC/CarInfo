@@ -39,7 +39,7 @@ def load_car_data():
 app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
-@app.route('/car/<country>/<brand>/<model>')
+@app.route('/car/<country>/<brand>')
 def car_info(country, brand):
   
 
