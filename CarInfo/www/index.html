@@ -108,6 +108,45 @@
           window.onload = function() {
             loadRandomImages(); 
           };
+
+          async function loadInfo(){
+            data = await fetchImages();
+
+            countries = Object.keys(data);
+
+            let countryCount = countries.length;
+
+            let makeCount = 0;
+
+            let modelCount = 0;
+
+            countries.forEach(country =>{
+              //Get the make of each car within the country
+              let makes = Object.keys(data[country]);
+              makeCount += makes.length
+
+              //Get the full 'make' object
+              let brands = data[country];
+              makes.forEach(make=>{
+                //Get the 'model' object of each car 
+                models = Object.keys(brands[make]);
+
+                modelCount += models.length-1
+              });
+
+            });
+            countryP = document.getElementById("countries");
+            countryP.appendChild(document.createTextNode(`There are ${countryCount} countries represented.`))
+            
+            makeP = document.getElementById("makes");
+            makeP.appendChild(document.createTextNode(`There are ${makeCount} makes.`)) 
+
+            modelP = document.getElementById("models");
+            modelP.appendChild(document.createTextNode(`There are ${modelCount} models.`)) 
+
+
+
+          }
   
         </script>
     </head>
@@ -115,7 +154,7 @@
     <title>
         Car Info- Homepage
     </title>
-    <body class = color-mode>
+    <body class = 'color-mode' onload="loadRandomImages(), loadInfo()">
       <script type="text/javascript" src="static/js/functions.js"></script>
 
         <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
@@ -146,17 +185,30 @@
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-</div>
-<br>
+    </div>
+    <br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-</div>
-<!--Maybe potentially have a feature that just has the images going by on their own, you can stil click to go to the next one.-->
-     
-    </body>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <!--Maybe potentially have a feature that just has the images going by on their own, you can stil click to go to the next one.-->
+    <div>
+      <h2>
+        Our current data set:
+      </h2>
+      <p id="countries">
+
+      </p>
+      <p id="makes">
+
+      </p>
+      <p id = models>
+
+      </p>
+    </div>
+  </body>
 </html>
