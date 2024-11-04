@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <!--Attempting to get the CSS and JS to be properly transported to the children templates.-->
+    <!--Internet says to implement this type of linking to for proper transfer:-->
+    <!--<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,7 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="javascript" href="static/js/functions.js">
         
-        <title>{% block title %}{% endblock %}</title>
+        <title>{% block title %} Car Information {% endblock %}</title>
 
     </head>
 
@@ -34,11 +37,13 @@
             </a>
           
           </div> 
+        
         <div class="content">
         {% block content %}
             
-        </div>
-    </body>
-    {%endblock%}
 
+        {%endblock%}
+        </div>
+    
+      </body>
 </html>

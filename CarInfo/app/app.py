@@ -42,24 +42,22 @@ app.config['CAR_DATA'] = load_car_data()
 @app.route('/car/<country>/<brand>')
 def car_info(country, brand):
   
-
     # Access car data from Flask config
     car_data = app.config['CAR_DATA']  
     
-    print(f"Country: {country}, Brand: {brand}, Model: {model}")
+    print(f"Country: {country}, Brand: {brand}")
     # Check if keys exist
     if country in car_data:
         if brand in car_data[country]:
-            if model in car_data[country][brand]:
-                selected_car = car_data[country][brand][model]
-                print(f"Selected Car: {selected_car}")
-                return render_template("car_info.html", car=selected_car, brand=car_data[country][brand])
-            else:
-                print("Model not found")
+            selected_car = car_data[country][brand]
+            print(f"Selected Car: {selected_car}")
+            return render_template("car_info.html", car=selected_car, brand=car_data[country][brand])
+        
         else:
-            print("Brand not found")
+            print("Country not found")
     else:
-        print("Country not found")
+            print("Brand not found")
+    
     return "Car not found", 404
 
 
