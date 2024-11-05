@@ -12,9 +12,6 @@
     <img src="{{ car_image_url }}" alt="{{ car_name }} image">
 </div> -->
 
-
-
-<body>
 <!--onload= "parseCarData()"-->
 <!-- 
     <script>
@@ -37,10 +34,11 @@
             carDetailsDiv.innerHTML = detailsHtml;
         }
     </script> -->
-
+    
     <h1>{{ brand }} Cars in {{ country | capitalize }}</h1>
 
-    <img> src = "{{ logo }}" alt="{{ brand }}" </img>
+    <img>src="{{ logo }}"</img>
+    
 
     <h2>Car Details</h2>
 
@@ -70,9 +68,6 @@
         <!-- <div class="car-detail"><strong>Fuel Type:</strong> {{ car_fuel_type }}</div> -->
         <!-- <div class="car-detail"><strong>Price:</strong> ${{ car_price }}</div> -->
     </div>
-
-</body>
-
 
 {% endblock %}
 
