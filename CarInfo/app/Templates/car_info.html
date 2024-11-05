@@ -14,17 +14,40 @@
 
 <h2>Car Details</h2>
 
-<div class="car-details">
-    <div class="car-detail"><strong>Model:</strong> {{ car_model }}</div>
-    <div class="car-detail"><strong>Make:</strong> {{ car_make }}</div>
-    <div class="car-detail"><strong>Year:</strong> {{ car_year }}</div>
+<body onload = "parseCarData(carData);">
 
-    <!-- Uncomment the following lines to display additional details -->
-    <!-- <div class="car-detail"><strong>Engine:</strong> {{ car_engine }}</div> -->
-    <!-- <div class="car-detail"><strong>Horsepower:</strong> {{ car_horsepower }} HP</div> -->
-    <!-- <div class="car-detail"><strong>Fuel Type:</strong> {{ car_fuel_type }}</div> -->
-    <!-- <div class="car-detail"><strong>Price:</strong> ${{ car_price }}</div> -->
-</div>
+    <script>
+        const carData = { selected_cars , tojson };
+
+        // JavaScript function to parse and display car data
+        function parseCarData(data) {
+            const carDetailsDiv = document.getElementById("carDetails");
+            let detailsHtml = "";
+    
+            // Iterate through car data and build HTML for each detail
+            for (const [key, value] of Object.entries(data)) {
+                detailsHtml += `<div><strong>${key.charAt(0).toUpperCase() + key.slice(1)}:</strong> ${value}</div>`;
+            }
+    
+            // Insert details HTML into the carDetails div
+            carDetailsDiv.innerHTML = detailsHtml;
+        }
+    </script>
+
+    <div class="car-details">
+        <div class="car-detail"><strong>Model:</strong> {{ car_model }}</div>
+        <div class="car-detail"><strong>Make:</strong> {{ car_make }}</div>
+        <div class="car-detail"><strong>Year:</strong> {{ car_year }}</div>
+
+        <!-- Uncomment the following lines to display additional details -->
+        <!-- <div class="car-detail"><strong>Engine:</strong> {{ car_engine }}</div> -->
+        <!-- <div class="car-detail"><strong>Horsepower:</strong> {{ car_horsepower }} HP</div> -->
+        <!-- <div class="car-detail"><strong>Fuel Type:</strong> {{ car_fuel_type }}</div> -->
+        <!-- <div class="car-detail"><strong>Price:</strong> ${{ car_price }}</div> -->
+    </div>
+
+</body>
+
 
 {% endblock %}
 
