@@ -14,11 +14,6 @@ def cars():
     return jsonify(cars)
 
 
-# Load JSON data once at app startup
-def load_car_data():
-    with open("cars.JSON") as json_file:
-        return json.load(json_file)
-
 
 
 @app.route("/shoutout/<someone>")
@@ -45,18 +40,13 @@ def car_info(country, brand):
     # Access car data from Flask config
     car_data = app.config['CAR_DATA']  
     
-    print(f"Country: {country}, Brand: {brand}")
     # Check if keys exist
     if country in car_data:
         if brand in car_data[country]:
-            selected_car = car_data[country][brand]
-            print(f"Selected Car: {selected_car}")
-            return render_template("car_info.html", 
-                                    car_name=selected_car.get("name"),
-                                    car_image_url=selected_car.get("image_url"),
-                                    car_model=selected_car.get("model"),
-                                    car_make=selected_car.get("make"),
-                                    car_year=selected_car.get("year"))
+            selected_cars = car_data[country][brand]
+            selected_cars.pop('logo')
+
+            return render_template("car_info.html", jsonify(selected_cars))
         
         else:
             print("Country not found")
