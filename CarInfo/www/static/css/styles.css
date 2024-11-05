@@ -70,6 +70,20 @@
     padding-right: 75px;
   }
 
+  @media screen and (max-width: 800px) {
+    .Column {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .BodyText {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+
   .bigger {
     font-family: "Roboto", sans-serif;
     font-weight: bold;

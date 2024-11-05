@@ -1,10 +1,10 @@
 {
     "England":{
         "Aston Martin":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/aston-martin-logo.png",
             "DB5":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/AstonMartinDB5D.webp",
+            "light":"/static/img/Slideshow/AstonMartinDB5L.jpeg",
             "make":"Aston Martin",
             "model":"DB5",
             "year":"1964"
@@ -37,10 +37,10 @@
         },
 
         "Bentley":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/bentley-logo.png",
             "Continental GT":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/BentleyContinentalD.jpeg",
+            "light":"/static/img/Slideshow/BentleyContinentalL.webp",
             "make":"Bentley",
             "model":"Continental GT",
             "year":"2003"
@@ -48,7 +48,7 @@
         },
 
         "Jaguar":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/jaguar-logo.png",
             "E-Type":{
                 "dark":"/",
                 "light":"/",
@@ -80,7 +80,7 @@
         },
 
         "Land Rover": {
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/land-rover-logo.png",
             "Discovery Sport":{
                 "dark":"/",
                 "light":"/",
@@ -91,7 +91,7 @@
         },
 
         "Lotus":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/lotus-logo.png",
             "Elise":{
                 "dark":"/",
                 "light":"/",
@@ -111,8 +111,8 @@
         "McLaren":{
             "logo":"/",
             "F1":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/McLarenF1D.jpeg",
+                "light":"/static/img/Slideshow/McLarenF1L.jpeg",
                 "make":"McLaren",
                 "model":"F1",
                 "year":"1992"
@@ -147,8 +147,8 @@
         "Noble":{
             "logo":"/",
             "M12 GTO":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/NobleM12GTOD.jpeg",
+                "light":"/static/img/Slideshow/NobleM12GTOL.jpeg",
                 "make":"Noble",
                 "model":"M12 GTO",
                 "year":"2002"
@@ -156,7 +156,7 @@
         },
 
         "Rolls-Royce":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/rolls-royce-logo.png",
             "Boat Tail":{
                 "dark":"/",
                 "light":"/",
@@ -180,7 +180,7 @@
 
     "France":{
         "Bugatti":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/bugatti-logo.png",
             "Chiron":{
                 "dark":"/",
                 "light":"/",
@@ -368,7 +368,7 @@
         },
 
         "Volkswagen":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/volkswagen-logo.png",
             "Beetle":{
                 "dark":"/",
                 "light":"/",
@@ -395,7 +395,7 @@
     
     "Italy":{
         "Alfa Romeo":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/alfa-romeo-logo.png",
             "33 Stradale":{
                 "dark":"/",
                 "light":"/",
@@ -480,7 +480,7 @@
         },
 
         "Lamborghini":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/lamborghini-logo.png",
             "Countach":{
                 "dark":"/",
                 "light":"/",
@@ -543,7 +543,7 @@
 
     "Japan":{
         "Acura":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/acura-logo.png",
             "Integra":{
             "dark":"/",
             "light":"/",
@@ -572,7 +572,7 @@
         },
 
         "Honda":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/honda-logo.png",
             "Civic Hatchback":{
             "dark":"/",
             "light":"/",
@@ -590,7 +590,7 @@
         },
 
         "Lexus":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/lexus.logo.png",
             "LFA":{
                 "dark":"/",
                 "light":"/",
@@ -615,7 +615,7 @@
         },
 
         "Mazda":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/mazda-logo.png",
             "Miata MX-5":{
             "dark":"/",
             "light":"/",
@@ -626,7 +626,7 @@
         },
 
         "Nissan":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/nissan-logo.png",
             "Altima":{
             "dark":"/",
             "light":"/",
@@ -651,7 +651,7 @@
         },
 
         "Subaru":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/subaru-logo.png",
             "WRX":{
             "dark":"/",
             "light":"/",
@@ -662,7 +662,7 @@
         },
 
         "Toyota":{
-            "logo":"/",
+            "logo":"toyota-logo.png",
             "2000GT":{
                 "dark":"/",
                 "light":"/",
@@ -717,7 +717,7 @@
 
     "South Korea":{
         "Hyundai":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/hyundai-logo.png",
             "Genesis":{
                 "dark":"/",
                 "light":"/",
@@ -730,7 +730,7 @@
 
     "Sweden":{
         "Volvo":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/volvo-logo.png",
             "P1800":{
                 "dark":"/",
                 "light":"/",
@@ -742,8 +742,8 @@
     },
 
     "USA":{
-        "Cheverolet":{
-            "logo":"/",
+        "Chevrolet":{
+            "logo":"static/img/Car Brand Logos/chevrolet-logo.png",
             "Camaro Z28":{
             "dark":"/",
             "light":"/",
@@ -765,7 +765,7 @@
         },
 
         "Dodge":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/dodge-logo.png",
             "Viper":{
             "dark":"/",
             "light":"/",
@@ -776,7 +776,7 @@
         },
 
         "Ford":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/ford-logo.png",
             "F-150 Supercrew":{
             "dark":"/",
             "light":"/",
@@ -826,7 +826,7 @@
         },
 
         "Lincoln":{
-            "logo":"/",
+            "logo":"static/img/Car Brand Logos/lincoln-logo.png",
             "Continental":{
                 "dark":"/",
                 "light":"/",
