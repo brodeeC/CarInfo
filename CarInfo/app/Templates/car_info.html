@@ -14,16 +14,19 @@
 
 <h2>Car Details</h2>
 
-<body onload = "parseCarData(carData);">
+<body onload="parseCarData();">
 
     <script>
-        const carData = { selected_cars , tojson };
-
         // JavaScript function to parse and display car data
-        function parseCarData(data) {
-            const carDetailsDiv = document.getElementById("carDetails");
+        function parseCarData() {
+            const carData = "{{ selected_cars }}";
+            const carDetailsDiv = document.getElementById("car-details");
             let detailsHtml = "";
     
+            // Iterate over carData, grab each 'car' and build <p>'s with info. 
+            //Make the image of the car a button, we'll likely want implementation for either another
+            // template or to redirect to the car's website
+
             // Iterate through car data and build HTML for each detail
             for (const [key, value] of Object.entries(data)) {
                 detailsHtml += `<div><strong>${key.charAt(0).toUpperCase() + key.slice(1)}:</strong> ${value}</div>`;
@@ -34,10 +37,10 @@
         }
     </script>
 
-    <div class="car-details">
-        <div class="car-detail"><strong>Model:</strong> {{ car_model }}</div>
-        <div class="car-detail"><strong>Make:</strong> {{ car_make }}</div>
-        <div class="car-detail"><strong>Year:</strong> {{ car_year }}</div>
+    <div class="car-details" id="car-details">
+        <div class="car-detail" id="model"><strong>Model:</strong></div>
+        <div class="car-detail" id="make"><strong>Make:</strong></div>
+        <div class="car-detail" id="year"><strong>Year:</strong></div>
 
         <!-- Uncomment the following lines to display additional details -->
         <!-- <div class="car-detail"><strong>Engine:</strong> {{ car_engine }}</div> -->
