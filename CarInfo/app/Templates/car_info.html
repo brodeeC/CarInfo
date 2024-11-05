@@ -26,7 +26,8 @@
         {% for car in selected_cars %}
         
             <div>
-                <img src="{{dark}}" alt="{{brand}}"></img>
+                <!--May need to do {{%  %}} to access the JSON further research is required.-->
+                <img src= "{{ car.dark }}" alt="{{brand}}"></img>
                 <p><strong> {{ car }} </strong></p>
             </div>
         
