@@ -18,6 +18,9 @@
 
     <h1>{{ brand }} Cars in {{ country | capitalize }}</h1>
     
+
+    <h2>Car Details</h2>
+
     <!--Look at the slideshow code to see how to implement the way to -->
     <div>
         <img src = "{{ logo }}" alt="{{ brand }}"> </img>
@@ -26,7 +29,8 @@
         {% for car in selected_cars %}
         
             <div>
-                <img src="{{dark}}" alt="{{brand}}"></img>
+                <!--May need to do {{%  %}} to access the JSON further research is required.-->
+                <img src= "{{ car.dark }}" alt="{{brand}}"></img>
                 <p><strong> {{ car }} </strong></p>
             </div>
         
