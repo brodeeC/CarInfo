@@ -1,6 +1,6 @@
 import json
-from flask import Flask, jsonify, render_template
-from flask_cors import CORS
+from flask import Flask, jsonify, render_template # type: ignore
+from flask_cors import CORS # type: ignore
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -51,7 +51,12 @@ def car_info(country, brand):
         if brand in car_data[country]:
             selected_car = car_data[country][brand]
             print(f"Selected Car: {selected_car}")
-            return render_template("car_info.html", car=selected_car, brand=car_data[country][brand])
+            return render_template("car_info.html", 
+                                    car_name=selected_car.get("name"),
+                                    car_image_url=selected_car.get("image_url"),
+                                    car_model=selected_car.get("model"),
+                                    car_make=selected_car.get("make"),
+                                    car_year=selected_car.get("year"))
         
         else:
             print("Country not found")
