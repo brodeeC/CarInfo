@@ -10,6 +10,8 @@ os.chdir('/Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app')
 
 #Brodee's route = /Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app
 
+#David's route = /Users/davidlash/carinfo/CarInfo/app
+
 from app import app
 
 @pytest.fixture
