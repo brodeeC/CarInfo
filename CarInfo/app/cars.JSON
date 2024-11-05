@@ -28,8 +28,8 @@
         "Austin-Healey":{
             "logo":"/",
             "3000 MKII":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/3000markIID.webp",
+                "light":"/static/img/Slideshow/3000markIIL.jpeg",
                 "make":"Austin-Healey",
                 "model":"3000 MKII",
                 "year":"1963"
@@ -37,7 +37,7 @@
         },
 
         "Bentley":{
-            "logo":"static/img/Car Brand Logos/bentley-logo.png",
+            "logo":"/static/img/Car Brand Logos/bentley-logo.png",
             "Continental GT":{
             "dark":"/static/img/Slideshow/BentleyContinentalD.jpeg",
             "light":"/static/img/Slideshow/BentleyContinentalL.webp",
@@ -48,10 +48,10 @@
         },
 
         "Jaguar":{
-            "logo":"static/img/Car Brand Logos/jaguar-logo.png",
+            "logo":"/static/img/Car Brand Logos/jaguar-logo.png",
             "E-Type":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/1961EtypeD.jpeg",
+                "light":"/static/img/Slideshow/1961EtypeL.jpeg",
                 "make":"Jaguar",
                 "model":"E-Type",
                 "year":"1961"
@@ -80,7 +80,7 @@
         },
 
         "Land Rover": {
-            "logo":"static/img/Car Brand Logos/land-rover-logo.png",
+            "logo":"/static/img/Car Brand Logos/land-rover-logo.png",
             "Discovery Sport":{
                 "dark":"/",
                 "light":"/",
@@ -91,17 +91,17 @@
         },
 
         "Lotus":{
-            "logo":"static/img/Car Brand Logos/lotus-logo.png",
+            "logo":"/static/img/Car Brand Logos/lotus-logo.png",
             "Elise":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/eliseD.jpeg",
+                "light":"/static/img/Slideshow/eliseL.jpeg",
                 "make":"Lotus",
                 "model":"Elise",
                 "year":"2011"
             },
             "Esprit":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/espritD.jpeg",
+                "light":"//static/img/Slideshow/espritL.jpeg",
                 "make":"Lotus",
                 "model":"Esprit",
                 "year":"1996"
@@ -125,8 +125,8 @@
                 "year":"2014"
             },
             "Speedtail":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/2020SpeedtailD.avif",
+                "light":"/static/img/Slideshow/2020SpeedtailL.jpeg",
                 "make":"McLaren",
                 "model":"Speedtail",
                 "year":"2020"
@@ -156,10 +156,10 @@
         },
 
         "Rolls-Royce":{
-            "logo":"static/img/Car Brand Logos/rolls-royce-logo.png",
+            "logo":"/static/img/Car Brand Logos/rolls-royce-logo.png",
             "Boat Tail":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/boattailD.avif",
+                "light":"/static/img/Slideshow/BoattailL.jpeg",
                 "make":"Rolls-Royce",
                 "model":"Boat Tail",
                 "year":"2021"
@@ -180,17 +180,17 @@
 
     "France":{
         "Bugatti":{
-            "logo":"static/img/Car Brand Logos/bugatti-logo.png",
+            "logo":"/static/img/Car Brand Logos/bugatti-logo.png",
             "Chiron":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/chironD.jpeg",
+                "light":"/static/img/Slideshow/ChironL.jpeg",
                 "make":"Bugatti",
                 "model":"Chiron",
                 "year":"2016"
             },
             "Veyron":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/BugattiVeyronD.jpeg",
+                "light":"/static/img/Slideshow/BugattiVeyronL.jpeg",
                 "make":"Bugatti",
                 "model":"Veyron",
                 "year":"2005"
@@ -200,7 +200,7 @@
 
     "Germany":{
         "Audi":{
-            "logo":"static/img/Car Brand Logos/audi-logo.png",
+            "logo":"/static/img/Car Brand Logos/audi-logo.png",
             "Quattro":{
                 "dark":"/static/img/Slideshow/AudiQuattroD.jpeg",
                 "light":"/static/img/Slideshow/AudiQuattroL.webp",
@@ -220,15 +220,15 @@
         "BMW":{
             "logo":"/static/img/Car Brand Logos/bmw-logo.png",
             "3.0 CSL":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/cslD.avif",
+                "light":"/static/img/Slideshow/cslL.jpeg",
                 "make":"BMW",
                 "model":"3.0 CSL",
                 "year":"1975"
             },
             "328ci":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/328CID.jpeg",
+                "light":"/static/img/Slideshow/328ciL.webp",
                 "make":"BMW",
                 "model":"328ci",
                 "year":"2000"
@@ -248,15 +248,15 @@
                 "year":"1986"
             },
             "Isetta 300":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/isettaD.jpeg",
+                "light":"/static/img/Slideshow/isettaL.jpeg",
                 "make":"BMW",
                 "model":"Isetta 300",
                 "year":"1961"
             },
             "M1":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/m1D.jpeg",
+                "light":"/static/img/Slideshow/m1L.jpeg",
                 "make":"BMW",
                 "model":"M1",
                 "year":"1981"
@@ -264,7 +264,7 @@
         },
 
         "Mercedes-Benz":{
-            "logo":"static/img/Car Brand Logos/mercedes-benz-logo.png",
+            "logo":"/static/img/Car Brand Logos/mercedes-benz-logo.png",
             "300SL":{
                 "dark":"/",
                 "light":"/",
@@ -273,15 +273,15 @@
                 "year":"1957"
             },
             "540K":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/540KD.jpeg",
+                "light":"/static/img/Slideshow/540KL.jpeg",
                 "make":"Mercedes-Benz",
                 "model":"540K",
                 "year":"1939"
             },
             "CLK GTR":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/clkgtrD.jpeg",
+                "light":"/static/img/Slideshow/clkgtrL.jpeg",
                 "make":"Mercedes-Benz",
                 "model":"CLK GTR",
                 "year":"2002"
@@ -304,17 +304,17 @@
         },
 
         "Porsche":{
-            "logo":"static/img/Car Brand Logos/porsche-logo.png",
+            "logo":"/static/img/Car Brand Logos/porsche-logo.png",
             "356 C":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/356CD.jpeg",
+                "light":"/static/img/Slideshow/356CL.jpeg",
                 "make":"Porsche",
                 "model":"356 C",
                 "year":"1965"
             },
             "918 Spyder":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/Porsche918SpyderD.jpeg",
+                "light":"/static/img/Slideshow/Porsche918SpyderL.jpeg",
                 "make":"Porsche",
                 "model":"918 Spyder",
                 "year":"2013"
@@ -334,8 +334,8 @@
                 "year":"1986"
             },
             "993":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/Porsche993D.avif",
+            "light":"/static/img/Slideshow/Porsche993L.webp",
             "make":"Porsche",
             "model":"993",
             "year":"1995"
@@ -348,8 +348,8 @@
             "year":"2005"
             },
             "GT1":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/gt1D.webp",
+                "light":"/static/img/Slideshow/gt1L.jpeg",
                 "make":"Porsche",
                 "model":"GT1",
                 "year":"1998"
@@ -368,7 +368,7 @@
         },
 
         "Volkswagen":{
-            "logo":"static/img/Car Brand Logos/volkswagen-logo.png",
+            "logo":"/static/img/Car Brand Logos/volkswagen-logo.png",
             "Beetle":{
                 "dark":"/",
                 "light":"/",
@@ -384,8 +384,8 @@
             "year":"2014"
             },
             "Karmann Ghia":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/karmannghiaD.webp",
+                "light":"/static/img/Slideshow/karmannghiaL.jpeg",
                 "make":"Volkswagen",
                 "model":"Karmann Ghia",
                 "year":"1966"
@@ -395,7 +395,7 @@
     
     "Italy":{
         "Alfa Romeo":{
-            "logo":"static/img/Car Brand Logos/alfa-romeo-logo.png",
+            "logo":"/static/img/Car Brand Logos/alfa-romeo-logo.png",
             "33 Stradale":{
                 "dark":"/",
                 "light":"/",
@@ -404,8 +404,8 @@
                 "year":"1967"
             },
             "4C":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/4cD.webp",
+                "light":"/static/img/Slideshow/4cL.avif",
                 "make":"Alfa Romeo",
                 "model":"4C",
                 "year":"2015"
@@ -420,7 +420,7 @@
         },
 
         "Ferarri":{
-            "logo":"static/img/Car Brand Logos/ferrari-logo.png",
+            "logo":"/static/img/Car Brand Logos/ferrari-logo.png",
             "308 GTB":{
             "dark":"/static/img/Slideshow/Ferari308GTBD.jpeg",
             "light":"/static/img/Slideshow/Ferarri308GTBL.jpeg",
@@ -429,15 +429,15 @@
             "year":"1975"
             },
             "360 Modena":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/ModenaD.jpeg",
+                "light":"/static/img/Slideshow/modenaL.jpeg",
                 "make":"Ferarri",
                 "model":"Modena",
                 "year":"2006"
             },
             "Enzo":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/EnzoD.webp",
+                "light":"/static/img/Slideshow/enzoL.jpeg",
                 "make":"Ferarri",
                 "model":"Enzo",
                 "year":"2004"
@@ -450,22 +450,22 @@
                 "year":"1987"
             },
             "F50":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/F50D.jpeg",
+                "light":"/static/img/Slideshow/F50L.jpeg",
                 "make":"Ferarri",
                 "model":"F50",
                 "year":"1997"
             },
             "GTO":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/FerarriGTOD.jpeg",
+                "light":"/static/img/Slideshow/FerarriGTOL.avif",
                 "make":"Ferarri",
                 "model":"GTO",
                 "year":"1962"
             },
             "La Ferarri":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/LaFerarriD.jpeg",
+                "light":"/static/img/Slideshow/LaFerarriL.webp",
                 "make":"Ferarri",
                 "model":"La Ferarri",
                 "year":"2013"
@@ -480,24 +480,24 @@
         },
 
         "Lamborghini":{
-            "logo":"static/img/Car Brand Logos/lamborghini-logo.png",
+            "logo":"/static/img/Car Brand Logos/lamborghini-logo.png",
             "Countach":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/countachD.jpeg",
+                "light":"/static/img/Slideshow/countachL.jpeg",
                 "make":"Lamborghini",
                 "model":"Countach",
                 "year":"1985"
             },
             "Gallardo":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/GallardoD.jpeg",
+                "light":"/static/img/Slideshow/GallardoL.jpeg",
                 "make":"Lamborghini",
                 "model":"Gallardo",
                 "year":"2004"
             },
             "LM002":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/LM002D.jpeg",
+                "light":"/static/img/Slideshow/LM002L.jpeg",
                 "make":"Lamborghini",
                 "model":"LM002",
                 "year":"1987"
@@ -532,8 +532,8 @@
                 "year":"2023"
             },
             "Zonda R Evo":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/PaganiZondaD.jpeg",
+                "light":"/static/img/Slideshow/PaganiZondaL.jpeg",
                 "make":"Pagani",
                 "model":"Zonda R Evo",
                 "year":"2011"
@@ -543,17 +543,17 @@
 
     "Japan":{
         "Acura":{
-            "logo":"static/img/Car Brand Logos/acura-logo.png",
+            "logo":"/static/img/Car Brand Logos/acura-logo.png",
             "Integra":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/AcuraIntegraD.jpeg",
+            "light":"/static/img/Slideshow/AcuraIntegraL.jpeg",
             "make":"Acura",
             "model":"Integra",
             "year":"1997"
             },
             "NSX":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/AcuraNSXD.jpeg",
+            "light":"/static/img/Slideshow/AcuraNSXL.avif",
             "make":"Acura",
             "model":"NSX",
             "year":"1990"
@@ -563,8 +563,8 @@
         "Datsun":{
             "logo":"/",
             "240Z":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/240zD.jpeg",
+                "light":"/static/img/Slideshow/240zL.jpeg",
                 "make":"Datsun",
                 "model":"240Z",
                 "year":"1973"
@@ -572,17 +572,17 @@
         },
 
         "Honda":{
-            "logo":"static/img/Car Brand Logos/honda-logo.png",
+            "logo":"/static/img/Car Brand Logos/honda-logo.png",
             "Civic Hatchback":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/HondaCivicHatchD.jpeg",
+            "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
             "make":"Honda",
             "model":"Civic Hatchback",
             "year":"2017"
             },
             "S2000":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/HondaS2KD.avif",
+            "light":"/static/img/Slideshow/HondaS2KL.jpeg",
             "make":"Honda",
             "model":"S2000",
             "year":"1999"
@@ -590,17 +590,17 @@
         },
 
         "Lexus":{
-            "logo":"static/img/Car Brand Logos/lexus.logo.png",
+            "logo":"/static/img/Car Brand Logos/lexus.logo.png",
             "LFA":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/LFAD.jpeg",
+                "light":"/static/img/Slideshow/LFAL.jpeg",
                 "make":"Lexud",
                 "model":"LFA",
                 "year":"2012"
             },
             "LS 400":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/LexusLS400D.jpeg",
+            "light":"/static/img/Slideshow/LexusLS400L.jpeg",
             "make":"Lexus",
             "model":"LS 400",
             "year":"1989"
@@ -615,10 +615,10 @@
         },
 
         "Mazda":{
-            "logo":"static/img/Car Brand Logos/mazda-logo.png",
+            "logo":"/static/img/Car Brand Logos/mazda-logo.png",
             "Miata MX-5":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/MazdaMX5D.jpeg",
+            "light":"/static/img/Slideshow/MazdaMX5L.jpeg",
             "make":"Mazda",
             "model":"Miata MX-5",
             "year":"1989"
@@ -626,10 +626,10 @@
         },
 
         "Nissan":{
-            "logo":"static/img/Car Brand Logos/nissan-logo.png",
+            "logo":"/static/img/Car Brand Logos/nissan-logo.png",
             "Altima":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/NissanAltimaD.png",
+            "light":"/static/img/Slideshow/NissanAltimaL.jpeg",
             "make":"Nissan",
             "model":"Altima",
             "year":"2017"
@@ -651,7 +651,7 @@
         },
 
         "Subaru":{
-            "logo":"static/img/Car Brand Logos/subaru-logo.png",
+            "logo":"/static/img/Car Brand Logos/subaru-logo.png",
             "WRX":{
             "dark":"/",
             "light":"/",
@@ -662,7 +662,7 @@
         },
 
         "Toyota":{
-            "logo":"toyota-logo.png",
+            "logo":"/static/img/Car Brand Logos/toyota-logo.png",
             "2000GT":{
                 "dark":"/",
                 "light":"/",
@@ -671,8 +671,8 @@
                 "year":"1970"
             },
             "Avalon TRD":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/AvalonD.jpeg",
+                "light":"/static/img/Slideshow/AvalonL.webp",
                 "make":"Toyota",
                 "model":"Avalon TRD",
                 "year":"2021"
@@ -706,8 +706,8 @@
             "year":"1993"
             },
             "Supra MKV":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/2019supraD.jpeg",
+                "light":"/static/img/Slideshow/2019supraL.jpeg",
                 "make":"Toyota",
                 "model":"Supra MKV",
                 "year":"2019"
@@ -717,10 +717,10 @@
 
     "South Korea":{
         "Hyundai":{
-            "logo":"static/img/Car Brand Logos/hyundai-logo.png",
+            "logo":"/static/img/Car Brand Logos/hyundai-logo.png",
             "Genesis":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/HyundaiGenesisD.jpeg",
+                "light":"/static/img/Slideshow/HyundaiGenesisL.jpeg",
                 "make":"Genesis",
                 "model":"Hyundai",
                 "year":"2011"
@@ -730,10 +730,10 @@
 
     "Sweden":{
         "Volvo":{
-            "logo":"static/img/Car Brand Logos/volvo-logo.png",
+            "logo":"/static/img/Car Brand Logos/volvo-logo.png",
             "P1800":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/p1800D.jpeg",
+                "light":"/static/img/Slideshow/p1800L.webp",
                 "make":"Volvo",
                 "model":"P1800",
                 "year":"1962"
@@ -742,11 +742,22 @@
     },
 
     "USA":{
+        "Cadillac":{
+            "logo":"/static/img/Car Brand Logos/cadillac-logo.png",
+            "CTS-V":{
+                "dark":"/static/img/Slideshow/CadillacCTS-VWagonD.jpeg",
+                "light":"/static/img/Slideshow/CadillacCTS-VWagon.avif",
+                "make":"Cadillac",
+                "model":"CTS-V Wagon",
+                "year":"2012"
+
+        }
+        },
         "Chevrolet":{
-            "logo":"static/img/Car Brand Logos/chevrolet-logo.png",
+            "logo":"/static/img/Car Brand Logos/chevrolet-logo.png",
             "Camaro Z28":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/CamaroBerlinettaD.jpeg",
+            "light":"/static/img/Slideshow/CamaroBerlinettaL.jpeg",
             "make":"Cheverolet",
             "model":"Camaro Z28",
             "year":"1981"
@@ -756,8 +767,8 @@
         "Delorean":{
             "logo":"/",
             "DMC-12":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/DeloreanD.jpeg",
+                "light":"/static/img/Slideshow/DeloreanL.jpeg",
                 "make":"DeLorean",
                 "model":"DMC-12",
                 "year":"1981"
@@ -765,10 +776,10 @@
         },
 
         "Dodge":{
-            "logo":"static/img/Car Brand Logos/dodge-logo.png",
+            "logo":"/static/img/Car Brand Logos/dodge-logo.png",
             "Viper":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/DodgeViperD.jpeg",
+            "light":"/static/img/Slideshow/DodgeViperL.jpeg",
             "make":"Dodge",
             "model":"Viper",
             "year":"1992"
@@ -776,17 +787,17 @@
         },
 
         "Ford":{
-            "logo":"static/img/Car Brand Logos/ford-logo.png",
+            "logo":"/static/img/Car Brand Logos/ford-logo.png",
             "F-150 Supercrew":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/FordF-150D.jpeg",
+            "light":"/static/img/Slideshow/FordF-150L.jpeg",
             "make":"Ford",
             "model":"F-150 Supercrew",
             "year":"2001"
             },
             "GT":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/2005FordGTD.jpeg",
+                "light":"/static/img/Slideshow/2005FordGTL.jpeg",
                 "make":"Ford",
                 "model":"GT",
                 "year":"2005"
@@ -799,15 +810,15 @@
                 "year":"1965"
             },
             "Mustang Dark Horse":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/darkhorseD.avif",
+                "light":"/static/img/Slideshow/darkhorseL.jpeg",
                 "make":"Ford",
                 "model":"Mustang Darkhorse",
                 "year":"2024"
             },
             "Mustang Fastback":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/FordMustangFastbackD.webp",
+                "light":"/static/img/Slideshow/FordMustangFastbackL.webp",
                 "make":"Ford",
                 "model":"Mustang Fastback",
                 "year":"1968"
@@ -815,7 +826,7 @@
         },
 
         "Jeep":{
-            "logo":"static/img/Car Brand Logos/jeep-logo.png",
+            "logo":"/static/img/Car Brand Logos/jeep-logo.png",
             "CJ-7":{
             "dark":"/static/img/Slideshow/JeepCJ-7D.jpeg",
             "light":"/static/img/Slideshow/JeepCJ-7L.avif",
@@ -826,10 +837,10 @@
         },
 
         "Lincoln":{
-            "logo":"static/img/Car Brand Logos/lincoln-logo.png",
+            "logo":"/static/img/Car Brand Logos/lincoln-logo.png",
             "Continental":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/1969ContinentalD.jpeg",
+                "light":"/static/img/Slideshow/1969ContinentalL.jpeg",
                 "make":"Lincoln",
                 "model":"Continental",
                 "year":"1969"
@@ -839,8 +850,8 @@
         "Mercury":{
             "logo":"/",
             "Comet":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/cometD.webp",
+                "light":"/static/img/Slideshow/cometL.jpeg",
                 "make":"Mercury",
                 "model":"Comet",
                 "year":"1963"
