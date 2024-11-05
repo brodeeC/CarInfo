@@ -169,8 +169,8 @@
         "Talbot-Lago":{
             "logo":"/",
             "T150 CSS":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/t150cssD.avif",
+                "light":"/static/img/Slideshow/t150cssL.jpeg",
                 "make":"Talbot-Lago",
                 "model":"T150 CSS",
                 "year":"1939"
@@ -209,8 +209,8 @@
                 "year":"1983"
             },
             "R8":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/R8D.jpeg",
+                "light":"/static/img/Slideshow/R8L.avif",
                 "make":"Audi",
                 "model":"R8",
                 "year":"2013"
@@ -341,8 +341,8 @@
             "year":"1995"
             },
             "Cayman":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/PorscheCaymanD.jpeg ",
+            "light":"/static/img/Slideshow/PorscheCaymanL.jpeg",
             "make":"Porsche",
             "model":"Cayman",
             "year":"2005"
@@ -370,15 +370,15 @@
         "Volkswagen":{
             "logo":"/static/img/Car Brand Logos/volkswagen-logo.png",
             "Beetle":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/VWBeetleD.jpeg",
+                "light":"/static/img/Slideshow/VWBeelteL.jpeg",
                 "make":"Volkswagen",
                 "model":"Beetle",
                 "year":"1966"
             },
             "CC Executive":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/VWCCD.webp",
+            "light":"/static/img/Slideshow/VWCCL.webp",
             "make":"Volkswagen",
             "model":"CC Executive",
             "year":"2014"
@@ -411,8 +411,8 @@
                 "year":"2015"
             },
             "Spider":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/spiderD.jpeg",
+                "light":"/static/img/Slideshow/spiderL.jpeg",
                 "make":"Alfa Romeo",
                 "model":"Spider",
                 "year":"1961"
@@ -471,8 +471,8 @@
                 "year":"2013"
             },
             "Testarossa":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/testarossaD.jpeg",
+                "light":"/static/img/Slideshow/testarossaL.jpeg",
                 "make":"Ferarri",
                 "model":"Testarossa",
                 "year":"1990"
@@ -514,8 +514,8 @@
         "Lancia":{
             "logo":"/",
             "Rally 037":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/Rally037D.jpeg",
+                "light":"/static/img/Slideshow/Rally037L.jpeg",
                 "make":"Lancia",
                 "model":"Rally 037",
                 "year":"1982"
@@ -525,8 +525,8 @@
         "Pagani":{
             "logo":"/",
             "Utopia":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/UtopiaD.jpeg",
+                "light":"/static/img/Slideshow/UtopiaL.jpeg",
                 "make":"Pagani",
                 "model":"Utopia",
                 "year":"2023"
@@ -606,8 +606,8 @@
             "year":"1989"
             },
             "RX 300":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/RX300D.jpeg",
+            "light":"/static/img/Slideshow/RX300L.avif",
             "make":"Lexus",
             "model":"RX 300",
             "year":"2001"
@@ -635,15 +635,15 @@
             "year":"2017"
             },
             "R32 GTR":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/r32D.jpeg",
+                "light":"/static/img/Slideshow/r32L.jpeg",
                 "make":"Nissan",
                 "model":"R32 GTR",
                 "year":"1993"
             },
             "R34 GTR":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/r34D.jpeg",
+                "light":"/static/img/Slideshow/r34L.jpeg",
                 "make":"Nissan",
                 "model":"R34 GTR",
                 "year":"1999"
@@ -653,8 +653,8 @@
         "Subaru":{
             "logo":"/static/img/Car Brand Logos/subaru-logo.png",
             "WRX":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/SubaruWRXD.jpeg",
+            "light":"/static/img/Slideshow/SubaruWRXL.jpeg",
             "make":"Subaru",
             "model":"WRX",
             "year":"2002"
@@ -678,22 +678,22 @@
                 "year":"2021"
             },
             "Century":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/ToyotaCenturyD.jpeg",
+                "light":"/static/img/Slideshow/ToyotaCenturyL.webp",
                 "make":"Toyota",
                 "model":"Century",
                 "year":"1997"
             },
             "Highlander":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/ToyotaHighlanderD.webp",
+            "light":"/static/img/Slideshow/ToyotaHighlanderL.jpeg",
             "make":"Toyota",
             "model":"Highlander",
             "year":"2016"
             },
             "Prius":{
-            "dark":"/",
-            "light":"/",
+            "dark":"/static/img/Slideshow/ToyotaPriusD.webp",
+            "light":"/static/img/Slideshow/ToyotaPriusL.avif",
             "make":"Toyota",
             "model":"Prius",
             "year":"2004"
