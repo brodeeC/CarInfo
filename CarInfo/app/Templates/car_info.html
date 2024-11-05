@@ -40,7 +40,7 @@
 
     <h1>{{ brand }} Cars in {{ country | capitalize }}</h1>
 
-    <img> src = "{{ logo }}" alt="{{ brand }}" </img>
+    <img src = "{{ logo }}" alt="{{ brand }}"> </img>
 
     <h2>Car Details</h2>
 
@@ -48,8 +48,10 @@
        
         {% for car in selected_cars %}
         
-
-            {{ car | capitalize }} 
+            <div>
+                <img src="" alt=""></img>
+                <strong> {{ car }} </strong>
+            </div>
         
         {% endfor %}
 
