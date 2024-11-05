@@ -38,23 +38,24 @@ app.config['CAR_DATA'] = load_car_data()
 def car_info(country, brand):
   
     # Access car data from Flask config
-    car_data = app.config['CAR_DATA']  
-    
-    # Check if keys exist
+    car_data = app.config['CAR_DATA']
+
+    # Check if the country exists in car data
     if country in car_data:
+        # Check if the brand exists in the specified country
         if brand in car_data[country]:
             selected_cars = car_data[country][brand]
-            selected_cars.pop('logo')
+            selected_cars.pop('logo')  # Remove 'logo' key if not needed in the template
 
-            return render_template("car_info.html", jsonify(selected_cars))
-        
+            # Pass `selected_cars` directly to the template as a named argument
+            return render_template("car_info.html", selected_cars=selected_cars)
+
         else:
-            print("Country not found")
+            print("Brand not found in specified country")
+            return "Brand not found in the specified country", 404
     else:
-            print("Brand not found")
-    
-    return "Car not found", 404
-
+        print("Country not found in car data")
+        return "Country not found in car data", 404
 
 
 
