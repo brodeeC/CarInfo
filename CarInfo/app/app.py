@@ -45,9 +45,9 @@ def car_info(country, brand):
         # Check if the brand exists in the specified country
         if brand in car_data[country]:
             selected_cars = car_data[country][brand]
-            selected_cars.pop('logo')
+            logo = selected_cars.pop('logo')
 
-            return render_template("car_info.html", jsonify(selected_cars))
+            return render_template("car_info.html", jsonify(selected_cars), logo)
 
         else:
             print("Brand not found in specified country")
