@@ -33,6 +33,10 @@
       font-family: "Roboto", sans-serif;
       font-size: 150%;
     }
+
+    h3 {
+      font-family: "Roboto", sans-serif;
+    }
 }
 
 /*Make About Us section into columns when screen is greater than 1200px*/

@@ -8,46 +8,30 @@
 
 <h1>{{ car_name }}</h1>
 
-<div class="car-image"> 
+<!-- <div class="car-image"> 
     <img src="{{ car_image_url }}" alt="{{ car_name }} image">
-</div>
+</div> -->
 
-<h2>Car Details</h2>
 
-<body onload="parseCarData();">
 
-    <script>
-        // JavaScript function to parse and display car data
-        function parseCarData() {
-            const carData = "{{ selected_cars }}";
-            const carDetailsDiv = document.getElementById("car-details");
-            let detailsHtml = "";
+<body class="car_info">
+
+    <h1>{{ brand }} Cars in {{ country | capitalize }}</h1>
     
-            // Iterate over carData, grab each 'car' and build <p>'s with info. 
-            //Make the image of the car a button, we'll likely want implementation for either another
-            // template or to redirect to the car's website
-
-            // Iterate through car data and build HTML for each detail
-            for (const [key, value] of Object.entries(data)) {
-                detailsHtml += `<div><strong>${key.charAt(0).toUpperCase() + key.slice(1)}:</strong> ${value}</div>`;
-            }
-    
-            // Insert details HTML into the carDetails div
-            carDetailsDiv.innerHTML = detailsHtml;
-        }
-    </script>
-
-    <div class="car-details" id="car-details">
-        <div class="car-detail" id="model"><strong>Model:</strong></div>
-        <div class="car-detail" id="make"><strong>Make:</strong></div>
-        <div class="car-detail" id="year"><strong>Year:</strong></div>
-
-        <!-- Uncomment the following lines to display additional details -->
-        <!-- <div class="car-detail"><strong>Engine:</strong> {{ car_engine }}</div> -->
-        <!-- <div class="car-detail"><strong>Horsepower:</strong> {{ car_horsepower }} HP</div> -->
-        <!-- <div class="car-detail"><strong>Fuel Type:</strong> {{ car_fuel_type }}</div> -->
-        <!-- <div class="car-detail"><strong>Price:</strong> ${{ car_price }}</div> -->
+    <!--Look at the slideshow code to see how to implement the way to -->
+    <div>
+        <img src = "{{ logo }}" alt="{{ brand }}"> </img>
     </div>
+       
+        {% for car in selected_cars %}
+        
+            <div>
+                <img src="{{dark}}" alt="{{brand}}"></img>
+                <p><strong> {{ car }} </strong></p>
+            </div>
+        
+        {% endfor %}
+
 
 </body>
 
