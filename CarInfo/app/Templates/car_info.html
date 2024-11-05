@@ -8,14 +8,15 @@
 
 <h1>{{ car_name }}</h1>
 
-<div class="car-image"> 
+<!-- <div class="car-image"> 
     <img src="{{ car_image_url }}" alt="{{ car_name }} image">
-</div>
+</div> -->
 
-<h2>Car Details</h2>
 
-<body onload="parseCarData();">
 
+<body>
+<!--onload= "parseCarData()"-->
+<!-- 
     <script>
         // JavaScript function to parse and display car data
         function parseCarData() {
@@ -35,9 +36,29 @@
             // Insert details HTML into the carDetails div
             carDetailsDiv.innerHTML = detailsHtml;
         }
-    </script>
+    </script> -->
+
+    <h1>{{ brand | capitalize }} Cars in {{ country | capitalize }}</h1>
+
+    <img> src = " {{ logo }}" src="{{ brand }}" </img>
+
+    <h2>Car Details</h2>
+
+    <ul>
+       
+        {% for key, value in selected_cars.items() %}
+
+            <li> <strong>{{ key | capitalize }}:</strong> {{ value }} </li>
+        
+        {% endfor %}
+
+    </ul>
 
     <div class="car-details" id="car-details">
+
+    
+        
+
         <div class="car-detail" id="model"><strong>Model:</strong></div>
         <div class="car-detail" id="make"><strong>Make:</strong></div>
         <div class="car-detail" id="year"><strong>Year:</strong></div>
