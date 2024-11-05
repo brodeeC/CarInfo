@@ -47,7 +47,7 @@ def car_info(country, brand):
             selected_cars = car_data[country][brand]
             logo = selected_cars.pop('logo')
 
-            return render_template("car_info.html", jsonify(selected_cars), logo)
+            return render_template("car_info.html", selected_cars = jsonify(selected_cars), logo = logo), 200
 
         else:
             print("Brand not found in specified country")

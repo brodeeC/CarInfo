@@ -22,16 +22,18 @@ def test_some_route(client):
     assert response.status_code == 200
 
 
-with open("../app/cars.JSON") as file:
-    cars = json.load(file)
 
-data = [(country, brand) for country in cars for brand in cars[country]]
+#@pytest.mark.parametrize("country", "brand", data)
+def test_brand_template(client):
+    with open("cars.JSON") as json_file:
+        cars = json.load(json_file)
 
-@pytest.mark.parametrize("country", "brand", data)
-def test_brand_template(client, country, brand):
-    url = f"/cars/{country}/{brand}"
+        for country in cars.keys(): 
+            for brand in cars[country].keys():
 
-    response = client.get(url)
+                url = f"/cars/{country}/{brand}"
 
-    assert response.status_code == 200, f"failed for {country} - {brand}"
+                response = client.get(url)
+
+                assert response.status_code == 200, f"failed for {country} - {brand}"
 
