@@ -11,6 +11,7 @@
 <!-- <div class="car-image"> 
     <img src="{{ car_image_url }}" alt="{{ car_name }} image">
 </div> -->
+<!--May need to do the double brackets with the two percent signs to access the JSON further research is required.-->
 
 
 
@@ -29,7 +30,7 @@
         {% for car in selected_cars %}
         
             <div>
-                <!--May need to do {{%  %}} to access the JSON further research is required.-->
+                
                 <img src= "{{ car.dark }}" alt="{{brand}}"></img>
                 <p><strong> {{ car }} </strong></p>
             </div>
