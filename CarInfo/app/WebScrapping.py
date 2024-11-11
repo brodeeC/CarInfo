@@ -1,15 +1,16 @@
 import requests, csv
+from json import load
 from bs4 import BeautifulSoup
 
-def get_match_game_airings(schedule_date):
+def get_match_game_airings():
     
     mg_eps_and_times = []
-    r = requests.get('https://www.gameshownetwork.com/schedule'
-                    .format(schedule_date))
+    r = requests.get('https://www.gameshownetwork.com/schedule')
 
     soup = BeautifulSoup(r.text, 'html.parser')
 
-    schedule_items = soup.find('script', src ="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+    schedule_items = soup.find_all('script')[3]
+    schedule_items = schedule_items['siteSettings.schedule'].load()
 
     if not schedule_items:
         return[]
@@ -30,4 +31,11 @@ def get_match_game_airings(schedule_date):
         writer = csv.DictWriter(csvfile, fieldnames=filednames)
         writer.writeheader()
         writer.writerows(mg_eps_and_times)
+
+def main():
+    get_match_game_airings()
+
+
+if __name__ == "__main__":
+    main()
 
