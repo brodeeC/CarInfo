@@ -46,6 +46,7 @@ def car_info(country, brand):
         if brand in car_data[country]:
             selected_cars = car_data[country][brand]
             logo = selected_cars.pop('logo')
+            print(logo)
 
             return render_template("car_info.html", selected_cars = selected_cars, logo = logo,
                                    brand = brand, country = country), 200

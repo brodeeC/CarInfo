@@ -29,9 +29,9 @@
        
         {% for car in selected_cars %}
         
-            <div>
+            <div onload='addImage("{{ car|tojson }}")'>
                 
-                <img src= "{{ car.dark }}" alt="{{brand}}"></img>
+                <img id = "{{ car.model }}" alt="{{brand}}"></img>
                 <p><strong> {{ car }} </strong></p>
             </div>
         
@@ -39,6 +39,23 @@
 
 
 </body>
+
+<script>
+    function addImage(car){
+        let img = document.getElementById(car.model);
+        imgLink = imageMode(car);
+        img.setAttribute('src', imgLink);
+    }
+
+    function imageMode(car){
+        //if dark mode
+        //found on https://stackoverflow.com/questions/56393880/how-do-i-detect-dark-mode-using-javascript
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return car.dark;
+        }
+        else{return car.light};
+        }
+</script>
 
 
 {% endblock %}
