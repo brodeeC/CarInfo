@@ -1,6 +1,7 @@
 import json
 from flask import Flask, jsonify, render_template # type: ignore
 from flask_cors import CORS # type: ignore
+import darkdetect
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -49,8 +50,13 @@ def car_info(country, brand):
             print(logo)
             data = load_car_data()
 
+            is_dark_mode = darkdetect.isDark()
+
+            if is_dark_mode: mode = "dark"
+            else: mode = "light"
+
             return render_template("car_info.html", selected_cars = selected_cars, logo = logo,
-                                   brand = brand, country = country), 200
+                                   brand = brand, country = country, mode = mode), 200
 
         else:
             print("Brand not found in specified country")
