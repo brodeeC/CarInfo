@@ -14,7 +14,7 @@
 
 
 {% block bodytag %}
-<body class="car_info">
+<body class="car_info" onload='addImages("{{ selected_cars }}")'>
 {% endblock %}
 
 {% block content %} 
@@ -28,41 +28,30 @@
             <div class="image-center">
                 <img src = "{{ logo }}" alt="{{ brand }}"> </img>
             </div>
+            <div id = carHolder>
+
+            </div>
             {% for car in selected_cars %}
+            {% set selected_car = selected_cars[car] %}
+
+            {% if mode == "dark" %}
+            {% set imgLink = selected_car.dark %}
+
+            {% else %}
+            {% set imgLink = selected_car.light %}
+
+            {% endif %}
             
-                <div onload='addImage("{{ car, selected_cars }}")'>
+                <div>
                     
-                    <img id = "{{ car }}" alt="{{brand}}"></img>
-                    <p><strong> {{ car }} </strong></p>
+                    <img src="{{ imgLink }}" class="carslide" alt="{{brand}}">
+                    <p class="HeadText"><strong> {{ car }} </strong></p>
                 </div>
             
             {% endfor %}
     </div>
 
 </body>
-
-
-
-<script>
-    
-    function addImage(car, data){
-        let currCar = data.car;
-        let img = document.getElementById(car);
-        imgLink = imageMode(currCar);
-        img.setAttribute('src', imgLink);
-    }
-
-    function imageMode(car){
-        //if dark mode
-        //found on https://stackoverflow.com/questions/56393880/how-do-i-detect-dark-mode-using-javascript
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            return car.dark;
-        }
-        else{return car.light};
-        }
-
-</script>
-
 
 {% endblock %}
 
