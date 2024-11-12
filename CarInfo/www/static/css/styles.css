@@ -304,3 +304,8 @@ color: #000;
       color: #fff;
   }
 }
+
+.center-content{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}

@@ -18,27 +18,26 @@
 {% endblock %}
 
 {% block content %} 
-
-    <h1>{{ brand }} Cars in {{ country | capitalize }}</h1>
-    
-
-    <h2>Car Details</h2>
-
-    <!--Look at the slideshow code to see how to implement the way to -->
-    <div>
-        <img src = "{{ logo }}" alt="{{ brand }}"> </img>
-    </div>
-       
-        {% for car in selected_cars %}
+    <div class="center-content">
+        <h1>{{ brand }} Cars in {{ country | capitalize }}</h1>
         
-            <div onload='addImage("{{ car|tojson }}")'>
-                
-                <img id = "img-{{ car.model }}" alt="{{brand}}"></img>
-                <p><strong> {{ car }} </strong></p>
+
+        <h2>Car Details</h2>
+
+        <!--Look at the slideshow code to see how to implement the way to -->
+            <div class="image-center">
+                <img src = "{{ logo }}" alt="{{ brand }}"> </img>
             </div>
-        
-        {% endfor %}
-
+            {% for car in selected_cars %}
+            
+                <div onload='addImage("{{ car|tojson }}")'>
+                    
+                    <img id = "img-{{ car.model }}" alt="{{brand}}"></img>
+                    <p><strong> {{ car }} </strong></p>
+                </div>
+            
+            {% endfor %}
+    </div>
 
 </body>
 
