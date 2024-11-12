@@ -30,9 +30,9 @@
             </div>
             {% for car in selected_cars %}
             
-                <div onload='addImage("{{ car|tojson }}")'>
+                <div onload='addImage("{{ car, selected_cars }}")'>
                     
-                    <img id = "img-{{ car.model }}" alt="{{brand}}"></img>
+                    <img id = "{{ car }}" alt="{{brand}}"></img>
                     <p><strong> {{ car }} </strong></p>
                 </div>
             
@@ -45,9 +45,10 @@
 
 <script>
     
-    function addImage(car){
-        let img = document.getElementById(`img-${car.model}`);
-        imgLink = imageMode(car);
+    function addImage(car, data){
+        let currCar = data.car;
+        let img = document.getElementById(car);
+        imgLink = imageMode(currCar);
         img.setAttribute('src', imgLink);
     }
 
