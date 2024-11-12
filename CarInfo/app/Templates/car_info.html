@@ -40,9 +40,12 @@
 
 </body>
 
+
+
 <script>
+    
     function addImage(car){
-        let img = document.getElementById(car.model);
+        let img = document.getElementById(`img-${car.model}`);
         imgLink = imageMode(car);
         img.setAttribute('src', imgLink);
     }
@@ -55,6 +58,7 @@
         }
         else{return car.light};
         }
+
 </script>
 
 
