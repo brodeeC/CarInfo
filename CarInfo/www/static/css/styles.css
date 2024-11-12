@@ -297,3 +297,10 @@ color: #000;
 #dropdown{
   font-family: "Roboto", sans-serif;
 }
+
+@media (prefers-color-scheme: dark) {
+  .car_info {
+      background-color: #212020;
+      color: #fff;
+  }
+}

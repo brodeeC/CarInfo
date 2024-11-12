@@ -15,8 +15,10 @@
 
     </head>
 
-    
+    {% block bodytag %}
     <body class = color-mode>
+    {% endblock %}
+    
         <script type="text/javascript" src="{{ url_for ('static', filename = 'js/functions.js')}}"></script>
 
 
