@@ -298,6 +298,7 @@ color: #000;
   font-family: "Roboto", sans-serif;
 }
 
+/*Dark mode for car_info template*/
 @media (prefers-color-scheme: dark) {
   .car_info {
       background-color: #212020;
@@ -305,7 +306,14 @@ color: #000;
   }
 }
 
+/*Centers brand pages*/
 .center-content{
   font-family: "Roboto", sans-serif;
   text-align: center;
+}
+
+/*Makes all homepage images the same size*/
+#resize img{
+  width: 1000px;
+  height: 680px;
 }
