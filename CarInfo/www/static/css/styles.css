@@ -326,6 +326,20 @@ color: #000;
 }
 
 .image-center img{
-  width: 220px;
-  height: 150px;
+  width: 147px;
+  height: 100px;
+}
+
+@media (max-width: 600px) {
+  .center-content img {
+    width: 100%;
+    height: auto; 
+  }
+}
+
+@media (max-width: 600px) {
+  .image-center img {
+    width: 45%;
+    height: auto; 
+  }
 }
