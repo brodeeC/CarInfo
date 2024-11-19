@@ -1,3 +1,4 @@
+import csv
 import json
 from urllib import request
 from flask import Flask, jsonify, render_template # type: ignore
@@ -68,6 +69,8 @@ def contact_us():
     country = request.form.get("country")
     subject = request.form.get("subject")
 
-    row = [fname, lname, country, subject  ]
+    row = [fname, lname, country, subject]
 
-    contact.append(row)
+    with open('contact.csv', 'a', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(row)
