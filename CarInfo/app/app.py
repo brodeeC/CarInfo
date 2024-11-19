@@ -3,7 +3,7 @@ import json
 from urllib import request
 from flask import Flask, jsonify, render_template # type: ignore
 from flask_cors import CORS # type: ignore
-import darkdetect
+import darkdetect # type: ignore
 
 app = Flask(__name__)
 cors = CORS(app)
