@@ -10,15 +10,15 @@
             "year":"1964"
             },
             "DB9":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/DB9D.jpeg",
+                "light":"/static/img/Slideshow/DB9L.jpeg",
                 "make":"Aston Martin",
                 "model":"DB9",
                 "year":"2020"
             },
             "One-77":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/One-77D.jpeg",
+                "light":"/static/img/Slideshow/One-77L.jpeg",
                 "make":"Aston Martin",
                 "model":"One-77",
                 "year":"2012"
@@ -26,7 +26,7 @@
         },
 
         "Austin-Healey":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/Austin-HealeyLogo.png",
             "3000 MKII":{
                 "dark":"/static/img/Slideshow/3000markIID.webp",
                 "light":"/static/img/Slideshow/3000markIIL.jpeg",
@@ -57,22 +57,22 @@
                 "year":"1961"
             },
             "XJ220":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/XJ220D.jpeg",
+                "light":"/static/img/Slideshow/XJ220L.webp",
                 "make":"Jaguar",
                 "model":"XJ220",
                 "year":"1992"
             },
             "XK120":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/XK120D.jpeg",
+                "light":"/static/img/Slideshow/XK120L.webp",
                 "make":"Jaguar",
                 "model":"XK120",
                 "year":"1952"
             },
             "XKSS":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/XKSSD.jpeg",
+                "light":"/static/img/Slideshow/XKSSL.webp",
                 "make":"Jaguar",
                 "model":"XKSS",
                 "year":"1957"
@@ -109,7 +109,7 @@
         },
 
         "McLaren":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/mclarenLogo.jpeg",
             "F1":{
                 "dark":"/static/img/Slideshow/McLarenF1D.jpeg",
                 "light":"/static/img/Slideshow/McLarenF1L.jpeg",
@@ -118,8 +118,8 @@
                 "year":"1992"
             },
             "P1":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/p1D.jpeg",
+                "light":"/static/img/Slideshow/P1L.jpeg",
                 "make":"McLaren",
                 "model":"P1",
                 "year":"2014"
@@ -134,10 +134,10 @@
         },
 
         "MG":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/MGLogo.png",
             "MGA":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/MGAD.jpeg",
+                "light":"/static/img/Slideshow/MGAL.jpeg",
                 "make":"MG",
                 "model":"MGA",
                 "year":"1960"
@@ -145,7 +145,7 @@
         },
 
         "Noble":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/NobleLogo.png",
             "M12 GTO":{
                 "dark":"/static/img/Slideshow/NobleM12GTOD.jpeg",
                 "light":"/static/img/Slideshow/NobleM12GTOL.jpeg",
@@ -167,7 +167,7 @@
         },
 
         "Talbot-Lago":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/Talbot Lago Logo.png",
             "T150 CSS":{
                 "dark":"/static/img/Slideshow/t150cssD.avif",
                 "light":"/static/img/Slideshow/t150cssL.jpeg",
@@ -357,7 +357,7 @@
         },
 
         "RUF":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/RUF-logo.png",
             "CTR Yellow Bird":{
                 "dark":"/",
                 "light":"/",
@@ -397,8 +397,8 @@
         "Alfa Romeo":{
             "logo":"/static/img/Car Brand Logos/alfa-romeo-logo.png",
             "33 Stradale":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/33stradaleD.avif",
+                "light":"/static/img/Slideshow/33stradaleL.jpeg",
                 "make":"Alfa Romeo",
                 "model":"33 Stradale",
                 "year":"1967"
@@ -503,8 +503,8 @@
                 "year":"1987"
             },
             "Miura":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/MiuraD.jpeg",
+                "light":"/static/img/Slideshow/MiuraL.jpeg",
                 "make":"Lamborghini",
                 "model":"Miura",
                 "year":"1966"
@@ -512,7 +512,7 @@
         },
 
         "Lancia":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/LanciaLogo.webp",
             "Rally 037":{
                 "dark":"/static/img/Slideshow/Rally037D.jpeg",
                 "light":"/static/img/Slideshow/Rally037L.jpeg",
@@ -523,7 +523,7 @@
         },
 
         "Pagani":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/Pagani Logo.png",
             "Utopia":{
                 "dark":"/static/img/Slideshow/UtopiaD.jpeg",
                 "light":"/static/img/Slideshow/UtopiaL.jpeg",
@@ -561,7 +561,7 @@
         },
 
         "Datsun":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/Datsun Logo.png",
             "240Z":{
                 "dark":"/static/img/Slideshow/240zD.jpeg",
                 "light":"/static/img/Slideshow/240zL.jpeg",
@@ -664,8 +664,8 @@
         "Toyota":{
             "logo":"/static/img/Car Brand Logos/toyota-logo.png",
             "2000GT":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/2000GTD.jpeg",
+                "light":"/static/img/Slideshow/2000GTL.jpeg",
                 "make":"Toyota",
                 "model":"2000GT",
                 "year":"1970"
@@ -765,7 +765,7 @@
         },
 
         "Delorean":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/DMCLogo.webp",
             "DMC-12":{
                 "dark":"/static/img/Slideshow/DeloreanD.jpeg",
                 "light":"/static/img/Slideshow/DeloreanL.jpeg",
@@ -803,8 +803,8 @@
                 "year":"2005"
             },
             "GT40":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/GT40D.jpeg",
+                "light":"/static/img/Slideshow/GT40L.jpeg",
                 "make":"Ford",
                 "model":"GT40",
                 "year":"1965"
@@ -848,7 +848,7 @@
         },
 
         "Mercury":{
-            "logo":"/",
+            "logo":"/static/img/Car Brand Logos/MercuryLogo.png",
             "Comet":{
                 "dark":"/static/img/Slideshow/cometD.webp",
                 "light":"/static/img/Slideshow/cometL.jpeg",
