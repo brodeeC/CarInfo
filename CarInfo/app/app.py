@@ -1,7 +1,6 @@
 import csv
 import json
-from urllib import request
-from flask import Flask, jsonify, render_template # type: ignore
+from flask import Flask, jsonify, render_template, request # type: ignore
 from flask_cors import CORS # type: ignore
 import darkdetect # type: ignore
 
@@ -72,7 +71,7 @@ def contact_us():
 
         row = [fname, lname, country, subject]
 
-        with open('CarInfo/app/contact.csv', 'a', newline='') as csvfile:
+        with open('CSV/contact.csv', 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(row)
     
