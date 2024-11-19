@@ -64,13 +64,18 @@ def car_info(country, brand):
 ##Some of code sourced from class slides.
 @app.route('/contact', methods =['POST'])
 def contact_us():
-    fname = request.form.get("fname")
-    lname = request.form.get("lname")
-    country = request.form.get("country")
-    subject = request.form.get("subject")
+    try:
+        fname = request.form.get("fname")
+        lname = request.form.get("lname")
+        country = request.form.get("country")
+        subject = request.form.get("subject")
 
-    row = [fname, lname, country, subject]
+        row = [fname, lname, country, subject]
 
-    with open('contact.csv', 'a', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(row)
+        with open('CarInfo/app/contact.csv', 'a', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(row)
+    
+        return "Form submitted successfully!"
+    except Exception as e:
+        return f"An error occurred: {e}", 500
