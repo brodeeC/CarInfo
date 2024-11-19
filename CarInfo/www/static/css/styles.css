@@ -318,7 +318,7 @@ color: #000;
   height: 680px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   #resize img {
     width: 100%;
     height: auto; 
