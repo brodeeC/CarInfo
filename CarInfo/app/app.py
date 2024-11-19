@@ -1,4 +1,5 @@
 import json
+from urllib import request
 from flask import Flask, jsonify, render_template # type: ignore
 from flask_cors import CORS # type: ignore
 import darkdetect
@@ -58,3 +59,15 @@ def car_info(country, brand):
     else:
         print("Country not found in car data")
         return "Country not found in car data", 404
+    
+##Some of code sourced from class slides.
+@app.route('/contact', methods =['POST'])
+def contact_us():
+    fname = request.form.get("fname")
+    lname = request.form.get("lname")
+    country = request.form.get("country")
+    subject = request.form.get("subject")
+
+    row = [fname, lname, country, subject  ]
+
+    contact.append(row)
