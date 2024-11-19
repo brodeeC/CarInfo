@@ -25,13 +25,13 @@ def test_some_route(client):
 
 #@pytest.mark.parametrize("country", "brand", data)
 def test_brand_template(client):
-    with open("cars.JSON") as json_file:
+    with open("JSON/cars.JSON") as json_file:
         cars = json.load(json_file)
 
         for country in cars.keys(): 
             for brand in cars[country].keys():
 
-                url = f"/cars/{country}/{brand}"
+                url = f"/car/{country}/{brand}"
 
                 response = client.get(url)
 
