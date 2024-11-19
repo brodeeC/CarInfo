@@ -317,3 +317,15 @@ color: #000;
   width: 1000px;
   height: 680px;
 }
+
+.center-content img{
+  width: 588px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-center img{
+  width: 220px;
+  height: 150px;
+}
