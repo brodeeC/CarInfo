@@ -77,5 +77,6 @@ def contact_us():
             writer.writerow(row)
     
         return "Form submitted successfully!"
+    
     except Exception as e:
         return f"An error occurred: {e}", 500
