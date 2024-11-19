@@ -318,6 +318,13 @@ color: #000;
   height: 680px;
 }
 
+@media (max-width: 1000px) {
+  #resize img {
+    width: 100%;
+    height: auto; 
+  }
+}
+
 .center-content img{
   width: 588px;
   height: 400px;
