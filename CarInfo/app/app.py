@@ -1,6 +1,6 @@
 import csv
 import json
-from flask import Flask, jsonify, render_template, request # type: ignore
+from flask import Flask, jsonify, render_template, request, redirect # type: ignore
 from flask_cors import CORS # type: ignore
 import darkdetect # type: ignore
 
@@ -75,7 +75,8 @@ def contact_us():
             writer = csv.writer(csvfile)
             writer.writerow(row)
     
-        return "Form submitted successfully!"
+        # Redirect to the thank-you static HTML file
+        return render_template('formsubmission.html')
     
     except Exception as e:
         return f"An error occurred: {e}", 500
