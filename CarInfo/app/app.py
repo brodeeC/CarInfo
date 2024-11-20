@@ -75,7 +75,7 @@ def contact_us():
             writer = csv.writer(csvfile)
             writer.writerow(row)
     
-        # Redirect to the thank-you static HTML file
+        # Redirect to the formsubmission.html template to show the form was submitted successfully.
         return render_template('formsubmission.html')
     
     except Exception as e:
