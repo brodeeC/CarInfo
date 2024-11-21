@@ -20,6 +20,10 @@ def cars():
 def brands(brand):
     return render_template("brands.html", brand = brand)
 
+#Custom 404 page not found
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 # Load JSON data once at app startup
 def load_car_data():
@@ -80,3 +84,4 @@ def contact_us():
     
     except Exception as e:
         return f"An error occurred: {e}", 500
+
