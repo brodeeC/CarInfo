@@ -8,14 +8,6 @@ app = Flask(__name__)
 cors = CORS(app)
 
 
-#Custom 404 page not found
-@app.errorhandler(404)
-def page_not_found(e):
-    return render_template('404.html'), 404
-
-       
-  
-
 @app.route("/cars")
 def cars():
     with open("JSON/cars.JSON") as file:
@@ -87,6 +79,12 @@ def contact_us():
     
     except Exception as e:
         return f"An error occurred: {e}", 500
+
+
+#Custom 404 page not found
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 
 #To ensure that my custom 404 page is ran and not flask's detailed page
