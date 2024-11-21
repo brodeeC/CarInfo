@@ -8,6 +8,10 @@ app = Flask(__name__)
 cors = CORS(app)
 
 
+#Custom 404 page not found
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 @app.route("/cars")
 def cars():
@@ -20,10 +24,6 @@ def cars():
 def brands(brand):
     return render_template("brands.html", brand = brand)
 
-#Custom 404 page not found
-@app.errorhandler(404)
-def page_not_found(e):
-    return render_template('404.html'), 404
 
 # Load JSON data once at app startup
 def load_car_data():
