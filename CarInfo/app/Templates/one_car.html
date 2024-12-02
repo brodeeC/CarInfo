@@ -2,9 +2,11 @@
 
 {% extends "base.html" %}
 
-{% block title %}{% endblock %}
+{% block headContent %}
 
-<h1>{{ car }}</h1>
+<title>Car Info - {{ car }}</title>
+
+{% endblock %}
 
 
 {% block bodytag %}
@@ -12,11 +14,10 @@
 {% endblock %}
 
 {% block content %} 
+    <h2>{{ country }} - {{ brand }}</h2>
+    <h3>{{ car }} - {{ year }}</h3>
    <div>
     <img src="{{ imgLink }}" class="carslide">
-    <p>
-        
-    </p>
    </div>
 
 </body>

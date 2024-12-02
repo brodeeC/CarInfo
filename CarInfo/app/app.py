@@ -41,8 +41,6 @@ def car_info(country, brand):
         if brand in car_data[country]:
             selected_cars = car_data[country][brand]
             logo = selected_cars.pop('logo')
-            print(logo)
-            data = load_car_data()
 
             is_dark_mode = darkdetect.isDark()
 
@@ -93,7 +91,6 @@ def one_car(country, brand, car):
             
             if car in car_data[country][brand]:
                 single_car = car_data[country][brand][car]
-                print(single_car)
 
                 is_dark_mode = darkdetect.isDark()
 
