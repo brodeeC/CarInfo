@@ -41,17 +41,21 @@
             {% set imgLink = selected_car.light %}
 
             {% endif %}
-            
-                <div>
-                    
+
+            {% set url = '/' + country + '/' + brand + '/' + car %}
+
+            <div>
+                <a 
+                    href="{{ url }}">
                     <img src="{{ imgLink }}" class="carslide" alt="{{brand}}">
-                    <p class="HeadText"><strong> {{ car }} </strong></p>
-                </div>
+                </a>
+                <p class="HeadText"><strong> {{ car }} </strong></p>
+            </div>
             
             {% endfor %}
-    </div>
+        </div>
 
-</body>
+    </body>
 
 {% endblock %}
 

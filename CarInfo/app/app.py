@@ -79,6 +79,39 @@ def contact_us():
     
     except Exception as e:
         return f"An error occurred: {e}", 500
+    
+
+@app.route('/<country>/<brand>/<car>')
+def one_car(country, brand, car):
+    # Access car data from Flask config
+    car_data = app.config['CAR_DATA']
+
+    # Check if the country exists in car data
+    if country in car_data:
+        # Check if the brand exists in the specified country
+        if brand in car_data[country]:
+            
+            if car in car_data[country][brand]:
+                single_car = car_data[country][brand][car]
+                print(single_car)
+
+                is_dark_mode = darkdetect.isDark()
+
+                if is_dark_mode:
+                    imgLink = single_car["dark"]
+                else: 
+                    imgLink = single_car["light"]
+
+                return render_template("one_car.html", car=car, imgLink=imgLink,
+                                   brand=brand, country=country, year=single_car["year"]), 200
+
+            else:
+                return "Car not found in the specified brand.", 404
+
+        else:
+            return "Brand not found in the specified country.", 404
+    else:
+        return "Country not found in car data.", 404
 
 
 #Custom 404 page not found

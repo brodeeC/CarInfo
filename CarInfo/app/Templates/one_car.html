@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+
+<h1>{{ car }}</h1>
+
+
+{% block bodytag %}
+<body class="car_info" onload='addImages("{{ selected_car }}")'>
+{% endblock %}
+
+{% block content %} 
+   <div>
+    <img src="{{ imgLink }}" class="carslide">
+    <p>
+        
+    </p>
+   </div>
+
+</body>
+
+{% endblock %}
