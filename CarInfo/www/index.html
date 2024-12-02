@@ -81,6 +81,11 @@
               let div = document.createElement("div");
               div.setAttribute("class", "mySlides");
 
+              url = createUrl(data, car);
+
+              let a = document.createElement("a");
+              a.setAttribute("href", url)
+
               let img = document.createElement("img");
               img.setAttribute("class", "carslide");
 
@@ -91,7 +96,8 @@
                 img.setAttribute("onload", "currentSlide(1)");
               }
 
-              div.appendChild(img);
+              a.appendChild(img);
+              div.appendChild(a);
 
               //Adds caption to images
               let caption = document.createElement("h2");
@@ -100,6 +106,28 @@
 
               disp.appendChild(div);
               count++;
+            })
+
+          }
+
+          function createUrl(data, car){
+            let make = car.make;
+            
+            let countries = Object.keys(data);
+
+            let url = "";
+
+            countries.forEach(country => {
+              let brandData = data[country]; 
+
+              let brands = Object.keys(brandData);
+
+              brands.forEach(brand => {
+                if (make == brand){
+                  return `/${country}/${brand}/${car.model}`;
+                }
+              })
+              
             })
 
           }
@@ -143,9 +171,6 @@
 
             modelP = document.getElementById("models");
             modelP.appendChild(document.createTextNode(`There are ${modelCount} models.`)) 
-
-
-
           }
   
         </script>
