@@ -506,7 +506,7 @@
                 "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "La Ferarri":{
-                "dark":"/static/img/Slideshow/LaFerarriD.jpeg",
+                "dark":"/static/img/Slideshow/LaFerrariD.jpeg",
                 "light":"/static/img/Slideshow/LaFerarriL.webp",
                 "make":"Ferarri",
                 "model":"La Ferarri",
