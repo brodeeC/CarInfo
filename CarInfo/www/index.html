@@ -124,12 +124,12 @@
 
               brands.forEach(brand => {
                 if (make == brand){
-                  return `/${country}/${brand}/${car.model}`;
+                  url = `/${country}/${brand}/${car.model}`;
+                  console.log(url);
                 }
               })
-              
             })
-
+            return url;
           }
   
           // Load random images on page load
