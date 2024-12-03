@@ -41,13 +41,10 @@
             //Apends it to dropdown
             dropdown.appendChild(option);
           });
-          loadButtons();
+          loadButtons(data);
         }
 
-        async function loadButtons(){
-          const response = await fetch('/cars'); 
-          const data = await response.json();
-
+        async function loadButtons(data){
           let div = document.getElementById("brands");
 
           //Get list of all countries cars are from
@@ -64,8 +61,6 @@
               anchor.setAttribute("href", `/car/${country}/${make}`)
 
               button.setAttribute("class", country);
-
-              // Set <a href = 'Flask Route'><button></button></a>
 
               let logoLink = data[country][make]["logo"];
 
