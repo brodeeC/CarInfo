@@ -23,7 +23,6 @@ def test_some_route(client):
 
 
 
-#@pytest.mark.parametrize("country", "brand", data)
 def test_brand_template(client):
     with open("JSON/cars.JSON") as json_file:
         cars = json.load(json_file)
@@ -36,4 +35,22 @@ def test_brand_template(client):
                 response = client.get(url)
 
                 assert response.status_code == 200, f"failed for {country} - {brand}"
+
+
+def test_car_template(client):
+    with open("JSON/cars.JSON") as json_file:
+        cars = json.load(json_file)
+
+        for country in cars.keys(): 
+            for brand in cars[country].keys():
+
+                del cars[country][brand]['logo']
+                
+                for car in cars[country][brand].keys():
+
+                    url = f"/{country}/{brand}/{car}"
+
+                    response = client.get(url)
+
+                    assert response.status_code == 200, f"failed for {country} - {brand} - {car}"
 
