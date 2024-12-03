@@ -47,6 +47,10 @@ a:visited{
   color: #ef1a2d;
 }
 
+a:hover{
+  color: #fdf5e6;
+}
+
 /*Make About Us section into columns when screen is greater than 1200px*/
 @media screen and (min-width: 1200px){
   .Column{
