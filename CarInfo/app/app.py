@@ -47,8 +47,14 @@ def car_info(country, brand):
             if is_dark_mode: mode = "dark"
             else: mode = "light"
 
-            return render_template("car_info.html", selected_cars = selected_cars, logo = logo,
-                                   brand = brand, country = country, mode = mode), 200
+            if country == "SouthKorea":
+                countryName = "South Korea"
+
+            else: 
+                countryName = country
+
+            return render_template("car_info.html", selected_cars=selected_cars, logo=logo,
+                                   brand=brand, country=country, mode=mode, countryName=countryName), 200
 
         else:
             print("Brand not found in specified country")
@@ -98,6 +104,8 @@ def one_car(country, brand, car):
                     imgLink = single_car["dark"]
                 else: 
                     imgLink = single_car["light"]
+
+                if country == "SouthKorea": country = "South Korea"
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
                                    brand=brand, country=country, year=single_car["year"]), 200
