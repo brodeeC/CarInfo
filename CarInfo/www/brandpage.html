@@ -35,8 +35,12 @@
             //Gives it the value of the country
             option.setAttribute("value", country);
 
+            let countryName = country;
+
+            if (country == "SouthKorea") countryName = "South Korea";
+
             //Adds text node with country as its value
-            option.appendChild(document.createTextNode(country));
+            option.appendChild(document.createTextNode(countryName));
 
             //Apends it to dropdown
             dropdown.appendChild(option);
