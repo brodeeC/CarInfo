@@ -7,22 +7,25 @@
             "light":"/static/img/Slideshow/AstonMartinDB5L.jpeg",
             "make":"Aston Martin",
             "model":"DB5",
-            "year":"1964"
+            "year":"1964",
+            "description":"Engine: 4.0L inline-six<br>Transmission: Five-speed/Manual<br>0-60(mph): <br>Horsepower: 282<br>Torque(lb/ft): 288<br>Top Speed(mph): 145<br> Dimensions: 98 x 179.9 x 66.1<br> Curb Weight(lb): 3,311<br>Fuel Economy(MPG): 12<br>Description:"
             },
             "DB9":{
                 "dark":"/static/img/Slideshow/DB9D.jpeg",
                 "light":"/static/img/Slideshow/DB9L.jpeg",
                 "make":"Aston Martin",
                 "model":"DB9",
-                "year":"2020"
+                "year":"2020",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "One-77":{
                 "dark":"/static/img/Slideshow/One-77D.jpeg",
                 "light":"/static/img/Slideshow/One-77L.jpeg",
                 "make":"Aston Martin",
                 "model":"One-77",
-                "year":"2012"
-            }
+                "year":"2012",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+            } 
         },
 
         "Austin-Healey":{
@@ -32,7 +35,8 @@
                 "light":"/static/img/Slideshow/3000markIIL.jpeg",
                 "make":"Austin-Healey",
                 "model":"3000 MKII",
-                "year":"1963"
+                "year":"1963",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -43,7 +47,8 @@
             "light":"/static/img/Slideshow/BentleyContinentalL.webp",
             "make":"Bentley",
             "model":"Continental GT",
-            "year":"2003"
+            "year":"2003",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -54,39 +59,44 @@
                 "light":"/static/img/Slideshow/1961EtypeL.jpeg",
                 "make":"Jaguar",
                 "model":"E-Type",
-                "year":"1961"
+                "year":"1961",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "XJ220":{
                 "dark":"/static/img/Slideshow/XJ220D.jpeg",
                 "light":"/static/img/Slideshow/XJ220L.webp",
                 "make":"Jaguar",
                 "model":"XJ220",
-                "year":"1992"
+                "year":"1992",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "XK120":{
                 "dark":"/static/img/Slideshow/XK120D.jpeg",
                 "light":"/static/img/Slideshow/XK120L.webp",
                 "make":"Jaguar",
                 "model":"XK120",
-                "year":"1952"
+                "year":"1952",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "XKSS":{
                 "dark":"/static/img/Slideshow/XKSSD.jpeg",
                 "light":"/static/img/Slideshow/XKSSL.webp",
                 "make":"Jaguar",
                 "model":"XKSS",
-                "year":"1957"
+                "year":"1957",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Land Rover": {
             "logo":"/static/img/Car Brand Logos/land-rover-logo.png",
             "Discovery Sport":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Slideshow/DiscoverySportD.webp",
+                "light":"/static/img/Slideshow/DiscoverySportL.webp",
                 "make":"Land Rover",
                 "model":"Discovery Sport",
-                "year":"2017"
+                "year":"2017",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -97,14 +107,16 @@
                 "light":"/static/img/Slideshow/eliseL.jpeg",
                 "make":"Lotus",
                 "model":"Elise",
-                "year":"2011"
+                "year":"2011",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Esprit":{
-                "dark":"/static/img/Slideshow/espritD.jpeg",
-                "light":"//static/img/Slideshow/espritL.jpeg",
+                "dark":"/static/img/Slideshow/espiritD.jpeg",
+                "light":"/static/img/Slideshow/espiritL.jpeg",
                 "make":"Lotus",
                 "model":"Esprit",
-                "year":"1996"
+                "year":"1996",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -115,21 +127,24 @@
                 "light":"/static/img/Slideshow/McLarenF1L.jpeg",
                 "make":"McLaren",
                 "model":"F1",
-                "year":"1992"
+                "year":"1992",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "P1":{
                 "dark":"/static/img/Slideshow/p1D.jpeg",
                 "light":"/static/img/Slideshow/P1L.jpeg",
                 "make":"McLaren",
                 "model":"P1",
-                "year":"2014"
+                "year":"2014",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Speedtail":{
                 "dark":"/static/img/Slideshow/2020SpeedtailD.avif",
                 "light":"/static/img/Slideshow/2020SpeedtailL.jpeg",
                 "make":"McLaren",
                 "model":"Speedtail",
-                "year":"2020"
+                "year":"2020",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -140,7 +155,8 @@
                 "light":"/static/img/Slideshow/MGAL.jpeg",
                 "make":"MG",
                 "model":"MGA",
-                "year":"1960"
+                "year":"1960",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -151,7 +167,8 @@
                 "light":"/static/img/Slideshow/NobleM12GTOL.jpeg",
                 "make":"Noble",
                 "model":"M12 GTO",
-                "year":"2002"
+                "year":"2002",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
                 }
         },
 
@@ -162,7 +179,8 @@
                 "light":"/static/img/Slideshow/BoattailL.jpeg",
                 "make":"Rolls-Royce",
                 "model":"Boat Tail",
-                "year":"2021"
+                "year":"2021",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -173,7 +191,8 @@
                 "light":"/static/img/Slideshow/t150cssL.jpeg",
                 "make":"Talbot-Lago",
                 "model":"T150 CSS",
-                "year":"1939"
+                "year":"1939",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         }
     },
@@ -186,14 +205,16 @@
                 "light":"/static/img/Slideshow/ChironL.jpeg",
                 "make":"Bugatti",
                 "model":"Chiron",
-                "year":"2016"
+                "year":"2016",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Veyron":{
                 "dark":"/static/img/Slideshow/BugattiVeyronD.jpeg",
                 "light":"/static/img/Slideshow/BugattiVeyronL.jpeg",
                 "make":"Bugatti",
                 "model":"Veyron",
-                "year":"2005"
+                "year":"2005",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         }
     },
@@ -206,14 +227,16 @@
                 "light":"/static/img/Slideshow/AudiQuattroL.webp",
                 "make":"Audi",
                 "model":"Quattro",
-                "year":"1983"
+                "year":"1983",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "R8":{
                 "dark":"/static/img/Slideshow/R8D.jpeg",
                 "light":"/static/img/Slideshow/R8L.avif",
                 "make":"Audi",
                 "model":"R8",
-                "year":"2013"
+                "year":"2013",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -224,81 +247,92 @@
                 "light":"/static/img/Slideshow/cslL.jpeg",
                 "make":"BMW",
                 "model":"3.0 CSL",
-                "year":"1975"
+                "year":"1975",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "328ci":{
                 "dark":"/static/img/Slideshow/328CID.jpeg",
                 "light":"/static/img/Slideshow/328ciL.webp",
                 "make":"BMW",
                 "model":"328ci",
-                "year":"2000"
+                "year":"2000",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "2002 Turbo":{
                 "dark":"/static/img/Slideshow/BMW2002TurboD.jpeg",
                 "light":"/static/img/Slideshow/BMW2002TurboL.jpeg",
                 "make":"BMW",
                 "model":"2002 Turbo",
-                "year":"1974"
+                "year":"1974",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "E30 M3":{
                 "dark":"/static/img/Slideshow/BMWE30D.jpeg",
                 "light":"/static/img/Slideshow/BMWE30L.jpeg",
                 "make":"BMW",
                 "model":"E30 M3",
-                "year":"1986"
+                "year":"1986",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Isetta 300":{
                 "dark":"/static/img/Slideshow/isettaD.jpeg",
                 "light":"/static/img/Slideshow/isettaL.jpeg",
                 "make":"BMW",
                 "model":"Isetta 300",
-                "year":"1961"
+                "year":"1961",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "M1":{
                 "dark":"/static/img/Slideshow/m1D.jpeg",
                 "light":"/static/img/Slideshow/m1L.jpeg",
                 "make":"BMW",
                 "model":"M1",
-                "year":"1981"
+                "year":"1981",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Mercedes-Benz":{
             "logo":"/static/img/Car Brand Logos/mercedes-benz-logo.png",
             "300SL":{
-                "dark":"/",
-                "light":"/",
+                "dark":"/static/img/Car Brand Logos/Mercedes300SLD.jpeg",
+                "light":"/static/img/Car Brand Logos/Mercedes300SLL.webp",
                 "make":"Mercedes-Benz",
                 "model":"300SL",
-                "year":"1957"
+                "year":"1957",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "540K":{
                 "dark":"/static/img/Slideshow/540KD.jpeg",
                 "light":"/static/img/Slideshow/540KL.jpeg",
                 "make":"Mercedes-Benz",
                 "model":"540K",
-                "year":"1939"
+                "year":"1939",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "CLK GTR":{
                 "dark":"/static/img/Slideshow/clkgtrD.jpeg",
                 "light":"/static/img/Slideshow/clkgtrL.jpeg",
                 "make":"Mercedes-Benz",
                 "model":"CLK GTR",
-                "year":"2002"
+                "year":"2002",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "R107":{
             "dark":"/static/img/Slideshow/MercedesR107D.jpeg",
             "light":"/static/img/Slideshow/MercedesR107L.webp",
             "make":"Mercedes-Benz",
             "model":"R107",
-            "year":"1971"
+            "year":"1971",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "W124":{
             "dark":"/static/img/Slideshow/MercedesW124D.webp",
             "light":"/static/img/Slideshow/Mercedes124L.jpeg",
             "make":"Mercedes-Benz",
             "model":"W124",
-            "year":"1985"
+            "year":"1985",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
             
         },
@@ -310,60 +344,56 @@
                 "light":"/static/img/Slideshow/356CL.jpeg",
                 "make":"Porsche",
                 "model":"356 C",
-                "year":"1965"
+                "year":"1965",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "918 Spyder":{
                 "dark":"/static/img/Slideshow/Porsche918SpyderD.jpeg",
                 "light":"/static/img/Slideshow/Porsche918SpyderL.jpeg",
                 "make":"Porsche",
                 "model":"918 Spyder",
-                "year":"2013"
+                "year":"2013",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "930 Turbo":{
                 "dark":"/static/img/Slideshow/Porsche930TurboD.jpeg",
                 "light":"/static/img/Slideshow/Porsche930TurboL.webp",
                 "make":"Porsche",
                 "model":"930 Turbo",
-                "year":"1975"
+                "year":"1975",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "959":{
                 "dark":"/static/img/Slideshow/Porsche959D.jpeg",
                 "light":"/static/img/Slideshow/Porsche959L.avif",
                 "make":"Porsche",
                 "model":"959",
-                "year":"1986"
+                "year":"1986",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "993":{
             "dark":"/static/img/Slideshow/Porsche993D.avif",
             "light":"/static/img/Slideshow/Porsche993L.webp",
             "make":"Porsche",
             "model":"993",
-            "year":"1995"
+            "year":"1995",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Cayman":{
             "dark":"/static/img/Slideshow/PorscheCaymanD.jpeg ",
             "light":"/static/img/Slideshow/PorscheCaymanL.jpeg",
             "make":"Porsche",
             "model":"Cayman",
-            "year":"2005"
+            "year":"2005",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "GT1":{
                 "dark":"/static/img/Slideshow/gt1D.webp",
                 "light":"/static/img/Slideshow/gt1L.jpeg",
                 "make":"Porsche",
                 "model":"GT1",
-                "year":"1998"
-            }
-        },
-
-        "RUF":{
-            "logo":"/static/img/Car Brand Logos/RUF-logo.png",
-            "CTR Yellow Bird":{
-                "dark":"/",
-                "light":"/",
-                "make":"RUF",
-                "model":"CTR Yellow Bird",
-                "year":"1987"
+                "year":"1998",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -374,21 +404,24 @@
                 "light":"/static/img/Slideshow/VWBeelteL.jpeg",
                 "make":"Volkswagen",
                 "model":"Beetle",
-                "year":"1966"
+                "year":"1966",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "CC Executive":{
-            "dark":"/static/img/Slideshow/VWCCD.webp",
-            "light":"/static/img/Slideshow/VWCCL.webp",
-            "make":"Volkswagen",
-            "model":"CC Executive",
-            "year":"2014"
+                "dark":"/static/img/Slideshow/VWCCD.webp",
+                "light":"/static/img/Slideshow/VWCCL.webp",
+                "make":"Volkswagen",
+                "model":"CC Executive",
+                "year":"2014",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Karmann Ghia":{
                 "dark":"/static/img/Slideshow/karmannghiaD.webp",
                 "light":"/static/img/Slideshow/karmannghiaL.jpeg",
                 "make":"Volkswagen",
                 "model":"Karmann Ghia",
-                "year":"1966"
+                "year":"1966",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         }
     },
@@ -401,81 +434,92 @@
                 "light":"/static/img/Slideshow/33stradaleL.jpeg",
                 "make":"Alfa Romeo",
                 "model":"33 Stradale",
-                "year":"1967"
+                "year":"1967",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "4C":{
                 "dark":"/static/img/Slideshow/4cD.webp",
                 "light":"/static/img/Slideshow/4cL.avif",
                 "make":"Alfa Romeo",
                 "model":"4C",
-                "year":"2015"
+                "year":"2015",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Spider":{
                 "dark":"/static/img/Slideshow/spiderD.jpeg",
                 "light":"/static/img/Slideshow/spiderL.jpeg",
                 "make":"Alfa Romeo",
                 "model":"Spider",
-                "year":"1961"
+                "year":"1961",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Ferarri":{
             "logo":"/static/img/Car Brand Logos/ferrari-logo.png",
             "308 GTB":{
-            "dark":"/static/img/Slideshow/Ferari308GTBD.jpeg",
-            "light":"/static/img/Slideshow/Ferarri308GTBL.jpeg",
-            "make":"Ferarri",
-            "model":"308 GTB",
-            "year":"1975"
+                "dark":"/static/img/Slideshow/Ferari308GTBD.jpeg",
+                "light":"/static/img/Slideshow/Ferarri308GTBL.jpeg",
+                "make":"Ferarri",
+                "model":"308 GTB",
+                "year":"1975",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "360 Modena":{
                 "dark":"/static/img/Slideshow/ModenaD.jpeg",
                 "light":"/static/img/Slideshow/modenaL.jpeg",
                 "make":"Ferarri",
                 "model":"Modena",
-                "year":"2006"
+                "year":"2006",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Enzo":{
                 "dark":"/static/img/Slideshow/EnzoD.webp",
                 "light":"/static/img/Slideshow/enzoL.jpeg",
                 "make":"Ferarri",
                 "model":"Enzo",
-                "year":"2004"
+                "year":"2004",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "F40":{
                 "dark":"/static/img/Slideshow/FerarriF40D.jpeg",
                 "light":"/static/img/Slideshow/FerarriF40L.jpeg",
                 "make":"Ferarri",
                 "model":"F40",
-                "year":"1987"
+                "year":"1987",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "F50":{
                 "dark":"/static/img/Slideshow/F50D.jpeg",
                 "light":"/static/img/Slideshow/F50L.jpeg",
                 "make":"Ferarri",
                 "model":"F50",
-                "year":"1997"
+                "year":"1997",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "GTO":{
                 "dark":"/static/img/Slideshow/FerarriGTOD.jpeg",
                 "light":"/static/img/Slideshow/FerarriGTOL.avif",
                 "make":"Ferarri",
                 "model":"GTO",
-                "year":"1962"
+                "year":"1962",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "La Ferarri":{
                 "dark":"/static/img/Slideshow/LaFerarriD.jpeg",
                 "light":"/static/img/Slideshow/LaFerarriL.webp",
                 "make":"Ferarri",
                 "model":"La Ferarri",
-                "year":"2013"
+                "year":"2013",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Testarossa":{
                 "dark":"/static/img/Slideshow/testarossaD.jpeg",
                 "light":"/static/img/Slideshow/testarossaL.jpeg",
                 "make":"Ferarri",
                 "model":"Testarossa",
-                "year":"1990"
+                "year":"1990",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -486,28 +530,32 @@
                 "light":"/static/img/Slideshow/countachL.jpeg",
                 "make":"Lamborghini",
                 "model":"Countach",
-                "year":"1985"
+                "year":"1985",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Gallardo":{
                 "dark":"/static/img/Slideshow/GallardoD.jpeg",
                 "light":"/static/img/Slideshow/GallardoL.jpeg",
                 "make":"Lamborghini",
                 "model":"Gallardo",
-                "year":"2004"
+                "year":"2004",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "LM002":{
                 "dark":"/static/img/Slideshow/LM002D.jpeg",
                 "light":"/static/img/Slideshow/LM002L.jpeg",
                 "make":"Lamborghini",
                 "model":"LM002",
-                "year":"1987"
+                "year":"1987",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Miura":{
                 "dark":"/static/img/Slideshow/MiuraD.jpeg",
                 "light":"/static/img/Slideshow/MiuraL.jpeg",
                 "make":"Lamborghini",
                 "model":"Miura",
-                "year":"1966"
+                "year":"1966",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -518,7 +566,8 @@
                 "light":"/static/img/Slideshow/Rally037L.jpeg",
                 "make":"Lancia",
                 "model":"Rally 037",
-                "year":"1982"
+                "year":"1982",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -529,14 +578,16 @@
                 "light":"/static/img/Slideshow/UtopiaL.jpeg",
                 "make":"Pagani",
                 "model":"Utopia",
-                "year":"2023"
+                "year":"2023",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Zonda R Evo":{
                 "dark":"/static/img/Slideshow/PaganiZondaD.jpeg",
                 "light":"/static/img/Slideshow/PaganiZondaL.jpeg",
                 "make":"Pagani",
                 "model":"Zonda R Evo",
-                "year":"2011"
+                "year":"2011",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         }
     },
@@ -549,14 +600,16 @@
             "light":"/static/img/Slideshow/AcuraIntegraL.jpeg",
             "make":"Acura",
             "model":"Integra",
-            "year":"1997"
+            "year":"1997",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "NSX":{
             "dark":"/static/img/Slideshow/AcuraNSXD.jpeg",
             "light":"/static/img/Slideshow/AcuraNSXL.avif",
             "make":"Acura",
             "model":"NSX",
-            "year":"1990"
+            "year":"1990",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -567,7 +620,8 @@
                 "light":"/static/img/Slideshow/240zL.jpeg",
                 "make":"Datsun",
                 "model":"240Z",
-                "year":"1973"
+                "year":"1973",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -578,39 +632,44 @@
             "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
             "make":"Honda",
             "model":"Civic Hatchback",
-            "year":"2017"
+            "year":"2017",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "S2000":{
             "dark":"/static/img/Slideshow/HondaS2KD.avif",
             "light":"/static/img/Slideshow/HondaS2KL.jpeg",
             "make":"Honda",
             "model":"S2000",
-            "year":"1999"
+            "year":"1999",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Lexus":{
-            "logo":"/static/img/Car Brand Logos/lexus.logo.png",
+            "logo":"/static/img/Car Brand Logos/lexus-logo.png",
             "LFA":{
                 "dark":"/static/img/Slideshow/LFAD.jpeg",
                 "light":"/static/img/Slideshow/LFAL.jpeg",
                 "make":"Lexud",
                 "model":"LFA",
-                "year":"2012"
+                "year":"2012",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "LS 400":{
-            "dark":"/static/img/Slideshow/LexusLS400D.jpeg",
-            "light":"/static/img/Slideshow/LexusLS400L.jpeg",
-            "make":"Lexus",
-            "model":"LS 400",
-            "year":"1989"
+                "dark":"/static/img/Slideshow/LexusLS400D.jpeg",
+                "light":"/static/img/Slideshow/LexusLS400L.jpeg",
+                "make":"Lexus",
+                "model":"LS 400",
+                "year":"1989",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "RX 300":{
             "dark":"/static/img/Slideshow/RX300D.jpeg",
             "light":"/static/img/Slideshow/RX300L.avif",
             "make":"Lexus",
             "model":"RX 300",
-            "year":"2001"
+            "year":"2001",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -621,32 +680,36 @@
             "light":"/static/img/Slideshow/MazdaMX5L.jpeg",
             "make":"Mazda",
             "model":"Miata MX-5",
-            "year":"1989"
+            "year":"1989",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Nissan":{
             "logo":"/static/img/Car Brand Logos/nissan-logo.png",
             "Altima":{
-            "dark":"/static/img/Slideshow/NissanAltimaD.png",
-            "light":"/static/img/Slideshow/NissanAltimaL.jpeg",
-            "make":"Nissan",
-            "model":"Altima",
-            "year":"2017"
+                "dark":"/static/img/Slideshow/NissanAltimaD.png",
+                "light":"/static/img/Slideshow/NissanAltimaL.jpeg",
+                "make":"Nissan",
+                "model":"Altima",
+                "year":"2017",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "R32 GTR":{
                 "dark":"/static/img/Slideshow/r32D.jpeg",
                 "light":"/static/img/Slideshow/r32L.jpeg",
                 "make":"Nissan",
                 "model":"R32 GTR",
-                "year":"1993"
+                "year":"1993",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "R34 GTR":{
                 "dark":"/static/img/Slideshow/r34D.jpeg",
                 "light":"/static/img/Slideshow/r34L.jpeg",
                 "make":"Nissan",
                 "model":"R34 GTR",
-                "year":"1999"
+                "year":"1999",
+                "description":"Engine: <br> Transmission: <br> 0-60: <br>Top Speed: <br> Dimensions: <br> Curb Weight <br> Average MPG:<br> Description:"
             }
         },
 
@@ -654,10 +717,11 @@
             "logo":"/static/img/Car Brand Logos/subaru-logo.png",
             "WRX":{
             "dark":"/static/img/Slideshow/SubaruWRXD.jpeg",
-            "light":"/static/img/Slideshow/SubaruWRXL.jpeg",
-            "make":"Subaru",
-            "model":"WRX",
-            "year":"2002"
+                "light":"/static/img/Slideshow/SubaruWRXL.jpeg",
+                "make":"Subaru",
+                "model":"WRX",
+                "year":"2002",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -668,49 +732,56 @@
                 "light":"/static/img/Slideshow/2000GTL.jpeg",
                 "make":"Toyota",
                 "model":"2000GT",
-                "year":"1970"
+                "year":"1970",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Avalon TRD":{
                 "dark":"/static/img/Slideshow/AvalonD.jpeg",
                 "light":"/static/img/Slideshow/AvalonL.webp",
                 "make":"Toyota",
                 "model":"Avalon TRD",
-                "year":"2021"
+                "year":"2021",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Century":{
                 "dark":"/static/img/Slideshow/ToyotaCenturyD.jpeg",
                 "light":"/static/img/Slideshow/ToyotaCenturyL.webp",
                 "make":"Toyota",
                 "model":"Century",
-                "year":"1997"
+                "year":"1997",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Highlander":{
-            "dark":"/static/img/Slideshow/ToyotaHighlanderD.webp",
-            "light":"/static/img/Slideshow/ToyotaHighlanderL.jpeg",
-            "make":"Toyota",
-            "model":"Highlander",
-            "year":"2016"
+                "dark":"/static/img/Slideshow/ToyotaHighlanderD.webp",
+                "light":"/static/img/Slideshow/ToyotaHighlanderL.jpeg",
+                "make":"Toyota",
+                "model":"Highlander",
+                "year":"2016",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Prius":{
-            "dark":"/static/img/Slideshow/ToyotaPriusD.webp",
-            "light":"/static/img/Slideshow/ToyotaPriusL.avif",
-            "make":"Toyota",
-            "model":"Prius",
-            "year":"2004"
+                "dark":"/static/img/Slideshow/ToyotaPriusD.webp",
+                "light":"/static/img/Slideshow/ToyotaPriusL.avif",
+                "make":"Toyota",
+                "model":"Prius",
+                "year":"2004",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Supra MKIV":{
-            "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
-            "light":"/static/img/Slideshow/1993ToyotaSupraL.avif",
-            "make":"Toyota",
-            "model":"Supra MKIV",
-            "year":"1993"
+                "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
+                "light":"/static/img/Slideshow/1993ToyotaSupraL.avif",
+                "make":"Toyota",
+                "model":"Supra MKIV",
+                "year":"1993",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Supra MKV":{
                 "dark":"/static/img/Slideshow/2019supraD.jpeg",
                 "light":"/static/img/Slideshow/2019supraL.jpeg",
                 "make":"Toyota",
                 "model":"Supra MKV",
-                "year":"2019"
+                "year":"2019",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         }
     },
@@ -723,7 +794,8 @@
                 "light":"/static/img/Slideshow/HyundaiGenesisL.jpeg",
                 "make":"Genesis",
                 "model":"Hyundai",
-                "year":"2011"
+                "year":"2011",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
                 }
         }
     },
@@ -736,7 +808,8 @@
                 "light":"/static/img/Slideshow/p1800L.webp",
                 "make":"Volvo",
                 "model":"P1800",
-                "year":"1962"
+                "year":"1962",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         }
     },
@@ -749,18 +822,20 @@
                 "light":"/static/img/Slideshow/CadillacCTS-VWagon.avif",
                 "make":"Cadillac",
                 "model":"CTS-V Wagon",
-                "year":"2012"
+                "year":"2012",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
 
         }
         },
         "Chevrolet":{
             "logo":"/static/img/Car Brand Logos/chevrolet-logo.png",
             "Camaro Z28":{
-            "dark":"/static/img/Slideshow/CamaroBerlinettaD.jpeg",
-            "light":"/static/img/Slideshow/CamaroBerlinettaL.jpeg",
-            "make":"Cheverolet",
-            "model":"Camaro Z28",
-            "year":"1981"
+                "dark":"/static/img/Slideshow/CamaroBerlinettaD.jpeg",
+                "light":"/static/img/Slideshow/CamaroBerlinettaL.jpeg",
+                "make":"Cheverolet",
+                "model":"Camaro Z28",
+                "year":"1981",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -771,68 +846,76 @@
                 "light":"/static/img/Slideshow/DeloreanL.jpeg",
                 "make":"DeLorean",
                 "model":"DMC-12",
-                "year":"1981"
+                "year":"1981",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
                 }
         },
 
         "Dodge":{
             "logo":"/static/img/Car Brand Logos/dodge-logo.png",
             "Viper":{
-            "dark":"/static/img/Slideshow/DodgeViperD.jpeg",
-            "light":"/static/img/Slideshow/DodgeViperL.jpeg",
-            "make":"Dodge",
-            "model":"Viper",
-            "year":"1992"
+                "dark":"/static/img/Slideshow/DodgeViperD.jpeg",
+                "light":"/static/img/Slideshow/DodgeViperL.jpeg",
+                "make":"Dodge",
+                "model":"Viper",
+                "year":"1992",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Ford":{
             "logo":"/static/img/Car Brand Logos/ford-logo.png",
             "F-150 Supercrew":{
-            "dark":"/static/img/Slideshow/FordF-150D.jpeg",
-            "light":"/static/img/Slideshow/FordF-150L.jpeg",
-            "make":"Ford",
-            "model":"F-150 Supercrew",
-            "year":"2001"
+                "dark":"/static/img/Slideshow/FordF-150D.jpeg",
+                "light":"/static/img/Slideshow/FordF-150L.jpeg",
+                "make":"Ford",
+                "model":"F-150 Supercrew",
+                "year":"2001",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "GT":{
                 "dark":"/static/img/Slideshow/2005FordGTD.jpeg",
                 "light":"/static/img/Slideshow/2005FordGTL.jpeg",
                 "make":"Ford",
                 "model":"GT",
-                "year":"2005"
+                "year":"2005",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "GT40":{
                 "dark":"/static/img/Slideshow/GT40D.jpeg",
                 "light":"/static/img/Slideshow/GT40L.jpeg",
                 "make":"Ford",
                 "model":"GT40",
-                "year":"1965"
+                "year":"1965",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Mustang Dark Horse":{
                 "dark":"/static/img/Slideshow/darkhorseD.avif",
                 "light":"/static/img/Slideshow/darkhorseL.jpeg",
                 "make":"Ford",
                 "model":"Mustang Darkhorse",
-                "year":"2024"
+                "year":"2024",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Mustang Fastback":{
                 "dark":"/static/img/Slideshow/FordMustangFastbackD.webp",
                 "light":"/static/img/Slideshow/FordMustangFastbackL.webp",
                 "make":"Ford",
                 "model":"Mustang Fastback",
-                "year":"1968"
+                "year":"1968",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Jeep":{
             "logo":"/static/img/Car Brand Logos/jeep-logo.png",
             "CJ-7":{
-            "dark":"/static/img/Slideshow/JeepCJ-7D.jpeg",
-            "light":"/static/img/Slideshow/JeepCJ-7L.avif",
-            "make":"Jeep",
-            "model":"CJ-7",
-            "year":"1976"
+                "dark":"/static/img/Slideshow/JeepCJ-7D.jpeg",
+                "light":"/static/img/Slideshow/JeepCJ-7L.avif",
+                "make":"Jeep",
+                "model":"CJ-7",
+                "year":"1976",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -843,18 +926,20 @@
                 "light":"/static/img/Slideshow/1969ContinentalL.jpeg",
                 "make":"Lincoln",
                 "model":"Continental",
-                "year":"1969"
+                "year":"1969",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Mercury":{
-            "logo":"/static/img/Car Brand Logos/MercuryLogo.png",
+            "logo":"/static/img/Car Brand Logos/MercuryLogo.jpeg",
             "Comet":{
                 "dark":"/static/img/Slideshow/cometD.webp",
                 "light":"/static/img/Slideshow/cometL.jpeg",
                 "make":"Mercury",
                 "model":"Comet",
-                "year":"1963"
+                "year":"1963",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         }
     }
