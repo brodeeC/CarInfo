@@ -8,7 +8,7 @@
             "make":"Aston Martin",
             "model":"DB5",
             "year":"1964",
-            "description":"Engine: 4.0L inline-six<br>Transmission: Five-speed/Manual<br>0-60(mph): <br>Horsepower: 282<br>Torque(lb/ft): 288<br>Top Speed(mph): 145<br> Dimensions: 98 x 179.9 x 66.1<br> Curb Weight(lb): 3,311<br>Fuel Economy(MPG): 12<br>Description:"
+            "description":"Engine: 4.0L inline-six<br>Transmission: Five-speed/Manual<br>0-60(mph): <br>Horsepower: 282<br>Torque(lb/ft): 288<br>Top Speed(mph): 145<br> Dimensions: 98 x 179.9 x 66.1<br> Curb Weight(lb): 3,311<br>Fuel Economy(MPG): 12<br>Description: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history"
             },
             "DB9":{
                 "dark":"/static/img/Slideshow/DB9D.jpeg",
@@ -458,7 +458,7 @@
         "Ferarri":{
             "logo":"/static/img/Car Brand Logos/ferrari-logo.png",
             "308 GTB":{
-                "dark":"/static/img/Slideshow/Ferari308GTBD.jpeg",
+                "dark":"/static/img/Slideshow/Ferarri308GTBD.jpeg",
                 "light":"/static/img/Slideshow/Ferarri308GTBL.jpeg",
                 "make":"Ferarri",
                 "model":"308 GTB",
