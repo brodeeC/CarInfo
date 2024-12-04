@@ -49,6 +49,8 @@
           loadButtons(data);
         }
 
+        let brandList = [];
+
         async function loadButtons(data){
           let div = document.getElementById("brands");
 
@@ -63,10 +65,14 @@
               let button = document.createElement("button");
               let anchor = document.createElement("a");
 
+              brandList.push(make);
+
               //Set url
               anchor.setAttribute("href", `/car/${country}/${make}`)
 
               button.setAttribute("class", country);
+
+              button.setAttribute("id", make);
 
               let logoLink = data[country][make]["logo"];
 
@@ -81,6 +87,11 @@
             });
 
           });
+        }
+
+        function suggestions(value){
+          //TODO: get list of all brands without making brandpage super slow.
+          
         }
 
       </script>
@@ -113,6 +124,12 @@
           <select name = "countries" id = "countries" onchange = "displayCountries()">
             <option value = "None">None</option>
           </select>
+
+          <form id="searchForm">
+            <label for="brand">Brand:</label>
+            <input type="text" id="brandInput" placeholder="Toyota" onkeyup="suggestions(this.value)">
+            <button onclick="submitSearch()">Search</button>
+          </form>
 
           <div class = "brands" id="brands">
           </div>
