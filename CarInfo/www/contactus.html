@@ -16,6 +16,20 @@
             padding: 0;
             background-color:#333;
           }
+
+          
+          @media (prefers-color-scheme: dark) {
+            .color-mode{
+              
+            }
+          }
+
+          .dark-mode {
+            --background-color: #333;
+            --text-color: #fff;
+            --placeholder-color: #aaa;
+            --textarea-bg: #656565;
+          }
       
           .container {
             max-width: 600px;
@@ -66,6 +80,16 @@
       
           input[type="submit"]:hover {
             background-color: #ef1a2d;
+          }
+
+          textarea::placeholder {
+            color: white; /* Placeholder text color */
+            font-style: italic; 
+          }
+
+          ::placeholder{
+            color: white; /* Placeholder text color */
+            font-style: italic; 
           }
       
           @media (max-width: 600px) {
