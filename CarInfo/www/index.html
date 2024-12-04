@@ -38,7 +38,9 @@
                 //Get the 'model' object of each car 
                 models = brands[make];
 
+                //Logo gets in the way
                 delete models.logo
+
                 //Get just the values
                 Object.values(models).forEach(car =>{
                   cars.push(car);
@@ -48,7 +50,8 @@
             });
 
             let carArr = [];
-            for (let i = 4; i > 0; i--){
+            //i is the number of cars in the slideshow
+            for (let i = 8; i > 0; i--){
               //Allows for the images to be selected equally while being placed in any position
               let ran = Math.floor(Math.random() * (cars.length)); //Makes sure the random number gets smaller
 
@@ -219,6 +222,10 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
       <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
     </div>
     <!--Maybe potentially have a feature that just has the images going by on their own, you can stil click to go to the next one.-->
     <div class="BodyText">

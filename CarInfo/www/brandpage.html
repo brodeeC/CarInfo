@@ -35,6 +35,7 @@
             //Gives it the value of the country
             option.setAttribute("value", country);
 
+            //If the country is South Korea
             let countryName = country;
 
             if (country == "SouthKorea") countryName = "South Korea";
@@ -57,11 +58,12 @@
             
             let makeData = Object.keys(data[country]);
 
-            
+            //Iterate throught the makes
             Object.values(makeData).forEach(make =>{
               let button = document.createElement("button");
               let anchor = document.createElement("a");
 
+              //Set url
               anchor.setAttribute("href", `/car/${country}/${make}`)
 
               button.setAttribute("class", country);
