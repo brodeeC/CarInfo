@@ -319,20 +319,20 @@
                 "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "R107":{
-            "dark":"/static/img/Slideshow/MercedesR107D.jpeg",
-            "light":"/static/img/Slideshow/MercedesR107L.webp",
-            "make":"Mercedes-Benz",
-            "model":"R107",
-            "year":"1971",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/MercedesR107D.jpeg",
+                "light":"/static/img/Slideshow/MercedesR107L.webp",
+                "make":"Mercedes-Benz",
+                "model":"R107",
+                "year":"1971",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "W124":{
-            "dark":"/static/img/Slideshow/MercedesW124D.webp",
-            "light":"/static/img/Slideshow/Mercedes124L.jpeg",
-            "make":"Mercedes-Benz",
-            "model":"W124",
-            "year":"1985",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/MercedesW124D.webp",
+                "light":"/static/img/Slideshow/Mercedes124L.jpeg",
+                "make":"Mercedes-Benz",
+                "model":"W124",
+                "year":"1985",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
             
         },
@@ -372,20 +372,20 @@
                 "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "993":{
-            "dark":"/static/img/Slideshow/Porsche993D.avif",
-            "light":"/static/img/Slideshow/Porsche993L.webp",
-            "make":"Porsche",
-            "model":"993",
-            "year":"1995",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/Porsche993D.avif",
+                "light":"/static/img/Slideshow/Porsche993L.webp",
+                "make":"Porsche",
+                "model":"993",
+                "year":"1995",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "Cayman":{
-            "dark":"/static/img/Slideshow/PorscheCaymanD.jpeg ",
-            "light":"/static/img/Slideshow/PorscheCaymanL.jpeg",
-            "make":"Porsche",
-            "model":"Cayman",
-            "year":"2005",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/PorscheCaymanD.jpeg ",
+                "light":"/static/img/Slideshow/PorscheCaymanL.jpeg",
+                "make":"Porsche",
+                "model":"Cayman",
+                "year":"2005",
+                1"description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "GT1":{
                 "dark":"/static/img/Slideshow/gt1D.webp",
@@ -596,20 +596,20 @@
         "Acura":{
             "logo":"/static/img/Car Brand Logos/acura-logo.png",
             "Integra":{
-            "dark":"/static/img/Slideshow/AcuraIntegraD.jpeg",
-            "light":"/static/img/Slideshow/AcuraIntegraL.jpeg",
-            "make":"Acura",
-            "model":"Integra",
-            "year":"1997",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/AcuraIntegraD.jpeg",
+                "light":"/static/img/Slideshow/AcuraIntegraL.jpeg",
+                "make":"Acura",
+                "model":"Integra",
+                "year":"1997",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "NSX":{
-            "dark":"/static/img/Slideshow/AcuraNSXD.jpeg",
-            "light":"/static/img/Slideshow/AcuraNSXL.avif",
-            "make":"Acura",
-            "model":"NSX",
-            "year":"1990",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/AcuraNSXD.jpeg",
+                "light":"/static/img/Slideshow/AcuraNSXL.avif",
+                "make":"Acura",
+                "model":"NSX",
+                "year":"1990",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -627,21 +627,21 @@
 
         "Honda":{
             "logo":"/static/img/Car Brand Logos/honda-logo.png",
-            "Civic Hatchback":{
-            "dark":"/static/img/Slideshow/HondaCivicHatchD.jpeg",
-            "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
-            "make":"Honda",
-            "model":"Civic Hatchback",
-            "year":"2017",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "Civic Hatchback":{
+                "dark":"/static/img/Slideshow/HondaCivicHatchD.jpeg",
+                "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
+                "make":"Honda",
+                "model":"Civic Hatchback",
+                "year":"2017",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "S2000":{
-            "dark":"/static/img/Slideshow/HondaS2KD.avif",
-            "light":"/static/img/Slideshow/HondaS2KL.jpeg",
-            "make":"Honda",
-            "model":"S2000",
-            "year":"1999",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/HondaS2KD.avif",
+                "light":"/static/img/Slideshow/HondaS2KL.jpeg",
+                "make":"Honda",
+                "model":"S2000",
+                "year":"1999",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
@@ -664,24 +664,24 @@
                 "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "RX 300":{
-            "dark":"/static/img/Slideshow/RX300D.jpeg",
-            "light":"/static/img/Slideshow/RX300L.avif",
-            "make":"Lexus",
-            "model":"RX 300",
-            "year":"2001",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/RX300D.jpeg",
+                "light":"/static/img/Slideshow/RX300L.avif",
+                "make":"Lexus",
+                "model":"RX 300",
+                "year":"2001",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
         "Mazda":{
             "logo":"/static/img/Car Brand Logos/mazda-logo.png",
             "Miata MX-5":{
-            "dark":"/static/img/Slideshow/MazdaMX5D.jpeg",
-            "light":"/static/img/Slideshow/MazdaMX5L.jpeg",
-            "make":"Mazda",
-            "model":"Miata MX-5",
-            "year":"1989",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/MazdaMX5D.jpeg",
+                "light":"/static/img/Slideshow/MazdaMX5L.jpeg",
+                "make":"Mazda",
+                "model":"Miata MX-5",
+                "year":"1989",
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             }
         },
 
