@@ -111,14 +111,6 @@ def one_car(country, brand, car):
                 return render_template("one_car.html", car=car, imgLink=imgLink,
                                    brand=brand, country=country, year=single_car["year"]), 200
 
-            else:
-                return "Car not found in the specified brand.", 404
-
-        else:
-            return "Brand not found in the specified country.", 404
-    else:
-        return "Country not found in car data.", 404
-
 
 #Custom 404 page not found
 @app.errorhandler(404)
