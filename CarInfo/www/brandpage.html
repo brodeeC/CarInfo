@@ -6,206 +6,52 @@
 </style>
 
 <html> 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href = "static/css/styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="javascript" href="static/js/functions.js">
-        <link rel="icon" href="static/img/CarInfo.png" type="image/png">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="javascript" href="static/js/functions.js">
+    <link rel="icon" href="static/img/CarInfo.png" type="image/png">
 
-
-      <script>
-        async function loadOptions(){
-          const response = await fetch('/cars'); 
-          const data = await response.json();
-
-          //Get list of all countries cars are from
-          const countries = Object.keys(data);
-          countries.forEach(country =>{
-            
-            //Gets dropdown menu
-            let dropdown = document.querySelector("select");
-
-            //Creates an option
-            let option = document.createElement("option");
-
-            //Gives it the value of the country
-            option.setAttribute("value", country);
-
-            let countryName = country;
-
-            //If the country is South Korea
-            if (country == "SouthKorea") countryName = "South Korea";
-
-            //Adds text node with country as its value
-            option.appendChild(document.createTextNode(countryName));
-
-            //Apends it to dropdown
-            dropdown.appendChild(option);
-          });
-          loadButtons(data);
-        }
-
-        let brandList = [];
-
-        async function loadButtons(data){
-          let div = document.getElementById("brands");
-
-          //Get list of all countries cars are from
-          const countries = Object.keys(data);
-          countries.forEach(country =>{
-            
-            let makeData = Object.keys(data[country]);
-
-            //Iterate throught the makes
-            Object.values(makeData).forEach(make =>{
-              let button = document.createElement("button");
-              let anchor = document.createElement("a");
-
-              brandList.push(make);
-
-              //Set url
-              anchor.setAttribute("href", `/car/${country}/${make}`)
-
-              let className = "";
-              country.split(" ").forEach(word =>{
-                className += (word);
-              });
-
-              button.setAttribute("class", className);
-
-              button.setAttribute("id", make);
-
-              let logoLink = data[country][make]["logo"];
-
-              let image = document.createElement("img");
-              image.setAttribute("src", logoLink);
-
-              button.appendChild(image);
-
-              anchor.appendChild(button);
-
-              div.appendChild(anchor);
-            });
-
-          });
-        }
-
-        function suggestions(value){
-          //TODO: get list of all brands without making brandpage super slow.
-          
-        }
-
-      </script>
-    </head>
+  </head>
     <title>
         Car Info- Brand Page
     </title>
     <body class="color-mode" onload="loadOptions()">
       <script type="text/javascript" src="static/js/functions.js"></script>
-
-        <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
-        <div class="topnav">
-            <a href="/index.html" class="active"><h1 class = "HeadText">CAR
-                INFO</h1></a>
-            <!-- Navigation links (hidden by default) -->
-            <div id="myLinks" style="display: none;">
-              <a href="/index.html">Home</a>
-              <a href="/brandpage.html">Brands</a>
-              <a href="/aboutpage.html">About</a>
-              <a href="/contactus.html">Contact Us</a>
-            </div>
+      <script type="text/javascript" src="static/js/brandpage_js.js"></script>
+      <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+      <div class="topnav">
+        <a href="/index.html" class="active"><h1 class = "HeadText">CAR
+            INFO</h1></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks" style="display: none;">
+          <a href="/index.html">Home</a>
+          <a href="/brandpage.html">Brands</a>
+          <a href="/aboutpage.html">About</a>
+          <a href="/contactus.html">Contact Us</a>
+        </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a class="icon" onclick="displayMenu()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
+        <a class="icon" onclick="displayMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
 
-          <!--Inspiration taken from W3 schools-->
-          <label id = "dropdown">Choose a country</label>
-          <select name = "countries" id = "countries" onchange = "displayCountries()">
-            <option value = "None">None</option>
-          </select>
+      <!--Inspiration taken from W3 schools-->
+      <label id = "dropdown">Choose a country</label>
+      <select name = "countries" id = "countries" onchange = "displayCountries()">
+        <option value = "None">None</option>
+      </select>
 
-          <form id="searchForm">
-            <label for="brand">Brand:</label>
-            <input type="text" id="brandInput" placeholder="Country or Brand or Car" onkeyup="suggestions(this.value)">
-            <button onclick="submitSearch()">Search</button>
-          </form>
+      <label for="brand">Brand:</label>
+      <input type="text" id="brandInput" placeholder="Country, Brand or Car" onkeyup="suggestions(this.value)">
+      <button onclick="submitSearch()">Search</button>
 
-          <div class = "brands" id="brands">
-          </div>
+    <div class = "brands" id="brands">
+    </div>
 
-          <script>
-            async function submitSearch(){
-              
-              try {
-                // Sending the POST request
-                const response = await fetch('/search', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        val: document.getElementById("brandInput").value
-                    })
-                });
-
-                // Checking if the response is okay
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                //type == country: dropdown thing
-                //type == brand route to brand page in backend
-                //type == car route to single car page in backend
-
-                // Parsing the JSON response
-                const data = await response.json();
-
-                // Printing the response data to the console
-                console.log("Response received from the backend:", data);
-
-              } catch (error) {
-                  // Printing any errors that occur during the process
-                  console.error("An error occurred:", error);
-              }
-            }
-
-            function displayCountries(){
-              //Get selected country from dropdown menu
-              const country = document.querySelector("#countries").value;
-
-              //Get all brand buttons
-              let allButtons = document.querySelectorAll("#brands button");
-
-              //Iterate through each button
-              allButtons.forEach(button => {
-                let className = "";
-                country.split(" ").forEach(word =>{
-                  className += word;
-                });
-
-                  //If 'None' is selected in the dropdown
-                if (className === "None" && button.classList.length === 2){
-                  button.classList.toggle("hidden");
-                }
-                //If current button belongs to selected country and is currently being hidden
-                else if (button.classList[0] === className && button.classList.length === 2){
-                  button.classList.toggle("hidden");
-                }
-                //If current button does not belong to selected country, 'None' isn't selected and hidden is
-                //not already applied
-                else if (button.classList[0] !== className && className !== "None" 
-                && button.classList.length !== 2){
-                  button.classList.toggle("hidden");
-                }
-              })
-            }
-
-          </script>
-    
-    </body>
+  </body>
 </html>

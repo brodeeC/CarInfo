@@ -88,9 +88,38 @@ def search():
     for country in car_data.keys():
         countryLow = country.lower()
         if value == countryLow:
-            return jsonify({"country":country, "type":"country"})
+            return jsonify({"country":country, "type":"country"}), 200
         
-    return jsonify({"country":"None", "type":"None"})
+        for brand in car_data[country].keys():
+            brandLow = brand.lower()
+            if brandLow == value:
+                selected_cars = car_data[country][brand]
+                logo = selected_cars.pop('logo')
+
+                is_dark_mode = darkdetect.isDark()
+
+                if is_dark_mode: mode = "dark"
+                else: mode = "light"
+
+                return render_template("car_info.html", selected_cars=selected_cars, logo=logo,
+                                    brand=brand, country=country, mode=mode), 200
+            
+            for car in car_data[country][brand].keys():
+                carLow = car.lower()
+                if carLow == value:
+                    single_car = car_data[country][brand][car]
+
+                    is_dark_mode = darkdetect.isDark()
+
+                    if is_dark_mode:
+                        imgLink = single_car["dark"]
+                    else: 
+                        imgLink = single_car["light"]
+
+                    return render_template("one_car.html", car=car, imgLink=imgLink,
+                                    brand=brand, country=country, year=single_car["year"]), 200
+        
+    return jsonify({}), 200
     
 
 @app.route('/<country>/<brand>/<car>')
