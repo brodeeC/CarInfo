@@ -50,12 +50,9 @@ def car_info(country, brand):
             return render_template("car_info.html", selected_cars=selected_cars, logo=logo,
                                    brand=brand, country=country, mode=mode), 200
 
-        else:
-            print("Brand not found in specified country")
-            return "Brand not found in the specified country", 404
-    else:
-        print("Country not found in car data")
-        return "Country not found in car data", 404
+        page_not_found("Brand not found.")
+    
+    page_not_found("Country not found.")
     
 ##Some of code sourced from class slides.
 @app.route('/contact', methods =['POST'])
