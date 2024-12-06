@@ -35,9 +35,9 @@
             //Gives it the value of the country
             option.setAttribute("value", country);
 
-            //If the country is South Korea
             let countryName = country;
 
+            //If the country is South Korea
             if (country == "SouthKorea") countryName = "South Korea";
 
             //Adds text node with country as its value
@@ -70,7 +70,12 @@
               //Set url
               anchor.setAttribute("href", `/car/${country}/${make}`)
 
-              button.setAttribute("class", country);
+              let className = "";
+              country.split(" ").forEach(word =>{
+                className += (word);
+              });
+
+              button.setAttribute("class", className);
 
               button.setAttribute("id", make);
 
@@ -144,17 +149,22 @@
 
               //Iterate through each button
               allButtons.forEach(button => {
-                //If 'None' is selected in the dropdown
-                if (country === "None" && button.classList.length === 2){
+                let className = "";
+                country.split(" ").forEach(word =>{
+                  className += word;
+                });
+
+                  //If 'None' is selected in the dropdown
+                if (className === "None" && button.classList.length === 2){
                   button.classList.toggle("hidden");
                 }
                 //If current button belongs to selected country and is currently being hidden
-                else if (button.classList[0] === country && button.classList.length === 2){
+                else if (button.classList[0] === className && button.classList.length === 2){
                   button.classList.toggle("hidden");
                 }
                 //If current button does not belong to selected country, 'None' isn't selected and hidden is
                 //not already applied
-                else if (button.classList[0] !== country && country !== "None" 
+                else if (button.classList[0] !== className && className !== "None" 
                 && button.classList.length !== 2){
                   button.classList.toggle("hidden");
                 }

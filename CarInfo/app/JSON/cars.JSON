@@ -385,7 +385,7 @@
                 "make":"Porsche",
                 "model":"Cayman",
                 "year":"2005",
-                1"description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "GT1":{
                 "dark":"/static/img/Slideshow/gt1D.webp",
@@ -786,7 +786,7 @@
         }
     },
 
-    "SouthKorea":{
+    "South Korea":{
         "Hyundai":{
             "logo":"/static/img/Car Brand Logos/hyundai-logo.png",
             "Genesis":{
