@@ -132,7 +132,7 @@
 
           <form id="searchForm">
             <label for="brand">Brand:</label>
-            <input type="text" id="brandInput" placeholder="Toyota" onkeyup="suggestions(this.value)">
+            <input type="text" id="brandInput" placeholder="Country or Brand or Car" onkeyup="suggestions(this.value)">
             <button onclick="submitSearch()">Search</button>
           </form>
 
@@ -140,6 +140,37 @@
           </div>
 
           <script>
+            async function submitSearch(){
+              
+              try {
+                // Sending the POST request
+                const response = await fetch('/search', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        val: document.getElementById("brandInput").value
+                    })
+                });
+
+                // Checking if the response is okay
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+
+                // Parsing the JSON response
+                const data = await response.json();
+
+                // Printing the response data to the console
+                console.log("Response received from the backend:", data);
+
+              } catch (error) {
+                  // Printing any errors that occur during the process
+                  console.error("An error occurred:", error);
+              }
+            }
+
             function displayCountries(){
               //Get selected country from dropdown menu
               const country = document.querySelector("#countries").value;

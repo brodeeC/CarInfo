@@ -50,9 +50,9 @@ def car_info(country, brand):
             return render_template("car_info.html", selected_cars=selected_cars, logo=logo,
                                    brand=brand, country=country, mode=mode), 200
 
-        page_not_found("Brand not found.")
+        return page_not_found("Brand not found.")
     
-    page_not_found("Country not found.")
+    return page_not_found("Country not found.")
     
 ##Some of code sourced from class slides.
 @app.route('/contact', methods =['POST'])
@@ -74,6 +74,23 @@ def contact_us():
     
     except Exception as e:
         return f"An error occurred: {e}", 500
+    
+@app.route('/search', methods=['POST'])
+def search():
+    data = request.get_json()
+
+    value = data["val"]
+
+    value = value.lower()
+    
+    car_data = load_car_data()
+
+    for country in car_data.keys():
+        countryLow = country.lower()
+        if value == countryLow:
+            return jsonify({"country":country, "type":"country"})
+        
+    return jsonify({"country":"None", "type":"None"})
     
 
 @app.route('/<country>/<brand>/<car>')
