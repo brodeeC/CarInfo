@@ -185,7 +185,7 @@ color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray; /* Temporary to visualize the container */
+  background-color: rgb(212, 219, 224); /* Temporary to visualize the container */
 }
 
 /* Image styles */
@@ -193,7 +193,7 @@ color: #000;
   width: 100%; /* Ensure the image takes up full width of the container */
   height: auto; /* Maintain aspect ratio */
   display: block;
-  border: 5px solid white; /* Optional: adds a border around the images */
+  border: 5px solid  rgb(212, 219, 224); /* Optional: adds a border around the images */
 }
 
 /* Next and previous buttons */

@@ -100,7 +100,7 @@ def search():
                 if carLow == value:
                     return jsonify({"type":"car", "url":f"/{country}/{brand}/{car}"})
         
-    return jsonify({"value":"empty"}), 200
+    return jsonify({"value":"None"}), 200
     
 
 @app.route('/<country>/<brand>/<car>')

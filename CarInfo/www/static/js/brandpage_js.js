@@ -6,10 +6,11 @@ async function loadOptions(){
 
     //Get list of all countries cars are from
     const countries = Object.keys(data);
+
+    //Gets dropdown menu
+    let dropdown = document.querySelector("select");
+
     countries.forEach(country =>{
-      
-      //Gets dropdown menu
-      let dropdown = document.querySelector("select");
 
       //Creates an option
       let option = document.createElement("option");
@@ -28,6 +29,12 @@ async function loadOptions(){
       //Apends it to dropdown
       dropdown.appendChild(option);
     });
+    let option = document.createElement("option");
+    option.setAttribute("value", "None");
+    option.appendChild(document.createTextNode("None"));
+    option.setAttribute("id", "None");
+    dropdown.appendChild(option);
+
     loadButtons(data);
 }
 
@@ -80,7 +87,6 @@ function suggestions(value){
 }
 
 async function submitSearch(){
-    console.log("in the func");
     // Sending the POST request
     const response = await fetch('/search', {
         method: 'POST',
@@ -96,17 +102,18 @@ async function submitSearch(){
     if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
     }
-    //type == country: dropdown thing
-    //type == brand route to brand page in backend
-    //type == car route to single car page in backend
 
     // Parsing the JSON response
     const data = await response.json();
 
+    document.getElementById("brandInput").value = "";
+
+    //If user searched brand or car
     if (data.type == "brand" || data.type == "car") {
         window.location.href = data.url;
     }
     else{
+        //Display brands on brandpage
         displayCountries(data.value)
     }
 }
@@ -114,7 +121,7 @@ async function submitSearch(){
 function displayCountries(country=""){
     if (country == ""){
         //Get selected country from dropdown menu
-        const country = document.querySelector("#countries").value;
+        country = document.querySelector("#countries").value;
     }
 
     //Get all brand buttons
@@ -128,20 +135,23 @@ function displayCountries(country=""){
         });
 
         //If 'None' is selected in the dropdown
-        if (className === "None" && button.classList.length === 2){
+        if (className === "All" && button.classList.length === 2){
             button.classList.toggle("hidden");
         }
         //If current button belongs to selected country and is currently being hidden
         else if (button.classList[0] === className && button.classList.length === 2){
             button.classList.toggle("hidden");
         }
+
+        else if (className === "None" && button.classList.length !== 2){
+            button.classList.toggle("hidden");
+            let dropdown = document.querySelector("select");
+            dropdown.value = "None"
+        }
         //If current button does not belong to selected country, 'None' isn't selected and hidden is
         //not already applied
-        else if (button.classList[0] !== className && className !== "None" 
+        else if (button.classList[0] !== className && className !== "All" 
         && button.classList.length !== 2){
-            button.classList.toggle("hidden");
-        }
-        else if (className === "empty" && button.classList.length !== 2){
             button.classList.toggle("hidden");
         }
     })
