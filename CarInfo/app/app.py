@@ -101,12 +101,18 @@ def one_car(country, brand, car):
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
                                    brand=brand, country=country, year=single_car["year"]), 200
+            
+            return page_not_found("Car not found.")
+        
+        return page_not_found("Brand not found.")
+    
+    return page_not_found("Country not found.")
 
 
 #Custom 404 page not found
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('404.html'), 404
+    return render_template('404.html', e=e), 404
 
 
 #To ensure that my custom 404 page is ran and not flask's detailed page
