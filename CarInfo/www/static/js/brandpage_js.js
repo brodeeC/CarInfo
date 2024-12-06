@@ -103,15 +103,19 @@ async function submitSearch(){
     // Parsing the JSON response
     const data = await response.json();
 
-    if (data.length == 0) console.log("empty")
-
-    // Printing the response data to the console
-    console.log("Response received from the backend:", data);
+    if (data.type == "brand" || data.type == "car") {
+        window.location.href = data.url;
+    }
+    else{
+        displayCountries(data.value)
+    }
 }
 
-function displayCountries(){
-    //Get selected country from dropdown menu
-    const country = document.querySelector("#countries").value;
+function displayCountries(country=""){
+    if (country == ""){
+        //Get selected country from dropdown menu
+        const country = document.querySelector("#countries").value;
+    }
 
     //Get all brand buttons
     let allButtons = document.querySelectorAll("#brands button");
@@ -120,22 +124,25 @@ function displayCountries(){
     allButtons.forEach(button => {
         let className = "";
         country.split(" ").forEach(word =>{
-        className += word;
+            className += word;
         });
 
         //If 'None' is selected in the dropdown
         if (className === "None" && button.classList.length === 2){
-        button.classList.toggle("hidden");
+            button.classList.toggle("hidden");
         }
         //If current button belongs to selected country and is currently being hidden
         else if (button.classList[0] === className && button.classList.length === 2){
-        button.classList.toggle("hidden");
+            button.classList.toggle("hidden");
         }
         //If current button does not belong to selected country, 'None' isn't selected and hidden is
         //not already applied
         else if (button.classList[0] !== className && className !== "None" 
         && button.classList.length !== 2){
-        button.classList.toggle("hidden");
+            button.classList.toggle("hidden");
+        }
+        else if (className === "empty" && button.classList.length !== 2){
+            button.classList.toggle("hidden");
         }
     })
 }
