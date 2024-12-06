@@ -105,6 +105,7 @@ def one_car(country, brand, car):
                 else: 
                     imgLink = single_car["light"]
 
+                #TODO
                 if country == "SouthKorea": country = "South Korea"
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
