@@ -158,6 +158,9 @@
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
+                //type == country: dropdown thing
+                //type == brand route to brand page in backend
+                //type == car route to single car page in backend
 
                 // Parsing the JSON response
                 const data = await response.json();
