@@ -1,5 +1,8 @@
 let brandList = [];
 
+/**
+ * Iterates over data set and creates options for dropdown
+ */
 async function loadOptions(){
     const response = await fetch('/cars'); 
     const data = await response.json();
@@ -37,6 +40,10 @@ async function loadOptions(){
     loadButtons(data);
 }
 
+/**
+ * Places all buttons on the page
+ * @param {*} data - dataset
+ */
 async function loadButtons(data){
     let div = document.getElementById("brands");
 
@@ -80,6 +87,11 @@ async function loadButtons(data){
     });
 }
 
+/**
+ * Creates suggestions box and dynamically responds to every key up in search box.
+ * @param {*} value 
+ * @returns 
+ */
 function suggestions(value){
     //Nothing in search box
     if (value === "") {
@@ -98,23 +110,28 @@ function suggestions(value){
         //If close - displays dropdown value
         if ((dropVal !== "All" && dropVal !== "None") && isClose(value, dropVal)) {
             setDataList(dropVal);
+            if (value.toLowerCase() === dropVal.toLocaleLowerCase()) return displayCountries(dropVal);
         }
      }
     //If it's a brand, display the country it's from
     brandList = checkBrands(value);
     if (brandList.length !== 0) toggleBrands(brandList);
 
-    //If it's a car, display the country it's from
+    //Check cars
     checkCars(value)
-
-    
-    //return displayResults(dispValue);
 }
 
+/**
+ * Displays only brands in brandList
+ * @param {*} brandList 
+ * @returns 
+ */
 function toggleBrands(brandList){
+    //Empty list
     if (brandList.length === 0) return displayCountries("All");
 
     let allButtons = document.querySelectorAll("#brands button");
+    //Iterates over buttons and list to hide them
     allButtons.forEach(button => {
         brandList.forEach(brand => {
             let count = 1;
