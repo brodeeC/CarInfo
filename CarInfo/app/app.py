@@ -81,6 +81,9 @@ def search():
 
     value = data["val"]
 
+    if value == "":
+        return jsonify({"value":"All"})
+
     value = value.lower()
     
     car_data = load_car_data()

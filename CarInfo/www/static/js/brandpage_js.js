@@ -82,7 +82,10 @@ async function loadButtons(data){
 
 function suggestions(value){
     //Nothing in search box
-    if (value === "") displayCountries("All");
+    if (value === "") {
+        setDataList("");
+        return displayCountries("All");
+    }
 
     //Get dropdown values
     let dropdown = document.querySelector("select");
@@ -90,7 +93,10 @@ function suggestions(value){
     for (i = 0; i < dropdown.options.length; i++) {
         let dropVal = dropdown.options[i].value
         //If close - displays dropdown value
-        if (isClose(value, dropVal)) return displayCountries(dropVal);
+        if ((dropVal !== "All" && dropVal !== "None") && isClose(value, dropVal)) {
+            setDataList(dropVal);
+            return displayCountries(dropVal);
+        }
      }
     //If it's a brand, display the country it's from
     let country = checkBrands(value)
@@ -105,7 +111,24 @@ function suggestions(value){
     return displayCountries("None");
 }
 
+function setDataList(value){
+    datalist = document.getElementById("suggestionBox");
+    datalist.innerHTML = "";
+    if (datalist.classList.length > 1) datalist.classList.toggle("hidden");
+    if (value === "") datalist.classList.toggle("hidden");
+    let button = document.createElement("button");
+    button.setAttribute("onclick", `fillBox('${value}')`);
+    button.appendChild(document.createTextNode(value));
+    datalist.appendChild(button);
+}
+
+function fillBox(value){
+    document.getElementById("suggestionBox").classList.toggle("hidden");
+    document.getElementById("brandInput").value = value;
+}
+
 function checkBrands(value){
+    //Get buttons class=country and id=brand
     let allButtons = document.querySelectorAll("#brands button");
 
     for (i = 0; i < allButtons.length; i++){
@@ -113,20 +136,30 @@ function checkBrands(value){
         brand = button.id;
         country = button.classList[0];
 
-        if (isClose(value, brand)) return country;
+        //check if brand might be the value
+        if (isClose(value, brand)) {
+            setDataList(brand);
+            return country;
+        }
     }
     return "";
 }
 
+/**
+ * Iterates over dataset to check each car with user value to predict search
+ * @param {*} value 
+ * @returns 
+ */
 async function checkCars(value){
+    //Get data
     const response = await fetch('/cars'); 
     const data = await response.json();
 
     const countries = Object.keys(data);
 
+    //Iterate through countries, brands, and cars
     for (i = 0; i < countries.length; i++){
         let country = countries[i];
-        console.log(country);
         const brands = Object.keys(data[country]);
 
         for (j = 0; j < brands.length; j++){
@@ -135,38 +168,30 @@ async function checkCars(value){
 
             for (k = 0; k < cars.length; k++){
                 let car = cars[k];
+                //if it's the logo I don't want it
                 if (car !== "logo"){
+                    //Name of car
                     let  model = data[country][brand][car]["model"];
 
-                    if (model === data[country][brand]["logo"]) model = "";
-
-                    if (isClose(value, model)) return country;
+                    //if model may be value
+                    if (isClose(value, model)) {
+                        setDataList(model);
+                        return country;
+                    }
                 }
             }
         }
     }
     return "";
-
-
-    // countries.forEach(country => {
-    //    const brands = Object.keys(data[country]);
-
-    //     brands.forEach(brand => {
-    //         let cars = Object.keys(data[country][brand]);
-
-    //         cars.forEach(car => {
-    //             if (car !== "logo"){
-    //                 let  model = data[country][brand][car]["model"];
-
-    //                 if (model === data[country][brand]["logo"]) model = "";
-
-    //                 if (isClose(value, model)) return country;
-    //             }
-    //         });
-    //     });
-    // });
 }
 
+
+/**
+ * Predicts if two strings are the same
+ * @param {*} inVal - user inputted value
+ * @param {*} dataVal - value from data
+ * @returns true/false
+ */
 function isClose(inVal, dataVal){
     if (inVal.length > dataVal.length) return false;
 
@@ -175,12 +200,14 @@ function isClose(inVal, dataVal){
 
     let newWord = "";
     for (let i = 0; i < inVal.length; i++) {
-        inChar = inVal[i];
         newWord += dataVal[i];
     } 
     return newWord === inVal
 }
 
+/**
+ * Post request on search query, displays results
+ */
 async function submitSearch(){
     // Sending the POST request
     const response = await fetch('/search', {
@@ -213,12 +240,14 @@ async function submitSearch(){
     }
 }
 
+/**
+ * Selects the country in the dropdown and displays logos of all brands in our dataset
+ * @param {*} country - optional, manually select dropdown option and display logos
+ */
 function displayCountries(country=""){
-    if (country == ""){
-        //Get selected country from dropdown menu
-        country = document.querySelector("#countries").value;
-    }
-
+    //Get selected country from dropdown menu
+    if (country == "") country = document.querySelector("#countries").value;
+        
     let dropdown = document.querySelector("select");
     dropdown.value = country;
 
@@ -227,11 +256,12 @@ function displayCountries(country=""){
 
     //Iterate through each button
     allButtons.forEach(button => {
+        //Multiple words - ex: "South Korea" => SouthKorea
         let className = "";
         country.split(" ").forEach(word =>{
             className += word;
         });
-        //If 'None' is selected in the dropdown
+        //If 'All' is selected in the dropdown - displays all
         if (className === "All" && button.classList.length === 2){
             button.classList.toggle("hidden");
         }
@@ -240,10 +270,11 @@ function displayCountries(country=""){
             button.classList.toggle("hidden");
         }
 
+        //Hides everything
         else if (className === "None" && button.classList.length !== 2){
             button.classList.toggle("hidden");
         }
-        //If current button does not belong to selected country, 'None' isn't selected and hidden is
+        //If current button does not belong to selected country, 'All' isn't selected and hidden is
         //not already applied
         else if (button.classList[0] !== className && className !== "All" 
         && button.classList.length !== 2){
