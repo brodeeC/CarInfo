@@ -627,13 +627,13 @@
 
         "Honda":{
             "logo":"/static/img/Car Brand Logos/honda-logo.png",
-                "Civic Hatchback":{
-                "dark":"/static/img/Slideshow/HondaCivicHatchD.jpeg",
-                "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
-                "make":"Honda",
-                "model":"Civic Hatchback",
-                "year":"2017",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+            "Civic Hatchback":{
+            "dark":"/static/img/Slideshow/HondaCivicHatchD.jpeg",
+            "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
+            "make":"Honda",
+            "model":"Civic Hatchback",
+            "year":"2017",
+            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
             },
             "S2000":{
                 "dark":"/static/img/Slideshow/HondaS2KD.avif",

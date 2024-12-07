@@ -3,7 +3,6 @@ let brandList = [];
 async function loadOptions(){
     const response = await fetch('/cars'); 
     const data = await response.json();
-
     //Get list of all countries cars are from
     const countries = Object.keys(data);
 
@@ -82,8 +81,104 @@ async function loadButtons(data){
 }
 
 function suggestions(value){
-//TODO: get list of all brands without making brandpage super slow.
+    //Nothing in search box
+    if (value === "") displayCountries("All");
 
+    //Get dropdown values
+    let dropdown = document.querySelector("select");
+
+    for (i = 0; i < dropdown.options.length; i++) {
+        let dropVal = dropdown.options[i].value
+        //If close - displays dropdown value
+        if (isClose(value, dropVal)) return displayCountries(dropVal);
+     }
+    //If it's a brand, display the country it's from
+    let country = checkBrands(value)
+    if (country !== "") return displayCountries(country);
+
+    //If it's a car, display the country it's from
+    checkCars(value).then((country) => {
+        if (country != null) return displayCountries(country);
+    });
+
+    //Not found
+    return displayCountries("None");
+}
+
+function checkBrands(value){
+    let allButtons = document.querySelectorAll("#brands button");
+
+    for (i = 0; i < allButtons.length; i++){
+        button = allButtons[i];
+        brand = button.id;
+        country = button.classList[0];
+
+        if (isClose(value, brand)) return country;
+    }
+    return "";
+}
+
+async function checkCars(value){
+    const response = await fetch('/cars'); 
+    const data = await response.json();
+
+    const countries = Object.keys(data);
+
+    for (i = 0; i < countries.length; i++){
+        let country = countries[i];
+        console.log(country);
+        const brands = Object.keys(data[country]);
+
+        for (j = 0; j < brands.length; j++){
+            let brand = brands[j];
+            let cars = Object.keys(data[country][brand]);
+
+            for (k = 0; k < cars.length; k++){
+                let car = cars[k];
+                if (car !== "logo"){
+                    let  model = data[country][brand][car]["model"];
+
+                    if (model === data[country][brand]["logo"]) model = "";
+
+                    if (isClose(value, model)) return country;
+                }
+            }
+        }
+    }
+    return "";
+
+
+    // countries.forEach(country => {
+    //    const brands = Object.keys(data[country]);
+
+    //     brands.forEach(brand => {
+    //         let cars = Object.keys(data[country][brand]);
+
+    //         cars.forEach(car => {
+    //             if (car !== "logo"){
+    //                 let  model = data[country][brand][car]["model"];
+
+    //                 if (model === data[country][brand]["logo"]) model = "";
+
+    //                 if (isClose(value, model)) return country;
+    //             }
+    //         });
+    //     });
+    // });
+}
+
+function isClose(inVal, dataVal){
+    if (inVal.length > dataVal.length) return false;
+
+    inVal = inVal.toLowerCase();
+    dataVal = dataVal.toLowerCase();
+
+    let newWord = "";
+    for (let i = 0; i < inVal.length; i++) {
+        inChar = inVal[i];
+        newWord += dataVal[i];
+    } 
+    return newWord === inVal
 }
 
 async function submitSearch(){
