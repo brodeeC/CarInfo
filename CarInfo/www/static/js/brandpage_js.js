@@ -90,28 +90,30 @@ function suggestions(value){
     //Get dropdown values
     let dropdown = document.querySelector("select");
 
+    datalist = document.getElementById("suggestionBox");
+    datalist.innerHTML = "";
+
     for (i = 0; i < dropdown.options.length; i++) {
         let dropVal = dropdown.options[i].value
         //If close - displays dropdown value
         if ((dropVal !== "All" && dropVal !== "None") && isClose(value, dropVal)) {
             setDataList(dropVal);
-            return displayCountries(dropVal);
         }
      }
     //If it's a brand, display the country it's from
     brandList = checkBrands(value);
-    if (brandList.length !== 0) return toggleBrands(brandList);
+    if (brandList.length !== 0) toggleBrands(brandList);
 
     //If it's a car, display the country it's from
-    checkCars(value).then((country) => {
-        if (country != null) return displayCountries(country);
-    });
+    checkCars(value)
 
-    //Not found
-    return displayCountries("None");
+    
+    //return displayResults(dispValue);
 }
 
 function toggleBrands(brandList){
+    if (brandList.length === 0) return displayCountries("All");
+
     let allButtons = document.querySelectorAll("#brands button");
     allButtons.forEach(button => {
         brandList.forEach(brand => {
@@ -134,10 +136,6 @@ function toggleBrands(brandList){
  * @param {*} value - value to set
  */
 function setDataList(value){
-    //Clear list
-    datalist = document.getElementById("suggestionBox");
-    datalist.innerHTML = "";
-
     //Unhide it if it's hidden
     if (datalist.classList.length > 1) datalist.classList.toggle("hidden");
 
@@ -175,6 +173,7 @@ function checkBrands(value){
         brand = button.id;
         country = button.classList[0];
 
+        //Reset buttons from toggling them
         if (button.classList.contains("checked")) button.classList.toggle("checked");
 
         //check if brand might be the value
