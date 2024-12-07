@@ -84,28 +84,45 @@ function suggestions(value){
     //TODO: get list of all brands without making brandpage super slow.
     if (value === "") displayCountries("All");
 
-    lowVal = value.toLowerCase();
-    console.log(value);
-
     let dropdown = document.querySelector("select");
 
     for (i = 0; i < dropdown.options.length; i++) {
-        dropVal = dropdown.options[i].value.toLowerCase();
-        if (isClose(lowVal, dropVal)) return displayCountries(dropdown.options[i].value);
+        let dropVal = dropdown.options[i].value
+        if (isClose(value, dropVal)) return displayCountries(dropVal);
      }
+    let country = checkBrands(value)
+    if (country !== "") return displayCountries(country);
 }
 
-function isClose(lowVal, dropVal){
-    eqCount = 0;
-    for (let i = 0; i < lowVal.length; i++) {
-        valChar = lowVal[i];
-        for (let j = 0; j < dropVal.length; j++) {
-            dropChar = dropVal[j];
-            if (valChar === dropChar) eqCount++;
-        }
+function checkBrands(value){
+    let allButtons = document.querySelectorAll("#brands button");
+
+    for (i = 0; i < allButtons.length; i++){
+        button = allButtons[i];
+        brand = button.id;
+        country = button.classList[0];
+
+        if (isClose(value, brand)) return country;
+    }
+    return "";
+}
+
+function checkCars(value){
+    console.log(value);
+}
+
+function isClose(inVal, dataVal){
+    if (inVal.length > dataVal.length) return false;
+
+    inVal = inVal.toLowerCase();
+    dataVal = dataVal.toLowerCase();
+
+    let newWord = "";
+    for (let i = 0; i < inVal.length; i++) {
+        inChar = inVal[i];
+        newWord += dataVal[i];
     } 
-    if (eqCount === lowVal.length) return true;
-    return false;
+    return newWord === inVal
 }
 
 async function submitSearch(){
