@@ -124,6 +124,9 @@ function displayCountries(country=""){
         country = document.querySelector("#countries").value;
     }
 
+    let dropdown = document.querySelector("select");
+    dropdown.value = country;
+
     //Get all brand buttons
     let allButtons = document.querySelectorAll("#brands button");
 
@@ -133,7 +136,6 @@ function displayCountries(country=""){
         country.split(" ").forEach(word =>{
             className += word;
         });
-
         //If 'None' is selected in the dropdown
         if (className === "All" && button.classList.length === 2){
             button.classList.toggle("hidden");
@@ -145,8 +147,6 @@ function displayCountries(country=""){
 
         else if (className === "None" && button.classList.length !== 2){
             button.classList.toggle("hidden");
-            let dropdown = document.querySelector("select");
-            dropdown.value = "None"
         }
         //If current button does not belong to selected country, 'None' isn't selected and hidden is
         //not already applied
