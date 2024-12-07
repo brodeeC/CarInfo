@@ -1,6 +1,7 @@
 import csv
 import json
-from flask import Flask, jsonify, render_template, request, redirect # type: ignore
+import os
+from flask import Flask, jsonify, render_template, request, redirect, send_from_directory # type: ignore
 from flask_cors import CORS # type: ignore
 import darkdetect # type: ignore
 
@@ -54,6 +55,10 @@ def car_info(country, brand):
     
     return page_not_found("Country not found.")
     
+# Directory to save uploaded files
+UPLOAD_FOLDER = 'uploads'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 ##Some of code sourced from class slides.
 @app.route('/contact', methods =['POST'])
 def contact_us():
@@ -62,19 +67,32 @@ def contact_us():
         lname = request.form.get("lname")
         country = request.form.get("country")
         subject = request.form.get("subject")
-        file = request.form.get("file")
 
-        row = [fname, lname, country, subject, file]
+        #Handles if a image is uploaded
+        uploaded_file = request.files.get("file")
+        file_path = ""
+        if uploaded_file and uploaded_file.filename != "":
+            # Save file to the upload directory
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], uploaded_file.filename)
+            uploaded_file.save(file_path)
+        
+
+        row = [fname, lname, country, subject, file_path]
 
         with open('CSV/contact.csv', 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html')
+        return render_template('formsubmission.html', file_path=file_path)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
+
+#Ensures that the images can be viewed through an url: /uploads/filename  
+@app.route('/uploads/<filename>')
+def uploaded_file(filename):
+    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
     
 @app.route('/search', methods=['POST'])
 def search():
