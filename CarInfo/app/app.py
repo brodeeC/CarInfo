@@ -62,8 +62,9 @@ def contact_us():
         lname = request.form.get("lname")
         country = request.form.get("country")
         subject = request.form.get("subject")
+        file = request.form.get("file")
 
-        row = [fname, lname, country, subject]
+        row = [fname, lname, country, subject, file]
 
         with open('CSV/contact.csv', 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
