@@ -81,20 +81,27 @@ async function loadButtons(data){
 }
 
 function suggestions(value){
-    //TODO: get list of all brands without making brandpage super slow.
+    //Nothing in search box
     if (value === "") displayCountries("All");
 
+    //Get dropdown values
     let dropdown = document.querySelector("select");
 
     for (i = 0; i < dropdown.options.length; i++) {
         let dropVal = dropdown.options[i].value
+        //If close - displays dropdown value
         if (isClose(value, dropVal)) return displayCountries(dropVal);
      }
+    //If it's a brand, display the country it's from
     let country = checkBrands(value)
     if (country !== "") return displayCountries(country);
-    checkCars(value).then((data) => {
-        if (data != null) return displayCountries(data);
+
+    //If it's a car, display the country it's from
+    checkCars(value).then((country) => {
+        if (country != null) return displayCountries(country);
     });
+
+    //Not found
     return displayCountries("None");
 }
 
