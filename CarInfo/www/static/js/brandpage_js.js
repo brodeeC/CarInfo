@@ -93,8 +93,9 @@ function suggestions(value){
     let country = checkBrands(value)
     if (country !== "") return displayCountries(country);
     checkCars(value).then((data) => {
-        return displayCountries(data);
+        if (data != null) return displayCountries(data);
     });
+    return displayCountries("None");
 }
 
 function checkBrands(value){
