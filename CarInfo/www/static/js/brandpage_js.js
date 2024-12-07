@@ -98,17 +98,15 @@ function suggestions(value){
         //If close - displays dropdown value
         if ((dropVal !== "All" && dropVal !== "None") && isClose(value, dropVal)) {
             setDataList(dropVal);
+            if (value.toLowerCase() === dropVal.toLocaleLowerCase()) return displayCountries(dropVal);
         }
      }
     //If it's a brand, display the country it's from
     brandList = checkBrands(value);
     if (brandList.length !== 0) toggleBrands(brandList);
 
-    //If it's a car, display the country it's from
+    //Check cars
     checkCars(value)
-
-    
-    //return displayResults(dispValue);
 }
 
 function toggleBrands(brandList){
