@@ -45,7 +45,7 @@
 
         <!--Begining of the the Accordin.-->
         <div class = "BodyText"><h2>FAQs</h2>
-            <button class="accordion" onclick="showAccordin()">How often do you update the car directory with new models and brands?</button>
+            <button class="accordion">How often do you update the car directory with new models and brands?</button>
             <div class="panel">
               <p>
                 We update our ar directroy as frequently as twice a month or when a number of users have expressed a desire for a certain model 
@@ -53,7 +53,7 @@
               </p>
             </div>
             
-            <button class="accordion" onclick="showAccordin()" >Are there plans to add more features, like user reviews or ratings for cars?</button>
+            <button class="accordion">Are there plans to add more features, like user reviews or ratings for cars?</button>
             <div class="panel">
               <p>
                 Yes, we are always looking for more ways to improve this website over time. If you have any suggestion, fill out a contact us form 
@@ -61,7 +61,7 @@
               </p>
             </div>
             
-            <button class="accordion" onclick="showAccordin()">Can I contribute content, such as my own car reviews or photos, to your website?</button>
+            <button class="accordion">Can I contribute content, such as my own car reviews or photos, to your website?</button>
             <div class="panel">
               <p>
                 Yes, you can contribute to this website through various ways. While, we are developing features to where you can add car reviews
@@ -100,4 +100,24 @@
                 we are eager to hear from you. Your input helps us improve and provide the most up-to-date and helpful car information.</p>
         </div> 
     </body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        var acc = document.getElementsByClassName("accordion");
+
+        for (var i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            // Toggle between adding and removing the "active" class
+            this.classList.toggle("active");
+
+            // Toggle between hiding and showing the active panel
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      });
+    </script>
 </html>
