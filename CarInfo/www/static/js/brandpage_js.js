@@ -92,6 +92,9 @@ function suggestions(value){
      }
     let country = checkBrands(value)
     if (country !== "") return displayCountries(country);
+    checkCars(value).then((data) => {
+        return displayCountries(data);
+    });
 }
 
 function checkBrands(value){
@@ -107,8 +110,53 @@ function checkBrands(value){
     return "";
 }
 
-function checkCars(value){
-    console.log(value);
+async function checkCars(value){
+    const response = await fetch('/cars'); 
+    const data = await response.json();
+
+    const countries = Object.keys(data);
+
+    for (i = 0; i < countries.length; i++){
+        let country = countries[i];
+        console.log(country);
+        const brands = Object.keys(data[country]);
+
+        for (j = 0; j < brands.length; j++){
+            let brand = brands[j];
+            let cars = Object.keys(data[country][brand]);
+
+            for (k = 0; k < cars.length; k++){
+                let car = cars[k];
+                if (car !== "logo"){
+                    let  model = data[country][brand][car]["model"];
+
+                    if (model === data[country][brand]["logo"]) model = "";
+
+                    if (isClose(value, model)) return country;
+                }
+            }
+        }
+    }
+    return "";
+
+
+    // countries.forEach(country => {
+    //    const brands = Object.keys(data[country]);
+
+    //     brands.forEach(brand => {
+    //         let cars = Object.keys(data[country][brand]);
+
+    //         cars.forEach(car => {
+    //             if (car !== "logo"){
+    //                 let  model = data[country][brand][car]["model"];
+
+    //                 if (model === data[country][brand]["logo"]) model = "";
+
+    //                 if (isClose(value, model)) return country;
+    //             }
+    //         });
+    //     });
+    // });
 }
 
 function isClose(inVal, dataVal){
