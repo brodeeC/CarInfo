@@ -193,7 +193,7 @@
 
           <div class="container">
             <h2 class="form_name">Contact Us</h2>
-            <form action="/contact" method="POST">
+            <form action="/contact" method="POST" enctype="multipart/form-data">
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="fname" placeholder="Your first name.." required>
               
@@ -206,6 +206,7 @@
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" onchange="msgType()" placeholder="Write something.." required></textarea>
 
+              <!--Created so the user can submit a car they would like to see featured on the site.-->
               <label for="file">Attach a File (Optional)</label>
               <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx">
               <p>File formats accepted are: .jpg, .jpeg, .png, .pdf, .doc, .docx </p>
