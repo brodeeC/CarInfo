@@ -99,8 +99,8 @@ function suggestions(value){
         }
      }
     //If it's a brand, display the country it's from
-    let country = checkBrands(value)
-    if (country !== "") return displayCountries(country);
+    brandList = checkBrands(value);
+    if (brandList.length !== 0) return toggleBrands(brandList);
 
     //If it's a car, display the country it's from
     checkCars(value).then((country) => {
@@ -111,38 +111,79 @@ function suggestions(value){
     return displayCountries("None");
 }
 
+function toggleBrands(brandList){
+    let allButtons = document.querySelectorAll("#brands button");
+    allButtons.forEach(button => {
+        brandList.forEach(brand => {
+            let count = 1;
+            if (button.id === brand && (!button.classList.contains("checked"))){
+                console.log(count);
+                count++;
+                button.classList.toggle("checked");
+                if (button.classList.contains("hidden")) button.classList.toggle("hidden");
+            }
+            else if (!button.classList.contains("checked") && (!button.classList.contains("hidden"))) {
+                button.classList.toggle("hidden");
+            }
+        });
+    });
+}
+
+/**
+ * Set's the inside of the suggestion box with clickable buttons
+ * @param {*} value - value to set
+ */
 function setDataList(value){
+    //Clear list
     datalist = document.getElementById("suggestionBox");
     datalist.innerHTML = "";
+
+    //Unhide it if it's hidden
     if (datalist.classList.length > 1) datalist.classList.toggle("hidden");
+
+    //If the search input is empty
     if (value === "") datalist.classList.toggle("hidden");
+
+    //Button set up
     let button = document.createElement("button");
     button.setAttribute("onclick", `fillBox('${value}')`);
     button.appendChild(document.createTextNode(value));
     datalist.appendChild(button);
 }
 
+/**
+ * Fills input box with passed value
+ * @param {*} value 
+ */
 function fillBox(value){
     document.getElementById("suggestionBox").classList.toggle("hidden");
     document.getElementById("brandInput").value = value;
 }
 
+/**
+ * Checks through list of all buttons to see if any are == value
+ * @param {*} value 
+ * @returns 
+ */
 function checkBrands(value){
     //Get buttons class=country and id=brand
     let allButtons = document.querySelectorAll("#brands button");
 
+    brandList = [];
     for (i = 0; i < allButtons.length; i++){
         button = allButtons[i];
         brand = button.id;
         country = button.classList[0];
 
+        if (button.classList.contains("checked")) button.classList.toggle("checked");
+
         //check if brand might be the value
         if (isClose(value, brand)) {
             setDataList(brand);
-            return country;
+            brandList.push(brand);
         }
     }
-    return "";
+    return brandList;
 }
 
 /**
@@ -262,22 +303,22 @@ function displayCountries(country=""){
             className += word;
         });
         //If 'All' is selected in the dropdown - displays all
-        if (className === "All" && button.classList.length === 2){
+        if (className === "All" && button.classList.contains("hidden")){
             button.classList.toggle("hidden");
         }
         //If current button belongs to selected country and is currently being hidden
-        else if (button.classList[0] === className && button.classList.length === 2){
+        else if (button.classList[0] === className && button.classList.contains("hidden")){
             button.classList.toggle("hidden");
         }
 
         //Hides everything
-        else if (className === "None" && button.classList.length !== 2){
+        else if (className === "None" && (!button.classList.contains("hidden"))){
             button.classList.toggle("hidden");
         }
         //If current button does not belong to selected country, 'All' isn't selected and hidden is
         //not already applied
         else if (button.classList[0] !== className && className !== "All" 
-        && button.classList.length !== 2){
+        && (!button.classList.contains("hidden"))){
             button.classList.toggle("hidden");
         }
     })
