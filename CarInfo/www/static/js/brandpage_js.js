@@ -3,7 +3,6 @@ let brandList = [];
 async function loadOptions(){
     const response = await fetch('/cars'); 
     const data = await response.json();
-
     //Get list of all countries cars are from
     const countries = Object.keys(data);
 
@@ -82,8 +81,31 @@ async function loadButtons(data){
 }
 
 function suggestions(value){
-//TODO: get list of all brands without making brandpage super slow.
+    //TODO: get list of all brands without making brandpage super slow.
+    if (value === "") displayCountries("All");
 
+    lowVal = value.toLowerCase();
+    console.log(value);
+
+    let dropdown = document.querySelector("select");
+
+    for (i = 0; i < dropdown.options.length; i++) {
+        dropVal = dropdown.options[i].value.toLowerCase();
+        if (isClose(lowVal, dropVal)) return displayCountries(dropdown.options[i].value);
+     }
+}
+
+function isClose(lowVal, dropVal){
+    eqCount = 0;
+    for (let i = 0; i < lowVal.length; i++) {
+        valChar = lowVal[i];
+        for (let j = 0; j < dropVal.length; j++) {
+            dropChar = dropVal[j];
+            if (valChar === dropChar) eqCount++;
+        }
+    } 
+    if (eqCount === lowVal.length) return true;
+    return false;
 }
 
 async function submitSearch(){
