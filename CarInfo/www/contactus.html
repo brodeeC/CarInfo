@@ -188,6 +188,9 @@
           
           <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_css_contact_form.asp-->
 
+
+          <!--Add a file type acceptance parameter so no one can do anything sneaky.-->
+
           <div class="container">
             <h2 class="form_name">Contact Us</h2>
             <form action="/contact" method="POST">
@@ -202,6 +205,10 @@
               
               <label for="subject">Subject</label>
               <textarea id="subject" name="subject" onchange="msgType()" placeholder="Write something.." required></textarea>
+
+              <label for="file">Attach a File (Optional)</label>
+              <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx">
+
               
               <input type="submit" value="Submit">
             </form>
