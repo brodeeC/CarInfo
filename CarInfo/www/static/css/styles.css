@@ -531,3 +531,26 @@ color: #000;
     font-size: 16px; /* Slightly larger font for readability on smaller screens */
   }
 }
+
+.search-container{
+  background-color: #ef1a2d;
+  border-color: #03396c;
+}
+
+#suggestionBox{
+  background-color: #03396c;
+  border-color: #03396c;
+}
+
+#countries{
+  border-color: #ef1a2d;
+  background-color: #03396c;
+}
+
+.dropSearch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 20%;
+}

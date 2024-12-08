@@ -33,21 +33,22 @@
       </div>
 
       <!--Inspiration taken from W3 schools-->
-      <div class="dropdown">
-      <label id = "dropdown">Choose a country:</label>
-      <select name = "countries" id = "countries" onchange = "displayCountries()">
-        <option value = "All">All</option>
-      </select>
-    </div>
+      <div class = "dropSearch">
+        <div class="dropdown">
+        <label id = "dropdown">Choose a country:</label>
+        <select name = "countries" id = "countries" onchange = "displayCountries()">
+          <option value = "All">All</option>
+        </select>
+        </div>
 
-    <div class="search-container">
-      <label for="brand">Search:</label>
-      <input type="text" id="brandInput" placeholder="Country, Brand or Car" onkeyup="suggestions(this.value)">
-      <div class="suggestionBox hidden" id="suggestionBox">
-      </div>  
-      <button id="searchButton" onclick="submitSearch()">Search</button>
-    </div>
-
+        <div class="search-container">
+          <label for="brand">Search:</label>
+          <input type="text" id="brandInput" placeholder="Country, Brand or Car" onkeyup="suggestions(this.value)">
+          <div class="suggestionBox hidden" id="suggestionBox">
+          </div>  
+          <button id="searchButton" onclick="submitSearch()">Search</button>
+        </div>
+      </div>
     <div class = "brands" id="brands">
     </div>
   </body>
