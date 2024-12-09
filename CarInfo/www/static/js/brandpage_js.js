@@ -258,6 +258,7 @@ function isClose(inVal, dataVal){
     let newWord = "";
     for (let i = 0; i < inVal.length; i++) {
         newWord += dataVal[i];
+        if (inVal[i] !== dataVal[i]) return false;
     } 
     return newWord === inVal
 }
