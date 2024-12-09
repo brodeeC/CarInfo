@@ -18,14 +18,14 @@ def create_app(test_config=False, shared_server=False):
 
 app = create_app()
 
-@app.route("/cars")
+@app.route(prepend + "/cars", methods=['POST'])
 def cars():
     with open("JSON/cars.JSON") as file:
         cars = json.load(file)
     return jsonify(cars)
 
 
-@app.route("/brands/<brand>")
+@app.route(prepend + "/brands/<brand>", methods=['POST'])
 def brands(brand):
     return render_template("brands.html", brand = brand)
 
@@ -39,7 +39,7 @@ def load_car_data():
 app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
-@app.route('/car/<country>/<brand>')
+@app.route(prepend + '/car/<country>/<brand>', methods=['POST'])
 def car_info(country, brand):
   
     # Access car data from Flask config
@@ -73,7 +73,7 @@ UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 ##Some of code sourced from class slides.
-@app.route('/contact', methods =['POST'])
+@app.route(prepend + '/contact', methods =['POST'])
 def contact_us():
     try:
         fname = request.form.get("fname")
@@ -103,7 +103,7 @@ def contact_us():
         return f"An error occurred: {e}", 500
     
 #Route for the featured car of the month form
-@app.route('/featured', methods =['POST'])
+@app.route( prepend +'/featured', methods =['POST'])
 def featured():
     try:
         fname = request.form.get("fname")
@@ -133,11 +133,11 @@ def featured():
         return f"An error occurred: {e}", 500
 
 #Ensures that the images can be viewed through an url: /uploads/filename  
-@app.route('/uploads/<filename>')
+@app.route(prepend + '/uploads/<filename>', methods=['POST'])
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
     
-@app.route('/search', methods=['POST'])
+@app.route(prepend + '/search', methods=['POST'])
 def search():
     data = request.get_json()
 
@@ -168,7 +168,7 @@ def search():
     return jsonify({"value":"None"}), 200
     
 
-@app.route('/<country>/<brand>/<car>')
+@app.route(prepend + '/<country>/<brand>/<car>', methods=['POST'])
 def one_car(country, brand, car):
     # Access car data from Flask config
     car_data = app.config['CAR_DATA']
