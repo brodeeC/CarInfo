@@ -92,6 +92,36 @@ def contact_us():
     
     except Exception as e:
         return f"An error occurred: {e}", 500
+    
+#Route for the featured car of the month form
+@app.route('/featured', methods =['POST'])
+def contact_us():
+    try:
+        fname = request.form.get("fname")
+        lname = request.form.get("lname")
+        country = request.form.get("country")
+        subject = request.form.get("subject")
+
+        #Handles if a image is uploaded
+        uploaded_file = request.files.get("file")
+        file_path = ""
+        if uploaded_file and uploaded_file.filename != "":
+            # Save file to the upload directory
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], uploaded_file.filename)
+            uploaded_file.save(file_path)
+        
+
+        row = [fname, lname, country, subject, file_path]
+
+        with open('CSV/featured.csv', 'a', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(row)
+    
+        # Redirect to the formsubmission.html template to show the form was submitted successfully.
+        return render_template('formsubmission.html', file_path=file_path)
+    
+    except Exception as e:
+        return f"An error occurred: {e}", 500
 
 #Ensures that the images can be viewed through an url: /uploads/filename  
 @app.route('/uploads/<filename>')
