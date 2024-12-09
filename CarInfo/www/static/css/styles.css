@@ -150,7 +150,7 @@ background-color: #ddd;
 color: black;
 } 
 
-.active {
+.bottle {
 background: linear-gradient(to top, #ef1a2d 0%, #ef1a2d 50%, #03396c 50%, #03396c 100%);
 color: white;
 height: auto;
@@ -270,7 +270,7 @@ color: #000;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.bottle, .dot:hover {
   background-color: #717171;
 }
 
@@ -373,7 +373,7 @@ color: #000;
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: white;
+  background-color: #03396c;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -382,17 +382,18 @@ color: #000;
   border: none;
   outline: none;
   transition: 0.4s;
+  color: black;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.accordion:hover {
   background-color: white;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #ef1a2d;
   display: none;
   overflow: hidden;
 }
