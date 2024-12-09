@@ -14,6 +14,10 @@ def create_app(test_config=False, shared_server=False):
     if app.config['SHARED_SERVER']:
         prepend = '/CarInfo'
 
+    return app
+
+app = create_app()
+
 @app.route("/cars")
 def cars():
     with open("JSON/cars.JSON") as file:
