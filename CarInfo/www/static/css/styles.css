@@ -434,7 +434,7 @@ color: #000;
   border-radius: 5px; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
   z-index: 1000; /* Ensure it appears above other elements */
-  height: 110px; 
+  height: 110px; /* Forces box to only show a certain amount of results*/
   overflow-y: scroll;
 }
 
