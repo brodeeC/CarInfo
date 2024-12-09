@@ -8,7 +8,6 @@ import darkdetect # type: ignore
 app = Flask(__name__)
 cors = CORS(app)
 
-
 @app.route("/cars")
 def cars():
     with open("JSON/cars.JSON") as file:
