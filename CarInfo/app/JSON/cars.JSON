@@ -108,7 +108,7 @@
                 "make":"Lotus",
                 "model":"Elise",
                 "year":"2011",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Inline-Four<br>Transmission: 6-Speed Manual<br>0-60(mph): <br>Horsepower: 190<br>Torque(lb/ft): 133<br>Top Speed(mph): 145<br> Dimensions(in): 149 x 68 x 45<br> Curb Weight(lb): 2,010 <br>Fuel Economy(MPG): 27.5<br>Description: The 2011 model was the last year the Elise was sold in the U.S., making it a rare and potentially collectible car. The  Lotus Elise is a compact, lightweight sports car designed for track driving."
             },
             "Esprit":{
                 "dark":"/static/img/Slideshow/espiritD.jpeg",
@@ -116,7 +116,7 @@
                 "make":"Lotus",
                 "model":"Esprit",
                 "year":"1996",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: V8<br>Transmission: 5-Speed Manual<br>0-60(mph): 6.8<br>Horsepower: 350<br>Torque(lb/ft): 196.2<br>Top Speed(mph): 175<br> Dimensions(in): 172 x 73.5 x 45.3<br> Curb Weight(lb): 3,040<br>Fuel Economy(MPG): 15.5 <br>Description: The 1996 Lotus Esprit is a notable model in the Esprit lineup, known for its performance and distinctive design. It is celebrated for its blend of classic design and modern performance enhancements."
             }
         },
 
@@ -128,7 +128,7 @@
                 "make":"McLaren",
                 "model":"F1",
                 "year":"1992",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 6.1L V12<br>Transmission: Six-Speed Manual<br>0-60(mph): 3.2<br>Horsepower: 627<br>Torque(lb/ft): 479<br>Top Speed(mph): 240<br> Dimensions(in): 168.8 x 71.7 x 44.9<br> Curb Weight(lb): 2,425<br>Fuel Economy(MPG): 12<br>Description: The 1992 McLaren F1 is an iconic supercar, renowned for its groundbreaking design and performance. It is celebrated for its engineering excellence and remains a benchmark in the supercar world."
             },
             "P1":{
                 "dark":"/static/img/Slideshow/p1D.jpeg",
@@ -136,7 +136,7 @@
                 "make":"McLaren",
                 "model":"P1",
                 "year":"2014",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Twin Turbo V8 paired with electric motor<br>Transmission: 7-Speed Dual Clutch Automatic Transmission<br>0-60(mph): 2.7<br>Horsepower: 903<br>Torque(lb/ft): 531<br>Top Speed(mph): 217<br> Dimensions(in): 181 x 84 x 47<br> Curb Weight(lb): 3,075<br>Fuel Economy(MPG): 17<br>Description: The 2014 McLaren P1 is a remarkable hypercar, blending cutting-edge technology with incredible performance. It is celebrated for its blend of hybrid technology and raw power, making it a standout in the hypercar world."
             },
             "Speedtail":{
                 "dark":"/static/img/Slideshow/2020SpeedtailD.avif",
@@ -144,7 +144,7 @@
                 "make":"McLaren",
                 "model":"Speedtail",
                 "year":"2020",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 4.0L Twin Turbo V8 paired with a hybrid power train<br>Transmission: 7-Speed Automatic<br>0-60(mph): 2.9<br>Horsepower: 1,036<br>Torque(lb/ft): 848<br>Top Speed(mph): 250<br> Dimensions(in): 202.2 x 107.5 x 44.1<br>Curb Weight(lb): 3,153<br>Fuel Economy(MPG): 15<br>Description: The 2020 McLaren Speedtail is an extraordinary hypercar, blending advanced technology with stunning performance. It is celebrated for its blend of cutting-edge technology, bespoke design, and unparalleled performance. "
             }
         },
 
@@ -156,7 +156,7 @@
                 "make":"MG",
                 "model":"MGA",
                 "year":"1960",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Inline-4<br>Transmission: Four Speed Manual<br>0-60(mph): 9.1<br>Horsepower: 68<br>Torque(lb/ft): 41.3<br>Top Speed(mph): 113.5<br> Dimensions(in): 156 x 58 x 50<br> Curb Weight(lb): 2,160<br>Fuel Economy(MPG): 26<br>Description: The 1960 MG MGA is a classic British sports car known for its elegant design and enjoyable driving experience. Today, it remains a beloved classic among car enthusiasts."
             }
         },
 
@@ -168,7 +168,7 @@
                 "make":"Noble",
                 "model":"M12 GTO",
                 "year":"2002",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Twin-Turbocharged 3.0L V6<br>Transmission: Five-Speed Manual<br>0-60(mph): 3.7<br>Horsepower: 310<br>Torque(lb/ft): 320<br>Top Speed(mph): 185<br>Dimensions(in): 161 x 72 x 45<br> Curb Weight(lb): 2,380<br>Fuel Economy(MPG): 16<br>Description: The 2002 Noble M12 is a high-performance sports car known for its impressive speed and handling. It is celebrated for its raw performance and driver-focused design."
                 }
         },
 
