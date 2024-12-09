@@ -3,13 +3,13 @@ import json
 import os
 from flask import Flask, jsonify, render_template, request, redirect, send_from_directory # type: ignore
 from flask_cors import CORS # type: ignore
-import darkdetect # type: ignore
-
+import darkdetect # type: ignore 
 
 def create_app(test_config=False, shared_server=False):
     app = Flask(__name__)
     app.config['TESTING'] = test_config
     app.config['SHARED_SERVER'] = shared_server
+    global prepend
     prepend = ''
     if app.config['SHARED_SERVER']:
         prepend = '/CarInfo'
@@ -18,14 +18,14 @@ def create_app(test_config=False, shared_server=False):
 
 app = create_app()
 
-@app.route(prepend + "/cars", methods=['POST'])
+@app.route(prepend + "/cars")
 def cars():
     with open("JSON/cars.JSON") as file:
         cars = json.load(file)
     return jsonify(cars)
 
 
-@app.route(prepend + "/brands/<brand>", methods=['POST'])
+@app.route(prepend + "/brands/<brand>")
 def brands(brand):
     return render_template("brands.html", brand = brand)
 
@@ -39,7 +39,7 @@ def load_car_data():
 app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
-@app.route(prepend + '/car/<country>/<brand>', methods=['POST'])
+@app.route(prepend + '/car/<country>/<brand>')
 def car_info(country, brand):
   
     # Access car data from Flask config
@@ -133,7 +133,7 @@ def featured():
         return f"An error occurred: {e}", 500
 
 #Ensures that the images can be viewed through an url: /uploads/filename  
-@app.route(prepend + '/uploads/<filename>', methods=['POST'])
+@app.route(prepend + '/uploads/<filename>')
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
     
@@ -168,7 +168,7 @@ def search():
     return jsonify({"value":"None"}), 200
     
 
-@app.route(prepend + '/<country>/<brand>/<car>', methods=['POST'])
+@app.route(prepend + '/<country>/<brand>/<car>')
 def one_car(country, brand, car):
     # Access car data from Flask config
     car_data = app.config['CAR_DATA']

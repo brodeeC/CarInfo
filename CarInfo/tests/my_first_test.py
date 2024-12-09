@@ -12,6 +12,8 @@ os.chdir('/Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app')
 
 from app import app
 
+app = app.create_app(test_config=True)
+
 @pytest.fixture
 def client():
     with app.test_client() as client:

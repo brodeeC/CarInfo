@@ -298,9 +298,18 @@ async function submitSearch(){
     }
     
     document.getElementById("brandInput").value = "";
-    //TODO figure out how to get box to clear
-    // let box = document.getElementById("suggestionBox");
-    // if (!box.classList.contains("hidden")) box.classList.toggle("hidden");
+    resetDiv();
+}
+
+function resetDiv(){
+    // TODO: figure this out
+    let box = document.createElement("div");
+    box.setAttribute("class", "suggestionBox hidden");
+    box.setAttribute("id", "suggestionBox");
+
+    let oldBox = document.getElementById("suggestionBox").children;
+
+    oldBox = "";
 }
 
 /**
