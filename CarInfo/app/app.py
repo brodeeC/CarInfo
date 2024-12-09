@@ -41,7 +41,11 @@ def car_info(country, brand):
         # Check if the brand exists in the specified country
         if brand in car_data[country]:
             selected_cars = car_data[country][brand]
-            logo = selected_cars.pop('logo')
+            if 'logo' in selected_cars:
+                logo = selected_cars.pop('logo')
+            else: 
+                lowBrand = brand.lower()
+                logo = f"/static/img/Car Brand Logos/{lowBrand}-logo.png"
 
             is_dark_mode = darkdetect.isDark()
 

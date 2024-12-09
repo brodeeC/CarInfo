@@ -4,7 +4,7 @@
 
 {% block headContent %}
 
-<title>Car Info - {{ car }}</title>
+<title>Car Info - {{ car }}  {{ brand }}</title>
 
 {% endblock %}
 
@@ -14,6 +14,7 @@
 {% endblock %}
 
 {% block content %} 
+    <button onclick="history.back()">Back</button>
     <h2>{{ country }} - {{ brand }}</h2>
     <h3>{{ car }} - {{ year }}</h3>
    <div>
