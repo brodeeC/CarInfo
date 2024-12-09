@@ -296,6 +296,11 @@ async function submitSearch(){
         //Display brands on brandpage
         displayCountries(data.value)
     }
+    
+    document.getElementById("brandInput").value = "";
+    //TODO figure out how to get box to clear
+    // let box = document.getElementById("suggestionBox");
+    // if (!box.classList.contains("hidden")) box.classList.toggle("hidden");
 }
 
 /**
