@@ -48,7 +48,7 @@
             "make":"Bentley",
             "model":"Continental GT",
             "year":"2003",
-            "description":"Engine: Twin Turbocharged 6L W12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: 550<br>Torque(lb/ft): 479<br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+            "description":"Engine: Twin Turbocharged 6L W12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: 550<br>Torque(lb/ft): 479<br>Top Speed(mph): 198<br> Dimensions(in): 189 x 76 x 55<br> Curb Weight(lb): 5,071<br>Fuel Economy(MPG): 16<br>Description: The 2003 Bentley Continental GT is a luxurious grand tourer that marked a significant shift for Bentley. It was the first model introduced after Bentley's acquisition by Volkswagen, featuring a blend of traditional craftsmanship and modern technology. This model was praised for its powerful performance, elegant design, and high-quality interior."
             }
         },
 
@@ -60,7 +60,7 @@
                 "make":"Jaguar",
                 "model":"E-Type",
                 "year":"1961",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.8L inline-six<br>Transmission: Four-Speed Manual<br>0-60(mph): 6.3<br>Horsepower: 265<br>Torque(lb/ft): 260<br>Top Speed(mph): 145<br>Dimensions(in): 175.5 x 62.25 x 96.0<br> Curb Weight(lb): 2,899<br>Fuel Economy(MPG): 22<br>Description: The 1961 Jaguar E-Type, also known as the Jaguar XK-E in North America, is a legendary British sports car that was produced from 1961 to 1974. It was renowned for its stunning design, advanced technology, and impressive performance. The E-Type quickly became an icon in the automotive world and remains highly sought after by collectors today."
             },
             "XJ220":{
                 "dark":"/static/img/Slideshow/XJ220D.jpeg",
@@ -68,7 +68,7 @@
                 "make":"Jaguar",
                 "model":"XJ220",
                 "year":"1992",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.5L Twin-Turbocharged V6<br>Transmission: Five-Speed Manual<br>0-60(mph): 3.6<br>Horsepower: 542<br>Torque(lb/ft): 475<br>Top Speed(mph): 212<br> Dimensions(in): 194.1 x 79.1 x 45.3<br> Curb Weight(lb): 3,240<br>Fuel Economy(MPG): 27<br>Description:The 1992 Jaguar XJ220 is a legendary supercar produced by Jaguar in collaboration with Tom Walkinshaw Racing.The XJ220 was initially conceived as a V12-engined, four-wheel-drive concept but was later produced with a V6 engine and rear-wheel drive due to engineering and emissions requirements1. It remains an iconic piece of automotive history."
             },
             "XK120":{
                 "dark":"/static/img/Slideshow/XK120D.jpeg",
@@ -76,7 +76,7 @@
                 "make":"Jaguar",
                 "model":"XK120",
                 "year":"1952",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.4L Inline 6<br>Transmission: Four-Speed manual<br>0-60(mph): 9.9<br>Horsepower: 180<br>Torque(lb/ft): 195<br>Top Speed(mph): 120<br> Dimensions(in): 173 x 61.5 x 52.5<br> Curb Weight(lb): 3060<br>Fuel Economy(MPG): 19.8<br>Description: The 1952 Jaguar XK120 is a classic sports car that holds a special place in automotive history. It was celebrated for its combination of performance, style, and engineering excellence"
             },
             "XKSS":{
                 "dark":"/static/img/Slideshow/XKSSD.jpeg",
@@ -84,7 +84,7 @@
                 "make":"Jaguar",
                 "model":"XKSS",
                 "year":"1957",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Inline 6<br>Transmission: 4-Speed Manual<br>0-60(mph): 5.2<br>Horsepower: 250<br>Torque(lb/ft): 260<br>Top Speed(mph): 149<br> Dimensions(in): 157.1 x 65.4 x 44.1<br> Curb Weight(lb): 2,030<br>Fuel Economy(MPG): Not Available<br>Description: The 1957 Jaguar XKSS is a rare and iconic sports car with a fascinating history. Only 16 units were originally built in 19571. A factory fire destroyed nine unfinished cars, making the XKSS even rarer. In 2016, Jaguar announced a continuation series to complete the original planned production run, hand-building nine new XKSS models to the exact original specification."
             }
         },
 
