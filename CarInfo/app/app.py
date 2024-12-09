@@ -100,7 +100,7 @@ def contact_us():
     
 #Route for the featured car of the month form
 @app.route('/featured', methods =['POST'])
-def contact_us():
+def featured():
     try:
         fname = request.form.get("fname")
         lname = request.form.get("lname")
@@ -185,7 +185,8 @@ def one_car(country, brand, car):
                     imgLink = single_car["light"]
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
-                                   brand=brand, country=country, year=single_car["year"]), 200
+                                   brand=brand, country=country, year=single_car["year"], 
+                                   description=single_car["description"]), 200
             
             return page_not_found("Car not found.")
         
