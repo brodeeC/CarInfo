@@ -543,6 +543,12 @@ color: #000;
   width: 100%;
 }
 
+@media screen and (max-width: 900px){
+  .search-container, .dropdown{
+    width: auto;
+  }
+}
+
 #suggestionBox{
   background-color: #03396c;
   border-color: #03396c;
@@ -560,6 +566,7 @@ color: #000;
   padding-left: 35%;
   padding-right: 35%;
   flex-direction: column;
+  flex-wrap: wrap;
   }
 
 
