@@ -25,11 +25,6 @@ def cars():
     return jsonify(cars)
 
 
-@app.route(prepend + "/brands/<brand>")
-def brands(brand):
-    return render_template("brands.html", brand = brand)
-
-
 # Load JSON data once at app startup
 def load_car_data():
     with open("JSON/cars.JSON") as json_file:
@@ -97,7 +92,7 @@ def contact_us():
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html', file_path=file_path)
+        return render_template('formsubmission.html', file_path=file_path,prepend=prepend)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
@@ -127,7 +122,7 @@ def featured():
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html', file_path=file_path)
+        return render_template('formsubmission.html', file_path=file_path, prepend=prepend)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
@@ -190,7 +185,7 @@ def one_car(country, brand, car):
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
                                    brand=brand, country=country, year=single_car["year"], 
-                                   description=single_car["description"]), 200
+                                   description=single_car["description"], prepend=prepend), 200
             
             return page_not_found("Car not found.")
         
@@ -202,7 +197,7 @@ def one_car(country, brand, car):
 #Custom 404 page not found
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('404.html', e=e), 404
+    return render_template('404.html', e=e, prepend=prepend), 404
 
 
 #To ensure that my custom 404 page is ran and not flask's detailed page
