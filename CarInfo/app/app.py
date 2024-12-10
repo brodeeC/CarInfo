@@ -3,13 +3,13 @@ import json
 import os
 from flask import Flask, jsonify, render_template, request, redirect, send_from_directory # type: ignore
 from flask_cors import CORS # type: ignore
-import darkdetect # type: ignore
-
+import darkdetect # type: ignore 
 
 def create_app(test_config=False, shared_server=False):
     app = Flask(__name__)
     app.config['TESTING'] = test_config
     app.config['SHARED_SERVER'] = shared_server
+    global prepend
     prepend = ''
     if app.config['SHARED_SERVER']:
         prepend = '/CarInfo'
@@ -18,16 +18,11 @@ def create_app(test_config=False, shared_server=False):
 
 app = create_app()
 
-@app.route(prepend + "/cars", methods=['POST'])
+@app.route(prepend + "/cars")
 def cars():
     with open("JSON/cars.JSON") as file:
         cars = json.load(file)
     return jsonify(cars)
-
-
-@app.route(prepend + "/brands/<brand>", methods=['POST'])
-def brands(brand):
-    return render_template("brands.html", brand = brand)
 
 
 # Load JSON data once at app startup
@@ -39,7 +34,7 @@ def load_car_data():
 app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
-@app.route(prepend + '/car/<country>/<brand>', methods=['POST'])
+@app.route(prepend + '/car/<country>/<brand>')
 def car_info(country, brand):
   
     # Access car data from Flask config
@@ -97,7 +92,7 @@ def contact_us():
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html', file_path=file_path)
+        return render_template('formsubmission.html', file_path=file_path,)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
@@ -127,13 +122,13 @@ def featured():
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html', file_path=file_path)
+        return render_template('formsubmission.html', file_path=file_path,)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
 
 #Ensures that the images can be viewed through an url: /uploads/filename  
-@app.route(prepend + '/uploads/<filename>', methods=['POST'])
+@app.route(prepend + '/uploads/<filename>')
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
     
@@ -168,7 +163,7 @@ def search():
     return jsonify({"value":"None"}), 200
     
 
-@app.route(prepend + '/<country>/<brand>/<car>', methods=['POST'])
+@app.route(prepend + '/<country>/<brand>/<car>')
 def one_car(country, brand, car):
     # Access car data from Flask config
     car_data = app.config['CAR_DATA']
@@ -190,7 +185,7 @@ def one_car(country, brand, car):
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
                                    brand=brand, country=country, year=single_car["year"], 
-                                   description=single_car["description"]), 200
+                                   description=single_car["description"],), 200
             
             return page_not_found("Car not found.")
         
@@ -202,7 +197,7 @@ def one_car(country, brand, car):
 #Custom 404 page not found
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('404.html', e=e), 404
+    return render_template('404.html', e=e, prepend=prepend), 404
 
 
 #To ensure that my custom 404 page is ran and not flask's detailed page

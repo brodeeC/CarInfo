@@ -296,6 +296,20 @@ async function submitSearch(){
         //Display brands on brandpage
         displayCountries(data.value)
     }
+    
+    document.getElementById("brandInput").value = "";
+    resetDiv();
+}
+
+function resetDiv(){
+    // TODO: figure this out
+    let box = document.createElement("div");
+    box.setAttribute("class", "suggestionBox hidden");
+    box.setAttribute("id", "suggestionBox");
+
+    let oldBox = document.getElementById("suggestionBox").children;
+
+    oldBox = "";
 }
 
 /**

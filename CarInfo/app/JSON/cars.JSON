@@ -124,7 +124,7 @@
             "logo":"/static/img/Car Brand Logos/mclarenLogo.jpeg",
             "F1":{
                 "dark":"/static/img/Slideshow/McLarenF1D.jpeg",
-                "light":"/static/img/Slideshow/McLarenF1L.jpeg",
+                "light":"/static/img/Slideshow/McLarenF1L.webp",
                 "make":"McLaren",
                 "model":"F1",
                 "year":"1992",
@@ -295,8 +295,8 @@
         "Mercedes-Benz":{
             "logo":"/static/img/Car Brand Logos/mercedes-benz-logo.png",
             "300SL":{
-                "dark":"/static/img/Car Brand Logos/Mercedes300SLD.jpeg",
-                "light":"/static/img/Car Brand Logos/Mercedes300SLL.webp",
+                "dark":"/static/img/Slideshow/Mercedes300SLD.jpeg",
+                "light":"/static/img/Slideshow/Mercedes300SLL.webp",
                 "make":"Mercedes-Benz",
                 "model":"300SL",
                 "year":"1957",
@@ -328,7 +328,7 @@
             },
             "W124":{
                 "dark":"/static/img/Slideshow/MercedesW124D.webp",
-                "light":"/static/img/Slideshow/Mercedes124L.jpeg",
+                "light":"/static/img/Slideshow/MercedesW124L.jpeg",
                 "make":"Mercedes-Benz",
                 "model":"W124",
                 "year":"1985",
@@ -401,7 +401,7 @@
             "logo":"/static/img/Car Brand Logos/volkswagen-logo.png",
             "Beetle":{
                 "dark":"/static/img/Slideshow/VWBeetleD.jpeg",
-                "light":"/static/img/Slideshow/VWBeelteL.jpeg",
+                "light":"/static/img/Slideshow/VWBeetleL.jpeg",
                 "make":"Volkswagen",
                 "model":"Beetle",
                 "year":"1966",
@@ -617,7 +617,7 @@
             "logo":"/static/img/Car Brand Logos/Datsun Logo.png",
             "240Z":{
                 "dark":"/static/img/Slideshow/240zD.jpeg",
-                "light":"/static/img/Slideshow/240zL.jpeg",
+                "light":"/static/img/Slideshow/240zL.avif",
                 "make":"Datsun",
                 "model":"240Z",
                 "year":"1973",
@@ -769,7 +769,7 @@
             },
             "Supra MKIV":{
                 "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
-                "light":"/static/img/Slideshow/1993ToyotaSupraL.avif",
+                "light":"/static/img/Slideshow/1993ToyotaSupraL.jpeg",
                 "make":"Toyota",
                 "model":"Supra MKIV",
                 "year":"1993",
@@ -819,7 +819,7 @@
             "logo":"/static/img/Car Brand Logos/cadillac-logo.png",
             "CTS-V":{
                 "dark":"/static/img/Slideshow/CadillacCTS-VWagonD.jpeg",
-                "light":"/static/img/Slideshow/CadillacCTS-VWagon.avif",
+                "light":"/static/img/Slideshow/CadillacCTS-VWagonL.avif",
                 "make":"Cadillac",
                 "model":"CTS-V Wagon",
                 "year":"2012",

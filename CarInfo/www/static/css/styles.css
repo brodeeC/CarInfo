@@ -150,7 +150,7 @@ background-color: #ddd;
 color: black;
 } 
 
-.active {
+.bottle {
 background: linear-gradient(to top, #ef1a2d 0%, #ef1a2d 50%, #03396c 50%, #03396c 100%);
 color: white;
 height: auto;
@@ -270,7 +270,7 @@ color: #000;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.bottle, .dot:hover {
   background-color: #717171;
 }
 
@@ -373,7 +373,7 @@ color: #000;
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: white;
+  background-color: #03396c;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -382,17 +382,20 @@ color: #000;
   border: none;
   outline: none;
   transition: 0.4s;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.accordion:hover {
   background-color: white;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #ef1a2d;
   display: none;
   overflow: hidden;
 }
@@ -555,4 +558,176 @@ color: #000;
   align-items: center;
   padding-left: 25%;
   padding-right: 20%;
+}
+
+@media screen and (max-width: 1200px){
+  .dropSearch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25%;
+  padding-right: 20%;
+  flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .bigClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 20%;
+    flex-direction: column;
+  }
+}
+
+ /*Contact Us Page*/
+ /* Default Light Mode Styles */
+ body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff; /* Light background color for container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2.form_name {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color for headings */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333; /* Label text color */
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* Light text area background */
+  color: #333; /* Dark text color */
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #03396c; /* Button background */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #ef1a2d;
+}
+
+textarea::placeholder {
+  color: #595858; /* Placeholder text color */
+  font-style: italic;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h2.form_name {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #656565;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #656565;
+    color: white;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  input[type="submit"] {
+    background-color:#03396c ;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #ef1a2d;
+  }
+
+  textarea::placeholder {
+    color: white; /* Placeholder text color */
+    font-style: italic; 
+  }
+
+  ::placeholder{
+    color: white; /* Placeholder text color */
+    font-style: italic; 
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+
+    input[type="text"], textarea, input[type="submit"] {
+      font-size: 16px;
+    }
+  }
+
+}
+
+#caption{
+  color: black;
 }
