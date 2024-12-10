@@ -86,11 +86,12 @@ async function loadRandomImages() {
 
         //Adds caption to images
         let caption = document.createElement("h2");
+        caption.setAttribute("id", "caption");
         caption.appendChild(document.createTextNode(`${car.year} ${car.make} ${car.model}`));
         div.appendChild(caption);
 
         disp.appendChild(div);
-        count++;
+        //count++;
     })
     loadInfo(data);
 }

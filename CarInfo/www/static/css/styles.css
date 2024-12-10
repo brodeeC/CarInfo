@@ -727,3 +727,7 @@ textarea::placeholder {
   }
 
 }
+
+#caption{
+  color: black;
+}
