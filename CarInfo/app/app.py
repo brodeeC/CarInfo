@@ -92,7 +92,7 @@ def contact_us():
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html', file_path=file_path,prepend=prepend)
+        return render_template('formsubmission.html', file_path=file_path, prepend=prepend)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
