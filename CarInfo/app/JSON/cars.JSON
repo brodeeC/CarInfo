@@ -180,7 +180,7 @@
                 "make":"Rolls-Royce",
                 "model":"Boat Tail",
                 "year":"2021",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 6.75L V12<br>Transmission: Eight-Speed Automatic<br>0-60(mph): 4.4<br>Horsepower: 570<br>Torque(lb/ft): 627<br>Top Speed(mph): 155<br> Dimensions(in): 228 x 80 x 55<br> Curb Weight(lb): 5,643<br>Fuel Economy(MPG): 17.7<br>Description: The Rolls-Royce Boat Tail draws awesthitic from J-class yachts. It features a butterfly-style rear deck taht opens to reveal a hosting suite with a champagen refrigerator and custom made pieces. Only three have been made, and they can run owners around $28 Million."
             }
         },
 
@@ -192,7 +192,7 @@
                 "make":"Talbot-Lago",
                 "model":"T150 CSS",
                 "year":"1939",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.9L Inline-Six<br>Transmission: Wilson 4-speed preselector gear box<br>0-60(mph): 3.2<br>Horsepower: 140<br>Torque(lb/ft): 155<br>Top Speed(mph): 115<br> Dimensions(in): 169.3 x 65.7 x 52.8<br> Curb Weight(lb): 3,300<br>Fuel Economy(MPG): 12<br>Description: The 1939 Talbot-Lago T150 CSS is a remarkable example of pre-war automotive design and engineering. It is celebrated for its beauty and craftsmanship, and often considered one of the most beautiful cars ever made."
             }
         }
     },
@@ -206,7 +206,7 @@
                 "make":"Bugatti",
                 "model":"Chiron",
                 "year":"2016",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 8.0L Quad-Turbo W16<br>Transmission: seven-speed automatic Dual-Clutch<br>0-60(mph): 2.3<br>Horsepower: 1,480<br>Torque(lb/ft): 1,180.1<br>Top Speed(mph): 261<br> Dimensions(in): 178.9 x 80.2 x 47.7<br> Curb Weight(lb): 4,400<br>Fuel Economy(MPG): 11<br>Description: The 2016 Bugatti Chiron stands out as one of the most powerful cars of all time. Additionaly, it is praised for its luxurious interior that features high-quality materials and advanced technology."
             },
             "Veyron":{
                 "dark":"/static/img/Slideshow/BugattiVeyronD.jpeg",
@@ -214,7 +214,7 @@
                 "make":"Bugatti",
                 "model":"Veyron",
                 "year":"2005",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Quad-Turbocharged 8.0L W16<br>Transmission: Seven-Speed Dual Clutch Manu-matic<br>0-60(mph): 2.5<br>Horsepower: 987<br>Torque(lb/ft): 922<br>Top Speed(mph): 253<br> Dimensions(in): 157.7 x 78.8 x 47.4<br> Curb Weight(lb): 4,162<br>Fuel Economy(MPG): 12<br>Description: The 2005 Bugatti Veyron is a legendary supercar known for its groundbreaking performance. It set new standards for speed, luxury, and engineering in the automotive world."
             }
         }
     },
@@ -228,7 +228,7 @@
                 "make":"Audi",
                 "model":"Quattro",
                 "year":"1983",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Turbocharged Inline-5<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.1<br>Horsepower: 360<br>Torque(lb/ft): 331.9<br>Top Speed(mph): 137<br>Dimensions(in): 178.2 x 67.9 x 52<br> Curb Weight(lb): 2,838<br>Fuel Economy(MPG): 23<br>Description: The 1983 Audi Quattro, also known as the Ur-Quattro, is a significant model in automotive history, particularly in the world of rally racing. The Quattro inspired the naming of Audi's AWD Quattro drivetrain."
             },
             "R8":{
                 "dark":"/static/img/Slideshow/R8D.jpeg",
@@ -236,7 +236,7 @@
                 "make":"Audi",
                 "model":"R8",
                 "year":"2013",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: V10<br>Transmission: Seven-speed dual-clutch automatic<br>0-60(mph): 3.6<br>Horsepower: 549<br>Torque(lb/ft): 398.3<br>Top Speed(mph): 195<br> Dimensions(in): 172.8 x 76 x 49.3<br> Curb Weight(lb): 3,461.3<br>Fuel Economy(MPG): 18<br>Description: The 2013 Audi R8 V10 combines stunning looks with incredible performance, making it a favorite among car enthusiasts"
             }
         },
 
