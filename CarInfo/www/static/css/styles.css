@@ -308,6 +308,7 @@ color: #000;
 
 #dropdown{
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 /*Dark mode for car_info template*/
@@ -404,21 +405,6 @@ color: #000;
   display:none;
 }
 
-.search-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; /* Add spacing between items */
-  margin: 20px auto; /* Center on the page */
-  max-width: 800px; /* Limit width to prevent overflow */
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* Slightly translucent background */
-  border: 1px solid #ccc; /* Subtle border */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for elevation */
-}
-
 /* Input box styling (inherits from current .search styles) */
 #brandInput {
   flex-grow: 1; /* Allow search box to expand as needed */
@@ -470,7 +456,7 @@ color: #000;
 
 /* Button hover effect */
 #searchButton:hover {
-  background-color: #ef1a2d; /* Change color on hover */
+  background-color: gray; /* Change color on hover */
 }
 
 /* Mobile responsiveness */
@@ -538,8 +524,23 @@ color: #000;
 }
 
 .search-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch, center;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   background-color: #ef1a2d;
   border-color: #03396c;
+  width: 100%;
 }
 
 #suggestionBox{
@@ -556,20 +557,11 @@ color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 25%;
-  padding-right: 20%;
-}
-
-@media screen and (max-width: 1200px){
-  .dropSearch{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 25%;
-  padding-right: 20%;
+  padding-left: 35%;
+  padding-right: 35%;
   flex-direction: column;
   }
-}
+
 
 @media screen and (max-width: 612px) {
   .bigClass{
@@ -580,6 +572,10 @@ color: #000;
     padding-right: 20%;
     flex-direction: column;
   }
+}
+
+.dropdown{
+  width: 100%;
 }
 
  /*Contact Us Page*/
@@ -726,8 +722,4 @@ textarea::placeholder {
     }
   }
 
-}
-
-#caption{
-  color: black;
 }
