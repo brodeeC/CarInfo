@@ -92,7 +92,7 @@ def contact_us():
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html', file_path=file_path, prepend=prepend)
+        return render_template('formsubmission.html', file_path=file_path,)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
@@ -122,7 +122,7 @@ def featured():
             writer.writerow(row)
     
         # Redirect to the formsubmission.html template to show the form was submitted successfully.
-        return render_template('formsubmission.html', file_path=file_path, prepend=prepend)
+        return render_template('formsubmission.html', file_path=file_path,)
     
     except Exception as e:
         return f"An error occurred: {e}", 500
@@ -185,7 +185,7 @@ def one_car(country, brand, car):
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
                                    brand=brand, country=country, year=single_car["year"], 
-                                   description=single_car["description"], prepend=prepend), 200
+                                   description=single_car["description"],), 200
             
             return page_not_found("Car not found.")
         
