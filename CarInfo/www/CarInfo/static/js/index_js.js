@@ -1,6 +1,6 @@
 //Fetches images for yhe slideshow
     async function fetchImages() {
-    const response = await fetch('/cars'); // Adjust the path if necessary
+    const response = await fetch('/CarInfo/cars'); // Adjust the path if necessary
     const data = await response.json();
     return data
 

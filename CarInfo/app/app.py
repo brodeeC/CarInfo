@@ -10,7 +10,7 @@ def create_app(test_config=False, shared_server=False):
     app.config['TESTING'] = test_config
     app.config['SHARED_SERVER'] = shared_server
     global prepend
-    prepend = ''
+    prepend = '/CarInfo'
     if app.config['SHARED_SERVER']:
         prepend = '/CarInfo'
 
