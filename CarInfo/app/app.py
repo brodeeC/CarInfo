@@ -5,22 +5,20 @@ from flask import Flask, jsonify, render_template, request, send_from_directory 
 from flask_cors import CORS # type: ignore
 import darkdetect # type: ignore 
 
-# def create_app(test_config=False, shared_server=False):
-#     app = Flask(__name__)
-#     app.config['TESTING'] = test_config
-#     app.config['SHARED_SERVER'] = shared_server
-    
+def create_app(test_config=False, shared_server=False):
+    app = Flask(__name__)
+    app.config['TESTING'] = test_config
+    app.config['SHARED_SERVER'] = shared_server
+    global prepend
+    prepend = '/CarInfo'
+    if app.config['SHARED_SERVER']:
+        prepend = '/CarInfo'
 
-#     return app
+    return app
 
-prepend="/CarInfo"
+app = create_app()
 
-#app = create_app()
-app = Flask(__name__)
-cors = CORS(app)
-f"{prepend}"
-
-@app.route(prepend.join('/cars'))
+@app.route(prepend + "/cars")
 def cars():
     print('made it')
     with open("JSON/cars.JSON") as file:
@@ -156,12 +154,12 @@ def search():
         for brand in car_data[country].keys():
             brandLow = brand.lower()
             if brandLow == value:
-                return jsonify({"type":"brand", "url":f"/car/{country}/{brand}"})
+                return jsonify({"type":"brand", "url":f"/CarInfo/car/{country}/{brand}"})
             
             for car in car_data[country][brand].keys():
                 carLow = car.lower()
                 if carLow == value:
-                    return jsonify({"type":"car", "url":f"/{country}/{brand}/{car}"})
+                    return jsonify({"type":"car", "url":f"/CarInfo/{country}/{brand}/{car}"})
         
     return jsonify({"value":"None"}), 200
     
