@@ -447,6 +447,7 @@ color: #000;
   width: 100%; /* Full width for each button */
   border: none;
   background: none;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   text-align: left; /* Align text to the left */
   cursor: pointer;
@@ -454,7 +455,7 @@ color: #000;
 }
 /* Hover effect for suggestion buttons */
 #suggestionBox button:hover {
-  background-color: rgba(0, 0, 0, 0.05); /* Light gray on hover */
+  color: gray;
 }
 
 /* Style the search button */
@@ -484,6 +485,9 @@ color: #000;
   #brandInput {
     width: 100%;
     flex-grow: 1; /* Input box takes full width */
+  }
+  #searchButton {
+    padding: 8px 12px; /* Slightly reduce padding for smaller screens */
   }
   #searchButton {
     padding: 8px 12px; /* Slightly reduce padding for smaller screens */
