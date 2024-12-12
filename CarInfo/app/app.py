@@ -20,7 +20,6 @@ app = create_app()
 
 @app.route(prepend + "/cars")
 def cars():
-    print('made it')
     with open("JSON/cars.JSON") as file:
         cars = json.load(file)
     return jsonify(cars)
