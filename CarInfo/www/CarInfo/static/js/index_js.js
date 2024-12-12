@@ -113,7 +113,7 @@ function createUrl(data, car){
 
         brands.forEach(brand => {
         if (make == brand){
-            url = `/${country}/${brand}/${car.model}`;
+            url = `/CarInfo/${country}/${brand}/${car.model}`;
         }
         })
     })

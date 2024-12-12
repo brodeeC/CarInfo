@@ -4,7 +4,7 @@ let brandList = [];
  * Iterates over data set and creates options for dropdown
  */
 async function loadOptions(){
-    const response = await fetch('/cars'); 
+    const response = await fetch('/CarInfo/cars'); 
     const data = await response.json();
     //Get list of all countries cars are from
     const countries = Object.keys(data);
@@ -61,7 +61,7 @@ async function loadButtons(data){
             brandList.push(make);
 
             //Set url
-            anchor.setAttribute("href", `/car/${country}/${make}`)
+            anchor.setAttribute("href", `/CarInfo/car/${country}/${make}`)
 
             let className = "";
             country.split(" ").forEach(word =>{
@@ -209,7 +209,7 @@ function checkBrands(value){
  */
 async function checkCars(value){
     //Get data
-    const response = await fetch('/cars'); 
+    const response = await fetch('/CarInfo/cars'); 
     const data = await response.json();
 
     const countries = Object.keys(data);
@@ -268,7 +268,7 @@ function isClose(inVal, dataVal){
  */
 async function submitSearch(){
     // Sending the POST request
-    const response = await fetch('/search', {
+    const response = await fetch('/CarInfo/search', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

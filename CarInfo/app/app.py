@@ -153,12 +153,12 @@ def search():
         for brand in car_data[country].keys():
             brandLow = brand.lower()
             if brandLow == value:
-                return jsonify({"type":"brand", "url":f"/car/{country}/{brand}"})
+                return jsonify({"type":"brand", "url":f"/CarInfo/car/{country}/{brand}"})
             
             for car in car_data[country][brand].keys():
                 carLow = car.lower()
                 if carLow == value:
-                    return jsonify({"type":"car", "url":f"/{country}/{brand}/{car}"})
+                    return jsonify({"type":"car", "url":f"/CarInfo/{country}/{brand}/{car}"})
         
     return jsonify({"value":"None"}), 200
     
