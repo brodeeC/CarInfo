@@ -488,6 +488,9 @@ color: #000;
   #searchButton {
     padding: 8px 12px; /* Slightly reduce padding for smaller screens */
   }
+  #backButton {
+    padding: 8px 12px; /* Slightly reduce padding for smaller screens */
+  }
 }
 /* Style for the dropdown (inherits current styles) */
 #countries {
@@ -751,4 +754,19 @@ textarea::placeholder {
 
 #caption{
   color: black;
+}
+
+#backButton{
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  background-color: #03396c; /* Button background */
+  color: white; /* Button text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+  background-color: gray; /* Change color on hover */
 }
