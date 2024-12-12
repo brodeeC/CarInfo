@@ -1,6 +1,6 @@
 //Fetches images for yhe slideshow
     async function fetchImages() {
-    const response = await fetch('/cars'); // Adjust the path if necessary
+    const response = await fetch('/CarInfo/cars'); // Adjust the path if necessary
     const data = await response.json();
     return data
 
@@ -113,7 +113,7 @@ function createUrl(data, car){
 
         brands.forEach(brand => {
         if (make == brand){
-            url = `/${country}/${brand}/${car.model}`;
+            url = `/CarInfo/${country}/${brand}/${car.model}`;
         }
         })
     })

@@ -10,9 +10,9 @@ os.chdir('/Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app')
 
 #Brodee's route = /Users/brodee69/Documents/GitHub/CarInfo/CarInfo/app
 
-from app import app
+from app import app#create_app
 
-app = app.create_app(test_config=True)
+#app = create_app(test_config=True)
 
 @pytest.fixture
 def client():
@@ -20,7 +20,7 @@ def client():
         yield client
 
 def test_some_route(client):
-    response = client.get('/cars')
+    response = client.get('/CarInfo/cars')
     assert response.status_code == 200
 
 

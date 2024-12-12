@@ -1,25 +1,28 @@
 import csv
 import json
 import os
-from flask import Flask, jsonify, render_template, request, redirect, send_from_directory # type: ignore
+from flask import Flask, jsonify, render_template, request, send_from_directory # type: ignore
 from flask_cors import CORS # type: ignore
 import darkdetect # type: ignore 
 
-def create_app(test_config=False, shared_server=False):
-    app = Flask(__name__)
-    app.config['TESTING'] = test_config
-    app.config['SHARED_SERVER'] = shared_server
-    global prepend
-    prepend = '/CarInfo'
-    if app.config['SHARED_SERVER']:
-        prepend = '/CarInfo'
+# def create_app(test_config=False, shared_server=False):
+#     app = Flask(__name__)
+#     app.config['TESTING'] = test_config
+#     app.config['SHARED_SERVER'] = shared_server
+    
 
-    return app
+#     return app
 
-app = create_app()
+prepend="/CarInfo"
 
-@app.route(prepend + "/cars")
+#app = create_app()
+app = Flask(__name__)
+cors = CORS(app)
+f"{prepend}"
+
+@app.route(prepend.join('/cars'))
 def cars():
+    print('made it')
     with open("JSON/cars.JSON") as file:
         cars = json.load(file)
     return jsonify(cars)
@@ -202,4 +205,4 @@ def page_not_found(e):
 
 #To ensure that my custom 404 page is ran and not flask's detailed page
 if __name__ == '__main__':
-    app.run(debug = False)
+    app.run(debug=True)
