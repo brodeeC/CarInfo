@@ -32,7 +32,7 @@ def test_brand_template(client):
         for country in cars.keys(): 
             for brand in cars[country].keys():
 
-                url = f"/car/{country}/{brand}"
+                url = f"/CarInfo/car/{country}/{brand}"
 
                 response = client.get(url)
 
@@ -50,7 +50,7 @@ def test_car_template(client):
                 
                 for car in cars[country][brand].keys():
 
-                    url = f"/{country}/{brand}/{car}"
+                    url = f"/CarInfo/{country}/{brand}/{car}"
 
                     response = client.get(url)
 
