@@ -1,0 +1,59 @@
+<html> 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="static/img/CarInfo.png" type="image/png">
+
+  </head>
+    <title>
+        Car Info- Brand Page
+    </title>
+    <body class="color-mode" onload="loadOptions()">
+      <script type="text/javascript" src="static/js/functions.js"></script>
+      <script type="text/javascript" src="static/js/brandpage_js.js"></script>
+      <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+      <div class="topnav">
+        <a href="/index.html" class="bottle"><h1 class = "HeadText">CAR
+            INFO</h1></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks" style="display: none;">
+          <a href="/index.html">Home</a>
+          <a href="/brandpage.html">Brands</a>
+          <a href="/aboutpage.html">About</a>
+          <a href="/contactus.html">Contact Us</a>
+        </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a class="icon" onclick="displayMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <button onclick="history.back()">Back</button>
+
+      <!--Inspiration taken from W3 schools-->
+      <div class = "bigClass">
+      <div class = "dropSearch">
+        <div class="dropdown">
+        <label id = "dropdown">Choose a country:</label>
+        <select name = "countries" id = "countries" onchange = "displayCountries()">
+          <option value = "All">All</option>
+        </select>
+        </div>
+
+        <div class="search-container">
+          <label for="brand">Search:</label>
+          <input type="text" id="brandInput" placeholder="Country, Brand or Car" onkeyup="suggestions(this.value)">
+          <div class="suggestionBox hidden" id="suggestionBox">
+          </div>  
+          <button id="searchButton" onclick="submitSearch()">Search</button>
+        </div>
+      </div>
+    <div class = "brands" id="brands">
+    </div>
+</div>
+  </body>
+</html>
