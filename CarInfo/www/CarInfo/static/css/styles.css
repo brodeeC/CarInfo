@@ -326,7 +326,7 @@ color: #000;
 }
 
 /*Makes all homepage images the same size*/
-#resize .mySlides img{
+#resize img{
   width: 1000px;
   height: 680px;
 }
@@ -775,7 +775,7 @@ textarea::placeholder {
   background-color: gray; /* Change color on hover */
 }
 
-#icon{
+button #icon{
   width: 25px;
   height: 25px;
 }
