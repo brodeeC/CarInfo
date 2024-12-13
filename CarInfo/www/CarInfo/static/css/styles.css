@@ -774,3 +774,8 @@ textarea::placeholder {
 #backButton:hover {
   background-color: gray; /* Change color on hover */
 }
+
+#icon{
+  width: 5%;
+  height: 5%;
+}
