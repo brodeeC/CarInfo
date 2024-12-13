@@ -166,10 +166,6 @@
     <body class = "color-mode" onload="loadRandomImages(), loadInfo()">
         <script type="text/javascript" src="static/js/functions.js"></script>
 
-        <button onclick="window.location.href='/brandpage.html'">
-          <img class="icon" id="icon" src="/static/img/CarInfo.png">
-        </button>
-
         <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
         <div class="topnav">
             <a href="/index.html" class="bottle"><h1 class = "HeadText">CAR
@@ -188,6 +184,12 @@
               <i class="fa fa-bars"></i>
             </a>
           
+            <div class = "brandButton">
+              <button onclick="window.location.href='/brandpage.html'">
+              <img class="icon" id="icon" src="/static/img/CarInfo.png">
+            </button>
+           </div>
+
           </div>
           <button id="backButton" onclick="history.back()">Back</button>
           
