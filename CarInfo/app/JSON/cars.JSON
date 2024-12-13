@@ -121,7 +121,7 @@
         },
 
         "McLaren":{
-            "logo":"/static/img/Car Brand Logos/mclarenLogo.jpeg",
+            "logo":"/static/img/Car Brand Logos/mclaren-logo.png",
             "F1":{
                 "dark":"/static/img/Slideshow/McLarenF1D.jpeg",
                 "light":"/static/img/Slideshow/McLarenF1L.webp",
@@ -560,7 +560,7 @@
         },
 
         "Lancia":{
-            "logo":"/static/img/Car Brand Logos/LanciaLogo.webp",
+            "logo":"/static/img/Car Brand Logos/lancia-logo.png",
             "Rally 037":{
                 "dark":"/static/img/Slideshow/Rally037D.jpeg",
                 "light":"/static/img/Slideshow/Rally037L.jpeg",
@@ -840,7 +840,7 @@
         },
 
         "Delorean":{
-            "logo":"/static/img/Car Brand Logos/DMCLogo.webp",
+            "logo":"/static/img/Car Brand Logos/dmc-logo.png",
             "DMC-12":{
                 "dark":"/static/img/Slideshow/DeloreanD.jpeg",
                 "light":"/static/img/Slideshow/DeloreanL.jpeg",
@@ -932,7 +932,7 @@
         },
 
         "Mercury":{
-            "logo":"/static/img/Car Brand Logos/MercuryLogo.png",
+            "logo":"/static/img/Car Brand Logos/mercury-logo.png",
             "Comet":{
                 "dark":"/static/img/Slideshow/cometD.webp",
                 "light":"/static/img/Slideshow/cometL.jpeg",
