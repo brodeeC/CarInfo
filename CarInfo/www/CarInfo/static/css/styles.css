@@ -791,3 +791,8 @@ button #icon{
   width: 25px;
   height: 25px;
 }
+
+#resize2 {
+  width: 1000px;
+  height: 680px;
+}
