@@ -135,13 +135,25 @@ justify-content: center;
 align-items: center;
 }
 
+.brandButton {
+  display: block;
+  position: absolute;
+  right: 46px;
+  top: 0;
+}
+
+.brandButton button{
+  width: 45px;
+  height: 47px;
+}
+
 /* Style the hamburger menu */
 .topnav a.icon {
-background: black;
-display: block;
-position: absolute;
-right: 0;
-top: 0;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 /* Add a grey background color on mouse-over*/
@@ -773,4 +785,14 @@ textarea::placeholder {
 
 #backButton:hover {
   background-color: gray; /* Change color on hover */
+}
+
+button #icon{
+  width: 25px;
+  height: 25px;
+}
+
+#resize2 {
+  width: 1000px;
+  height: 680px;
 }

@@ -17,6 +17,7 @@ def create_app(test_config=False, shared_server=False):
     return app
 
 app = create_app()
+cors = CORS(app)
 
 @app.route(prepend + "/cars")
 def cars():
