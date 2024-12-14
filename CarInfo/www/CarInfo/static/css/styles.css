@@ -350,6 +350,11 @@ color: #000;
   }
 }
 
+#resize1 {
+  width: 1000px;
+  height: 680px;
+}
+
 .center-content img{
   width: 588px;
   height: 400px;
@@ -357,7 +362,7 @@ color: #000;
   margin-right: auto;
 }
 
-.image-center img{
+.image-center #resize1{
   width: 147px;
   height: 100px;
 }
@@ -790,9 +795,4 @@ textarea::placeholder {
 button #icon{
   width: 25px;
   height: 25px;
-}
-
-#resize2 {
-  width: 1000px;
-  height: 680px;
 }
