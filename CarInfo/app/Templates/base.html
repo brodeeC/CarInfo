@@ -24,9 +24,11 @@
         <script type="text/javascript" src="{{ url_for ('static', filename = 'js/functions.js')}}"></script>
 
 
-        <button onclick="window.location.href='/brandpage.html'">
-          <img class="icon" id="icon" src="{{ url_for ('static', filename = 'img/CarInfo.png') }}">
-        </button>
+        <div class = "brandButton">
+          <button onclick="window.location.href='/CarInfo/brandpage.html'">
+            <img class="icon" id="icon" src="{{ url_for ('static', filename = 'img/CarInfo.png') }}">
+          </button>
+        </div>
         <!--Everything was functioning properly until the below was changed. Will troubleshoot.-->
 
         <!--Just try actually typing the direct url in there like the index.html-->
