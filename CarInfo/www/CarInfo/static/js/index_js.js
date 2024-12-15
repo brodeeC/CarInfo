@@ -50,9 +50,9 @@ function imageMode(car){
     //if dark mode
     //found on https://stackoverflow.com/questions/56393880/how-do-i-detect-dark-mode-using-javascript
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        return car.dark;
+        return '/CarInfo' + car.dark;
     }
-    else return car.light;
+    else return '/CarInfo' + car.light;
 }
 
 // Function to dynamically populate slideshow with random images
@@ -76,7 +76,6 @@ async function loadRandomImages() {
 
         //get light/dark mode depending on system settings
         let image = imageMode(car);
-        image = '/CarInfo' + image;
         img.setAttribute("src", image);
         if (count === 1){
             img.setAttribute("onload", "currentSlide(1)");
