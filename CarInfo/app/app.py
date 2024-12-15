@@ -30,14 +30,14 @@ def load_car_data():
         return json.load(json_file)
 
 
-app.config['CAR_DATA'] = load_car_data()
+#app.config['CAR_DATA'] = load_car_data()
 
 # Use path parameters in the URL instead of query parameters
 @app.route(prepend + '/car/<country>/<brand>')
 def car_info(country, brand):
   
     # Access car data from Flask config
-    car_data = app.config['CAR_DATA']
+    car_data = load_car_data()
 
     # Check if the country exists in car data
     if country in car_data:
@@ -165,7 +165,7 @@ def search():
 @app.route(prepend + '/<country>/<brand>/<car>')
 def one_car(country, brand, car):
     # Access car data from Flask config
-    car_data = app.config['CAR_DATA']
+    car_data = load_car_data()
 
     # Check if the country exists in car data
     if country in car_data:
