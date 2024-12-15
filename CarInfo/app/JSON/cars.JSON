@@ -29,7 +29,7 @@
         },
 
         "Austin-Healey":{
-            "logo":"/static/img/Car Brand Logos/Austin-HealeyLogo.png",
+            "logo":"/static/img/Car Brand Logos/austin-healey-logo.png",
             "3000 MKII":{
                 "dark":"/static/img/Slideshow/3000markIID.webp",
                 "light":"/static/img/Slideshow/3000markIIL.jpeg",
@@ -121,7 +121,7 @@
         },
 
         "McLaren":{
-            "logo":"/static/img/Car Brand Logos/mclarenLogo.jpeg",
+            "logo":"/static/img/Car Brand Logos/mclaren-logo.png",
             "F1":{
                 "dark":"/static/img/Slideshow/McLarenF1D.jpeg",
                 "light":"/static/img/Slideshow/McLarenF1L.webp",
@@ -149,7 +149,7 @@
         },
 
         "MG":{
-            "logo":"/static/img/Car Brand Logos/MGLogo.png",
+            "logo":"/static/img/Car Brand Logos/mg-logo.png",
             "MGA":{
                 "dark":"/static/img/Slideshow/MGAD.jpeg",
                 "light":"/static/img/Slideshow/MGAL.jpeg",
@@ -161,7 +161,7 @@
         },
 
         "Noble":{
-            "logo":"/static/img/Car Brand Logos/NobleLogo.png",
+            "logo":"/static/img/Car Brand Logos/noble-logo.png",
             "M12 GTO":{
                 "dark":"/static/img/Slideshow/NobleM12GTOD.jpeg",
                 "light":"/static/img/Slideshow/NobleM12GTOL.jpeg",
@@ -185,7 +185,7 @@
         },
 
         "Talbot-Lago":{
-            "logo":"/static/img/Car Brand Logos/Talbot Lago Logo.png",
+            "logo":"/static/img/Car Brand Logos/talbot-lago-logo.png",
             "T150 CSS":{
                 "dark":"/static/img/Slideshow/t150cssD.avif",
                 "light":"/static/img/Slideshow/t150cssL.jpeg",
@@ -560,7 +560,7 @@
         },
 
         "Lancia":{
-            "logo":"/static/img/Car Brand Logos/LanciaLogo.webp",
+            "logo":"/static/img/Car Brand Logos/lancia-logo.png",
             "Rally 037":{
                 "dark":"/static/img/Slideshow/Rally037D.jpeg",
                 "light":"/static/img/Slideshow/Rally037L.jpeg",
@@ -572,7 +572,7 @@
         },
 
         "Pagani":{
-            "logo":"/static/img/Car Brand Logos/Pagani Logo.png",
+            "logo":"/static/img/Car Brand Logos/pagani-logo.png",
             "Utopia":{
                 "dark":"/static/img/Slideshow/UtopiaD.jpeg",
                 "light":"/static/img/Slideshow/UtopiaL.jpeg",
@@ -614,7 +614,7 @@
         },
 
         "Datsun":{
-            "logo":"/static/img/Car Brand Logos/Datsun Logo.png",
+            "logo":"/static/img/Car Brand Logos/datsun-logo.png",
             "240Z":{
                 "dark":"/static/img/Slideshow/240zD.jpeg",
                 "light":"/static/img/Slideshow/240zL.avif",
@@ -840,7 +840,7 @@
         },
 
         "Delorean":{
-            "logo":"/static/img/Car Brand Logos/DMCLogo.webp",
+            "logo":"/static/img/Car Brand Logos/dmc-logo.png",
             "DMC-12":{
                 "dark":"/static/img/Slideshow/DeloreanD.jpeg",
                 "light":"/static/img/Slideshow/DeloreanL.jpeg",
@@ -932,7 +932,7 @@
         },
 
         "Mercury":{
-            "logo":"/static/img/Car Brand Logos/MercuryLogo.jpeg",
+            "logo":"/static/img/Car Brand Logos/mercury-logo.png",
             "Comet":{
                 "dark":"/static/img/Slideshow/cometD.webp",
                 "light":"/static/img/Slideshow/cometL.jpeg",
