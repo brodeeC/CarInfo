@@ -793,6 +793,7 @@ button #icon{
 }
 
 #resize2 {
-  width: 1000px;
-  height: 680px;
+  width: 75%;
+  height: auto;
+  border: 5px solid  rgb(212, 219, 224);
 }

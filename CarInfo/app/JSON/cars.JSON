@@ -8,7 +8,7 @@
             "make":"Aston Martin",
             "model":"DB5",
             "year":"1964",
-            "description":"Engine: 4.0L inline-six<br>Transmission: Five-speed/Manual<br>0-60(mph): <br>Horsepower: 282<br>Torque(lb/ft): 288<br>Top Speed(mph): 145<br> Dimensions: 98 x 179.9 x 66.1<br> Curb Weight(lb): 3,311<br>Fuel Economy(MPG): 12<br>Description: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history."
+            "description":"<strong><u>Description</u></strong>: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history.<br><u><strong>Engine</u></strong>: 4.0L inline-six<br><u><strong>Transmission</u></strong>: Five-speed/Manual<br><u><strong>0-60(mph)</u></strong>: 6.4<br><u><strong>Horsepower</u></strong>: 282<br><u><strong>Torque(lb/ft)</u></strong>(lb/ft): 288<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions</u></strong>: 98 x 179.9 x 66.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,311<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             },
             "DB9":{
                 "dark":"/static/img/Slideshow/DB9D.jpeg",
@@ -16,7 +16,7 @@
                 "make":"Aston Martin",
                 "model":"DB9",
                 "year":"2020",
-                "description":"Engine: 5.9L V12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: <br>Torque(lb/ft): 420<br>Top Speed(mph): 186<br> Dimensions(in): 185.8 x 79.6 x 50.4<br> Curb Weight(lb): 3935.2<br>Fuel Economy(MPG): 15<br>Description: The 2020 Aston Martin DB9 is a stunning sports car that combines luxury with high performance. It is commonly praised for its dynamic handling, powerful engine, and striking looks."
+                "description":"<strong><u>Description</u></strong>: The 2020 Aston Martin DB9 is a stunning sports car that combines luxury with high performance. It is commonly praised for its dynamic handling, powerful engine, and striking looks.<br><u><strong>Engine</u></strong>: 5.9L V12<br><u><strong>Transmission</u></strong>: Six-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.7<br><u><strong>Horsepower</u></strong>: 450<br><u><strong>Torque(lb/ft)</u></strong>(lb/ft): 420<br><u><strong>Top Speed(mph)</u></strong>: 186<br><u><strong>Dimensions(in)</u></strong>: 185.8 x 79.6 x 50.4<br><u><strong>Curb Weight(lb)</u></strong>: 3935.2<br><u><strong>Fuel Economy(MPG)</u></strong>: 15"
             },
             "One-77":{
                 "dark":"/static/img/Slideshow/One-77D.jpeg",
@@ -24,7 +24,7 @@
                 "make":"Aston Martin",
                 "model":"One-77",
                 "year":"2012",
-                "description":"Engine: 7.3L V12<br>Transmission: Six-Speed Automated Manual<br>0-60(mph): 3.7<br>Horsepower: 750<br>Torque(lb/ft): 533<br>Top Speed(mph): 220<br> Dimensions(in): 181.1 x 86.8 x 48.1<br>Curb Weight(lb): 3,594<br>Fuel Economy(MPG): 6.2<br>Description: The 2012 Aston Martin One-77 is a remarkable and rare supercar, known for its exclusivity and performance. It is also known for its engineering and craftsmanship."
+                "description":"<strong><u>Description</u></strong>: The 2012 Aston Martin One-77 is a remarkable and rare supercar, known for its exclusivity and performance. It is also known for its engineering and craftsmanship.<br><u><strong>Engine</u></strong>: 7.3L V12<br><u><strong>Transmission</u></strong>: Six-Speed Automated Manual<br><u><strong>0-60(mph)</u></strong>: 3.7<br><u><strong>Horsepower</u></strong>: 750<br><u><strong>Torque(lb/ft)</u></strong>(lb/ft): 533<br><u><strong>Top Speed(mph)</u></strong>: 220<br><u><strong>Dimensions(in)</u></strong>: 181.1 x 86.8 x 48.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,594<br><u><strong>Fuel Economy(MPG)</u></strong>: 6.2"
             } 
         },
 
@@ -36,7 +36,7 @@
                 "make":"Austin-Healey",
                 "model":"3000 MKII",
                 "year":"1963",
-                "description":"Engine: 2.9L Carbureted Pushrod Inline-6<br>Transmission: Four-Speed Manual<br>0-60(mph): <br>Horsepower: 136<br>Torque(lb/ft): 167<br>Top Speed(mph): 110<br> Dimensions(in): 92 x 157.5 x 49<br> Curb Weight(lb): 2,465<br>Fuel Economy(MPG): 19.6<br>Description:The 1963 Austin-Healey 3000 MKII, also known as the BJ7, is a classic British sports car that holds a special place in automotive history. It's a beloved model among classic car enthusiasts for its blend of performance, style, and historical significance."
+                "description":"<strong><u>Description</u></strong>:The 1963 Austin-Healey 3000 MKII, also known as the BJ7, is a classic British sports car that holds a special place in automotive history. It's a beloved model among classic car enthusiasts for its blend of performance, style, and historical significance.<br><u><strong>Engine</u></strong>: 2.9L Carbureted Pushrod Inline-6<br><u><strong>Transmission</u></strong>: Four-Speed Manual<br><u><strong>0-60(mph)</u></strong>: <br><u><strong>Horsepower</u></strong>: 136<br><u><strong>Torque(lb/ft)</u></strong>(lb/ft): 167<br><u><strong>Top Speed(mph)</u></strong>: 110<br><u><strong>Dimensions(in)</u></strong>: 92 x 157.5 x 49<br><u><strong>Curb Weight(lb)</u></strong>: 2,465<br><u><strong>Fuel Economy(MPG)</u></strong>: 19.6"
             }
         },
 
@@ -48,7 +48,7 @@
             "make":"Bentley",
             "model":"Continental GT",
             "year":"2003",
-            "description":"Engine: Twin Turbocharged 6L W12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: 550<br>Torque(lb/ft): 479<br>Top Speed(mph): 198<br> Dimensions(in): 189 x 76 x 55<br> Curb Weight(lb): 5,071<br>Fuel Economy(MPG): 16<br>Description: The 2003 Bentley Continental GT is a luxurious grand tourer that marked a significant shift for Bentley. It was the first model introduced after Bentley's acquisition by Volkswagen, featuring a blend of traditional craftsmanship and modern technology. This model was praised for its powerful performance, elegant design, and high-quality interior."
+            "description":"<strong><u>Description</u></strong>: The 2003 Bentley Continental GT is a luxurious grand tourer that marked a significant shift for Bentley. It was the first model introduced after Bentley's acquisition by Volkswagen, featuring a blend of traditional craftsmanship and modern technology. This model was praised for its powerful performance, elegant design, and high-quality interior.<br><u><strong>Engine</u></strong>: Twin Turbocharged 6L W12<br><u><strong>Transmission</u></strong>: Six-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.7<br><u><strong>Horsepower</u></strong>: 550<br><u><strong>Torque(lb/ft)</u></strong>: 479<br><u><strong>Top Speed(mph)</u></strong>: 198<br><u><strong>Dimensions(in)</u></strong>: 189 x 76 x 55<br><u><strong>Curb Weight(lb)</u></strong>: 5,071<br><u><strong>Fuel Economy(MPG)</u></strong>: 16"
             }
         },
 
