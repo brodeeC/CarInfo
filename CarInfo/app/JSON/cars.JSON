@@ -8,7 +8,7 @@
             "make":"Aston Martin",
             "model":"DB5",
             "year":"1964",
-            "description":"Engine: 4.0L inline-six<br>Transmission: Five-speed/Manual<br>0-60(mph): <br>Horsepower: 282<br>Torque(lb/ft): 288<br>Top Speed(mph): 145<br> Dimensions: 98 x 179.9 x 66.1<br> Curb Weight(lb): 3,311<br>Fuel Economy(MPG): 12<br>Description: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history."
+            "description":"<strong><u>Description</u></strong>: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history.<br><u><strong>Engine</u></strong>: 4.0L inline-six<br><u><strong>Transmission</u></strong>: Five-speed/Manual<br><u><strong>0-60(mph)</u></strong>: 6.4<br><u><strong>Horsepower</u></strong>: 282<br><u><strong>Torque(lb/ft)</u></strong>: 288<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions</u></strong>: 98 x 179.9 x 66.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,311<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             },
             "DB9":{
                 "dark":"/static/img/Slideshow/DB9D.jpeg",
@@ -16,7 +16,7 @@
                 "make":"Aston Martin",
                 "model":"DB9",
                 "year":"2020",
-                "description":"Engine: 5.9L V12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: <br>Torque(lb/ft): 420<br>Top Speed(mph): 186<br> Dimensions(in): 185.8 x 79.6 x 50.4<br> Curb Weight(lb): 3935.2<br>Fuel Economy(MPG): 15<br>Description: The 2020 Aston Martin DB9 is a stunning sports car that combines luxury with high performance. It is commonly praised for its dynamic handling, powerful engine, and striking looks."
+                "description":"<strong><u>Description</u></strong>: The 2020 Aston Martin DB9 is a stunning sports car that combines luxury with high performance. It is commonly praised for its dynamic handling, powerful engine, and striking looks.<br><u><strong>Engine</u></strong>: 5.9L V12<br><u><strong>Transmission</u></strong>: Six-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.7<br><u><strong>Horsepower</u></strong>: 450<br><u><strong>Torque(lb/ft)</u></strong>: 420<br><u><strong>Top Speed(mph)</u></strong>: 186<br><u><strong>Dimensions(in)</u></strong>: 185.8 x 79.6 x 50.4<br><u><strong>Curb Weight(lb)</u></strong>: 3935.2<br><u><strong>Fuel Economy(MPG)</u></strong>: 15"
             },
             "One-77":{
                 "dark":"/static/img/Slideshow/One-77D.jpeg",
@@ -24,7 +24,7 @@
                 "make":"Aston Martin",
                 "model":"One-77",
                 "year":"2012",
-                "description":"Engine: 7.3L V12<br>Transmission: Six-Speed Automated Manual<br>0-60(mph): 3.7<br>Horsepower: 750<br>Torque(lb/ft): 533<br>Top Speed(mph): 220<br> Dimensions(in): 181.1 x 86.8 x 48.1<br>Curb Weight(lb): 3,594<br>Fuel Economy(MPG): 6.2<br>Description: The 2012 Aston Martin One-77 is a remarkable and rare supercar, known for its exclusivity and performance. It is also known for its engineering and craftsmanship."
+                "description":"<strong><u>Description</u></strong>: The 2012 Aston Martin One-77 is a remarkable and rare supercar, known for its exclusivity and performance. It is also known for its engineering and craftsmanship.<br><u><strong>Engine</u></strong>: 7.3L V12<br><u><strong>Transmission</u></strong>: Six-Speed Automated Manual<br><u><strong>0-60(mph)</u></strong>: 3.7<br><u><strong>Horsepower</u></strong>: 750<br><u><strong>Torque(lb/ft)</u></strong>: 533<br><u><strong>Top Speed(mph)</u></strong>: 220<br><u><strong>Dimensions(in)</u></strong>: 181.1 x 86.8 x 48.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,594<br><u><strong>Fuel Economy(MPG)</u></strong>: 6.2"
             } 
         },
 
@@ -36,7 +36,7 @@
                 "make":"Austin-Healey",
                 "model":"3000 MKII",
                 "year":"1963",
-                "description":"Engine: 2.9L Carbureted Pushrod Inline-6<br>Transmission: Four-Speed Manual<br>0-60(mph): <br>Horsepower: 136<br>Torque(lb/ft): 167<br>Top Speed(mph): 110<br> Dimensions(in): 92 x 157.5 x 49<br> Curb Weight(lb): 2,465<br>Fuel Economy(MPG): 19.6<br>Description:The 1963 Austin-Healey 3000 MKII, also known as the BJ7, is a classic British sports car that holds a special place in automotive history. It's a beloved model among classic car enthusiasts for its blend of performance, style, and historical significance."
+                "description":"<strong><u>Description</u></strong>:The 1963 Austin-Healey 3000 MKII, also known as the BJ7, is a classic British sports car that holds a special place in automotive history. It's a beloved model among classic car enthusiasts for its blend of performance, style, and historical significance.<br><u><strong>Engine</u></strong>: 2.9L Carbureted Pushrod Inline-6<br><u><strong>Transmission</u></strong>: Four-Speed Manual<br><u><strong>0-60(mph)</u></strong>: <br><u><strong>Horsepower</u></strong>: 136<br><u><strong>Torque(lb/ft)</u></strong>: 167<br><u><strong>Top Speed(mph)</u></strong>: 110<br><u><strong>Dimensions(in)</u></strong>: 92 x 157.5 x 49<br><u><strong>Curb Weight(lb)</u></strong>: 2,465<br><u><strong>Fuel Economy(MPG)</u></strong>: 19.6"
             }
         },
 
@@ -48,7 +48,7 @@
             "make":"Bentley",
             "model":"Continental GT",
             "year":"2003",
-            "description":"Engine: Twin Turbocharged 6L W12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: 550<br>Torque(lb/ft): 479<br>Top Speed(mph): 198<br> Dimensions(in): 189 x 76 x 55<br> Curb Weight(lb): 5,071<br>Fuel Economy(MPG): 16<br>Description: The 2003 Bentley Continental GT is a luxurious grand tourer that marked a significant shift for Bentley. It was the first model introduced after Bentley's acquisition by Volkswagen, featuring a blend of traditional craftsmanship and modern technology. This model was praised for its powerful performance, elegant design, and high-quality interior."
+            "description":"<strong><u>Description</u></strong>: The 2003 Bentley Continental GT is a luxurious grand tourer that marked a significant shift for Bentley. It was the first model introduced after Bentley's acquisition by Volkswagen, featuring a blend of traditional craftsmanship and modern technology. This model was praised for its powerful performance, elegant design, and high-quality interior.<br><u><strong>Engine</u></strong>: Twin Turbocharged 6L W12<br><u><strong>Transmission</u></strong>: Six-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.7<br><u><strong>Horsepower</u></strong>: 550<br><u><strong>Torque(lb/ft)</u></strong>: 479<br><u><strong>Top Speed(mph)</u></strong>: 198<br><u><strong>Dimensions(in)</u></strong>: 189 x 76 x 55<br><u><strong>Curb Weight(lb)</u></strong>: 5,071<br><u><strong>Fuel Economy(MPG)</u></strong>: 16"
             }
         },
 
@@ -60,7 +60,7 @@
                 "make":"Jaguar",
                 "model":"E-Type",
                 "year":"1961",
-                "description":"Engine: 3.8L inline-six<br>Transmission: Four-Speed Manual<br>0-60(mph): 6.3<br>Horsepower: 265<br>Torque(lb/ft): 260<br>Top Speed(mph): 145<br>Dimensions(in): 175.5 x 62.25 x 96.0<br> Curb Weight(lb): 2,899<br>Fuel Economy(MPG): 22<br>Description: The 1961 Jaguar E-Type, also known as the Jaguar XK-E in North America, is a legendary British sports car that was produced from 1961 to 1974. It was renowned for its stunning design, advanced technology, and impressive performance. The E-Type quickly became an icon in the automotive world and remains highly sought after by collectors today."
+                "description":"<strong><u>Description</u></strong>: The 1961 Jaguar E-Type, also known as the Jaguar XK-E in North America, is a legendary British sports car that was produced from 1961 to 1974. It was renowned for its stunning design, advanced technology, and impressive performance. The E-Type quickly became an icon in the automotive world and remains highly sought after by collectors today.<br><u><strong>Engine</u></strong>: 3.8L inline-six<br><u><strong>Transmission</u></strong>: Four-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.3<br><u><strong>Horsepower</u></strong>: 265<br><u><strong>Torque(lb/ft)</u></strong>: 260<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions(in)</u></strong>: 175.5 x 62.25 x 96.0<br><u><strong>Curb Weight(lb)</u></strong>: 2,899<br><u><strong>Fuel Economy(MPG)</u></strong>: 22"
             },
             "XJ220":{
                 "dark":"/static/img/Slideshow/XJ220D.jpeg",
@@ -68,7 +68,7 @@
                 "make":"Jaguar",
                 "model":"XJ220",
                 "year":"1992",
-                "description":"Engine: 3.5L Twin-Turbocharged V6<br>Transmission: Five-Speed Manual<br>0-60(mph): 3.6<br>Horsepower: 542<br>Torque(lb/ft): 475<br>Top Speed(mph): 212<br> Dimensions(in): 194.1 x 79.1 x 45.3<br> Curb Weight(lb): 3,240<br>Fuel Economy(MPG): 27<br>Description:The 1992 Jaguar XJ220 is a legendary supercar produced by Jaguar in collaboration with Tom Walkinshaw Racing.The XJ220 was initially conceived as a V12-engined, four-wheel-drive concept but was later produced with a V6 engine and rear-wheel drive due to engineering and emissions requirements1. It remains an iconic piece of automotive history."
+                "description":"<strong><u>Description</u></strong>:The 1992 Jaguar XJ220 is a legendary supercar produced by Jaguar in collaboration with Tom Walkinshaw Racing.The XJ220 was initially conceived as a V12-engined, four-wheel-drive concept but was later produced with a V6 engine and rear-wheel drive due to engineering and emissions requirements1. It remains an iconic piece of automotive history.<br><u><strong>Engine</u></strong>: 3.5L Twin-Turbocharged V6<br><u><strong>Transmission</u></strong>: Five-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.6<br><u><strong>Horsepower</u></strong>: 542<br><u><strong>Torque(lb/ft)</u></strong>: 475<br><u><strong>Top Speed(mph)</u></strong>: 212<br><u><strong>Dimensions(in)</u></strong>: 194.1 x 79.1 x 45.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,240<br><u><strong>Fuel Economy(MPG)</u></strong>: 27"
             },
             "XK120":{
                 "dark":"/static/img/Slideshow/XK120D.jpeg",
@@ -76,7 +76,7 @@
                 "make":"Jaguar",
                 "model":"XK120",
                 "year":"1952",
-                "description":"Engine: 3.4L Inline 6<br>Transmission: Four-Speed manual<br>0-60(mph): 9.9<br>Horsepower: 180<br>Torque(lb/ft): 195<br>Top Speed(mph): 120<br> Dimensions(in): 173 x 61.5 x 52.5<br> Curb Weight(lb): 3060<br>Fuel Economy(MPG): 19.8<br>Description: The 1952 Jaguar XK120 is a classic sports car that holds a special place in automotive history. It was celebrated for its combination of performance, style, and engineering excellence"
+                "description":"<strong><u>Description</u></strong>: The 1952 Jaguar XK120 is a classic sports car that holds a special place in automotive history. It was celebrated for its combination of performance, style, and engineering excellence.<br><u><strong>Engine</u></strong>: 3.4L Inline 6<br><u><strong>Transmission</u></strong>: Four-Speed manual<br><u><strong>0-60(mph)</u></strong>: 9.9<br><u><strong>Horsepower</u></strong>: 180<br><u><strong>Torque(lb/ft)</u></strong>: 195<br><u><strong>Top Speed(mph)</u></strong>: 120<br><u><strong>Dimensions(in)</u></strong>: 173 x 61.5 x 52.5<br><u><strong>Curb Weight(lb)</u></strong>: 3060<br>Fuel Economy(MPG): 19.8"
             },
             "XKSS":{
                 "dark":"/static/img/Slideshow/XKSSD.jpeg",
@@ -84,7 +84,7 @@
                 "make":"Jaguar",
                 "model":"XKSS",
                 "year":"1957",
-                "description":"Engine: Inline 6<br>Transmission: 4-Speed Manual<br>0-60(mph): 5.2<br>Horsepower: 250<br>Torque(lb/ft): 260<br>Top Speed(mph): 149<br> Dimensions(in): 157.1 x 65.4 x 44.1<br> Curb Weight(lb): 2,030<br>Fuel Economy(MPG): Not Available<br>Description: The 1957 Jaguar XKSS is a rare and iconic sports car with a fascinating history. Only 16 units were originally built in 19571. A factory fire destroyed nine unfinished cars, making the XKSS even rarer. In 2016, Jaguar announced a continuation series to complete the original planned production run, hand-building nine new XKSS models to the exact original specification."
+                "description":"<strong><u>Description</u></strong>: The 1957 Jaguar XKSS is a rare and iconic sports car with a fascinating history. Only 16 units were originally built in 19571. A factory fire destroyed nine unfinished cars, making the XKSS even rarer. In 2016, Jaguar announced a continuation series to complete the original planned production run, hand-building nine new XKSS models to the exact original specification.<br><u><strong>Engine</u></strong>: Inline 6<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.2<br><u><strong>Horsepower</u></strong>: 250<br><u><strong>Torque(lb/ft)</u></strong>: 260<br><u><strong>Top Speed(mph)</u></strong>: 149<br><u><strong>Dimensions(in)</u></strong>: 157.1 x 65.4 x 44.1<br><u><strong>Curb Weight(lb)</u></strong>: 2,030<br><u><strong>Fuel Economy(MPG)</u></strong>: Not Available"
             }
         },
 
@@ -108,7 +108,7 @@
                 "make":"Lotus",
                 "model":"Elise",
                 "year":"2011",
-                "description":"Engine: Inline-Four<br>Transmission: 6-Speed Manual<br>0-60(mph): <br>Horsepower: 190<br>Torque(lb/ft): 133<br>Top Speed(mph): 145<br> Dimensions(in): 149 x 68 x 45<br> Curb Weight(lb): 2,010 <br>Fuel Economy(MPG): 27.5<br>Description: The 2011 model was the last year the Elise was sold in the U.S., making it a rare and potentially collectible car. The  Lotus Elise is a compact, lightweight sports car designed for track driving."
+                "description":"<strong><u>Description</u></strong>: The 2011 model was the last year the Elise was sold in the U.S., making it a rare and potentially collectible car. The  Lotus Elise is a compact, lightweight sports car designed for track driving.<br><u><strong>Engine</u></strong>: Inline-Four<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: <br><u><strong>Horsepower</u></strong>: 190<br><u><strong>Torque(lb/ft)</u></strong>: 133<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions(in)</u></strong>: 149 x 68 x 45<br><u><strong>Curb Weight(lb)</u></strong>: 2,010 <br><u><strong>Fuel Economy(MPG)</u></strong>: 27.5"
             },
             "Esprit":{
                 "dark":"/static/img/Slideshow/espiritD.jpeg",
@@ -116,7 +116,7 @@
                 "make":"Lotus",
                 "model":"Esprit",
                 "year":"1996",
-                "description":"Engine: V8<br>Transmission: 5-Speed Manual<br>0-60(mph): 6.8<br>Horsepower: 350<br>Torque(lb/ft): 196.2<br>Top Speed(mph): 175<br> Dimensions(in): 172 x 73.5 x 45.3<br> Curb Weight(lb): 3,040<br>Fuel Economy(MPG): 15.5 <br>Description: The 1996 Lotus Esprit is a notable model in the Esprit lineup, known for its performance and distinctive design. It is celebrated for its blend of classic design and modern performance enhancements."
+                "description":"<strong><u>Description</u></strong>: The 1996 Lotus Esprit is a notable model in the Esprit lineup, known for its performance and distinctive design. It is celebrated for its blend of classic design and modern performance enhancements.<br><u><strong>Engine</u></strong>: V8<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.8<br><u><strong>Horsepower</u></strong>: 350<br><u><strong>Torque(lb/ft)</u></strong>: 196.2<br><u><strong>Top Speed(mph)</u></strong>: 175<br><u><strong>Dimensions(in)</u></strong>: 172 x 73.5 x 45.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,040<br><u><strong>Fuel Economy(MPG)</u></strong>: 15.5"
             }
         },
 
@@ -128,7 +128,7 @@
                 "make":"McLaren",
                 "model":"F1",
                 "year":"1992",
-                "description":"Engine: 6.1L V12<br>Transmission: Six-Speed Manual<br>0-60(mph): 3.2<br>Horsepower: 627<br>Torque(lb/ft): 479<br>Top Speed(mph): 240<br> Dimensions(in): 168.8 x 71.7 x 44.9<br> Curb Weight(lb): 2,425<br>Fuel Economy(MPG): 12<br>Description: The 1992 McLaren F1 is an iconic supercar, renowned for its groundbreaking design and performance. It is celebrated for its engineering excellence and remains a benchmark in the supercar world."
+                "description":"<strong><u>Description</u></strong>: The 1992 McLaren F1 is an iconic supercar, renowned for its groundbreaking design and performance. It is celebrated for its engineering excellence and remains a benchmark in the supercar world.<br><u><strong>Engine</u></strong>: 6.1L V12<br><u><strong>Transmission</u></strong>: Six-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.2<br><u><strong>Horsepower</u></strong>: 627<br><u><strong>Torque(lb/ft)</u></strong>: 479<br><u><strong>Top Speed(mph)</u></strong>: 240<br><u><strong>Dimensions(in)</u></strong>: 168.8 x 71.7 x 44.9<br><u><strong>Curb Weight(lb)</u></strong>: 2,425<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             },
             "P1":{
                 "dark":"/static/img/Slideshow/p1D.jpeg",
@@ -136,7 +136,7 @@
                 "make":"McLaren",
                 "model":"P1",
                 "year":"2014",
-                "description":"Engine: Twin Turbo V8 paired with electric motor<br>Transmission: 7-Speed Dual Clutch Automatic Transmission<br>0-60(mph): 2.7<br>Horsepower: 903<br>Torque(lb/ft): 531<br>Top Speed(mph): 217<br> Dimensions(in): 181 x 84 x 47<br> Curb Weight(lb): 3,075<br>Fuel Economy(MPG): 17<br>Description: The 2014 McLaren P1 is a remarkable hypercar, blending cutting-edge technology with incredible performance. It is celebrated for its blend of hybrid technology and raw power, making it a standout in the hypercar world."
+                "description":"<strong><u>Description</u></strong>: The 2014 McLaren P1 is a remarkable hypercar, blending cutting-edge technology with incredible performance. It is celebrated for its blend of hybrid technology and raw power, making it a standout in the hypercar world.<br><u><strong>Engine</u></strong>: Twin Turbo V8 paired with electric motor<br><u><strong>Transmission</u></strong>: 7-Speed Dual Clutch Automatic Transmission<br><u><strong>0-60(mph)</u></strong>: 2.7<br><u><strong>Horsepower</u></strong>: 903<br><u><strong>Torque(lb/ft)</u></strong>: 531<br><u><strong>Top Speed(mph)</u></strong>: 217<br><u><strong>Dimensions(in)</u></strong>: 181 x 84 x 47<br><u><strong>Curb Weight(lb)</u></strong>: 3,075<br><u><strong>Fuel Economy(MPG)</u></strong>: 17"
             },
             "Speedtail":{
                 "dark":"/static/img/Slideshow/2020SpeedtailD.avif",
@@ -144,7 +144,7 @@
                 "make":"McLaren",
                 "model":"Speedtail",
                 "year":"2020",
-                "description":"Engine: 4.0L Twin Turbo V8 paired with a hybrid power train<br>Transmission: 7-Speed Automatic<br>0-60(mph): 2.9<br>Horsepower: 1,036<br>Torque(lb/ft): 848<br>Top Speed(mph): 250<br> Dimensions(in): 202.2 x 107.5 x 44.1<br>Curb Weight(lb): 3,153<br>Fuel Economy(MPG): 15<br>Description: The 2020 McLaren Speedtail is an extraordinary hypercar, blending advanced technology with stunning performance. It is celebrated for its blend of cutting-edge technology, bespoke design, and unparalleled performance. "
+                "description":"<strong><u>Description</u></strong>: The 2020 McLaren Speedtail is an extraordinary hypercar, blending advanced technology with stunning performance. It is celebrated for its blend of cutting-edge technology, bespoke design, and unparalleled performance.<br><u><strong>Engine</u></strong>: 4.0L Twin Turbo V8 paired with a hybrid power train<br><u><strong>Transmission</u></strong>: 7-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 2.9<br><u><strong>Horsepower</u></strong>: 1,036<br><u><strong>Torque(lb/ft)</u></strong>: 848<br><u><strong>Top Speed(mph)</u></strong>: 250<br><u><strong>Dimensions(in)</u></strong>: 202.2 x 107.5 x 44.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,153<br><u><strong>Fuel Economy(MPG)</u></strong>: 15"
             }
         },
 
@@ -156,7 +156,7 @@
                 "make":"MG",
                 "model":"MGA",
                 "year":"1960",
-                "description":"Engine: Inline-4<br>Transmission: Four Speed Manual<br>0-60(mph): 9.1<br>Horsepower: 68<br>Torque(lb/ft): 41.3<br>Top Speed(mph): 113.5<br> Dimensions(in): 156 x 58 x 50<br> Curb Weight(lb): 2,160<br>Fuel Economy(MPG): 26<br>Description: The 1960 MG MGA is a classic British sports car known for its elegant design and enjoyable driving experience. Today, it remains a beloved classic among car enthusiasts."
+                "description":"<strong><u>Description</u></strong>: The 1960 MG MGA is a classic British sports car known for its elegant design and enjoyable driving experience. Today, it remains a beloved classic among car enthusiasts.<br><u><strong>Engine</u></strong>: Inline-4<br><u><strong>Transmission</u></strong>: Four Speed Manual<br><u><strong>0-60(mph)</u></strong>: 9.1<br><u><strong>Horsepower</u></strong>: 68<br><u><strong>Torque(lb/ft)</u></strong>: 41.3<br><u><strong>Top Speed(mph)</u></strong>: 113.5<br><u><strong>Dimensions(in)</u></strong>: 156 x 58 x 50<br><u><strong>Curb Weight(lb)</u></strong>: 2,160<br><u><strong>Fuel Economy(MPG)</u></strong>: 26"
             }
         },
 
@@ -168,7 +168,7 @@
                 "make":"Noble",
                 "model":"M12 GTO",
                 "year":"2002",
-                "description":"Engine: Twin-Turbocharged 3.0L V6<br>Transmission: Five-Speed Manual<br>0-60(mph): 3.7<br>Horsepower: 310<br>Torque(lb/ft): 320<br>Top Speed(mph): 185<br>Dimensions(in): 161 x 72 x 45<br> Curb Weight(lb): 2,380<br>Fuel Economy(MPG): 16<br>Description: The 2002 Noble M12 is a high-performance sports car known for its impressive speed and handling. It is celebrated for its raw performance and driver-focused design."
+                "description":"<strong><u>Description</u></strong>: The 2002 Noble M12 is a high-performance sports car known for its impressive speed and handling. It is celebrated for its raw performance and driver-focused design.<br><u><strong>Engine</u></strong>: Twin-Turbocharged 3.0L V6<br><u><strong>Transmission</u></strong>: Five-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.7<br><u><strong>Horsepower</u></strong>: 310<br><u><strong>Torque(lb/ft)</u></strong>: 320<br><u><strong>Top Speed(mph)</u></strong>: 185<br><u><strong>Dimensions(in)</u></strong>: 161 x 72 x 45<br><u><strong>Curb Weight(lb)</u></strong>: 2,380<br><u><strong>Fuel Economy(MPG)</u></strong>: 16"
                 }
         },
 
@@ -180,7 +180,7 @@
                 "make":"Rolls-Royce",
                 "model":"Boat Tail",
                 "year":"2021",
-                "description":"Engine: 6.75L V12<br>Transmission: Eight-Speed Automatic<br>0-60(mph): 4.4<br>Horsepower: 570<br>Torque(lb/ft): 627<br>Top Speed(mph): 155<br> Dimensions(in): 228 x 80 x 55<br> Curb Weight(lb): 5,643<br>Fuel Economy(MPG): 17.7<br>Description: The Rolls-Royce Boat Tail draws awesthitic from J-class yachts. It features a butterfly-style rear deck taht opens to reveal a hosting suite with a champagen refrigerator and custom made pieces. Only three have been made, and they can run owners around $28 Million."
+                "description":"<strong><u>Description</u></strong>: The Rolls-Royce Boat Tail draws awesthitic from J-class yachts. It features a butterfly-style rear deck taht opens to reveal a hosting suite with a champagen refrigerator and custom made pieces. Only three have been made, and they can run owners around $28 Million.<br><u><strong>Engine</u></strong>: 6.75L V12<br><u><strong>Transmission</u></strong>: Eight-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.4<br><u><strong>Horsepower</u></strong>: 570<br><u><strong>Torque(lb/ft)</u></strong>: 627<br><u><strong>Top Speed(mph)</u></strong>: 155<br><u><strong>Dimensions(in)</u></strong>: 228 x 80 x 55<br><u><strong>Curb Weight(lb)</u></strong>: 5,643<br><u><strong>Fuel Economy(MPG)</u></strong>: 17.7"
             }
         },
 
@@ -192,7 +192,7 @@
                 "make":"Talbot-Lago",
                 "model":"T150 CSS",
                 "year":"1939",
-                "description":"Engine: 3.9L Inline-Six<br>Transmission: Wilson 4-speed preselector gear box<br>0-60(mph): 3.2<br>Horsepower: 140<br>Torque(lb/ft): 155<br>Top Speed(mph): 115<br> Dimensions(in): 169.3 x 65.7 x 52.8<br> Curb Weight(lb): 3,300<br>Fuel Economy(MPG): 12<br>Description: The 1939 Talbot-Lago T150 CSS is a remarkable example of pre-war automotive design and engineering. It is celebrated for its beauty and craftsmanship, and often considered one of the most beautiful cars ever made."
+                "description":"<strong><u>Description</u></strong>: The 1939 Talbot-Lago T150 CSS is a remarkable example of pre-war automotive design and engineering. It is celebrated for its beauty and craftsmanship, and often considered one of the most beautiful cars ever made.<br><u><strong>Engine</u></strong>: 3.9L Inline-Six<br><u><strong>Transmission</u></strong>: Wilson 4-speed preselector gear box<br><u><strong>0-60(mph)</u></strong>: 3.2<br><u><strong>Horsepower</u></strong>: 140<br><u><strong>Torque(lb/ft)</u></strong>: 155<br><u><strong>Top Speed(mph)</u></strong>: 115<br><u><strong>Dimensions(in)</u></strong>: 169.3 x 65.7 x 52.8<br><u><strong>Curb Weight(lb)</u></strong>: 3,300<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             }
         }
     },
@@ -206,7 +206,7 @@
                 "make":"Bugatti",
                 "model":"Chiron",
                 "year":"2016",
-                "description":"Engine: 8.0L Quad-Turbo W16<br>Transmission: seven-speed automatic Dual-Clutch<br>0-60(mph): 2.3<br>Horsepower: 1,480<br>Torque(lb/ft): 1,180.1<br>Top Speed(mph): 261<br> Dimensions(in): 178.9 x 80.2 x 47.7<br> Curb Weight(lb): 4,400<br>Fuel Economy(MPG): 11<br>Description: The 2016 Bugatti Chiron stands out as one of the most powerful cars of all time. Additionaly, it is praised for its luxurious interior that features high-quality materials and advanced technology."
+                "description":"<strong><u>Description</u></strong>: The 2016 Bugatti Chiron stands out as one of the most powerful cars of all time. Additionaly, it is praised for its luxurious interior that features high-quality materials and advanced technology.<br><u><strong>Engine</u></strong>: 8.0L Quad-Turbo W16<br><u><strong>Transmission</u></strong>: seven-speed automatic Dual-Clutch<br><u><strong>0-60(mph)</u></strong>: 2.3<br><u><strong>Horsepower</u></strong>: 1,480<br><u><strong>Torque(lb/ft)</u></strong>: 1,180.1<br><u><strong>Top Speed(mph)</u></strong>: 261<br><u><strong>Dimensions(in)</u></strong>: 178.9 x 80.2 x 47.7<br><u><strong>Curb Weight(lb)</u></strong>: 4,400<br><u><strong>Fuel Economy(MPG)</u></strong>: 11"
             },
             "Veyron":{
                 "dark":"/static/img/Slideshow/BugattiVeyronD.jpeg",
@@ -214,7 +214,7 @@
                 "make":"Bugatti",
                 "model":"Veyron",
                 "year":"2005",
-                "description":"Engine: Quad-Turbocharged 8.0L W16<br>Transmission: Seven-Speed Dual Clutch Manu-matic<br>0-60(mph): 2.5<br>Horsepower: 987<br>Torque(lb/ft): 922<br>Top Speed(mph): 253<br> Dimensions(in): 157.7 x 78.8 x 47.4<br> Curb Weight(lb): 4,162<br>Fuel Economy(MPG): 12<br>Description: The 2005 Bugatti Veyron is a legendary supercar known for its groundbreaking performance. It set new standards for speed, luxury, and engineering in the automotive world."
+                "description":"<strong><u>Description</u></strong>: The 2005 Bugatti Veyron is a legendary supercar known for its groundbreaking performance. It set new standards for speed, luxury, and engineering in the automotive world.<br><u><strong>Engine</u></strong>: Quad-Turbocharged 8.0L W16<br><u><strong>Transmission</u></strong>: Seven-Speed Dual Clutch Manu-matic<br><u><strong>0-60(mph)</u></strong>: 2.5<br><u><strong>Horsepower</u></strong>: 987<br><u><strong>Torque(lb/ft)</u></strong>: 922<br><u><strong>Top Speed(mph)</u></strong>: 253<br><u><strong>Dimensions(in)</u></strong>: 157.7 x 78.8 x 47.4<br><u><strong>Curb Weight(lb)</u></strong>: 4,162<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             }
         }
     },
@@ -228,7 +228,7 @@
                 "make":"Audi",
                 "model":"Quattro",
                 "year":"1983",
-                "description":"Engine: Turbocharged Inline-5<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.1<br>Horsepower: 360<br>Torque(lb/ft): 331.9<br>Top Speed(mph): 137<br>Dimensions(in): 178.2 x 67.9 x 52<br> Curb Weight(lb): 2,838<br>Fuel Economy(MPG): 23<br>Description: The 1983 Audi Quattro, also known as the Ur-Quattro, is a significant model in automotive history, particularly in the world of rally racing. The Quattro inspired the naming of Audi's AWD Quattro drivetrain."
+                "description":"<strong><u>Description</u></strong>: The 1983 Audi Quattro, also known as the Ur-Quattro, is a significant model in automotive history, particularly in the world of rally racing. The Quattro inspired the naming of Audi's AWD Quattro drivetrain.<br><u><strong>Engine</u></strong>: Turbocharged Inline-5<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7.1<br><u><strong>Horsepower</u></strong>: 360<br><u><strong>Torque(lb/ft)</u></strong>: 331.9<br><u><strong>Top Speed(mph)</u></strong>: 137<br><u><strong>Dimensions(in)</u></strong>: 178.2 x 67.9 x 52<br><u><strong>Curb Weight(lb)</u></strong>: 2,838<br><u><strong>Fuel Economy(MPG)</u></strong>: 23"
             },
             "R8":{
                 "dark":"/static/img/Slideshow/R8D.jpeg",
@@ -236,7 +236,7 @@
                 "make":"Audi",
                 "model":"R8",
                 "year":"2013",
-                "description":"Engine: V10<br>Transmission: Seven-speed dual-clutch automatic<br>0-60(mph): 3.6<br>Horsepower: 549<br>Torque(lb/ft): 398.3<br>Top Speed(mph): 195<br> Dimensions(in): 172.8 x 76 x 49.3<br> Curb Weight(lb): 3,461.3<br>Fuel Economy(MPG): 18<br>Description: The 2013 Audi R8 V10 combines stunning looks with incredible performance, making it a favorite among car enthusiasts"
+                "description":"<strong><u>Description</u></strong>: The 2013 Audi R8 V10 combines stunning looks with incredible performance, making it a favorite among car enthusiasts<br><u><strong>Engine</u></strong>: V10<br><u><strong>Transmission</u></strong>: Seven-speed dual-clutch automatic<br><u><strong>0-60(mph)</u></strong>: 3.6<br><u><strong>Horsepower</u></strong>: 549<br><u><strong>Torque(lb/ft)</u></strong>: 398.3<br>Top Speed(mph): 195<br><u><strong>Dimensions(in)</u></strong>: 172.8 x 76 x 49.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,461.3<br><u><strong>Fuel Economy(MPG)</u></strong>: 18"
             }
         },
 
