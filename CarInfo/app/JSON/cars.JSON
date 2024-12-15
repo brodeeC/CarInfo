@@ -248,7 +248,7 @@
                 "make":"BMW",
                 "model":"3.0 CSL",
                 "year":"1975",
-                "description":"Engine: 3.5L Inline-6<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.0<br>Horsepower: 206<br>Torque(lb/ft): 211<br>Top Speed(mph): 136.6<br> Dimensions(in): 184.0 x 70.0 x 53.74<br> Curb Weight(lb): 2,403<br>Fuel Economy(MPG): 21.6<br>Description: The 1975 BMW 3.0 CSL is a legendary car, often referred to as the "Bavarian Batmobile" due to its distinctive aerodynamic body kit. This model was a special variant of the BMW New Six Coupe, created to meet homologation requirements for the European Touring Car Championship."
+                "description":"Engine: 3.5L Inline-6<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.0<br>Horsepower: 206<br>Torque(lb/ft): 211<br>Top Speed(mph): 136.6<br> Dimensions(in): 184.0 x 70.0 x 53.74<br> Curb Weight(lb): 2,403<br>Fuel Economy(MPG): 21.6<br>Description: The 1975 BMW 3.0 CSL is a legendary car, often referred to as the 'Bavarian Batmobile' due to its distinctive aerodynamic body kit. This model was a special variant of the BMW New Six Coupe, created to meet homologation requirements for the European Touring Car Championship."
             },
             "328ci":{
                 "dark":"/static/img/Slideshow/328CID.jpeg",
