@@ -1,7 +1,7 @@
 {
     "England":{
         "Aston Martin":{
-            "logo":"/static/img/Car Brand Logos/aston-martin-logo.png",
+            "logo":"/static/img/Car Brand Logos/aston martin-logo.png",
             "DB5":{
             "dark":"/static/img/Slideshow/AstonMartinDB5D.webp",
             "light":"/static/img/Slideshow/AstonMartinDB5L.jpeg",

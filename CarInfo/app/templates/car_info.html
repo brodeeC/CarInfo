@@ -43,10 +43,10 @@
             {% set selected_car = selected_cars[car] %}
 
             {% if mode == "dark" %}
-            {% set imgLink = selected_car.dark %}
+            {% set imgLink = "/CarInfo" + selected_car.dark %}
 
             {% else %}
-            {% set imgLink = selected_car.light %}
+            {% set imgLink = "/CarInfo" + selected_car.light %}
 
             {% endif %}
 
