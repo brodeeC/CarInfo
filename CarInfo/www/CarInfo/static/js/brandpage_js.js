@@ -65,7 +65,7 @@ async function loadButtons(data){
 
             let className = "";
             country.split(" ").forEach(word =>{
-            className += (word);
+                className += (word);
             });
 
             button.setAttribute("class", className);
@@ -73,6 +73,7 @@ async function loadButtons(data){
             button.setAttribute("id", make);
 
             let logoLink = data[country][make]["logo"];
+            logoLink = '/CarInfo' + logoLink
 
             let image = document.createElement("img");
             image.setAttribute("src", logoLink);

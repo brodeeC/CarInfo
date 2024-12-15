@@ -45,10 +45,10 @@ def car_info(country, brand):
         if brand in car_data[country]:
             selected_cars = car_data[country][brand]
             if 'logo' in selected_cars:
-                logo = selected_cars.pop('logo')
-            else: 
-                lowBrand = brand.lower()
-                logo = f"/static/img/Car Brand Logos/{lowBrand}-logo.png"
+                selected_cars.pop('logo')
+             
+            lowBrand = brand.lower()
+            logo = f"/CarInfo/static/img/Car Brand Logos/{lowBrand}-logo.png"
 
             is_dark_mode = darkdetect.isDark()
 
@@ -181,6 +181,8 @@ def one_car(country, brand, car):
                     imgLink = single_car["dark"]
                 else: 
                     imgLink = single_car["light"]
+
+                imgLink = '/CarInfo' + imgLink
 
                 return render_template("one_car.html", car=car, imgLink=imgLink,
                                    brand=brand, country=country, year=single_car["year"], 
