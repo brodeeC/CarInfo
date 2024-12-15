@@ -11,7 +11,7 @@ def create_app(test_config=False, shared_server=False):
     global prepend
     prepend = '/CarInfo'
     if app.config['SHARED_SERVER']:
-        prepend = '/CarInfo'
+        prepend = 'http://cscweb01.fu.campus/CarInfo'
 
     return app
 
