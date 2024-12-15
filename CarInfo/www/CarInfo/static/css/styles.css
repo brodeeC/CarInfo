@@ -22,9 +22,7 @@
 }
 
 /*Changes to the the BodyText Class*/
-.BodyText{   
-    text-align: justify;
-    text-align-last: left;
+.BodyText{  
     font-size: 100%;
     padding-left: 75px;
     padding-right: 75px;
@@ -389,7 +387,7 @@ color: #000;
   background-color: #03396c;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  /*padding: 18px;*/
   width: 100%;
   text-align: left;
   border: none;
@@ -397,7 +395,7 @@ color: #000;
   transition: 0.4s;
   color: black;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
+  font-size: 75%;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -411,6 +409,7 @@ color: #000;
   background-color: #ef1a2d;
   display: none;
   overflow: hidden;
+  color: black;
 }
 
 .hidden{
