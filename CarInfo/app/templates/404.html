@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+
+{% block bodytag %}
+<body class= color-mode>
+{% endblock %}
+
+{% block content %}
+<button id="backButton" onclick="history.back()">Back</button>
+
+    <h1>404 - Page Not Found</h1>
+
+    <img src="/CarInfo/static/img/404-image.png" alt="404 Image"> </img>
+    
+    <h2> Something went wrong. Try again. </h2>
+
+    <h2>{{ e }}</h2>
+
+</body>
+{% endblock %}

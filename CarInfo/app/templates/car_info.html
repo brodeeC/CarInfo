@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+
+<h1>{{ car_name }}</h1>
+
+<!-- <div class="car-image"> 
+    <img src="{{ car_image_url }}" alt="{{ car_name }} image">
+</div> -->
+<!--May need to do the double brackets with the two percent signs to access the JSON further research is required.-->
+<!--May try to hard the begining and let the rest be filled in: /static/img/Slideshow/car-model.whatever the image type is.-->
+
+
+{% block bodytag %}
+<body class="car_info" onload='addImages("{{ selected_cars }}")'>
+{% endblock %}
+
+{% block content %} 
+<button id="backButton" onclick="history.back()">Back</button>
+    <div class="center-content">
+        <h1>{{ brand }} Cars in {{ country }}</h1>
+        
+
+        <h2>Car Details</h2>
+
+        <!--Look at the slideshow code to see how to implement the way to -->
+            <div class="image-center">
+                <img src = "{{ logo }}" alt="{{ brand }}" id = "resize1"> </img>
+            </div>
+            <div id = carHolder>
+
+            </div>
+            {% for car in selected_cars %}
+            {% set selected_car = selected_cars[car] %}
+
+            {% if mode == "dark" %}
+            {% set imgLink = selected_car.dark %}
+
+            {% else %}
+            {% set imgLink = selected_car.light %}
+
+            {% endif %}
+
+            {% set url = '/CarInfo/' + country + '/' + brand + '/' + car %}
+
+            <div>
+                <a 
+                    href="{{ url }}">
+                    <img src="{{ imgLink }}" class="carslide" alt="{{brand}}">
+                </a>
+                <p class="HeadText"><strong> {{ car }} </strong></p>
+            </div>
+            
+            {% endfor %}
+        </div>
+
+    </body>
+
+{% endblock %}
+
