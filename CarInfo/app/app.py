@@ -2,7 +2,6 @@ import csv
 import json
 import os
 from flask import Flask, jsonify, render_template, request, send_from_directory # type: ignore
-from flask_cors import CORS # type: ignore
 import darkdetect # type: ignore 
 
 def create_app(test_config=False, shared_server=False):
