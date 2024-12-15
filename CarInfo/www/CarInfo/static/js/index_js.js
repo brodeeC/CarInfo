@@ -76,6 +76,7 @@ async function loadRandomImages() {
 
         //get light/dark mode depending on system settings
         let image = imageMode(car);
+        image = '/CarInfo' + image;
         img.setAttribute("src", image);
         if (count === 1){
             img.setAttribute("onload", "currentSlide(1)");
