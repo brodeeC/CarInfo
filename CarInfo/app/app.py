@@ -56,7 +56,7 @@ def car_info(country, brand):
             else: mode = "light"
 
             return render_template("car_info.html", selected_cars=selected_cars, logo=logo,
-                                   brand=brand, country=country, mode=mode), 200
+                                   brand=brand, country=country, mode=mode,), 200
 
         return page_not_found("Brand not found.")
     
