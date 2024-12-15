@@ -182,7 +182,7 @@ overflow: hidden;
 
 /* default, light mode styling */
 .color-mode {
-background-color: white;
+background-color: rgb(246, 246, 246);
 color: #000;
 }
 
@@ -418,15 +418,28 @@ color: #000;
   border: none;
   outline: none;
   transition: 0.4s;
-  color: black;
+  color: white;
   font-family: 'Times New Roman', Times, serif;
   font-size: 75%;
 }
 
+@media (prefers-color-scheme: dark){
+  .accordion {
+    color: black;
+  }
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .accordion:hover {
-  background-color: white;
+  background-color: gray;
 }
+
+@media (prefers-color-scheme: dark){
+  .accordion:hover {
+    background-color: white;
+  }
+}
+
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
@@ -434,7 +447,13 @@ color: #000;
   background-color: #ef1a2d;
   display: none;
   overflow: hidden;
-  color: black;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark){
+  .panel {
+    color: black;
+  }
 }
 
 .hidden{
