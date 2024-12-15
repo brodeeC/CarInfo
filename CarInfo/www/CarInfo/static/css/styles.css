@@ -338,7 +338,13 @@ color: #000;
 
 #dropdown{
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  #dropdown {
+      color: white;
+  }
 }
 
 /*Dark mode for car_info template*/
@@ -646,13 +652,12 @@ color: #000;
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9; /* Light background color */
 }
 
 .container {
   max-width: 600px;
   margin: 20px auto;
-  background: #fff; /* Light background color for container */
+  background: #f9f9f9; /* Light background color for container */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -675,10 +680,10 @@ input[type="text"], textarea {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
-  border: 1px solid #ccc; /* Light border color */
+  border: 1px solid #8b8b8b; /* Light border color */
   border-radius: 4px;
   box-sizing: border-box;
-  background-color: #f0f0f0; /* Light text area background */
+  background-color: #ccc; /* Light text area background */
   color: #333; /* Dark text color */
 }
 
