@@ -19,6 +19,13 @@
 
 {% block content %} 
 <button id="backButton" onclick="history.back()">Back</button>
+
+<div class = "brandButton">
+    <button onclick="window.location.href='/brandpage.html'">
+      <img class="icon" id="icon" src="{{ url_for ('static', filename = 'img/CarInfo.png') }}">
+</button>
+</div>
+
     <div class="center-content">
         <h1>{{ brand }} Cars in {{ country }}</h1>
         
