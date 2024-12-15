@@ -48,6 +48,10 @@ def car_info(country, brand):
                 selected_cars.pop('logo')
              
             lowBrand = brand.lower()
+            newBrand = lowBrand.split(" ")
+            if len(newBrand) > 1:
+                lowBrand = newBrand[0] + '-' + newBrand[1]
+                
             logo = f"/CarInfo/static/img/Car Brand Logos/{lowBrand}-logo.png"
 
             is_dark_mode = darkdetect.isDark()
