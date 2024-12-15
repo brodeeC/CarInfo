@@ -54,6 +54,7 @@ function imageMode(car){
     }
     else return '/CarInfo' + car.light;
 }
+//Comment to push
 
 // Function to dynamically populate slideshow with random images
 async function loadRandomImages() {
