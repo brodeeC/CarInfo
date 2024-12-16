@@ -8,7 +8,7 @@
             "make":"Aston Martin",
             "model":"DB5",
             "year":"1964",
-            "description":"Engine: 4.0L inline-six<br>Transmission: Five-speed/Manual<br>0-60(mph): <br>Horsepower: 282<br>Torque(lb/ft): 288<br>Top Speed(mph): 145<br> Dimensions: 98 x 179.9 x 66.1<br> Curb Weight(lb): 3,311<br>Fuel Economy(MPG): 12<br>Description: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history."
+            "description":"<strong><u>Description</u></strong>: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history.<br><u><strong>Engine</u></strong>: 4.0L inline-six<br><u><strong>Transmission</u></strong>: Five-speed/Manual<br><u><strong>0-60(mph)</u></strong>: 6.4<br><u><strong>Horsepower</u></strong>: 282<br><u><strong>Torque(lb/ft)</u></strong>: 288<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions</u></strong>: 98 x 179.9 x 66.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,311<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             },
             "DB9":{
                 "dark":"/static/img/Slideshow/DB9D.jpeg",
@@ -16,7 +16,7 @@
                 "make":"Aston Martin",
                 "model":"DB9",
                 "year":"2020",
-                "description":"Engine: 5.9L V12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: <br>Torque(lb/ft): 420<br>Top Speed(mph): 186<br> Dimensions(in): 185.8 x 79.6 x 50.4<br> Curb Weight(lb): 3935.2<br>Fuel Economy(MPG): 15<br>Description: The 2020 Aston Martin DB9 is a stunning sports car that combines luxury with high performance. It is commonly praised for its dynamic handling, powerful engine, and striking looks."
+                "description":"<strong><u>Description</u></strong>: The 2020 Aston Martin DB9 is a stunning sports car that combines luxury with high performance. It is commonly praised for its dynamic handling, powerful engine, and striking looks.<br><u><strong>Engine</u></strong>: 5.9L V12<br><u><strong>Transmission</u></strong>: Six-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.7<br><u><strong>Horsepower</u></strong>: 450<br><u><strong>Torque(lb/ft)</u></strong>: 420<br><u><strong>Top Speed(mph)</u></strong>: 186<br><u><strong>Dimensions(in)</u></strong>: 185.8 x 79.6 x 50.4<br><u><strong>Curb Weight(lb)</u></strong>: 3935.2<br><u><strong>Fuel Economy(MPG)</u></strong>: 15"
             },
             "One-77":{
                 "dark":"/static/img/Slideshow/One-77D.jpeg",
@@ -24,7 +24,7 @@
                 "make":"Aston Martin",
                 "model":"One-77",
                 "year":"2012",
-                "description":"Engine: 7.3L V12<br>Transmission: Six-Speed Automated Manual<br>0-60(mph): 3.7<br>Horsepower: 750<br>Torque(lb/ft): 533<br>Top Speed(mph): 220<br> Dimensions(in): 181.1 x 86.8 x 48.1<br>Curb Weight(lb): 3,594<br>Fuel Economy(MPG): 6.2<br>Description: The 2012 Aston Martin One-77 is a remarkable and rare supercar, known for its exclusivity and performance. It is also known for its engineering and craftsmanship."
+                "description":"<strong><u>Description</u></strong>: The 2012 Aston Martin One-77 is a remarkable and rare supercar, known for its exclusivity and performance. It is also known for its engineering and craftsmanship.<br><u><strong>Engine</u></strong>: 7.3L V12<br><u><strong>Transmission</u></strong>: Six-Speed Automated Manual<br><u><strong>0-60(mph)</u></strong>: 3.7<br><u><strong>Horsepower</u></strong>: 750<br><u><strong>Torque(lb/ft)</u></strong>: 533<br><u><strong>Top Speed(mph)</u></strong>: 220<br><u><strong>Dimensions(in)</u></strong>: 181.1 x 86.8 x 48.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,594<br><u><strong>Fuel Economy(MPG)</u></strong>: 6.2"
             } 
         },
 
@@ -36,7 +36,7 @@
                 "make":"Austin-Healey",
                 "model":"3000 MKII",
                 "year":"1963",
-                "description":"Engine: 2.9L Carbureted Pushrod Inline-6<br>Transmission: Four-Speed Manual<br>0-60(mph): <br>Horsepower: 136<br>Torque(lb/ft): 167<br>Top Speed(mph): 110<br> Dimensions(in): 92 x 157.5 x 49<br> Curb Weight(lb): 2,465<br>Fuel Economy(MPG): 19.6<br>Description:The 1963 Austin-Healey 3000 MKII, also known as the BJ7, is a classic British sports car that holds a special place in automotive history. It's a beloved model among classic car enthusiasts for its blend of performance, style, and historical significance."
+                "description":"<strong><u>Description</u></strong>:The 1963 Austin-Healey 3000 MKII, also known as the BJ7, is a classic British sports car that holds a special place in automotive history. It's a beloved model among classic car enthusiasts for its blend of performance, style, and historical significance.<br><u><strong>Engine</u></strong>: 2.9L Carbureted Pushrod Inline-6<br><u><strong>Transmission</u></strong>: Four-Speed Manual<br><u><strong>0-60(mph)</u></strong>: <br><u><strong>Horsepower</u></strong>: 136<br><u><strong>Torque(lb/ft)</u></strong>: 167<br><u><strong>Top Speed(mph)</u></strong>: 110<br><u><strong>Dimensions(in)</u></strong>: 92 x 157.5 x 49<br><u><strong>Curb Weight(lb)</u></strong>: 2,465<br><u><strong>Fuel Economy(MPG)</u></strong>: 19.6"
             }
         },
 
@@ -48,7 +48,7 @@
             "make":"Bentley",
             "model":"Continental GT",
             "year":"2003",
-            "description":"Engine: Twin Turbocharged 6L W12<br>Transmission: Six-Speed Automatic<br>0-60(mph): 4.7<br>Horsepower: 550<br>Torque(lb/ft): 479<br>Top Speed(mph): 198<br> Dimensions(in): 189 x 76 x 55<br> Curb Weight(lb): 5,071<br>Fuel Economy(MPG): 16<br>Description: The 2003 Bentley Continental GT is a luxurious grand tourer that marked a significant shift for Bentley. It was the first model introduced after Bentley's acquisition by Volkswagen, featuring a blend of traditional craftsmanship and modern technology. This model was praised for its powerful performance, elegant design, and high-quality interior."
+            "description":"<strong><u>Description</u></strong>: The 2003 Bentley Continental GT is a luxurious grand tourer that marked a significant shift for Bentley. It was the first model introduced after Bentley's acquisition by Volkswagen, featuring a blend of traditional craftsmanship and modern technology. This model was praised for its powerful performance, elegant design, and high-quality interior.<br><u><strong>Engine</u></strong>: Twin Turbocharged 6L W12<br><u><strong>Transmission</u></strong>: Six-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.7<br><u><strong>Horsepower</u></strong>: 550<br><u><strong>Torque(lb/ft)</u></strong>: 479<br><u><strong>Top Speed(mph)</u></strong>: 198<br><u><strong>Dimensions(in)</u></strong>: 189 x 76 x 55<br><u><strong>Curb Weight(lb)</u></strong>: 5,071<br><u><strong>Fuel Economy(MPG)</u></strong>: 16"
             }
         },
 
@@ -60,7 +60,7 @@
                 "make":"Jaguar",
                 "model":"E-Type",
                 "year":"1961",
-                "description":"Engine: 3.8L inline-six<br>Transmission: Four-Speed Manual<br>0-60(mph): 6.3<br>Horsepower: 265<br>Torque(lb/ft): 260<br>Top Speed(mph): 145<br>Dimensions(in): 175.5 x 62.25 x 96.0<br> Curb Weight(lb): 2,899<br>Fuel Economy(MPG): 22<br>Description: The 1961 Jaguar E-Type, also known as the Jaguar XK-E in North America, is a legendary British sports car that was produced from 1961 to 1974. It was renowned for its stunning design, advanced technology, and impressive performance. The E-Type quickly became an icon in the automotive world and remains highly sought after by collectors today."
+                "description":"<strong><u>Description</u></strong>: The 1961 Jaguar E-Type, also known as the Jaguar XK-E in North America, is a legendary British sports car that was produced from 1961 to 1974. It was renowned for its stunning design, advanced technology, and impressive performance. The E-Type quickly became an icon in the automotive world and remains highly sought after by collectors today.<br><u><strong>Engine</u></strong>: 3.8L inline-six<br><u><strong>Transmission</u></strong>: Four-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.3<br><u><strong>Horsepower</u></strong>: 265<br><u><strong>Torque(lb/ft)</u></strong>: 260<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions(in)</u></strong>: 175.5 x 62.25 x 96.0<br><u><strong>Curb Weight(lb)</u></strong>: 2,899<br><u><strong>Fuel Economy(MPG)</u></strong>: 22"
             },
             "XJ220":{
                 "dark":"/static/img/Slideshow/XJ220D.jpeg",
@@ -68,7 +68,7 @@
                 "make":"Jaguar",
                 "model":"XJ220",
                 "year":"1992",
-                "description":"Engine: 3.5L Twin-Turbocharged V6<br>Transmission: Five-Speed Manual<br>0-60(mph): 3.6<br>Horsepower: 542<br>Torque(lb/ft): 475<br>Top Speed(mph): 212<br> Dimensions(in): 194.1 x 79.1 x 45.3<br> Curb Weight(lb): 3,240<br>Fuel Economy(MPG): 27<br>Description:The 1992 Jaguar XJ220 is a legendary supercar produced by Jaguar in collaboration with Tom Walkinshaw Racing.The XJ220 was initially conceived as a V12-engined, four-wheel-drive concept but was later produced with a V6 engine and rear-wheel drive due to engineering and emissions requirements1. It remains an iconic piece of automotive history."
+                "description":"<strong><u>Description</u></strong>:The 1992 Jaguar XJ220 is a legendary supercar produced by Jaguar in collaboration with Tom Walkinshaw Racing.The XJ220 was initially conceived as a V12-engined, four-wheel-drive concept but was later produced with a V6 engine and rear-wheel drive due to engineering and emissions requirements1. It remains an iconic piece of automotive history.<br><u><strong>Engine</u></strong>: 3.5L Twin-Turbocharged V6<br><u><strong>Transmission</u></strong>: Five-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.6<br><u><strong>Horsepower</u></strong>: 542<br><u><strong>Torque(lb/ft)</u></strong>: 475<br><u><strong>Top Speed(mph)</u></strong>: 212<br><u><strong>Dimensions(in)</u></strong>: 194.1 x 79.1 x 45.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,240<br><u><strong>Fuel Economy(MPG)</u></strong>: 27"
             },
             "XK120":{
                 "dark":"/static/img/Slideshow/XK120D.jpeg",
@@ -76,7 +76,7 @@
                 "make":"Jaguar",
                 "model":"XK120",
                 "year":"1952",
-                "description":"Engine: 3.4L Inline 6<br>Transmission: Four-Speed manual<br>0-60(mph): 9.9<br>Horsepower: 180<br>Torque(lb/ft): 195<br>Top Speed(mph): 120<br> Dimensions(in): 173 x 61.5 x 52.5<br> Curb Weight(lb): 3060<br>Fuel Economy(MPG): 19.8<br>Description: The 1952 Jaguar XK120 is a classic sports car that holds a special place in automotive history. It was celebrated for its combination of performance, style, and engineering excellence"
+                "description":"<strong><u>Description</u></strong>: The 1952 Jaguar XK120 is a classic sports car that holds a special place in automotive history. It was celebrated for its combination of performance, style, and engineering excellence.<br><u><strong>Engine</u></strong>: 3.4L Inline 6<br><u><strong>Transmission</u></strong>: Four-Speed manual<br><u><strong>0-60(mph)</u></strong>: 9.9<br><u><strong>Horsepower</u></strong>: 180<br><u><strong>Torque(lb/ft)</u></strong>: 195<br><u><strong>Top Speed(mph)</u></strong>: 120<br><u><strong>Dimensions(in)</u></strong>: 173 x 61.5 x 52.5<br><u><strong>Curb Weight(lb)</u></strong>: 3060<br>Fuel Economy(MPG): 19.8"
             },
             "XKSS":{
                 "dark":"/static/img/Slideshow/XKSSD.jpeg",
@@ -84,7 +84,7 @@
                 "make":"Jaguar",
                 "model":"XKSS",
                 "year":"1957",
-                "description":"Engine: Inline 6<br>Transmission: 4-Speed Manual<br>0-60(mph): 5.2<br>Horsepower: 250<br>Torque(lb/ft): 260<br>Top Speed(mph): 149<br> Dimensions(in): 157.1 x 65.4 x 44.1<br> Curb Weight(lb): 2,030<br>Fuel Economy(MPG): Not Available<br>Description: The 1957 Jaguar XKSS is a rare and iconic sports car with a fascinating history. Only 16 units were originally built in 19571. A factory fire destroyed nine unfinished cars, making the XKSS even rarer. In 2016, Jaguar announced a continuation series to complete the original planned production run, hand-building nine new XKSS models to the exact original specification."
+                "description":"<strong><u>Description</u></strong>: The 1957 Jaguar XKSS is a rare and iconic sports car with a fascinating history. Only 16 units were originally built in 19571. A factory fire destroyed nine unfinished cars, making the XKSS even rarer. In 2016, Jaguar announced a continuation series to complete the original planned production run, hand-building nine new XKSS models to the exact original specification.<br><u><strong>Engine</u></strong>: Inline 6<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.2<br><u><strong>Horsepower</u></strong>: 250<br><u><strong>Torque(lb/ft)</u></strong>: 260<br><u><strong>Top Speed(mph)</u></strong>: 149<br><u><strong>Dimensions(in)</u></strong>: 157.1 x 65.4 x 44.1<br><u><strong>Curb Weight(lb)</u></strong>: 2,030<br><u><strong>Fuel Economy(MPG)</u></strong>: Not Available"
             }
         },
 
