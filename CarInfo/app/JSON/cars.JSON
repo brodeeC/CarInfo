@@ -547,7 +547,7 @@
                 "make":"Lamborghini",
                 "model":"LM002",
                 "year":"1987",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 5.2L V12<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.7<br>Horsepower: 444<br>Torque(lb/ft): 368<br>Top Speed(mph): 118<br> Dimensions(in): 192.2 x 78.7 x 72.8<br> Curb Weight(lb): 6,780<br>Fuel Economy(MPG): 8<br>Description: The 1987 Lamborghini LM002 is special because it's a rare, luxury off-road vehicle with a powerful V12 engine, designed for extreme terrain, featuring a luxurious interior, and is often nicknamed the "Rambo Lambo" due to its aggressive looks and association with Sylvester Stallone; essentially a high-performance SUV with military-grade capabilities, making it a unique blend of luxury and ruggedness in the automotive world."
             },
             "Miura":{
                 "dark":"/static/img/Slideshow/MiuraD.jpeg",
@@ -555,7 +555,7 @@
                 "make":"Lamborghini",
                 "model":"Miura",
                 "year":"1966",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.9L V12<br>Transmission: 5-Speed Manual<br>0-60(mph): 6.3<br>Horsepower: 350<br>Torque(lb/ft): 278<br>Top Speed(mph): 163<br> Dimensions(in): 171.1 x 69.3 x 41.5<br> Curb Weight(lb): 2,848<br>Fuel Economy(MPG): 12.7<br>Description: The 1966 Lamborghini Miura is considered special because it was the first production car to feature a mid-mounted engine layout, essentially establishing the 'supercar' category as we know it today, and upon its release, it was also the fastest production car in the world, setting a new standard for high-performance sports cars with its sleek design and powerful V12 engine."
             }
         },
 
@@ -567,7 +567,7 @@
                 "make":"Lancia",
                 "model":"Rally 037",
                 "year":"1982",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Supercharged 2.0L Inline-4<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.0<br>Horsepower: 205<br>Torque(lb/ft): 167<br>Top Speed(mph): 137<br> Dimensions(in): 154.1 x 72.8 x 49 <br> Curb Weight(lb): 2,579<br>Fuel Economy(MPG): 19.9<br>Description: The Lancia Rally 037 was the last rear-wheel drive car in rally history to win a world title, in an era when all-wheel drive was now dominant."
             }
         },
 
@@ -579,7 +579,7 @@
                 "make":"Pagani",
                 "model":"Utopia",
                 "year":"2023",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Twin Turbocharged 6.0L V12<br>Transmission: 7-Speed AMT(Automated Manual Transmission)<br>0-60(mph): 3.0 <br>Horsepower: 864<br>Torque(lb/ft): 811<br>Top Speed(mph): 217<br> Dimensions(in): 181 x 80.2 x 46<br> Curb Weight(lb): 2,822<br>Fuel Economy(MPG): 18.7<br>Description: The Pagani Utopia is considered special due to its combination of exquisite design, exceptional performance, a focus on lightweight engineering, and the option for a manual transmission, all while maintaining a luxurious and handcrafted feel, essentially representing the pinnacle of Pagani's design and engineering prowess with a focus on driving purity and a timeless aesthetic; it's often described as a 'dream car' due to its near-perfect balance of beauty and performance"
             },
             "Zonda R Evo":{
                 "dark":"/static/img/Slideshow/PaganiZondaD.jpeg",
@@ -587,7 +587,7 @@
                 "make":"Pagani",
                 "model":"Zonda R Evo",
                 "year":"2011",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 6.0L V-12<br>Transmission: 6-Speed Sequntial<br>0-60(mph): 2.7<br>Horsepower: 800<br>Torque(lb/ft): 524<br>Top Speed(mph): 230<br> Dimensions(in): 192.4 x 79.3 x 44.9<br> Curb Weight(lb): 2,359<br>Fuel Economy(MPG): 12<br>Description: The 2011 Pagani Zonda R Evo, also known as the Zonda R Evolution, is special because it's a track-focused, extremely limited edition variant of the Zonda R with enhanced performance, featuring a more powerful engine producing around 800 horsepower, upgraded aerodynamics for increased downforce, and a lightweight construction, making it one of the most extreme and sought-after Pagani models ever produced; only a handful were built, making it incredibly rare and valuable."
             }
         }
     },
@@ -601,7 +601,7 @@
                 "make":"Acura",
                 "model":"Integra",
                 "year":"1997",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Turbocharged 1.5L Inline-4<br>Transmission: 6-Speed Manual<br>0-60(mph): 6.6<br>Horsepower: 195<br>Torque(lb/ft): 130<br>Top Speed(mph): 143<br> Dimensions(in): 172.4 x 67.3 x 52.6<br> Curb Weight(lb): 2,667<br>Fuel Economy(MPG): 25<br>Description: At a blaring 8400 rpm, the Acura Integra Type R's pistons are pedaling at about 80 feet per second—much higher than the commonly accepted threshold of 67 feet per second. That's close to the piston speeds in Formula 1 and Indy-car engines, which have much shorter strokes than the under-square Integra powerplant."
             },
             "NSX":{
                 "dark":"/static/img/Slideshow/AcuraNSXD.jpeg",
@@ -609,7 +609,7 @@
                 "make":"Acura",
                 "model":"NSX",
                 "year":"1990",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.0L V6<br>Transmission: 5-Speed Manual/4-Speed Automatic<br>0-60(mph): 5.9<br>Horsepower: 270<br>Torque(lb/ft): 210<br>Top Speed(mph): 168<br>Dimensions(in): 173.43 x 71.26 x 46.06<br>Curb Weight(lb): 3,108<br>Fuel Economy(MPG): 22.5<br>Description: The 1990 Acura NSX was the first mass-produced car to feature an all-aluminum monocoque body, making it a pioneer in lightweight, high-strength construction, inspired by the design of the Japanese bullet train (Shinkansen)."
             }
         },
 
@@ -621,19 +621,19 @@
                 "make":"Datsun",
                 "model":"240Z",
                 "year":"1973",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 2.4L Inline-6<br>Transmission: 4-Speed Manual<br>0-60(mph): 8.7<br>Horsepower: 151<br>Torque(lb/ft): 146<br>Top Speed(mph): 122<br> Dimensions(in): 162.8 x 64.1 x 50.6<br> Curb Weight(lb): 2,302<br>Fuel Economy(MPG): 14<br>Description: The 240sx was America's first popular Japanese sports car. Proven to be a timeless design. Its success paved the way for subsequent iterations of the Z-car lineage, including the iconic 280Z, 300ZX, and the modern-day 370Z."
             }
         },
 
         "Honda":{
             "logo":"/static/img/Car Brand Logos/honda-logo.png",
             "Civic Hatchback":{
-            "dark":"/static/img/Slideshow/HondaCivicHatchD.jpeg",
-            "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
-            "make":"Honda",
-            "model":"Civic Hatchback",
-            "year":"2017",
-            "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "dark":"/static/img/Slideshow/HondaCivicHatchD.jpeg",
+                "light":"/static/img/Slideshow/HondaCivicHatchL.jpeg",
+                "make":"Honda",
+                "model":"Civic Hatchback",
+                "year":"2017",
+                "description":"Engine: Turbocharged 1.5L Inline-4<br>Transmission: CVT<br>0-60(mph): 7.5<br>Horsepower: 174<br>Torque(lb/ft): 162<br>Top Speed(mph): 127<br> Dimensions(in): 197 x 74 x 57 <br>Curb Weight(lb): 3,117<br>Fuel Economy(MPG): 33<br>Description: The Civic Hatchback's suspension is designed to provide a sporty feel while also improving ride comfort. It features a combination of front MacPherson struts and rear multi-link with a rigid subframe."
             },
             "S2000":{
                 "dark":"/static/img/Slideshow/HondaS2KD.avif",
@@ -641,7 +641,7 @@
                 "make":"Honda",
                 "model":"S2000",
                 "year":"1999",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 2.0L Inline-4<br>Transmission: 6-Speed Manual<br>0-60(mph): 6.2<br>Horsepower: 247<br>Torque(lb/ft): 161<br>Top Speed(mph): 150<br> Dimensions(in): 162.2 x 68.9 x 50.6<br> Curb Weight(lb): 2,776<br>Fuel Economy(MPG): 23.7<br>Description: The Honda S2000 has perfect weight distribution."
             }
         },
 
@@ -653,7 +653,7 @@
                 "make":"Lexud",
                 "model":"LFA",
                 "year":"2012",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 4.8L V10<br>Transmission: Six-Speed Automated Manual<br>0-60(mph): 3.6<br>Horsepower: 552<br>Torque(lb/ft): 354<br>Top Speed(mph): 202<br> Dimensions(in): 177.4 x 74.6 x 48.0<br> Curb Weight(lb): 3,300<br>Fuel Economy(MPG): 12<br>Description: Car enthusiasts generally view the Lexus LFA as a highly desirable, iconic supercar with an incredible engine sound and driving experience, despite its limited production and high price, often considering it one of the best-sounding and most special cars ever made by Lexus, even if not the fastest on paper; many say it's a car that should be driven on a racetrack to fully appreciate its capabilities and character."
             },
             "LS 400":{
                 "dark":"/static/img/Slideshow/LexusLS400D.jpeg",
@@ -661,7 +661,7 @@
                 "make":"Lexus",
                 "model":"LS 400",
                 "year":"1989",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 4.0L V8<br>Transmission: 4-Speed Automatic<br>0-60(mph): 8.2<br>Horsepower: 250<br>Torque(lb/ft): 260<br>Top Speed(mph): 155<br> Dimensions(in): 197 x 72 x 55<br>Curb Weight(lb): 3,759<br>Fuel Economy(MPG): 15.6<br>Description: When the LS400 was first launched, it was designed with such a focus on refinement and luxury that the development team spent years researching the perfect leather, even setting up camp in California to directly study the preferences of potential luxury car buyers in the region, essentially 'living' with their target market to understand their needs fully."
             },
             "RX 300":{
                 "dark":"/static/img/Slideshow/RX300D.jpeg",
@@ -669,7 +669,7 @@
                 "make":"Lexus",
                 "model":"RX 300",
                 "year":"2001",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.0L V6<br>Transmission: 4-Speed Automatic<br>0-60(mph): 8.5<br>Horsepower: 220<br>Torque(lb/ft): 222<br>Top Speed(mph): 112<br> Dimensions(in): 180 x 72 x 66<br> Curb Weight(lb): 3,924<br>Fuel Economy(MPG): 20<br>Description: The RX 300 was the first luxury SUV that was based on a car, rather than a conventional body-on-frame design."
             }
         },
 
@@ -681,7 +681,7 @@
                 "make":"Mazda",
                 "model":"Miata MX-5",
                 "year":"1989",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 1.6L Inline-4<br>Transmission: 5-Speed Manual<br>0-60(mph): 8.8<br>Horsepower: 116<br>Torque(lb/ft): 100<br>Top Speed(mph): 116<br> Dimensions(in): 156.3 x 65.9 x 48.6<br> Curb Weight(lb): 2,105<br>Fuel Economy(MPG): 28.06<br>Description: One of the most striking aspects of the Miata MX-5 is its lightweight design, which contributes to its nimble handling and enhances its fuel efficiency, making it an ideal choice for driving enthusiasts looking for an engaging experience on the road."
             }
         },
 
@@ -693,7 +693,7 @@
                 "make":"Nissan",
                 "model":"Altima",
                 "year":"2017",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.5L V6<br>Transmission: CVT<br>0-60(mph): 6.2<br>Horsepower: 270<br>Torque(lb/ft): 251<br>Top Speed(mph): 146<br> Dimensions(in): 192 x 72 x 58<br> Curb Weight(lb): <br>Fuel Economy(MPG): 3,462<br>Description: The Nissan Altima hits a lot of the right buttons for value-conscious car shoppers looking for a mid-size sedan. Pitted against strong rivals like the Honda Accord and Toyota Camry, the Altima doesn't exactly stand out, but it also doesn't trip over itself while trying to keep up."
             },
             "R32 GTR":{
                 "dark":"/static/img/Slideshow/r32D.jpeg",
@@ -701,7 +701,7 @@
                 "make":"Nissan",
                 "model":"R32 GTR",
                 "year":"1993",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Twin Turbocharged 2.6L Inline-6<br>Transmission: 5-Speed Manual<br>0-60(mph): 5.3<br>Horsepower: 276<br>Torque(lb/ft): 260<br>Top Speed(mph): 156<br> Dimensions(in): 178.9 x 69.1 x 52.8<br> Curb Weight(lb): 3,150<br>Fuel Economy(MPG): 14.7<br>Description: The 1993 Nissan Skyline GT-R R32, often nicknamed 'Godzilla,' is famous for its incredible performance, dominating racing circuits with its twin-turbo engine and advanced all-wheel drive system, winning the Japanese Grand Touring Championship four years in a row upon its release, and being considered one of the most iconic Japanese cars ever made; it's also known for its relatively 'understated' exterior design compared to its raw power, making it a sleeper car in many eyes."
             },
             "R34 GTR":{
                 "dark":"/static/img/Slideshow/r34D.jpeg",
@@ -709,7 +709,7 @@
                 "make":"Nissan",
                 "model":"R34 GTR",
                 "year":"1999",
-                "description":"Engine: <br> Transmission: <br> 0-60: <br>Top Speed: <br> Dimensions: <br> Curb Weight <br> Average MPG:<br> Description:"
+                "description":"Engine: Twin-Turbocharged 2.6L Inline 6<br> Transmission: 6-Speed Manual<br> 0-60: 4.2<br>Top Speed: 165<br> Dimensions: 181.1 x 70.3 x 53.3<br> Curb Weight 3,492<br> Average MPG: 15.96<br> Description: The R34, which debuted in 1999, was a significant evolution from its predecessors, combining advanced technology with unparalleled performance. The Skyline series had a storied history in Japan, with the R34 marking a pivotal moment in its development."
             }
         },
 
@@ -721,7 +721,7 @@
                 "make":"Subaru",
                 "model":"WRX",
                 "year":"2002",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Turbocharged 2.5L Flat-4<br>Transmission: 5-Speed Manual<br>0-60(mph): 5.4<br>Horsepower: 227<br>Torque(lb/ft): 217<br>Top Speed(mph): 145<br> Dimensions(in): 173 x 68 x 59<br> Curb Weight(lb): 3,220<br>Fuel Economy(MPG): 21.6<br>Description: The 2002 Subaru WRX is significant because it marked the first time the high-performance WRX model was widely available in the United States, giving American drivers access to a rally-inspired, turbocharged car at a relatively affordable price, making it a popular choice among enthusiasts and considered a 'factory rally car for the road' due to its performance and all-wheel drive system; it's often referred to as the 'Bugeye' due to its distinctive circular headlights."
             }
         },
 
@@ -733,7 +733,7 @@
                 "make":"Toyota",
                 "model":"2000GT",
                 "year":"1970",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 2.0L Inline-6<br>Transmission: 5-Speed Manual/3-Speed Automatic<br>0-60(mph): 10<br>Horsepower: 150<br>Torque(lb/ft): 130<br>Top Speed(mph): 135<br> Dimensions(in): 164.4 x 63 x 45.7<br> Curb Weight(lb): 2,469<br>Fuel Economy(MPG): 32<br>Description: The 2000GT revolutionized the automotive world's view of Japan, then viewed as a producer of imitative and stodgily practical vehicles. As a sleek, high-performance fastback coupé, it demonstrated its auto makers could produce a sports car to rival the better marques of Europe."
             },
             "Avalon TRD":{
                 "dark":"/static/img/Slideshow/AvalonD.jpeg",
@@ -741,7 +741,7 @@
                 "make":"Toyota",
                 "model":"Avalon TRD",
                 "year":"2021",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.5L V6<br>Transmission: Automatic 8-Speed<br>0-60(mph): 5.9<br>Horsepower: 301<br>Torque(lb/ft): 267<br>Top Speed(mph): 130<br> Dimensions(in): 196 x 73 x 57<br> Curb Weight(lb): 3,665<br>Fuel Economy(MPG): 40.20<br>Description: The 2021 Toyota Avalon TRD was designed to be a performance sedan with a sportier feel than the standard Avalon."
             },
             "Century":{
                 "dark":"/static/img/Slideshow/ToyotaCenturyD.jpeg",
@@ -749,7 +749,7 @@
                 "make":"Toyota",
                 "model":"Century",
                 "year":"1997",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 5.0L V12<br>Transmission: 4-Speed Automatic<br>0-60(mph): 7.5<br>Horsepower: 295<br>Torque(lb/ft): 340<br>Top Speed(mph): 149<br> Dimensions(in): 207 x 74 x 58.1<br> Curb Weight(lb): 4,030<br>Fuel Economy(MPG): 13.98<br>Description: The Toyota Century is the top level executive luxury flagship Japanese car in Japan. Mostly used by the president, diplomats, governors, and other high ranking government officials and a few wealthy private owners who are comfortable with the yearly road tax bill."
             },
             "Highlander":{
                 "dark":"/static/img/Slideshow/ToyotaHighlanderD.webp",
@@ -757,7 +757,7 @@
                 "make":"Toyota",
                 "model":"Highlander",
                 "year":"2016",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 3.5L V6<br>Transmission: 6-Speed Auto<br>0-60(mph): 7.6<br>Horsepower: 270<br>Torque(lb/ft): 248<br>Top Speed(mph): NA<br> Dimensions(in): 191.1 x 75.8 x 68.1<br> Curb Weight(lb): 4,224<br>Fuel Economy(MPG): 20<br>Description: The highlander is a popular vehicle of choice due to its efficient hybrid powertrain, well-designed cabin, and strong build quality"
             },
             "Prius":{
                 "dark":"/static/img/Slideshow/ToyotaPriusD.webp",
@@ -765,7 +765,7 @@
                 "make":"Toyota",
                 "model":"Prius",
                 "year":"2004",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 1.5L Inline-4<br>Transmission: CVT<br>0-60(mph): 9.8<br>Horsepower: 76<br>Torque(lb/ft): 82<br>Top Speed(mph): 105.6<br> Dimensions(in): 175 x 68 x 58<br> Curb Weight(lb): 2,890<br>Fuel Economy(MPG): 43.35<br>Description: The 2004 Toyota Prius was a gas/electric hybrid sedan that was designed to be a practical, fuel-efficient, and environmentally-friendly vehicle"
             },
             "Supra MKIV":{
                 "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
@@ -773,7 +773,7 @@
                 "make":"Toyota",
                 "model":"Supra MKIV",
                 "year":"1993",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Turbocharged 3.0L Inline-6<br>Transmission: 8-Speed Automatic<br>0-60(mph): 4.6<br>Horsepower: 220<br>Torque(lb/ft): 315<br>Top Speed(mph): 154<br> Dimensions(in): 178 x 71 x 50<br> Curb Weight(lb): 3,415<br>Fuel Economy(MPG): 19<br>Description: A 1993 Toyota Supra was designed as a high-performance, rear-wheel drive sports car, primarily intended to compete in the grand tourer market with its powerful engine, excellent handling, and luxurious features, aiming to rival other high-end sports cars from American and European manufacturers; essentially, its purpose was to offer a potent driving experience with a blend of speed, comfort, and style."
             },
             "Supra MKV":{
                 "dark":"/static/img/Slideshow/2019supraD.jpeg",
@@ -781,7 +781,7 @@
                 "make":"Toyota",
                 "model":"Supra MKV",
                 "year":"2019",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: Turbocharged 3.0L Inline-6 <br>Transmission: Eight-Speed Automatic<br>0-60(mph): 3.9<br>Horsepower: 382<br>Torque(lb/ft): 368<br>Top Speed(mph): 155<br> Dimensions(in): 170.8 x 72.3 x 50.4<br> Curb Weight(lb): 3,109<br>Fuel Economy(MPG): 27<br>Description: The MKV Supra's engine is based on the BMW Z4 platform."
             }
         }
     },
@@ -795,7 +795,7 @@
                 "make":"Genesis",
                 "model":"Hyundai",
                 "year":"2011",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 4.6L V8<br>Transmission: 6-Speed Automatic<br>0-60(mph): 5.3<br>Horsepower: 385<br>Torque(lb/ft): 333<br>Top Speed(mph): 149<br> Dimensions(in): 195.9 x 74.4 x 58.3<br> Curb Weight(lb): 4,012<br>Fuel Economy(MPG): 20<br>Description: The 2011 Hyundai Genesis 4.6L is a large sedan that offers a luxurious driving experience at a relatively affordable price. It's designed to be a comfortable, well-engineered car that rivals high-end luxury sedans. Some say the Genesis is a good choice for those who are more concerned with the driving experience than brand prestige."
                 }
         }
     },
@@ -809,7 +809,7 @@
                 "make":"Volvo",
                 "model":"P1800",
                 "year":"1962",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 1.8L Inline-4<br>Transmission: 4-Speed Manual<br>0-60(mph): 13.2<br>Horsepower: 100<br>Torque(lb/ft): 108<br>Top Speed(mph): 105<br> Dimensions(in): 173.2 x 66 x 50.4<br> Curb Weight(lb): 2,590<br>Fuel Economy(MPG): 23.5<br>Description: The Volvo P1800 received prominence in the early 1960s when a white 1962 Volvo P1800 with number plate ST1 was driven by the character Simon Templar (Roger Moore) in the TV series The Saint (1962–1969). The car became intimately linked to the show and helped raise Volvo's profile at the time."
             }
         }
     },
@@ -823,7 +823,7 @@
                 "make":"Cadillac",
                 "model":"CTS-V Wagon",
                 "year":"2012",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 6.2L V8 with Blower<br>Transmission: 6-Speed Manual/6-Speed Automatic<br>0-60(mph): 3.9<br>Horsepower: 556<br>Torque(lb/ft): 551<br>Top Speed(mph): 185<br> Dimensions(in): 191 x 73 x 59<br> Curb Weight(lb): 4,392<br>Fuel Economy(MPG): 17<br>Description: The 2012 Cadillac CTS-V Wagon was designed to be a high-performance, five-passenger vehicle that could handle daily tasks, road trips, and more."
 
         }
         },
@@ -835,7 +835,7 @@
                 "make":"Cheverolet",
                 "model":"Camaro Z28",
                 "year":"1981",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 5.7L V8<br>Transmission: 3-Speed Automatic<br>0-60(mph): 8.7<br>Horsepower: 175<br>Torque(lb/ft): 275<br>Top Speed(mph): 120<br> Dimensions(in): 197.6 x 74.5 x 49.2<br> Curb Weight(lb): 3,374<br>Fuel Economy(MPG): 9.07<br>Description: This was the last year of the second generation Camaro. It included lower power specs due to stricter emission regulations"
             }
         },
 
@@ -847,7 +847,7 @@
                 "make":"DeLorean",
                 "model":"DMC-12",
                 "year":"1981",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 2.85L V6<br>Transmission: 5-Speed Manual/3-Speed Automatic<br>0-60(mph): 10.5<br>Horsepower: 130<br>Torque(lb/ft): 153<br>Top Speed(mph): 130<br> Dimensions(in): 168.1 x 72.8 x 46.1<br> Curb Weight(lb): 2,718<br>Fuel Economy(MPG): 18.86<br>Description: The DeLorean DMC-12 became and remained famous as the time-traveling car in the Back to the Future movies—but the actual automobile was infamous for years before Marty McFly stepped inside one in 1985. And, though the fiction is better remembered today, the real story of the DeLorean is just as dramatic."
                 }
         },
 
@@ -859,7 +859,7 @@
                 "make":"Dodge",
                 "model":"Viper",
                 "year":"1992",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 8.0L V10<br>Transmission: 6-Speed Manual<br>0-60(mph): 4.5<br>Horsepower: 400<br>Torque(lb/ft): 450<br>Top Speed(mph): 165<br> Dimensions(in): 175 x 76 x 44<br> Curb Weight(lb): 3,476<br>Fuel Economy(MPG): 14<br>Description: The Dodge Viper (SR I) is the first-generation Viper sports car, manufactured by American automobile manufacturer Dodge. It was originally tested in January 1989 as a prototype, then later introduced in 1991 as a pace car for the Indianapolis 500, then finally going on sale in January 1992."
             }
         },
 
@@ -871,7 +871,7 @@
                 "make":"Ford",
                 "model":"F-150 Supercrew",
                 "year":"2001",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 5.4L V8<br>Transmission: 4-Speed Automatic <br>0-60(mph): 8.7<br>Horsepower: 220<br>Torque(lb/ft): 260<br>Top Speed(mph): 110<br> Dimensions(in): 244.1 x 79.3 x 72.5<br> Curb Weight(lb): 4,213<br>Fuel Economy(MPG): 15<br>Description: A 2001 Ford F-150 SuperCab with a 5.4L engine is significant because it represents a popular combination of a spacious extended cab ('SuperCab') with a powerful V8 engine, marking a time when Ford was offering strong performance in a mid-size pickup truck while also providing additional passenger space compared to standard cab models; the 5.4L 'Triton' V8 engine was particularly well-regarded for its power and towing capabilities in this generation of F-150s."
             },
             "GT":{
                 "dark":"/static/img/Slideshow/2005FordGTD.jpeg",
@@ -915,7 +915,7 @@
                 "make":"Jeep",
                 "model":"CJ-7",
                 "year":"1976",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 4.2L Inline-6<br>Transmission: 3-Speed Automatic/3-Speed Manual<br>0-60(mph): 11<br>Horsepower: 90<br>Torque(lb/ft): 192<br>Top Speed(mph): NA<br> Dimensions(in): 148 x 68.5 x 70.3<br> Curb Weight(lb): 2,710<br>Fuel Economy(MPG): 9.61<br>Description: The 1976 CJ-7 stretched the wheelbase by 10 inches (25 cm), and made doors and a removable hardtop common items. After remaining in production through a range of model numbers, and several corporate parents, the Jeep CJ line was officially ended after 1986."
             }
         },
 
@@ -927,7 +927,7 @@
                 "make":"Lincoln",
                 "model":"Continental",
                 "year":"1969",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 7.5L V8<br>Transmission: 3-Speed Automatic<br>0-60(mph): 7.4<br>Horsepower: 365<br>Torque(lb/ft): 460<br>Top Speed(mph): 110<br> Dimensions(in): 224.2 x 79.7 x 54.2<br>Curb Weight(lb): 5,700<br>Fuel Economy(MPG): 11.1<br>Description: The 1969 Lincoln Continental was the last year of the classic Continental, and was designed to be a class act and the end of an era. The Continental was a luxury car that emphasized styling, comfort, and features over performance and handling."
             }
         },
 
@@ -939,7 +939,7 @@
                 "make":"Mercury",
                 "model":"Comet",
                 "year":"1963",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"Engine: 4.3L V8<br>Transmission: 3-Speed Manual/2-Speed Automatic<br>0-60(mph): 9.3<br>Horsepower: 164<br>Torque(lb/ft): 200<br>Top Speed(mph): 100<br> Dimensions(in): 194.5 x 70.4 x 54.5<br> Curb Weight(lb): 2,970<br>Fuel Economy(MPG): 17.0<br>Description: The 1963 Mercury Comet was significant because it was a compact car that offered luxury features at an affordable price. The Comet was marketed as a stylish and comfortable car that didn't sacrifice efficiency. This concept became more popular in the following decades."
             }
         }
     }
