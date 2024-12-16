@@ -8,7 +8,7 @@
             "make":"Aston Martin",
             "model":"DB5",
             "year":"1964",
-            "description":"<strong><u>Description</u></strong>: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history.<br><u><strong>Engine</u></strong>: 4.0L inline-six<br><u><strong>Transmission</u></strong>: Five-speed/Manual<br><u><strong>0-60(mph)</u></strong>: 6.4<br><u><strong>Horsepower</u></strong>: 282<br><u><strong>Torque(lb/ft)</u></strong>: 288<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions</u></strong>: 98 x 179.9 x 66.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,311<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
+            "description":"<strong><u>Description</u></strong>: The 1964 Aston Martin DB5 is an iconic British grand tourer, renowned for its elegant design and powerful performance. The DB5 gained legendary status as James Bond's car in the 1964 film Goldfinger, further cementing its place in automotive history.<br><u><strong>Engine</u></strong>: 4.0L inline-six<br><u><strong>Transmission</u></strong>: Five-speed/Manual<br><u><strong>0-60(mph)</u></strong>: 6.4<br><u><strong>Horsepower</u></strong>: 282<br><u><strong>Torque(lb/ft)</u></strong>: 288<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions(in)</u></strong>: 98 x 179.9 x 66.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,311<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             },
             "DB9":{
                 "dark":"/static/img/Slideshow/DB9D.jpeg",
@@ -76,7 +76,7 @@
                 "make":"Jaguar",
                 "model":"XK120",
                 "year":"1952",
-                "description":"<strong><u>Description</u></strong>: The 1952 Jaguar XK120 is a classic sports car that holds a special place in automotive history. It was celebrated for its combination of performance, style, and engineering excellence.<br><u><strong>Engine</u></strong>: 3.4L Inline 6<br><u><strong>Transmission</u></strong>: Four-Speed manual<br><u><strong>0-60(mph)</u></strong>: 9.9<br><u><strong>Horsepower</u></strong>: 180<br><u><strong>Torque(lb/ft)</u></strong>: 195<br><u><strong>Top Speed(mph)</u></strong>: 120<br><u><strong>Dimensions(in)</u></strong>: 173 x 61.5 x 52.5<br><u><strong>Curb Weight(lb)</u></strong>: 3060<br>Fuel Economy(MPG): 19.8"
+                "description":"<strong><u>Description</u></strong>: The 1952 Jaguar XK120 is a classic sports car that holds a special place in automotive history. It was celebrated for its combination of performance, style, and engineering excellence.<br><u><strong>Engine</u></strong>: 3.4L Inline 6<br><u><strong>Transmission</u></strong>: Four-Speed manual<br><u><strong>0-60(mph)</u></strong>: 9.9<br><u><strong>Horsepower</u></strong>: 180<br><u><strong>Torque(lb/ft)</u></strong>: 195<br><u><strong>Top Speed(mph)</u></strong>: 120<br><u><strong>Dimensions(in)</u></strong>: 173 x 61.5 x 52.5<br><u><strong>Curb Weight(lb)</u></strong>: 3060<br><u><strong>Fuel Economy(MPG)</u></strong>: 19.8"
             },
             "XKSS":{
                 "dark":"/static/img/Slideshow/XKSSD.jpeg",
@@ -96,7 +96,7 @@
                 "make":"Land Rover",
                 "model":"Discovery Sport",
                 "year":"2017",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"<strong><u>Description</u></strong>:The curb significance of a 2017 Land Rover Discovery Sport refers to its ability to handle uneven terrain and obstacles like curbs with ease due to its high ground clearance, capable all-wheel drive system, and advanced terrain response settings, making it suitable for light off-roading situations while still maintaining a comfortable on-road driving experience; essentially, it can navigate curbs and rough surfaces better than many standard SUVs in its class. <br><u><strong>Engine</u></strong>: Turbocharged 2.0L Inline-4<br><u><strong>Transmission</u></strong>: 9-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 7.8<br><u><strong>Horsepower</u></strong>: 240<br><u><strong>Torque(lb/ft)</u></strong>: 250<br><u><strong>Top Speed(mph)</u></strong>: 124<br><u><strong>Dimensions(in)</u></strong>: 181 x 75 x 68<br><u><strong>Curb Weight(lb)</u></strong>: 3,854<br><u><strong>Fuel Economy(MPG)</u></strong>: 22"
             }
         },
 
@@ -236,7 +236,7 @@
                 "make":"Audi",
                 "model":"R8",
                 "year":"2013",
-                "description":"<strong><u>Description</u></strong>: The 2013 Audi R8 V10 combines stunning looks with incredible performance, making it a favorite among car enthusiasts<br><u><strong>Engine</u></strong>: V10<br><u><strong>Transmission</u></strong>: Seven-speed dual-clutch automatic<br><u><strong>0-60(mph)</u></strong>: 3.6<br><u><strong>Horsepower</u></strong>: 549<br><u><strong>Torque(lb/ft)</u></strong>: 398.3<br>Top Speed(mph): 195<br><u><strong>Dimensions(in)</u></strong>: 172.8 x 76 x 49.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,461.3<br><u><strong>Fuel Economy(MPG)</u></strong>: 18"
+                "description":"<strong><u>Description</u></strong>: The 2013 Audi R8 V10 combines stunning looks with incredible performance, making it a favorite among car enthusiasts<br><u><strong>Engine</u></strong>: V10<br><u><strong>Transmission</u></strong>: Seven-speed dual-clutch automatic<br><u><strong>0-60(mph)</u></strong>: 3.6<br><u><strong>Horsepower</u></strong>: 549<br><u><strong>Torque(lb/ft)</u></strong>: 398.3<br><u><strong>Top Speed(mph)</u></strong>: 195<br><u><strong>Dimensions(in)</u></strong>: 172.8 x 76 x 49.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,461.3<br><u><strong>Fuel Economy(MPG)</u></strong>: 18"
             }
         },
 
@@ -248,7 +248,7 @@
                 "make":"BMW",
                 "model":"3.0 CSL",
                 "year":"1975",
-                "description":"Engine: 3.5L Inline-6<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.0<br>Horsepower: 206<br>Torque(lb/ft): 211<br>Top Speed(mph): 136.6<br> Dimensions(in): 184.0 x 70.0 x 53.74<br> Curb Weight(lb): 2,403<br>Fuel Economy(MPG): 21.6<br>Description: The 1975 BMW 3.0 CSL is a legendary car, often referred to as the 'Bavarian Batmobile' due to its distinctive aerodynamic body kit. This model was a special variant of the BMW New Six Coupe, created to meet homologation requirements for the European Touring Car Championship."
+                "description":"<strong><u>Description</u></strong>: The 1975 BMW 3.0 CSL is a legendary car, often referred to as the 'Bavarian Batmobile' due to its distinctive aerodynamic body kit. This model was a special variant of the BMW New Six Coupe, created to meet homologation requirements for the European Touring Car Championship. <br><u><strong>Engine</u></strong>: 3.5L Inline-6<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7.0<br><u><strong>Horsepower</u></strong>: 206<br><u><strong>Torque(lb/ft)</u></strong>: 211<br><u><strong>Top Speed(mph)</u></strong>: 136.6<br><u><strong>Dimensions(in)</u></strong>: 184.0 x 70.0 x 53.74<br><u><strong>Curb Weight(lb)</u></strong>: 2,403<br><u><strong>Fuel Economy(MPG)</u></strong>: 21.6"
             },
             "328ci":{
                 "dark":"/static/img/Slideshow/328CID.jpeg",
@@ -256,7 +256,7 @@
                 "make":"BMW",
                 "model":"328ci",
                 "year":"2000",
-                "description":"Engine: 3.8L inline-6<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.0<br>Horsepower: 195<br>Torque(lb/ft): 206<br>Top Speed(mph): 150<br> Dimensions(in): 176 x 68.5 x 55.7<br> Curb Weight(lb): 3,197<br>Fuel Economy(MPG): 19<br>Description: The 2000 BMW 328Ci is part of the E46 generation of the BMW 3 Series, known for its blend of performance, luxury, and style."
+                "description":"<strong><u>Description</u></strong>: The 2000 BMW 328Ci is part of the E46 generation of the BMW 3 Series, known for its blend of performance, luxury, and style.<br><u><strong>Engine</u></strong>: 3.8L inline-6<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7.0<br><u><strong>Horsepower</u></strong>: 195<br><u><strong>Torque(lb/ft)</u></strong>: 206<br><u><strong>Top Speed(mph)</u></strong>: 150<br><u><strong>Dimensions(in)</u></strong>: 176 x 68.5 x 55.7<br><u><strong>Curb Weight(lb)</u></strong>: 3,197<br><u><strong>Fuel Economy(MPG)</u></strong>: 19"
             },
             "2002 Turbo":{
                 "dark":"/static/img/Slideshow/BMW2002TurboD.jpeg",
@@ -264,7 +264,7 @@
                 "make":"BMW",
                 "model":"2002 Turbo",
                 "year":"1974",
-                "description":"Engine: Turbocharged 2.0L Inine-4<br>Transmission: 4-Speed Manual/5-Speed Manual<br>0-60(mph): 7.0<br>Horsepower: 190<br>Torque(lb/ft): 177<br>Top Speed(mph):131 <br> Dimensions(in): 166.1 x 63.8 x 55.5<br> Curb Weight(lb): 2,381<br>Fuel Economy(MPG): 21.15<br>Description: The 1974 BMW 2002 Turbo was the first turbocharged production car from BMW and Europe."
+                "description":"<strong><u>Description</u></strong>:The 1974 BMW 2002 Turbo was the first turbocharged production car from BMW and Europe.<br><u><strong>Engine</u></strong>: Turbocharged 2.0L Inine-4<br><u><strong>Transmission</u></strong>: 4-Speed Manual/5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7.0<br><u><strong>Horsepower</u></strong>: 190<br><u><strong>Torque(lb/ft)</u></strong>: 177<br><u><strong>Top Speed(mph)</u></strong>:131 <br><u><strong>Dimensions(in)</u></strong>: 166.1 x 63.8 x 55.5<br><u><strong>Curb Weight(lb)</u></strong>: 2,381<br><u><strong>Fuel Economy(MPG)</u></strong>: 21.15"
             },
             "E30 M3":{
                 "dark":"/static/img/Slideshow/BMWE30D.jpeg",
@@ -272,7 +272,7 @@
                 "make":"BMW",
                 "model":"E30 M3",
                 "year":"1986",
-                "description":"Engine: Water-cooled 2.3L Inline-4<br>Transmission: 5-Speed Manual<br>0-60(mph): 7<br>Horsepower: 192<br>Torque(lb/ft): 170<br>Top Speed(mph): 142<br> Dimensions(in): 171.1 x 65.9 x 53.7<br> Curb Weight(lb): 2,567<br>Fuel Economy(MPG): 24<br>Description: Launched in '86 the M3 features the 2.3-litre four-cylinder 'S14' engine, which shares its cast iron block with the humble M10 motor mated to a new four-valve head derived from the M5's S38 straight-six, individual throttle bodies and machined intake and exhaust ports."
+                "description":"<strong><u>Description</u></strong>: Launched in '86 the M3 features the 2.3-litre four-cylinder 'S14' engine, which shares its cast iron block with the humble M10 motor mated to a new four-valve head derived from the M5's S38 straight-six, individual throttle bodies and machined intake and exhaust ports.<br><u><strong>Engine</u></strong>: Water-cooled 2.3L Inline-4<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7<br><u><strong>Horsepower</u></strong>: 192<br><u><strong>Torque(lb/ft)</u></strong>: 170<br><u><strong>Top Speed(mph)</u></strong>: 142<br><u><strong>Dimensions(in)</u></strong>: 171.1 x 65.9 x 53.7<br><u><strong>Curb Weight(lb)</u></strong>: 2,567<br><u><strong>Fuel Economy(MPG)</u></strong>: 24"
             },
             "Isetta 300":{
                 "dark":"/static/img/Slideshow/isettaD.jpeg",
@@ -280,7 +280,7 @@
                 "make":"BMW",
                 "model":"Isetta 300",
                 "year":"1961",
-                "description":"Engine: BMW 4-Stroke<br>Transmission: 4-Speed Manual<br>0-60(mph): NA<br>Horsepower: 13<br>Torque(lb/ft): 13.6<br>Top Speed(mph): 53<br> Dimensions(in): 88.6 x 52.8 x 53<br> Curb Weight(lb): 778<br>Fuel Economy(MPG): 58<br>Description: The BMW Isetta 300 was a continuation of the Isetta 250, manufactured from 1957 to 1962. The updated model was due to a German government change of regulation that made producing a 250cc opposed to a 300 cc not worth it because it no longer allowed Class IV to operate anything larger than a small motorcycle. Due to a tax loophole in 1961, some Isetta's only came with three wheels."
+                "description":"<strong><u>Description</u></strong>: The BMW Isetta 300 was a continuation of the Isetta 250, manufactured from 1957 to 1962. The updated model was due to a German government change of regulation that made producing a 250cc opposed to a 300 cc not worth it because it no longer allowed Class IV to operate anything larger than a small motorcycle. Due to a tax loophole in 1961, some Isetta's only came with three wheels. <br><u><strong>Engine</u></strong>: BMW 4-Stroke<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: NA<br><u><strong>Horsepower</u></strong>: 13<br><u><strong>Torque(lb/ft)</u></strong>: 13.6<br><u><strong>Top Speed(mph)</u></strong>: 53<br><u><strong>Dimensions(in)</u></strong>: 88.6 x 52.8 x 53<br><u><strong>Curb Weight(lb)</u></strong>: 778<br><u><strong>Fuel Economy(MPG)</u></strong>: 58"
             },
             "M1":{
                 "dark":"/static/img/Slideshow/m1D.jpeg",
@@ -288,7 +288,7 @@
                 "make":"BMW",
                 "model":"M1",
                 "year":"1981",
-                "description":"Engine: 3.5L Inline-6<br>Transmission: 5-Speed Manual<br>0-60(mph): 5.9<br>Horsepower: 277<br>Torque(lb/ft): 243<br>Top Speed(mph): <br> Dimensions(in): 171.7 x 71.8 x 44.9<br> Curb Weight(lb): 2,249<br>Fuel Economy(MPG): 21.9<br>Description: BMW intended the M1 to be the foremost expression of its automotive art. It was also intended to win races. The M1 name personifies its stature: M designates all BMW engineering projects of substance, and 1 signifies the importance in BMW engineering history."
+                "description":"<strong><u>Description</u></strong>: BMW intended the M1 to be the foremost expression of its automotive art. It was also intended to win races. The M1 name personifies its stature: M designates all BMW engineering projects of substance, and 1 signifies the importance in BMW engineering history. <br><u><strong>Engine</u></strong>: 3.5L Inline-6<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.9<br><u><strong>Horsepower</u></strong>: 277<br><u><strong>Torque(lb/ft)</u></strong>: 243<br><u><strong>Top Speed(mph)</u></strong>: <br><u><strong>Dimensions(in)</u></strong>: 171.7 x 71.8 x 44.9<br><u><strong>Curb Weight(lb)</u></strong>: 2,249<br><u><strong>Fuel Economy(MPG)</u></strong>: 21.9"
             }
         },
 
@@ -300,7 +300,7 @@
                 "make":"Mercedes-Benz",
                 "model":"300SL",
                 "year":"1957",
-                "description":"Engine: <br>Transmission: 3.0L Inline-6<br>0-60(mph): 146<br>Horsepower: 215<br>Torque(lb/ft): 228<br>Top Speed(mph): 163<br> Dimensions(in): 179 x 70.5 x 51.2<br> Curb Weight(lb): 2,932<br>Fuel Economy(MPG): 20<br>Description: It was the world's first four-stroke production passenger car to be equipped with output- and efficiency-enhancing direct fuel injection. Breath-taking engine output of 215 hp (158 kW) provided a top speed of 250 km/h, depending on final drive ratio. That made the 300 SL the fastest production car of its day."
+                "description":"<strong><u>Description</u></strong>: It was the world's first four-stroke production passenger car to be equipped with output- and efficiency-enhancing direct fuel injection. Breath-taking engine output of 215 hp (158 kW) provided a top speed of 250 km/h, depending on final drive ratio. That made the 300 SL the fastest production car of its day. <br><u><strong>Engine</u></strong>: <br><u><strong>Transmission</u></strong>: 3.0L Inline-6<br><u><strong>0-60(mph)</u></strong>: 146<br><u><strong>Horsepower</u></strong>: 215<br><u><strong>Torque(lb/ft)</u></strong>: 228<br><u><strong>Top Speed(mph)</u></strong>: 163<br><u><strong>Dimensions(in)</u></strong>: 179 x 70.5 x 51.2<br><u><strong>Curb Weight(lb)</u></strong>: 2,932<br><u><strong>Fuel Economy(MPG)</u></strong>: 20"
             },
             "540K":{
                 "dark":"/static/img/Slideshow/540KD.jpeg",
@@ -308,7 +308,7 @@
                 "make":"Mercedes-Benz",
                 "model":"540K",
                 "year":"1939",
-                "description":"Engine: Inline-8<br>Transmission: 4-Speed Manual<br>0-60(mph): 15.5<br>Horsepower: 115<br>Torque(lb/ft): 180<br>Top Speed(mph): 110<br> Dimensions(in): 206.5 x 75 x 65<br> Curb Weight(lb): 6,000<br>Fuel Economy(MPG): 8<br>Description: The 1939 Mercedes-Benz 540K is a significant model in the history of Mercedes-Benz and is considered one of the most desirable cars of the Classic Era. "
+                "description":"<strong><u>Description</u></strong>: The 1939 Mercedes-Benz 540K is a significant model in the history of Mercedes-Benz and is considered one of the most desirable cars of the Classic Era. <br><u><strong>Engine</u></strong>: Inline-8<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 15.5<br><u><strong>Horsepower</u></strong>: 115<br><u><strong>Torque(lb/ft)</u></strong>: 180<br><u><strong>Top Speed(mph)</u></strong>: 110<br><u><strong>Dimensions(in)</u></strong>: 206.5 x 75 x 65<br><u><strong>Curb Weight(lb)</u></strong>: 6,000<br><u><strong>Fuel Economy(MPG)</u></strong>: 8"
             },
             "CLK GTR":{
                 "dark":"/static/img/Slideshow/clkgtrD.jpeg",
@@ -316,7 +316,7 @@
                 "make":"Mercedes-Benz",
                 "model":"CLK GTR",
                 "year":"2002",
-                "description":"Engine: 6.9L V12<br>Transmission: 6-Speed Manual<br>0-60(mph): 3.1<br>Horsepower: 612<br>Torque(lb/ft): 539<br>Top Speed(mph): 208<br>Dimensions(in): 191.1 x 76.8 x 43.3<br>Curb Weight(lb): 3,175<br>Fuel Economy(MPG): 20<br>Description: With its origins deeply rooted in racing history, the CLK-GTR Roadster stands as one of the most significant homologation cars ever produced. The combination of its extreme rarity, direct lineage to a championship-winning race car, and untouched condition makes it a coveted collector's item."
+                "description":"<strong><u>Description</u></strong>: With its origins deeply rooted in racing history, the CLK-GTR Roadster stands as one of the most significant homologation cars ever produced. The combination of its extreme rarity, direct lineage to a championship-winning race car, and untouched condition makes it a coveted collector's item. <br><u><strong>Engine</u></strong>: 6.9L V12<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.1<br><u><strong>Horsepower</u></strong>: 612<br><u><strong>Torque(lb/ft)</u></strong>: 539<br><u><strong>Top Speed(mph)</u></strong>: 208<br><u><strong>Dimensions(in)</u></strong>: 191.1 x 76.8 x 43.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,175<br><u><strong>Fuel Economy(MPG)</u></strong>: 20"
             },
             "R107":{
                 "dark":"/static/img/Slideshow/MercedesR107D.jpeg",
@@ -324,7 +324,7 @@
                 "make":"Mercedes-Benz",
                 "model":"R107",
                 "year":"1971",
-                "description":"Engine: 4.5L V8<br>Transmission: 3-Speed Automatic<br>0-60(mph): 7.4<br>Horsepower: 204<br>Torque(lb/ft): 296<br>Top Speed(mph): 140<br>Dimensions(in): 172.8 x 70.5 x 51.2<br> Curb Weight(lb): 3,120<br>Fuel Economy(MPG): 18<br>Description: The R107 SL, a series of luxury sports cars produced by Mercedes-Benz from 1971 to 1989, experienced a notable evolution over its production span. Initially introduced as a successor to the W113 “Pagoda” SL, the R107 SL brought a modernized design and advanced features to the luxury convertible segment."
+                "description":"<strong><u>Description</u></strong>: The R107 SL, a series of luxury sports cars produced by Mercedes-Benz from 1971 to 1989, experienced a notable evolution over its production span. Initially introduced as a successor to the W113 “Pagoda” SL, the R107 SL brought a modernized design and advanced features to the luxury convertible segment. <br><u><strong>Engine</u></strong>: 4.5L V8<br><u><strong>Transmission</u></strong>: 3-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 7.4<br><u><strong>Horsepower</u></strong>: 204<br><u><strong>Torque(lb/ft)</u></strong>: 296<br><u><strong>Top Speed(mph)</u></strong>: 140<br><u><strong>Dimensions(in)</u></strong>: 172.8 x 70.5 x 51.2<br><u><strong>Curb Weight(lb)</u></strong>: 3,120<br><u><strong>Fuel Economy(MPG)</u></strong>: 18"
             },
             "W124":{
                 "dark":"/static/img/Slideshow/MercedesW124D.webp",
@@ -332,7 +332,7 @@
                 "make":"Mercedes-Benz",
                 "model":"W124",
                 "year":"1985",
-                "description":"Engine: Inline-6<br>Transmission: 4-Speed Manual<br>0-60(mph): 7.3<br>Horsepower: 185<br>Torque(lb/ft): 191<br>Top Speed(mph): 142<br> Dimensions(in): 187.2 x 68.5 x 56.3<br> Curb Weight(lb): 3,605<br>Fuel Economy(MPG): 25<br>Description: The W124 was considered the last true Mercedes, combining reliability with modernity, safety, and fuel efficiency. Its aerodynamics were impressive for its time, even rivaling modern cars. The W124 lineup offered a model for everyone, including sedans, wagons, and coupes, accommodating various interests and needs."
+                "description":"<strong><u>Description</u></strong>: The W124 was considered the last true Mercedes, combining reliability with modernity, safety, and fuel efficiency. Its aerodynamics were impressive for its time, even rivaling modern cars. The W124 lineup offered a model for everyone, including sedans, wagons, and coupes, accommodating various interests and needs. <br><u><strong>Engine</u></strong>: Inline-6<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7.3<br><u><strong>Horsepower</u></strong>: 185<br><u><strong>Torque(lb/ft)</u></strong>: 191<br><u><strong>Top Speed(mph)</u></strong>: 142<br><u><strong>Dimensions(in)</u></strong>: 187.2 x 68.5 x 56.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,605<br><u><strong>Fuel Economy(MPG)</u></strong>: 25"
             }
             
         },
@@ -345,7 +345,7 @@
                 "make":"Porsche",
                 "model":"356 C",
                 "year":"1965",
-                "description":"Engine: 1.6L Air Cooled Flat-4<br>Transmission: 4-Speed Manual<br>0-60(mph): 13.5<br>Horsepower: 95<br>Torque(lb/ft): 88<br>Top Speed(mph): 106.9<br> Dimensions(in): 158 x 65.8 x 52.4<br> Curb Weight(lb): 1,960<br>Fuel Economy(MPG): 16.7<br>Description: This 356 is the one that is going to attract Porsche enthusiasts and judges alike. It comes in silver metallic with red leather seats that offer a stunning color combination. Under the engine lid, the car is powered by the 1.6-liter flat 4-cylinder engine and driven by a 4-speed manual transmission."
+                "description":"<strong><u>Description</u></strong>: This 356 attracts Porsche enthusiasts and judges alike. It comes in silver metallic with red leather seats that offer a stunning color combination. Under the engine lid, the car is powered by the 1.6-liter flat 4-cylinder engine and driven by a 4-speed manual transmission. <br><u><strong>Engine</u></strong>: 1.6L Air Cooled Flat-4<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 13.5<br><u><strong>Horsepower</u></strong>: 95<br><u><strong>Torque(lb/ft)</u></strong>: 88<br><u><strong>Top Speed(mph)</u></strong>: 106.9<br><u><strong>Dimensions(in)</u></strong>: 158 x 65.8 x 52.4<br><u><strong>Curb Weight(lb)</u></strong>: 1,960<br><u><strong>Fuel Economy(MPG)</u></strong>: 16.7"
             },
             "918 Spyder":{
                 "dark":"/static/img/Slideshow/Porsche918SpyderD.jpeg",
@@ -353,7 +353,7 @@
                 "make":"Porsche",
                 "model":"918 Spyder",
                 "year":"2013",
-                "description":"Engine:4.6L V8 paired with dual electric motors<br>Transmission: 7-Speed Dual-Clutch Automatic<br>0-60(mph): 2.2<br>Horsepower: 887<br>Torque(lb/ft): 944<br>Top Speed(mph): 211<br> Dimensions(in): 182.8 nx 76.4 x 45.9<br> Curb Weight(lb): 3,791<br>Fuel Economy(MPG): 21.6<br>Description: On September 4, 2013, the Porsche 918 Spyder became the first street-legal vehicle with production tires to finish the 20.6 km circuit of the North Loop of the Nürburgring in less than seven minutes."
+                "description":"<strong><u>Description</u></strong>: On September 4, 2013, the Porsche 918 Spyder became the first street-legal vehicle with production tires to finish the 20.6 km circuit of the North Loop of the Nürburgring in less than seven minutes. <br><u><strong>Engine</u></strong>: 4.6L V8 paired with dual electric motors<br><u><strong>Transmission</u></strong>: 7-Speed Dual-Clutch Automatic<br><u><strong>0-60(mph)</u></strong>: 2.2<br><u><strong>Horsepower</u></strong>: 887<br><u><strong>Torque(lb/ft)</u></strong>: 944<br><u><strong>Top Speed(mph)</u></strong>: 211<br><u><strong>Dimensions(in)</u></strong>: 182.8 nx 76.4 x 45.9<br><u><strong>Curb Weight(lb)</u></strong>: 3,791<br><u><strong>Fuel Economy(MPG)</u></strong>: 21.6"
             },
             "930 Turbo":{
                 "dark":"/static/img/Slideshow/Porsche930TurboD.jpeg",
@@ -361,7 +361,7 @@
                 "make":"Porsche",
                 "model":"930 Turbo",
                 "year":"1975",
-                "description":"Engine: 3.0L Turbocharged Flat 6<br>Transmission: 4-Speed Manual<br>0-60(mph): 5.5<br>Horsepower: 260<br>Torque(lb/ft): 254<br>Top Speed(mph): 155<br> Dimensions(in): 168.9 x 69.9 x 51.6<br> Curb Weight(lb): 2,635<br>Fuel Economy(MPG): 18<br>Description: It was the fastest production car in the world at the time of its launch and it was the flagship of the Porsche carmaker. It was hard to drive and became known as the Widowmaker, with a mystique and speed that captured a new generation of car nuts worldwide."
+                "description":"<strong><u>Description</u></strong>: It was the fastest production car in the world at the time of its launch and it was the flagship of the Porsche carmaker. It was hard to drive and became known as the Widowmaker, with a mystique and speed that captured a new generation of car nuts worldwide. <br><u><strong>Engine</u></strong>: 3.0L Turbocharged Flat 6<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.5<br><u><strong>Horsepower</u></strong>: 260<br><u><strong>Torque(lb/ft)</u></strong>: 254<br><u><strong>Top Speed(mph)</u></strong>: 155<br><u><strong>Dimensions(in)</u></strong>: 168.9 x 69.9 x 51.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,635<br><u><strong>Fuel Economy(MPG)</u></strong>: 18"
             },
             "959":{
                 "dark":"/static/img/Slideshow/Porsche959D.jpeg",
@@ -369,7 +369,7 @@
                 "make":"Porsche",
                 "model":"959",
                 "year":"1986",
-                "description":"Engine: Twin Turbo 2.8L Flat-6<br>Transmission: 6-Speed Manual<br>0-60(mph): 4.1<br>Horsepower: 444<br>Torque(lb/ft): 369<br>Top Speed(mph): 195<br> Dimensions(in): 167.7 x 72.4 x 50.4<br> Curb Weight(lb): 3,197<br>Fuel Economy(MPG): 22<br>Description: In the mid-1980s, a new Porsche went on sale that looked like it had jetted in from the future – which, in many ways, it had. The twin-turbocharged 959 was considered an astonishing achievement back in 1986, regarded as the most technologically advanced road-going sportscar ever created"
+                "description":"<strong><u>Description</u></strong>: In the mid-1980s, a new Porsche went on sale that looked like it had jetted in from the future – which, in many ways, it had. The twin-turbocharged 959 was considered an astonishing achievement back in 1986, regarded as the most technologically advanced road-going sportscar ever created. <br><u><strong>Engine</u></strong>: Twin Turbo 2.8L Flat-6<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 4.1<br><u><strong>Horsepower</u></strong>: 444<br><u><strong>Torque(lb/ft)</u></strong>: 369<br><u><strong>Top Speed(mph)</u></strong>: 195<br><u><strong>Dimensions(in)</u></strong>: 167.7 x 72.4 x 50.4<br><u><strong>Curb Weight(lb)</u></strong>: 3,197<br><u><strong>Fuel Economy(MPG)</u></strong>: 22"
             },
             "993":{
                 "dark":"/static/img/Slideshow/Porsche993D.avif",
@@ -377,7 +377,7 @@
                 "make":"Porsche",
                 "model":"993",
                 "year":"1995",
-                "description":"Engine: 3.6L Flat-6<br>Transmission: 6-Speed Manual/4-Speed Tiptronic<br>0-60(mph): 4.7<br>Horsepower: 272<br>Torque(lb/ft): 243<br>Top Speed(mph): 162<br> Dimensions(in): 167.7 x 68.3 x 51.8<br> Curb Weight(lb): 3,020<br>Fuel Economy(MPG): 21<br>Description: The 993 Turbo was the first 911 Turbo with all-wheel drive, taken from the 959 flagship model. The Turbo's bodywork differs from the Carrera by widened rear wheel arches (about 6 cm), redesigned front and rear bumper moldings, and a fixed 'whale tail' rear wing housing the intercoolers."
+                "description":"<strong><u>Description</u></strong>: The 993 Turbo was the first 911 Turbo with all-wheel drive, taken from the 959 flagship model. The Turbo's bodywork differs from the Carrera by widened rear wheel arches (about 6 cm), redesigned front and rear bumper moldings, and a fixed 'whale tail' rear wing housing the intercoolers. <br><u><strong>Engine</u></strong>: 3.6L Flat-6<br><u><strong>Transmission</u></strong>: 6-Speed Manual/4-Speed Tiptronic<br><u><strong>0-60(mph)</u></strong>: 4.7<br><u><strong>Horsepower</u></strong>: 272<br><u><strong>Torque(lb/ft)</u></strong>: 243<br><u><strong>Top Speed(mph)</u></strong>: 162<br><u><strong>Dimensions(in)</u></strong>: 167.7 x 68.3 x 51.8<br><u><strong>Curb Weight(lb)</u></strong>: 3,020<br><u><strong>Fuel Economy(MPG)</u></strong>: 21"
             },
             "Cayman":{
                 "dark":"/static/img/Slideshow/PorscheCaymanD.jpeg ",
@@ -385,7 +385,7 @@
                 "make":"Porsche",
                 "model":"Cayman",
                 "year":"2005",
-                "description":"Engine: 3.4L Flat-6<br>Transmission: 6-Speed Manual<br>0-60(mph): 5.1<br>Horsepower: 295<br>Torque(lb/ft): 250.8<br>Top Speed(mph): 171<br> Dimensions(in): 170.91 x 70.91 x 51.38<br> Curb Weight(lb): 2,954<br>Fuel Economy(MPG): 22.1<br>Description: The 2005 Cayman was the first two-seat Porsche sports car."
+                "description":"<strong><u>Description</u></strong>: The 2005 Cayman was the first two-seat Porsche sports car. <br><u><strong>Engine</u></strong>: 3.4L Flat-6<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.1<br><u><strong>Horsepower</u></strong>: 295<br><u><strong>Torque(lb/ft)</u></strong>: 250.8<br><u><strong>Top Speed(mph)</u></strong>: 171<br><u><strong>Dimensions(in)</u></strong>: 170.91 x 70.91 x 51.38<br><u><strong>Curb Weight(lb)</u></strong>: 2,954<br><u><strong>Fuel Economy(MPG)</u></strong>: 22.1"
             },
             "GT1":{
                 "dark":"/static/img/Slideshow/gt1D.webp",
@@ -393,7 +393,7 @@
                 "make":"Porsche",
                 "model":"GT1",
                 "year":"1998",
-                "description":"Engine: Twin Turbocharged 3.2L Flat-6<br>Transmission: 6-Speed sequential manual transmission<br>0-60(mph): 3.7<br>Horsepower: 550<br>Torque(lb/ft): 463<br>Top Speed(mph): 193<br> Dimensions(in): 192.5 x 78.3 x 44.9<br> Curb Weight(lb): 2072<br>Fuel Economy(MPG): 17<br>Description: It features the first only water-cooled mid-engine, which ensures a balanced axle-load distribution. In 1998, Porsche launches an overhauled version of the 911 GT1, featuring the first carbon fibre chassis to be used by Porsche. The vehicle shown is used by Team Zakspeed in the FIA GT World Championship in 1998."
+                "description":"<strong><u>Description</u></strong>: It features the first only water-cooled mid-engine, which ensures a balanced axle-load distribution. In 1998, Porsche launches an overhauled version of the 911 GT1, featuring the first carbon fibre chassis to be used by Porsche. The vehicle shown is used by Team Zakspeed in the FIA GT World Championship in 1998. <br><u><strong>Engine</u></strong>: Twin Turbocharged 3.2L Flat-6<br><u><strong>Transmission</u></strong>: 6-Speed sequential manual transmission<br><u><strong>0-60(mph)</u></strong>: 3.7<br><u><strong>Horsepower</u></strong>: 550<br><u><strong>Torque(lb/ft)</u></strong>: 463<br><u><strong>Top Speed(mph)</u></strong>: 193<br><u><strong>Dimensions(in)</u></strong>: 192.5 x 78.3 x 44.9<br><u><strong>Curb Weight(lb)</u></strong>: 2072<br><u><strong>Fuel Economy(MPG)</u></strong>: 17"
             }
         },
 
@@ -405,7 +405,7 @@
                 "make":"Volkswagen",
                 "model":"Beetle",
                 "year":"1966",
-                "description":"Engine: 1.3L Flat-4<br>Transmission: 4-Speed Manual<br>0-60(mph): 22<br>Horsepower: 50<br>Torque(lb/ft): 69<br>Top Speed(mph): 82<br> Dimensions(in): 160.6 x 60.6 x 59.1<br> Curb Weight(lb): 1,665<br>Fuel Economy(MPG): 20.5<br>Description: The 1966 Volkswagen Beetle is not just a car; it's a cultural icon that encapsulates the spirit of an era. Born in the tumultuous times of pre-war Germany and refined in the post-war period, the Beetle was the brainchild of Ferdinand Porsche, under the directive of Adolf Hitler to create a 'people's car' (Volkswagen)."
+                "description":"<strong><u>Description</u></strong>: The 1966 Volkswagen Beetle is not just a car; it's a cultural icon that encapsulates the spirit of an era. Born in the tumultuous times of pre-war Germany and refined in the post-war period, the Beetle was the brainchild of Ferdinand Porsche, under the directive of Adolf Hitler to create a 'people's car' (Volkswagen). <br><u><strong>Engine</u></strong>: 1.3L Flat-4<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 22<br><u><strong>Horsepower</u></strong>: 50<br><u><strong>Torque(lb/ft)</u></strong>: 69<br><u><strong>Top Speed(mph)</u></strong>: 82<br><u><strong>Dimensions(in)</u></strong>: 160.6 x 60.6 x 59.1<br><u><strong>Curb Weight(lb)</u></strong>: 1,665<br><u><strong>Fuel Economy(MPG)</u></strong>: 20.5"
             },
             "CC Executive":{
                 "dark":"/static/img/Slideshow/VWCCD.webp",
@@ -413,7 +413,7 @@
                 "make":"Volkswagen",
                 "model":"CC Executive",
                 "year":"2014",
-                "description":"Engine: Turbocharged 2.0L Inline-4<br>Transmission: 7-Speed DSG<br>0-60(mph): 6.2<br>Horsepower: 220<br>Torque(lb/ft): 207<br>Top Speed(mph): 155.3<br> Dimensions(in): 189 x 73 x 56<br> Curb Weight(lb): 3,369<br>Fuel Economy(MPG): 25<br>Description: The 2014 Volkswagen CC Executive is a stylish, upscale midsize sedan with a coupe-like body. It's known for its high-quality interior, premium features, and luxury styling at a lower price than other entry-level luxury cars."
+                "description":"<strong><u>Description</u></strong>: The 2014 Volkswagen CC Executive is a stylish, upscale midsize sedan with a coupe-like body. It's known for its high-quality interior, premium features, and luxury styling at a lower price than other entry-level luxury cars. <br><u><strong>Engine</u></strong>: Turbocharged 2.0L Inline-4<br><u><strong>Transmission</u></strong>: 7-Speed DSG<br><u><strong>0-60(mph)</u></strong>: 6.2<br><u><strong>Horsepower</u></strong>: 220<br><u><strong>Torque(lb/ft)</u></strong>: 207<br><u><strong>Top Speed(mph)</u></strong>: 155.3<br><u><strong>Dimensions(in)</u></strong>: 189 x 73 x 56<br><u><strong>Curb Weight(lb)</u></strong>: 3,369<br><u><strong>Fuel Economy(MPG)</u></strong>: 25"
             },
             "Karmann Ghia":{
                 "dark":"/static/img/Slideshow/karmannghiaD.webp",
@@ -421,7 +421,7 @@
                 "make":"Volkswagen",
                 "model":"Karmann Ghia",
                 "year":"1966",
-                "description":"Engine: 1.3L Flat-4<br>Transmission: 4-Speed Manual<br>0-60(mph): 35.5<br>Horsepower: 50<br>Torque(lb/ft): 69<br>Top Speed(mph): 82<br> Dimensions(in): 94.5 x 163 x 52.4<br> Curb Weight(lb): 1,765<br>Fuel Economy(MPG): 25<br>Description: The Volkswagen Karmann Ghia is a true icon of automotive design. From its origins as a stylish alternative to the Volkswagen Beetle to its status as a cult classic, the Volkswagen Karmann Ghia is a car with a rich and storied history that deserves to be celebrated."
+                "description":"<strong><u>Description</u></strong>: The Volkswagen Karmann Ghia is a true icon of automotive design. From its origins as a stylish alternative to the Volkswagen Beetle to its status as a cult classic, the Volkswagen Karmann Ghia is a car with a rich and storied history that deserves to be celebrated. <br><u><strong>Engine</u></strong>: 1.3L Flat-4<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 35.5<br><u><strong>Horsepower</u></strong>: 50<br><u><strong>Torque(lb/ft)</u></strong>: 69<br><u><strong>Top Speed(mph)</u></strong>: 82<br><u><strong>Dimensions(in)</u></strong>: 94.5 x 163 x 52.4<br><u><strong>Curb Weight(lb)</u></strong>: 1,765<br><u><strong>Fuel Economy(MPG)</u></strong>: 25"
             }
         }
     },
@@ -435,7 +435,7 @@
                 "make":"Alfa Romeo",
                 "model":"33 Stradale",
                 "year":"1967",
-                "description":"Engine: 2.0L V8<br>Transmission: 6-Speed Manual<br>0-60(mph): 5.9<br>Horsepower: 227<br>Torque(lb/ft): 152<br>Top Speed(mph): 160<br> Dimensions(in): 156.3 x 67.3 x 39.0<br> Curb Weight(lb): 1,543<br>Fuel Economy(MPG): 20<br>Description: The Alfa Romeo 33 Stradale embodies the pinnacle of 1960s race car performance, blending racing technology with road-going legality. Introduced in 1967, this car was built on an aluminum tubular chassis with a hand-crafted aluminum body, meaning a curb weight of just 1,543 pounds."
+                "description":"<strong><u>Description</u></strong>: The Alfa Romeo 33 Stradale embodies the pinnacle of 1960s race car performance, blending racing technology with road-going legality. Introduced in 1967, this car was built on an aluminum tubular chassis with a hand-crafted aluminum body, meaning a curb weight of just 1,543 pounds. <br><u><strong>Engine</u></strong>: 2.0L V8<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.9<br><u><strong>Horsepower</u></strong>: 227<br><u><strong>Torque(lb/ft)</u></strong>: 152<br><u><strong>Top Speed(mph)</u></strong>: 160<br><u><strong>Dimensions(in)</u></strong>: 156.3 x 67.3 x 39.0<br><u><strong>Curb Weight(lb)</u></strong>: 1,543<br><u><strong>Fuel Economy(MPG)</u></strong>: 20"
             },
             "4C":{
                 "dark":"/static/img/Slideshow/4cD.webp",
@@ -443,7 +443,7 @@
                 "make":"Alfa Romeo",
                 "model":"4C",
                 "year":"2015",
-                "description":"Engine: Turbocharged 1.7L Inline-4<br>Transmission: 6-Speed Dual-Clutch Automatic<br>0-60(mph): <br>Horsepower: 237<br>Torque(lb/ft): 258<br>Top Speed(mph): 160<br> Dimensions(in): 157 x 73.5 x 46.6<br> Curb Weight(lb): 2,465<br>Fuel Economy(MPG): 29<br>Description: With extensive use of aluminum, an exposed carbon-fiber monocoque structure, and a Spartan design philosophy, the 2015 4C delivers a fast, agile, unfiltered driving experience, complete with intrusive engine, and road and wind noise. Fans of seductive styling and elemental motoring will find much to enjoy here."
+                "description":"<strong><u>Description</u></strong>: With extensive use of aluminum, an exposed carbon-fiber monocoque structure, and a Spartan design philosophy, the 2015 4C delivers a fast, agile, unfiltered driving experience, complete with intrusive engine, and road and wind noise. Fans of seductive styling and elemental motoring will find much to enjoy here. <br><u><strong>Engine</u></strong>: Turbocharged 1.7L Inline-4<br><u><strong>Transmission</u></strong>: 6-Speed Dual-Clutch Automatic<br><u><strong>0-60(mph)</u></strong>: <br><u><strong>Horsepower</u></strong>: 237<br><u><strong>Torque(lb/ft)</u></strong>: 258<br><u><strong>Top Speed(mph)</u></strong>: 160<br><u><strong>Dimensions(in)</u></strong>: 157 x 73.5 x 46.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,465<br><u><strong>Fuel Economy(MPG)</u></strong>: 29"
             },
             "Spider":{
                 "dark":"/static/img/Slideshow/spiderD.jpeg",
@@ -451,7 +451,7 @@
                 "make":"Alfa Romeo",
                 "model":"Spider",
                 "year":"1961",
-                "description":"Engine: 1.3L Inline-4<br>Transmission: 4-Speed Manual<br>0-60(mph): 11.7<br>Horsepower: 116<br>Torque(lb/ft): 80.8<br>Top Speed(mph): 118<br> Dimensions(in): 152 x 62.2 x 52.6<br> Curb Weight(lb): 2,293<br>Fuel Economy(MPG): 19<br>Description: The 1961 Spider was a lightweight car meant for enthusiasts. Its production was continued until its termination in 1965."
+                "description":"<strong><u>Description</u></strong>: The 1961 Spider was a lightweight car meant for enthusiasts. Its production was continued until its termination in 1965. <br><u><strong>Engine</u></strong>: 1.3L Inline-4<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 11.7<br><u><strong>Horsepower</u></strong>: 116<br><u><strong>Torque(lb/ft)</u></strong>: 80.8<br><u><strong>Top Speed(mph)</u></strong>: 118<br><u><strong>Dimensions(in)</u></strong>: 152 x 62.2 x 52.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,293<br><u><strong>Fuel Economy(MPG)</u></strong>: 19"
             }
         },
 
@@ -463,7 +463,7 @@
                 "make":"Ferarri",
                 "model":"308 GTB",
                 "year":"1975",
-                "description":"Engine: 2.9L V8<br>Transmission: 5-Speed Manual<br>0-60(mph): 6.1<br>Horsepower: 255<br>Torque(lb/ft): 210<br>Top Speed(mph): 155<br> Dimensions(in): 166.5 x 67.7 x 44.1<br> Curb Weight(lb): 2,910<br>Fuel Economy(MPG): 13.1<br>Description: The 308 GTB made its debut at the Paris and London shows in 1975. Built to a Pininfarina design by Scaglietti, it retained the 308 GT4′s V8, albeit with dry sump lubrication. The latter made for lower engine mounting and better cooling thanks to the fact that more oil was present."
+                "description":"<strong><u>Description</u></strong>: The 308 GTB made its debut at the Paris and London shows in 1975. Built to a Pininfarina design by Scaglietti, it retained the 308 GT4′s V8, albeit with dry sump lubrication. The latter made for lower engine mounting and better cooling thanks to the fact that more oil was present. <br><u><strong>Engine</u></strong>: 2.9L V8<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.1<br><u><strong>Horsepower</u></strong>: 255<br><u><strong>Torque(lb/ft)</u></strong>: 210<br><u><strong>Top Speed(mph)</u></strong>: 155<br><u><strong>Dimensions(in)</u></strong>: 166.5 x 67.7 x 44.1<br><u><strong>Curb Weight(lb)</u></strong>: 2,910<br><u><strong>Fuel Economy(MPG)</u></strong>: 13.1"
             },
             "360 Modena":{
                 "dark":"/static/img/Slideshow/ModenaD.jpeg",
@@ -471,7 +471,7 @@
                 "make":"Ferarri",
                 "model":"Modena",
                 "year":"2006",
-                "description":"Engine: 3.6L V8<br>Transmission: 6-Speed Manual<br>0-60(mph): 3.7<br>Horsepower: 400<br>Torque(lb/ft): 285<br>Top Speed(mph): 183<br> Dimensions(in): 176.3 x 75.7 x 48.6<br> Curb Weight(lb): 2,601<br>Fuel Economy(MPG): 13<br>Description: The Modena is named after the birthplace of Enzo Ferarri in Modena, Italy."
+                "description":"<strong><u>Description</u></strong>: The Modena is named after Modena, Italy, the birthplace of Ferarri's founder Enzo Ferarri. <br><u><strong>Engine</u></strong>: 3.6L V8<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.7<br><u><strong>Horsepower</u></strong>: 400<br><u><strong>Torque(lb/ft)</u></strong>: 285<br><u><strong>Top Speed(mph)</u></strong>: 183<br><u><strong>Dimensions(in)</u></strong>: 176.3 x 75.7 x 48.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,601<br><u><strong>Fuel Economy(MPG)</u></strong>: 13"
             },
             "Enzo":{
                 "dark":"/static/img/Slideshow/EnzoD.webp",
@@ -479,7 +479,7 @@
                 "make":"Ferarri",
                 "model":"Enzo",
                 "year":"2004",
-                "description":"Engine: 6.0L V12<br>Transmission: 6-Speed Maumatic<br>0-60(mph): 3.3<br>Horsepower: 660<br>Torque(lb/ft): 485<br>Top Speed(mph): 218<br> Dimensions(in): 185.1 x 80.1 x 45.2<br> Curb Weight(lb): 3,230<br>Fuel Economy(MPG): 14.9<br>Description: It might be hard to believe, but the Enzo was introduced over two decades ago. While the F40 and F50 were produced to honor anniversaries, the Enzo was introduced to celebrate the success of Ferrari's Formula 1 team. It is fitting that the car designed to honor Enzo Ferrari's passion is named after him."
+                "description":"<strong><u>Description</u></strong>: It might be hard to believe, but the Enzo was introduced over two decades ago. While the F40 and F50 were produced to honor anniversaries, the Enzo was introduced to celebrate the success of Ferrari's Formula 1 team. It is fitting that the car designed to honor Enzo Ferrari's passion is named after him. <br><u><strong>Engine</u></strong>: 6.0L V12<br><u><strong>Transmission</u></strong>: 6-Speed Maumatic<br><u><strong>0-60(mph)</u></strong>: 3.3<br><u><strong>Horsepower</u></strong>: 660<br><u><strong>Torque(lb/ft)</u></strong>: 485<br><u><strong>Top Speed(mph)</u></strong>: 218<br><u><strong>Dimensions(in)</u></strong>: 185.1 x 80.1 x 45.2<br><u><strong>Curb Weight(lb)</u></strong>: 3,230<br><u><strong>Fuel Economy(MPG)</u></strong>: 14.9"
             },
             "F40":{
                 "dark":"/static/img/Slideshow/FerarriF40D.jpeg",
@@ -487,7 +487,7 @@
                 "make":"Ferarri",
                 "model":"F40",
                 "year":"1987",
-                "description":"Engine: Twin Turbocharged 2.9L V8<br>Transmission: 5-Speed Manual<br>0-60(mph): 3.8<br>Horsepower: 471<br>Torque(lb/ft): 426<br>Top Speed(mph): 201<br> Dimensions(in): 171.5 x 77.6 x 46.3<br> Curb Weight(lb): 2,765<br>Fuel Economy(MPG): 19<br>Description: As the successor to the 288 GTO (also engineered by Materazzi), it was designed to celebrate Ferrari's 40th anniversary and was the last Ferrari automobile personally approved by Enzo Ferrari. At the time it was Ferrari's fastest, most powerful, and most expensive car for sale."
+                "description":"<strong><u>Description</u></strong>: As the successor to the 288 GTO (also engineered by Materazzi), it was designed to celebrate Ferrari's 40th anniversary and was the last Ferrari automobile personally approved by Enzo Ferrari. At the time it was Ferrari's fastest, most powerful, and most expensive car for sale. <br><u><strong>Engine</u></strong>: Twin Turbocharged 2.9L V8<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.8<br><u><strong>Horsepower</u></strong>: 471<br><u><strong>Torque(lb/ft)</u></strong>: 426<br><u><strong>Top Speed(mph)</u></strong>: 201<br><u><strong>Dimensions(in)</u></strong>: 171.5 x 77.6 x 46.3<br><u><strong>Curb Weight(lb)</u></strong>: 2,765<br><u><strong>Fuel Economy(MPG)</u></strong>: 19"
             },
             "F50":{
                 "dark":"/static/img/Slideshow/F50D.jpeg",
@@ -495,7 +495,7 @@
                 "make":"Ferarri",
                 "model":"F50",
                 "year":"1997",
-                "description":"Engine: 4.7L V12<br>Transmission: 6-Speed Manual<br>0-60(mph): 3.8<br>Horsepower: 512<br>Torque(lb/ft): 347<br>Top Speed(mph): 202<br> Dimensions(in): 176.4 x 78.2 x 44.1<br> Curb Weight(lb): 3,080<br>Fuel Economy(MPG): 8<br>Description: The F50s design draws heavily from Ferrari's formula team. It also marked the 50th year of Ferrari's operations"
+                "description":"<strong><u>Description</u></strong>: The F50s design draws heavily from Ferrari's formula team. It also marked the 50th year of Ferrari's operations. <br><u><strong>Engine</u></strong>: 4.7L V12<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.8<br><u><strong>Horsepower</u></strong>: 512<br><u><strong>Torque(lb/ft)</u></strong>: 347<br><u><strong>Top Speed(mph)</u></strong>: 202<br><u><strong>Dimensions(in)</u></strong>: 176.4 x 78.2 x 44.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,080<br><u><strong>Fuel Economy(MPG)</u></strong>: 8"
             },
             "GTO":{
                 "dark":"/static/img/Slideshow/FerarriGTOD.jpeg",
@@ -503,7 +503,7 @@
                 "make":"Ferarri",
                 "model":"GTO",
                 "year":"1962",
-                "description":"Engine: 3.0L V12<br>Transmission: 5-Speed Manual<br>0-60(mph): 6.1<br>Horsepower: 300<br>Torque(lb/ft): 217<br>Top Speed(mph): 174<br> Dimensions(in): 170.3 x 63 x 47.6<br> Curb Weight(lb): 1,940<br>Fuel Economy(MPG): 12<br>Description: The 250 GTO was the ultimate expression of the Ferrari 250 GT car. It was equally at home on the road or track – perhaps the last dual purpose road/race car produced – and has achieved legendary status amongst aficionados of the marque."
+                "description":"<strong><u>Description</u></strong>: The 250 GTO was the ultimate expression of the Ferrari 250 GT car. It was equally at home on the road or track – perhaps the last dual purpose road/race car produced – and has achieved legendary status amongst aficionados of the marque. <br><u><strong>Engine</u></strong>: 3.0L V12<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.1<br><u><strong>Horsepower</u></strong>: 300<br><u><strong>Torque(lb/ft)</u></strong>: 217<br><u><strong>Top Speed(mph)</u></strong>: 174<br><u><strong>Dimensions(in)</u></strong>: 170.3 x 63 x 47.6<br><u><strong>Curb Weight(lb)</u></strong>: 1,940<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             },
             "La Ferarri":{
                 "dark":"/static/img/Slideshow/LaFerrariD.jpeg",
@@ -511,7 +511,7 @@
                 "make":"Ferarri",
                 "model":"La Ferarri",
                 "year":"2013",
-                "description":"Engine: 6.3L V12 paired with a 150hp electric motor<br>Transmission: 7-Speed Automatic<br>0-60(mph): 2.4<br>Horsepower: 950<br>Torque(lb/ft): 516<br>Top Speed(mph): 220<br> Dimensions(in): 185.1 x 78.4 x 43.9<br> Curb Weight(lb): 3,009<br>Fuel Economy(MPG): 16.7<br>Description: The LaFerrari delivered many firsts for a Ferrari road cars but perhaps the most notable are its debuting of the HY-KERS hybrid technology, which both maximises performance and reduces fuel consumption. It also came with active aerodynamics"
+                "description":"<strong><u>Description</u></strong>: The LaFerrari delivered many firsts for a Ferrari road cars but perhaps the most notable are its debuting of the HY-KERS hybrid technology, which both maximises performance and reduces fuel consumption. It also came with active aerodynamics. <br><u><strong>Engine</u></strong>: 6.3L V12 paired with a 150hp electric motor<br><u><strong>Transmission</u></strong>: 7-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 2.4<br><u><strong>Horsepower</u></strong>: 950<br><u><strong>Torque(lb/ft)</u></strong>: 516<br><u><strong>Top Speed(mph)</u></strong>: 220<br><u><strong>Dimensions(in)</u></strong>: 185.1 x 78.4 x 43.9<br><u><strong>Curb Weight(lb)</u></strong>: 3,009<br><u><strong>Fuel Economy(MPG)</u></strong>: 16.7"
             },
             "Testarossa":{
                 "dark":"/static/img/Slideshow/testarossaD.jpeg",
@@ -519,7 +519,7 @@
                 "make":"Ferarri",
                 "model":"Testarossa",
                 "year":"1990",
-                "description":"Engine: 4.9L Flat-12<br>Transmission: 5-Speed Manual<br>0-60(mph): 5.2<br>Horsepower: 380<br>Torque(lb/ft): 354<br>Top Speed(mph): 180<br> Dimensions(in): 176.6 x 77.8 x 44.5<br> Curb Weight(lb): 3,020<br>Fuel Economy(MPG): 18<br>Description: While it was more civilized and refined than the 512 BB, the wild looks and performance made the Testarossa a proper supercar. Testarossa sales success for Ferrari and a pop-culture icon that inspired countless copycats throughout the 80s and 90s."
+                "description":"<strong><u>Description</u></strong>: While it was more civilized and refined than the 512 BB, the wild looks and performance made the Testarossa a proper supercar. Testarossa sales success for Ferrari and a pop-culture icon that inspired countless copycats throughout the 80s and 90s. <br><u><strong>Engine</u></strong>: 4.9L Flat-12<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.2<br><u><strong>Horsepower</u></strong>: 380<br><u><strong>Torque(lb/ft)</u></strong>: 354<br><u><strong>Top Speed(mph)</u></strong>: 180<br><u><strong>Dimensions(in)</u></strong>: 176.6 x 77.8 x 44.5<br><u><strong>Curb Weight(lb)</u></strong>: 3,020<br><u><strong>Fuel Economy(MPG)</u></strong>: 18"
             }
         },
 
@@ -531,7 +531,7 @@
                 "make":"Lamborghini",
                 "model":"Countach",
                 "year":"1985",
-                "description":"Engine: 5.2L V12<br>Transmission: 5-Speed Manual<br>0-60(mph): 4.8<br>Horsepower: 450<br>Torque(lb/ft): 369<br>Top Speed(mph): 185<br> Dimensions(in): 163 x 78.7 x 42.1<br> Curb Weight(lb): 3,280<br>Fuel Economy(MPG): 17.4<br>Description: The Coutach had an increase in power compared to previous Lamborghinis. It quickly became a culutural icon and continues to be one today."
+                "description":"<strong><u>Description</u></strong>: The Coutach had an increase in power compared to previous Lamborghinis. It quickly became a culutural icon and continues to be one today. <br><u><strong>Engine</u></strong>: 5.2L V12<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 4.8<br><u><strong>Horsepower</u></strong>: 450<br><u><strong>Torque(lb/ft)</u></strong>: 369<br><u><strong>Top Speed(mph)</u></strong>: 185<br><u><strong>Dimensions(in)</u></strong>: 163 x 78.7 x 42.1<br><u><strong>Curb Weight(lb)</u></strong>: 3,280<br><u><strong>Fuel Economy(MPG)</u></strong>: 17.4"
             },
             "Gallardo":{
                 "dark":"/static/img/Slideshow/GallardoD.jpeg",
@@ -539,7 +539,7 @@
                 "make":"Lamborghini",
                 "model":"Gallardo",
                 "year":"2004",
-                "description":"Engine: 5.0L V10<br>Transmission: 6-Speed Manual<br>0-60(mph): 4.2<br>Horsepower: 494<br>Torque(lb/ft): 376<br>Top Speed(mph): 192<br> Dimensions(in): 169 x 75 x 46<br> Curb Weight(lb): 3,153<br>Fuel Economy(MPG): 10<br>Description: The Gallardo was the best selling model during its production run with over 14,000 units being sold. This gave the company financial stability and allowed Lamborghini to continue producing cars at a more comfortable rate."
+                "description":"<strong><u>Description</u></strong>: The Gallardo was the best selling model during its production run with over 14,000 units being sold. This gave the company financial stability and allowed Lamborghini to continue producing cars at a more comfortable rate. <br><u><strong>Engine</u></strong>: 5.0L V10<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 4.2<br><u><strong>Horsepower</u></strong>: 494<br><u><strong>Torque(lb/ft)</u></strong>: 376<br><u><strong>Top Speed(mph)</u></strong>: 192<br><u><strong>Dimensions(in)</u></strong>: 169 x 75 x 46<br><u><strong>Curb Weight(lb)</u></strong>: 3,153<br><u><strong>Fuel Economy(MPG)</u></strong>: 10"
             },
             "LM002":{
                 "dark":"/static/img/Slideshow/LM002D.jpeg",
@@ -547,7 +547,7 @@
                 "make":"Lamborghini",
                 "model":"LM002",
                 "year":"1987",
-                "description":"Engine: 5.2L V12<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.7<br>Horsepower: 444<br>Torque(lb/ft): 368<br>Top Speed(mph): 118<br> Dimensions(in): 192.2 x 78.7 x 72.8<br> Curb Weight(lb): 6,780<br>Fuel Economy(MPG): 8<br>Description: The 1987 Lamborghini LM002 is special because it's a rare, luxury off-road vehicle with a powerful V12 engine, designed for extreme terrain, featuring a luxurious interior, and is often nicknamed the "Rambo Lambo" due to its aggressive looks and association with Sylvester Stallone; essentially a high-performance SUV with military-grade capabilities, making it a unique blend of luxury and ruggedness in the automotive world."
+                "description":"<strong><u>Description</u></strong>: The 1987 Lamborghini LM002 is special because it's a rare, luxury off-road vehicle with a powerful V12 engine, designed for extreme terrain, featuring a luxurious interior, and is often nicknamed the 'Rambo Lambo' due to its aggressive looks and association with Sylvester Stallone; essentially a high-performance SUV with military-grade capabilities, making it a unique blend of luxury and ruggedness in the automotive world. <br><u><strong>Engine</u></strong>: 5.2L V12<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7.7<br><u><strong>Horsepower</u></strong>: 444<br><u><strong>Torque(lb/ft)</u></strong>: 368<br><u><strong>Top Speed(mph)</u></strong>: 118<br><u><strong>Dimensions(in)</u></strong>: 192.2 x 78.7 x 72.8<br><u><strong>Curb Weight(lb)</u></strong>: 6,780<br><u><strong>Fuel Economy(MPG)</u></strong>: 8"
             },
             "Miura":{
                 "dark":"/static/img/Slideshow/MiuraD.jpeg",
@@ -555,7 +555,7 @@
                 "make":"Lamborghini",
                 "model":"Miura",
                 "year":"1966",
-                "description":"Engine: 3.9L V12<br>Transmission: 5-Speed Manual<br>0-60(mph): 6.3<br>Horsepower: 350<br>Torque(lb/ft): 278<br>Top Speed(mph): 163<br> Dimensions(in): 171.1 x 69.3 x 41.5<br> Curb Weight(lb): 2,848<br>Fuel Economy(MPG): 12.7<br>Description: The 1966 Lamborghini Miura is considered special because it was the first production car to feature a mid-mounted engine layout, essentially establishing the 'supercar' category as we know it today, and upon its release, it was also the fastest production car in the world, setting a new standard for high-performance sports cars with its sleek design and powerful V12 engine."
+                "description":"<strong><u>Description</u></strong>: The 1966 Lamborghini Miura is considered special because it was the first production car to feature a mid-mounted engine layout, essentially establishing the 'supercar' category as we know it today, and upon its release, it was also the fastest production car in the world, setting a new standard for high-performance sports cars with its sleek design and powerful V12 engine. <br><u><strong>Engine</u></strong>: 3.9L V12<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.3<br><u><strong>Horsepower</u></strong>: 350<br><u><strong>Torque(lb/ft)</u></strong>: 278<br><u><strong>Top Speed(mph)</u></strong>: 163<br><u><strong>Dimensions(in)</u></strong>: 171.1 x 69.3 x 41.5<br><u><strong>Curb Weight(lb)</u></strong>: 2,848<br><u><strong>Fuel Economy(MPG)</u></strong>: 12.7"
             }
         },
 
@@ -567,7 +567,7 @@
                 "make":"Lancia",
                 "model":"Rally 037",
                 "year":"1982",
-                "description":"Engine: Supercharged 2.0L Inline-4<br>Transmission: 5-Speed Manual<br>0-60(mph): 7.0<br>Horsepower: 205<br>Torque(lb/ft): 167<br>Top Speed(mph): 137<br> Dimensions(in): 154.1 x 72.8 x 49 <br> Curb Weight(lb): 2,579<br>Fuel Economy(MPG): 19.9<br>Description: The Lancia Rally 037 was the last rear-wheel drive car in rally history to win a world title, in an era when all-wheel drive was now dominant."
+                "description":"<strong><u>Description</u></strong>: The Lancia Rally 037 was the last rear-wheel drive car in rally history to win a world title, in an era when all-wheel drive was now dominant. <br><u><strong>Engine</u></strong>: Supercharged 2.0L Inline-4<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 7.0<br><u><strong>Horsepower</u></strong>: 205<br><u><strong>Torque(lb/ft)</u></strong>: 167<br><u><strong>Top Speed(mph)</u></strong>: 137<br><u><strong>Dimensions(in)</u></strong>: 154.1 x 72.8 x 49 <br><u><strong>Curb Weight(lb)</u></strong>: 2,579<br><u><strong>Fuel Economy(MPG)</u></strong>: 19.9"
             }
         },
 
@@ -579,7 +579,7 @@
                 "make":"Pagani",
                 "model":"Utopia",
                 "year":"2023",
-                "description":"Engine: Twin Turbocharged 6.0L V12<br>Transmission: 7-Speed AMT(Automated Manual Transmission)<br>0-60(mph): 3.0 <br>Horsepower: 864<br>Torque(lb/ft): 811<br>Top Speed(mph): 217<br> Dimensions(in): 181 x 80.2 x 46<br> Curb Weight(lb): 2,822<br>Fuel Economy(MPG): 18.7<br>Description: The Pagani Utopia is considered special due to its combination of exquisite design, exceptional performance, a focus on lightweight engineering, and the option for a manual transmission, all while maintaining a luxurious and handcrafted feel, essentially representing the pinnacle of Pagani's design and engineering prowess with a focus on driving purity and a timeless aesthetic; it's often described as a 'dream car' due to its near-perfect balance of beauty and performance"
+                "description":"<strong><u>Description</u></strong>: The Pagani Utopia is considered special due to its combination of exquisite design, exceptional performance, a focus on lightweight engineering, and the option for a manual transmission, all while maintaining a luxurious and handcrafted feel, essentially representing the pinnacle of Pagani's design and engineering prowess with a focus on driving purity and a timeless aesthetic; it's often described as a 'dream car' due to its near-perfect balance of beauty and performance. <br><u><strong>Engine</u></strong>: Twin Turbocharged 6.0L V12<br><u><strong>Transmission</u></strong>: 7-Speed AMT(Automated Manual Transmission)<br><u><strong>0-60(mph)</u></strong>: 3.0 <br><u><strong>Horsepower</u></strong>: 864<br><u><strong>Torque(lb/ft)</u></strong>: 811<br><u><strong>Top Speed(mph)</u></strong>: 217<br><u><strong>Dimensions(in)</u></strong>: 181 x 80.2 x 46<br><u><strong>Curb Weight(lb)</u></strong>: 2,822<br><u><strong>Fuel Economy(MPG)</u></strong>: 18.7"
             },
             "Zonda R Evo":{
                 "dark":"/static/img/Slideshow/PaganiZondaD.jpeg",
@@ -587,7 +587,7 @@
                 "make":"Pagani",
                 "model":"Zonda R Evo",
                 "year":"2011",
-                "description":"Engine: 6.0L V-12<br>Transmission: 6-Speed Sequntial<br>0-60(mph): 2.7<br>Horsepower: 800<br>Torque(lb/ft): 524<br>Top Speed(mph): 230<br> Dimensions(in): 192.4 x 79.3 x 44.9<br> Curb Weight(lb): 2,359<br>Fuel Economy(MPG): 12<br>Description: The 2011 Pagani Zonda R Evo, also known as the Zonda R Evolution, is special because it's a track-focused, extremely limited edition variant of the Zonda R with enhanced performance, featuring a more powerful engine producing around 800 horsepower, upgraded aerodynamics for increased downforce, and a lightweight construction, making it one of the most extreme and sought-after Pagani models ever produced; only a handful were built, making it incredibly rare and valuable."
+                "description":"<strong><u>Description</u></strong>: The 2011 Pagani Zonda R Evo, also known as the Zonda R Evolution, is special because it's a track-focused, extremely limited edition variant of the Zonda R with enhanced performance, featuring a more powerful engine producing around 800 horsepower, upgraded aerodynamics for increased downforce, and a lightweight construction, making it one of the most extreme and sought-after Pagani models ever produced; only a handful were built, making it incredibly rare and valuable. <br><u><strong>Engine</u></strong>: 6.0L V-12<br><u><strong>Transmission</u></strong>: 6-Speed Sequntial<br><u><strong>0-60(mph)</u></strong>: 2.7<br><u><strong>Horsepower</u></strong>: 800<br><u><strong>Torque(lb/ft)</u></strong>: 524<br><u><strong>Top Speed(mph)</u></strong>: 230<br><u><strong>Dimensions(in)</u></strong>: 192.4 x 79.3 x 44.9<br><u><strong>Curb Weight(lb)</u></strong>: 2,359<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             }
         }
     },
@@ -601,7 +601,7 @@
                 "make":"Acura",
                 "model":"Integra",
                 "year":"1997",
-                "description":"Engine: Turbocharged 1.5L Inline-4<br>Transmission: 6-Speed Manual<br>0-60(mph): 6.6<br>Horsepower: 195<br>Torque(lb/ft): 130<br>Top Speed(mph): 143<br> Dimensions(in): 172.4 x 67.3 x 52.6<br> Curb Weight(lb): 2,667<br>Fuel Economy(MPG): 25<br>Description: At a blaring 8400 rpm, the Acura Integra Type R's pistons are pedaling at about 80 feet per second—much higher than the commonly accepted threshold of 67 feet per second. That's close to the piston speeds in Formula 1 and Indy-car engines, which have much shorter strokes than the under-square Integra powerplant."
+                "description":"<strong><u>Description</u></strong>: At a blaring 8400 rpm, the Acura Integra Type R's pistons are pedaling at about 80 feet per second—much higher than the commonly accepted threshold of 67 feet per second. That's close to the piston speeds in Formula 1 and Indy-car engines, which have much shorter strokes than the under-square Integra powerplant. <br><u><strong>Engine</u></strong>: Turbocharged 1.5L Inline-4<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.6<br><u><strong>Horsepower</u></strong>: 195<br><u><strong>Torque(lb/ft)</u></strong>: 130<br><u><strong>Top Speed(mph)</u></strong>: 143<br><u><strong>Dimensions(in)</u></strong>: 172.4 x 67.3 x 52.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,667<br><u><strong>Fuel Economy(MPG)</u></strong>: 25"
             },
             "NSX":{
                 "dark":"/static/img/Slideshow/AcuraNSXD.jpeg",
@@ -609,7 +609,7 @@
                 "make":"Acura",
                 "model":"NSX",
                 "year":"1990",
-                "description":"Engine: 3.0L V6<br>Transmission: 5-Speed Manual/4-Speed Automatic<br>0-60(mph): 5.9<br>Horsepower: 270<br>Torque(lb/ft): 210<br>Top Speed(mph): 168<br>Dimensions(in): 173.43 x 71.26 x 46.06<br>Curb Weight(lb): 3,108<br>Fuel Economy(MPG): 22.5<br>Description: The 1990 Acura NSX was the first mass-produced car to feature an all-aluminum monocoque body, making it a pioneer in lightweight, high-strength construction, inspired by the design of the Japanese bullet train (Shinkansen)."
+                "description":"<strong><u>Description</u></strong>: The 1990 Acura NSX was the first mass-produced car to feature an all-aluminum monocoque body, making it a pioneer in lightweight, high-strength construction, inspired by the design of the Japanese bullet train (Shinkansen). <br><u><strong>Engine</u></strong>: 3.0L V6<br><u><strong>Transmission</u></strong>: 5-Speed Manual/4-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 5.9<br><u><strong>Horsepower</u></strong>: 270<br><u><strong>Torque(lb/ft)</u></strong>: 210<br><u><strong>Top Speed(mph)</u></strong>: 168<br><u><strong>Dimensions(in)</u></strong>: 173.43 x 71.26 x 46.06<br><u><strong>Curb Weight(lb)</u></strong>: 3,108<br><u><strong>Fuel Economy(MPG)</u></strong>: 22.5"
             }
         },
 
@@ -621,7 +621,7 @@
                 "make":"Datsun",
                 "model":"240Z",
                 "year":"1973",
-                "description":"Engine: 2.4L Inline-6<br>Transmission: 4-Speed Manual<br>0-60(mph): 8.7<br>Horsepower: 151<br>Torque(lb/ft): 146<br>Top Speed(mph): 122<br> Dimensions(in): 162.8 x 64.1 x 50.6<br> Curb Weight(lb): 2,302<br>Fuel Economy(MPG): 14<br>Description: The 240sx was America's first popular Japanese sports car. Proven to be a timeless design. Its success paved the way for subsequent iterations of the Z-car lineage, including the iconic 280Z, 300ZX, and the modern-day 370Z."
+                "description":"<strong><u>Description</u></strong>: The 240sx was America's first popular Japanese sports car. Proven to be a timeless design. Its success paved the way for subsequent iterations of the Z-car lineage, including the iconic 280Z, 300ZX, and the modern-day 370Z. <br><u><strong>Engine</u></strong>: 2.4L Inline-6<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 8.7<br><u><strong>Horsepower</u></strong>: 151<br><u><strong>Torque(lb/ft)</u></strong>: 146<br><u><strong>Top Speed(mph)</u></strong>: 122<br><u><strong>Dimensions(in)</u></strong>: 162.8 x 64.1 x 50.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,302<br><u><strong>Fuel Economy(MPG)</u></strong>: 14"
             }
         },
 
@@ -633,7 +633,7 @@
                 "make":"Honda",
                 "model":"Civic Hatchback",
                 "year":"2017",
-                "description":"Engine: Turbocharged 1.5L Inline-4<br>Transmission: CVT<br>0-60(mph): 7.5<br>Horsepower: 174<br>Torque(lb/ft): 162<br>Top Speed(mph): 127<br> Dimensions(in): 197 x 74 x 57 <br>Curb Weight(lb): 3,117<br>Fuel Economy(MPG): 33<br>Description: The Civic Hatchback's suspension is designed to provide a sporty feel while also improving ride comfort. It features a combination of front MacPherson struts and rear multi-link with a rigid subframe."
+                "description":"<strong><u>Description</u></strong>: The Civic Hatchback's suspension is designed to provide a sporty feel while also improving ride comfort. It features a combination of front MacPherson struts and rear multi-link with a rigid subframe. <br><u><strong>Engine</u></strong>: Turbocharged 1.5L Inline-4<br><u><strong>Transmission</u></strong>: CVT<br><u><strong>0-60(mph)</u></strong>: 7.5<br><u><strong>Horsepower</u></strong>: 174<br><u><strong>Torque(lb/ft)</u></strong>: 162<br><u><strong>Top Speed(mph)</u></strong>: 127<br><u><strong>Dimensions(in)</u></strong>: 197 x 74 x 57 <br><u><strong>Curb Weight(lb)</u></strong>: 3,117<br><u><strong>Fuel Economy(MPG)</u></strong>: 33"
             },
             "S2000":{
                 "dark":"/static/img/Slideshow/HondaS2KD.avif",
@@ -641,7 +641,7 @@
                 "make":"Honda",
                 "model":"S2000",
                 "year":"1999",
-                "description":"Engine: 2.0L Inline-4<br>Transmission: 6-Speed Manual<br>0-60(mph): 6.2<br>Horsepower: 247<br>Torque(lb/ft): 161<br>Top Speed(mph): 150<br> Dimensions(in): 162.2 x 68.9 x 50.6<br> Curb Weight(lb): 2,776<br>Fuel Economy(MPG): 23.7<br>Description: The Honda S2000 has perfect weight distribution."
+                "description":"<strong><u>Description</u></strong>: The Honda S2000 has perfect weight distribution. <br><u><strong>Engine</u></strong>: 2.0L Inline-4<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 6.2<br><u><strong>Horsepower</u></strong>: 247<br><u><strong>Torque(lb/ft)</u></strong>: 161<br><u><strong>Top Speed(mph)</u></strong>: 150<br><u><strong>Dimensions(in)</u></strong>: 162.2 x 68.9 x 50.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,776<br><u><strong>Fuel Economy(MPG)</u></strong>: 23.7"
             }
         },
 
@@ -653,7 +653,7 @@
                 "make":"Lexud",
                 "model":"LFA",
                 "year":"2012",
-                "description":"Engine: 4.8L V10<br>Transmission: Six-Speed Automated Manual<br>0-60(mph): 3.6<br>Horsepower: 552<br>Torque(lb/ft): 354<br>Top Speed(mph): 202<br> Dimensions(in): 177.4 x 74.6 x 48.0<br> Curb Weight(lb): 3,300<br>Fuel Economy(MPG): 12<br>Description: Car enthusiasts generally view the Lexus LFA as a highly desirable, iconic supercar with an incredible engine sound and driving experience, despite its limited production and high price, often considering it one of the best-sounding and most special cars ever made by Lexus, even if not the fastest on paper; many say it's a car that should be driven on a racetrack to fully appreciate its capabilities and character."
+                "description":"<strong><u>Description</u></strong>: Car enthusiasts generally view the Lexus LFA as a highly desirable, iconic supercar with an incredible engine sound and driving experience, despite its limited production and high price, often considering it one of the best-sounding and most special cars ever made by Lexus, even if not the fastest on paper; many say it's a car that should be driven on a racetrack to fully appreciate its capabilities and character. <br><u><strong>Engine</u></strong>: 4.8L V10<br><u><strong>Transmission</u></strong>: Six-Speed Automated Manual<br><u><strong>0-60(mph)</u></strong>: 3.6<br><u><strong>Horsepower</u></strong>: 552<br><u><strong>Torque(lb/ft)</u></strong>: 354<br><u><strong>Top Speed(mph)</u></strong>: 202<br><u><strong>Dimensions(in)</u></strong>: 177.4 x 74.6 x 48.0<br><u><strong>Curb Weight(lb)</u></strong>: 3,300<br><u><strong>Fuel Economy(MPG)</u></strong>: 12"
             },
             "LS 400":{
                 "dark":"/static/img/Slideshow/LexusLS400D.jpeg",
@@ -661,7 +661,7 @@
                 "make":"Lexus",
                 "model":"LS 400",
                 "year":"1989",
-                "description":"Engine: 4.0L V8<br>Transmission: 4-Speed Automatic<br>0-60(mph): 8.2<br>Horsepower: 250<br>Torque(lb/ft): 260<br>Top Speed(mph): 155<br> Dimensions(in): 197 x 72 x 55<br>Curb Weight(lb): 3,759<br>Fuel Economy(MPG): 15.6<br>Description: When the LS400 was first launched, it was designed with such a focus on refinement and luxury that the development team spent years researching the perfect leather, even setting up camp in California to directly study the preferences of potential luxury car buyers in the region, essentially 'living' with their target market to understand their needs fully."
+                "description":"<strong><u>Description</u></strong>: When the LS400 was first launched, it was designed with such a focus on refinement and luxury that the development team spent years researching the perfect leather, even setting up camp in California to directly study the preferences of potential luxury car buyers in the region, essentially 'living' with their target market to understand their needs fully. <br><u><strong>Engine</u></strong>: 4.0L V8<br><u><strong>Transmission</u></strong>: 4-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 8.2<br><u><strong>Horsepower</u></strong>: 250<br><u><strong>Torque(lb/ft)</u></strong>: 260<br><u><strong>Top Speed(mph)</u></strong>: 155<br><u><strong>Dimensions(in)</u></strong>: 197 x 72 x 55<br><u><strong>Curb Weight(lb)</u></strong>: 3,759<br><u><strong>Fuel Economy(MPG)</u></strong>: 15.6"
             },
             "RX 300":{
                 "dark":"/static/img/Slideshow/RX300D.jpeg",
@@ -669,7 +669,7 @@
                 "make":"Lexus",
                 "model":"RX 300",
                 "year":"2001",
-                "description":"Engine: 3.0L V6<br>Transmission: 4-Speed Automatic<br>0-60(mph): 8.5<br>Horsepower: 220<br>Torque(lb/ft): 222<br>Top Speed(mph): 112<br> Dimensions(in): 180 x 72 x 66<br> Curb Weight(lb): 3,924<br>Fuel Economy(MPG): 20<br>Description: The RX 300 was the first luxury SUV that was based on a car, rather than a conventional body-on-frame design."
+                "description":"<strong><u>Description</u></strong>: The RX 300 was the first luxury SUV that was based on a car, rather than a conventional body-on-frame design. <br><u><strong>Engine</u></strong>: 3.0L V6<br><u><strong>Transmission</u></strong>: 4-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 8.5<br><u><strong>Horsepower</u></strong>: 220<br><u><strong>Torque(lb/ft)</u></strong>: 222<br><u><strong>Top Speed(mph)</u></strong>: 112<br><u><strong>Dimensions(in)</u></strong>: 180 x 72 x 66<br><u><strong>Curb Weight(lb)</u></strong>: 3,924<br><u><strong>Fuel Economy(MPG)</u></strong>: 20"
             }
         },
 
@@ -681,7 +681,7 @@
                 "make":"Mazda",
                 "model":"Miata MX-5",
                 "year":"1989",
-                "description":"Engine: 1.6L Inline-4<br>Transmission: 5-Speed Manual<br>0-60(mph): 8.8<br>Horsepower: 116<br>Torque(lb/ft): 100<br>Top Speed(mph): 116<br> Dimensions(in): 156.3 x 65.9 x 48.6<br> Curb Weight(lb): 2,105<br>Fuel Economy(MPG): 28.06<br>Description: One of the most striking aspects of the Miata MX-5 is its lightweight design, which contributes to its nimble handling and enhances its fuel efficiency, making it an ideal choice for driving enthusiasts looking for an engaging experience on the road."
+                "description":"<strong><u>Description</u></strong>: One of the most striking aspects of the Miata MX-5 is its lightweight design, which contributes to its nimble handling and enhances its fuel efficiency, making it an ideal choice for driving enthusiasts looking for an engaging experience on the road. <br><u><strong>Engine</u></strong>: 1.6L Inline-4<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 8.8<br><u><strong>Horsepower</u></strong>: 116<br><u><strong>Torque(lb/ft)</u></strong>: 100<br><u><strong>Top Speed(mph)</u></strong>: 116<br><u><strong>Dimensions(in)</u></strong>: 156.3 x 65.9 x 48.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,105<br><u><strong>Fuel Economy(MPG)</u></strong>: 28.06"
             }
         },
 
@@ -693,7 +693,7 @@
                 "make":"Nissan",
                 "model":"Altima",
                 "year":"2017",
-                "description":"Engine: 3.5L V6<br>Transmission: CVT<br>0-60(mph): 6.2<br>Horsepower: 270<br>Torque(lb/ft): 251<br>Top Speed(mph): 146<br> Dimensions(in): 192 x 72 x 58<br> Curb Weight(lb): <br>Fuel Economy(MPG): 3,462<br>Description: The Nissan Altima hits a lot of the right buttons for value-conscious car shoppers looking for a mid-size sedan. Pitted against strong rivals like the Honda Accord and Toyota Camry, the Altima doesn't exactly stand out, but it also doesn't trip over itself while trying to keep up."
+                "description":"<strong><u>Description</u></strong>: The Nissan Altima hits a lot of the right buttons for value-conscious car shoppers looking for a mid-size sedan. Pitted against strong rivals like the Honda Accord and Toyota Camry, the Altima doesn't exactly stand out, but it also doesn't trip over itself while trying to keep up. <br><u><strong>Engine</u></strong>: 3.5L V6<br><u><strong>Transmission</u></strong>: CVT<br><u><strong>0-60(mph)</u></strong>: 6.2<br><u><strong>Horsepower</u></strong>: 270<br><u><strong>Torque(lb/ft)</u></strong>: 251<br><u><strong>Top Speed(mph)</u></strong>: 146<br><u><strong>Dimensions(in)</u></strong>: 192 x 72 x 58<br><u><strong>Curb Weight(lb)</u></strong>: <br><u><strong>Fuel Economy(MPG)</u></strong>: 22.3"
             },
             "R32 GTR":{
                 "dark":"/static/img/Slideshow/r32D.jpeg",
@@ -701,7 +701,7 @@
                 "make":"Nissan",
                 "model":"R32 GTR",
                 "year":"1993",
-                "description":"Engine: Twin Turbocharged 2.6L Inline-6<br>Transmission: 5-Speed Manual<br>0-60(mph): 5.3<br>Horsepower: 276<br>Torque(lb/ft): 260<br>Top Speed(mph): 156<br> Dimensions(in): 178.9 x 69.1 x 52.8<br> Curb Weight(lb): 3,150<br>Fuel Economy(MPG): 14.7<br>Description: The 1993 Nissan Skyline GT-R R32, often nicknamed 'Godzilla,' is famous for its incredible performance, dominating racing circuits with its twin-turbo engine and advanced all-wheel drive system, winning the Japanese Grand Touring Championship four years in a row upon its release, and being considered one of the most iconic Japanese cars ever made; it's also known for its relatively 'understated' exterior design compared to its raw power, making it a sleeper car in many eyes."
+                "description":"<strong><u>Description</u></strong>: The 1993 Nissan Skyline GT-R R32, often nicknamed 'Godzilla,' is famous for its incredible performance, dominating racing circuits with its twin-turbo engine and advanced all-wheel drive system, winning the Japanese Grand Touring Championship four years in a row upon its release, and being considered one of the most iconic Japanese cars ever made; it's also known for its relatively 'understated' exterior design compared to its raw power, making it a sleeper car in many eyes. <br><u><strong>Engine</u></strong>: Twin Turbocharged 2.6L Inline-6<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.3<br><u><strong>Horsepower</u></strong>: 276<br><u><strong>Torque(lb/ft)</u></strong>: <br><u><strong>Top Speed(mph)</u></strong>: 156<br><u><strong>Dimensions(in)</u></strong>: 178.9 x 69.1 x 52.8<br><u><strong>Curb Weight(lb)</u></strong>: 3,150<br><u><strong>Fuel Economy(MPG)</u></strong>: 14.7"
             },
             "R34 GTR":{
                 "dark":"/static/img/Slideshow/r34D.jpeg",
@@ -709,7 +709,7 @@
                 "make":"Nissan",
                 "model":"R34 GTR",
                 "year":"1999",
-                "description":"Engine: Twin-Turbocharged 2.6L Inline 6<br> Transmission: 6-Speed Manual<br> 0-60: 4.2<br>Top Speed: 165<br> Dimensions: 181.1 x 70.3 x 53.3<br> Curb Weight 3,492<br> Average MPG: 15.96<br> Description: The R34, which debuted in 1999, was a significant evolution from its predecessors, combining advanced technology with unparalleled performance. The Skyline series had a storied history in Japan, with the R34 marking a pivotal moment in its development."
+                "description":"<strong><u>Description</u></strong>: The R34, which debuted in 1999, was a significant evolution from its predecessors, combining advanced technology with unparalleled performance. The Skyline series had a storied history in Japan, with the R34 marking a pivotal moment in its development. <br><u><strong>Engine</u></strong>: Twin-Turbocharged 2.6L Inline 6<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 4.2<br><u><strong>Horsepower</u></strong>: 330<br><u><strong>Torque(lb/ft)</u></strong>: 298 <br><u><strong>Top Speed(mph)</u></strong>: 165<br><u><strong>Dimensions(in)</u></strong>: 181.1 x 70.3 x 53.3<br><u><strong>Curb Weight(lb)</u></strong>: 3,492<br><u><strong>Fuel Economy(MPG)</u></strong>: 15.96"
             }
         },
 
@@ -721,7 +721,7 @@
                 "make":"Subaru",
                 "model":"WRX",
                 "year":"2002",
-                "description":"Engine: Turbocharged 2.5L Flat-4<br>Transmission: 5-Speed Manual<br>0-60(mph): 5.4<br>Horsepower: 227<br>Torque(lb/ft): 217<br>Top Speed(mph): 145<br> Dimensions(in): 173 x 68 x 59<br> Curb Weight(lb): 3,220<br>Fuel Economy(MPG): 21.6<br>Description: The 2002 Subaru WRX is significant because it marked the first time the high-performance WRX model was widely available in the United States, giving American drivers access to a rally-inspired, turbocharged car at a relatively affordable price, making it a popular choice among enthusiasts and considered a 'factory rally car for the road' due to its performance and all-wheel drive system; it's often referred to as the 'Bugeye' due to its distinctive circular headlights."
+                "description":"<strong><u>Description</u></strong>: The 2002 Subaru WRX is significant because it marked the first time the high-performance WRX model was widely available in the United States, giving American drivers access to a rally-inspired, turbocharged car at a relatively affordable price, making it a popular choice among enthusiasts and considered a 'factory rally car for the road' due to its performance and all-wheel drive system; it's often referred to as the 'Bugeye' due to its distinctive circular headlights. <br><u><strong>Engine</u></strong>: Turbocharged 2.5L Flat-4<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.4<br><u><strong>Horsepower</u></strong>: 227<br><u><strong>Torque(lb/ft)</u></strong>: 217<br><u><strong>Top Speed(mph)</u></strong>: 145<br><u><strong>Dimensions(in)</u></strong>: 173 x 68 x 59<br><u><strong>Curb Weight(lb)</u></strong>: 3,220<br><u><strong>Fuel Economy(MPG)</u></strong>: 21.6"
             }
         },
 
@@ -733,7 +733,7 @@
                 "make":"Toyota",
                 "model":"2000GT",
                 "year":"1970",
-                "description":"Engine: 2.0L Inline-6<br>Transmission: 5-Speed Manual/3-Speed Automatic<br>0-60(mph): 10<br>Horsepower: 150<br>Torque(lb/ft): 130<br>Top Speed(mph): 135<br> Dimensions(in): 164.4 x 63 x 45.7<br> Curb Weight(lb): 2,469<br>Fuel Economy(MPG): 32<br>Description: The 2000GT revolutionized the automotive world's view of Japan, then viewed as a producer of imitative and stodgily practical vehicles. As a sleek, high-performance fastback coupé, it demonstrated its auto makers could produce a sports car to rival the better marques of Europe."
+                "description":"<strong><u>Description</u></strong>: The 2000GT revolutionized the automotive world's view of Japan, then viewed as a producer of imitative and stodgily practical vehicles. As a sleek, high-performance fastback coupé, it demonstrated its auto makers could produce a sports car to rival the better marques of Europe. <br><u><strong>Engine</u></strong>: 2.0L Inline-6<br><u><strong>Transmission</u></strong>: 5-Speed Manual/3-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 10<br><u><strong>Horsepower</u></strong>: 150<br><u><strong>Torque(lb/ft)</u></strong>: 130<br><u><strong>Top Speed(mph)</u></strong>: 135<br><u><strong>Dimensions(in)</u></strong>: 164.4 x 63 x 45.7<br><u><strong>Curb Weight(lb)</u></strong>: 2,469<br><u><strong>Fuel Economy(MPG)</u></strong>: 32"
             },
             "Avalon TRD":{
                 "dark":"/static/img/Slideshow/AvalonD.jpeg",
@@ -741,7 +741,7 @@
                 "make":"Toyota",
                 "model":"Avalon TRD",
                 "year":"2021",
-                "description":"Engine: 3.5L V6<br>Transmission: Automatic 8-Speed<br>0-60(mph): 5.9<br>Horsepower: 301<br>Torque(lb/ft): 267<br>Top Speed(mph): 130<br> Dimensions(in): 196 x 73 x 57<br> Curb Weight(lb): 3,665<br>Fuel Economy(MPG): 40.20<br>Description: The 2021 Toyota Avalon TRD was designed to be a performance sedan with a sportier feel than the standard Avalon."
+                "description":"<strong><u>Description</u></strong>: The 2021 Toyota Avalon TRD was designed to be a performance sedan with a sportier feel than the standard Avalon. <br><u><strong>Engine</u></strong>: 3.5L V6<br><u><strong>Transmission</u></strong>: Automatic 8-Speed<br><u><strong>0-60(mph)</u></strong>: 5.9<br><u><strong>Horsepower</u></strong>: 301<br><u><strong>Torque(lb/ft)</u></strong>: 267<br><u><strong>Top Speed(mph)</u></strong>: 130<br><u><strong>Dimensions(in)</u></strong>: 196 x 73 x 57<br><u><strong>Curb Weight(lb)</u></strong>: 3,665<br><u><strong>Fuel Economy(MPG)</u></strong>: 40.20"
             },
             "Century":{
                 "dark":"/static/img/Slideshow/ToyotaCenturyD.jpeg",
@@ -749,7 +749,7 @@
                 "make":"Toyota",
                 "model":"Century",
                 "year":"1997",
-                "description":"Engine: 5.0L V12<br>Transmission: 4-Speed Automatic<br>0-60(mph): 7.5<br>Horsepower: 295<br>Torque(lb/ft): 340<br>Top Speed(mph): 149<br> Dimensions(in): 207 x 74 x 58.1<br> Curb Weight(lb): 4,030<br>Fuel Economy(MPG): 13.98<br>Description: The Toyota Century is the top level executive luxury flagship Japanese car in Japan. Mostly used by the president, diplomats, governors, and other high ranking government officials and a few wealthy private owners who are comfortable with the yearly road tax bill."
+                "description":"<strong><u>Description</u></strong>: The Toyota Century is the top level executive luxury flagship Japanese car in Japan. Mostly used by the president, diplomats, governors, and other high ranking government officials and a few wealthy private owners who are comfortable with the yearly road tax bill. <br><u><strong>Engine</u></strong>: 5.0L V12<br><u><strong>Transmission</u></strong>: 4-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 7.5<br><u><strong>Horsepower</u></strong>: 295<br><u><strong>Torque(lb/ft)</u></strong>: 340<br><u><strong>Top Speed(mph)</u></strong>: 149<br><u><strong>Dimensions(in)</u></strong>: 207 x 74 x 58.1<br><u><strong>Curb Weight(lb)</u></strong>: 4,030<br><u><strong>Fuel Economy(MPG)</u></strong>: 13.98"
             },
             "Highlander":{
                 "dark":"/static/img/Slideshow/ToyotaHighlanderD.webp",
@@ -757,7 +757,7 @@
                 "make":"Toyota",
                 "model":"Highlander",
                 "year":"2016",
-                "description":"Engine: 3.5L V6<br>Transmission: 6-Speed Auto<br>0-60(mph): 7.6<br>Horsepower: 270<br>Torque(lb/ft): 248<br>Top Speed(mph): NA<br> Dimensions(in): 191.1 x 75.8 x 68.1<br> Curb Weight(lb): 4,224<br>Fuel Economy(MPG): 20<br>Description: The highlander is a popular vehicle of choice due to its efficient hybrid powertrain, well-designed cabin, and strong build quality"
+                "description":"<strong><u>Description</u></strong>: The highlander is a popular vehicle of choice due to its efficient hybrid powertrain, well-designed cabin, and strong build quality. <br><u><strong>Engine</u></strong>: 3.5L V6<br><u><strong>Transmission</u></strong>: 6-Speed Auto<br><u><strong>0-60(mph)</u></strong>: 7.6<br><u><strong>Horsepower</u></strong>: 270<br><u><strong>Torque(lb/ft)</u></strong>: 248<br><u><strong>Top Speed(mph)</u></strong>: NA<br><u><strong>Dimensions(in)</u></strong>: 191.1 x 75.8 x 68.1<br><u><strong>Curb Weight(lb)</u></strong>: 4,224<br><u><strong>Fuel Economy(MPG)</u></strong>: 20"
             },
             "Prius":{
                 "dark":"/static/img/Slideshow/ToyotaPriusD.webp",
@@ -765,7 +765,7 @@
                 "make":"Toyota",
                 "model":"Prius",
                 "year":"2004",
-                "description":"Engine: 1.5L Inline-4<br>Transmission: CVT<br>0-60(mph): 9.8<br>Horsepower: 76<br>Torque(lb/ft): 82<br>Top Speed(mph): 105.6<br> Dimensions(in): 175 x 68 x 58<br> Curb Weight(lb): 2,890<br>Fuel Economy(MPG): 43.35<br>Description: The 2004 Toyota Prius was a gas/electric hybrid sedan that was designed to be a practical, fuel-efficient, and environmentally-friendly vehicle"
+                "description":"<strong><u>Description</u></strong>: The 2004 Toyota Prius was a gas/electric hybrid sedan that was designed to be a practical, fuel-efficient, and environmentally-friendly vehicle. <br><u><strong>Engine</u></strong>: 1.5L Inline-4<br><u><strong>Transmission</u></strong>: CVT<br><u><strong>0-60(mph)</u></strong>: 9.8<br><u><strong>Horsepower</u></strong>: 76<br><u><strong>Torque(lb/ft)</u></strong>: 82<br><u><strong>Top Speed(mph)</u></strong>: 105.6<br><u><strong>Dimensions(in)</u></strong>: 175 x 68 x 58<br><u><strong>Curb Weight(lb)</u></strong>: 2,890<br><u><strong>Fuel Economy(MPG)</u></strong>: 43.35"
             },
             "Supra MKIV":{
                 "dark":"/static/img/Slideshow/1993ToyotaSupraD.avif",
@@ -773,7 +773,7 @@
                 "make":"Toyota",
                 "model":"Supra MKIV",
                 "year":"1993",
-                "description":"Engine: Turbocharged 3.0L Inline-6<br>Transmission: 8-Speed Automatic<br>0-60(mph): 4.6<br>Horsepower: 220<br>Torque(lb/ft): 315<br>Top Speed(mph): 154<br> Dimensions(in): 178 x 71 x 50<br> Curb Weight(lb): 3,415<br>Fuel Economy(MPG): 19<br>Description: A 1993 Toyota Supra was designed as a high-performance, rear-wheel drive sports car, primarily intended to compete in the grand tourer market with its powerful engine, excellent handling, and luxurious features, aiming to rival other high-end sports cars from American and European manufacturers; essentially, its purpose was to offer a potent driving experience with a blend of speed, comfort, and style."
+                "description":"<strong><u>Description</u></strong>: A 1993 Toyota Supra was designed as a high-performance, rear-wheel drive sports car, primarily intended to compete in the grand tourer market with its powerful engine, excellent handling, and luxurious features, aiming to rival other high-end sports cars from American and European manufacturers; essentially, its purpose was to offer a potent driving experience with a blend of speed, comfort, and style. <br><u><strong>Engine</u></strong>: Turbocharged 3.0L Inline-6<br><u><strong>Transmission</u></strong>: 8-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 4.6<br><u><strong>Horsepower</u></strong>: 220<br><u><strong>Torque(lb/ft)</u></strong>: 315<br><u><strong>Top Speed(mph)</u></strong>: 154<br><u><strong>Dimensions(in)</u></strong>: 178 x 71 x 50<br><u><strong>Curb Weight(lb)</u></strong>: 3,415<br><u><strong>Fuel Economy(MPG)</u></strong>: 19"
             },
             "Supra MKV":{
                 "dark":"/static/img/Slideshow/2019supraD.jpeg",
@@ -781,7 +781,7 @@
                 "make":"Toyota",
                 "model":"Supra MKV",
                 "year":"2019",
-                "description":"Engine: Turbocharged 3.0L Inline-6 <br>Transmission: Eight-Speed Automatic<br>0-60(mph): 3.9<br>Horsepower: 382<br>Torque(lb/ft): 368<br>Top Speed(mph): 155<br> Dimensions(in): 170.8 x 72.3 x 50.4<br> Curb Weight(lb): 3,109<br>Fuel Economy(MPG): 27<br>Description: The MKV Supra's engine is based on the BMW Z4 platform."
+                "description":"<strong><u>Description</u></strong>: The MKV Supra's engine is based on BMW's Z4 platform. <br><u><strong>Engine</u></strong>: Turbocharged 3.0L Inline-6 <br><u><strong>Transmission</u></strong>: Eight-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 3.9<br><u><strong>Horsepower</u></strong>: 382<br><u><strong>Torque(lb/ft)</u></strong>: 368<br><u><strong>Top Speed(mph)</u></strong>: 155<br><u><strong>Dimensions(in)</u></strong>: 170.8 x 72.3 x 50.4<br><u><strong>Curb Weight(lb)</u></strong>: 3,109<br><u><strong>Fuel Economy(MPG)</u></strong>: 27"
             }
         }
     },
@@ -795,7 +795,7 @@
                 "make":"Genesis",
                 "model":"Hyundai",
                 "year":"2011",
-                "description":"Engine: 4.6L V8<br>Transmission: 6-Speed Automatic<br>0-60(mph): 5.3<br>Horsepower: 385<br>Torque(lb/ft): 333<br>Top Speed(mph): 149<br> Dimensions(in): 195.9 x 74.4 x 58.3<br> Curb Weight(lb): 4,012<br>Fuel Economy(MPG): 20<br>Description: The 2011 Hyundai Genesis 4.6L is a large sedan that offers a luxurious driving experience at a relatively affordable price. It's designed to be a comfortable, well-engineered car that rivals high-end luxury sedans. Some say the Genesis is a good choice for those who are more concerned with the driving experience than brand prestige."
+                "description":"<strong><u>Description</u></strong>: The 2011 Hyundai Genesis 4.6L is a large sedan that offers a luxurious driving experience at a relatively affordable price. It's designed to be a comfortable, well-engineered car that rivals high-end luxury sedans. Some say the Genesis is a good choice for those who are more concerned with the driving experience than brand prestige. <br><u><strong>Engine</u></strong>: 4.6L V8<br><u><strong>Transmission</u></strong>: 6-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 5.3<br><u><strong>Horsepower</u></strong>: 385<br><u><strong>Torque(lb/ft)</u></strong>: 333<br><u><strong>Top Speed(mph)</u></strong>: 149<br><u><strong>Dimensions(in)</u></strong>: 195.9 x 74.4 x 58.3<br><u><strong>Curb Weight(lb)</u></strong>: 4,012<br><u><strong>Fuel Economy(MPG)</u></strong>: 20"
                 }
         }
     },
@@ -809,7 +809,7 @@
                 "make":"Volvo",
                 "model":"P1800",
                 "year":"1962",
-                "description":"Engine: 1.8L Inline-4<br>Transmission: 4-Speed Manual<br>0-60(mph): 13.2<br>Horsepower: 100<br>Torque(lb/ft): 108<br>Top Speed(mph): 105<br> Dimensions(in): 173.2 x 66 x 50.4<br> Curb Weight(lb): 2,590<br>Fuel Economy(MPG): 23.5<br>Description: The Volvo P1800 received prominence in the early 1960s when a white 1962 Volvo P1800 with number plate ST1 was driven by the character Simon Templar (Roger Moore) in the TV series The Saint (1962–1969). The car became intimately linked to the show and helped raise Volvo's profile at the time."
+                "description":"<strong><u>Description</u></strong>: The Volvo P1800 received prominence in the early 1960s when a white 1962 Volvo P1800 with number plate ST1 was driven by the character Simon Templar (Roger Moore) in the TV series The Saint (1962–1969). The car became intimately linked to the show and helped raise Volvo's profile at the time. <br><u><strong>Engine</u></strong>: 1.8L Inline-4<br><u><strong>Transmission</u></strong>: 4-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 13.2<br><u><strong>Horsepower</u></strong>: 100<br><u><strong>Torque(lb/ft)</u></strong>: 108<br><u><strong>Top Speed(mph)</u></strong>: 105<br><u><strong>Dimensions(in)</u></strong>: 173.2 x 66 x 50.4<br><u><strong>Curb Weight(lb)</u></strong>: 2,590<br><u><strong>Fuel Economy(MPG)</u></strong>: 23.5"
             }
         }
     },
@@ -823,7 +823,7 @@
                 "make":"Cadillac",
                 "model":"CTS-V Wagon",
                 "year":"2012",
-                "description":"Engine: 6.2L V8 with Blower<br>Transmission: 6-Speed Manual/6-Speed Automatic<br>0-60(mph): 3.9<br>Horsepower: 556<br>Torque(lb/ft): 551<br>Top Speed(mph): 185<br> Dimensions(in): 191 x 73 x 59<br> Curb Weight(lb): 4,392<br>Fuel Economy(MPG): 17<br>Description: The 2012 Cadillac CTS-V Wagon was designed to be a high-performance, five-passenger vehicle that could handle daily tasks, road trips, and more."
+                "description":"<strong><u>Description</u></strong>: The 2012 Cadillac CTS-V Wagon was designed to be a high-performance, five-passenger vehicle that could handle daily tasks, road trips, and more. <br><u><strong>Engine</u></strong>: 6.2L V8 with Blower<br><u><strong>Transmission</u></strong>: 6-Speed Manual/6-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 3.9<br><u><strong>Horsepower</u></strong>: 556<br><u><strong>Torque(lb/ft)</u></strong>: 551<br><u><strong>Top Speed(mph)</u></strong>: 185<br><u><strong>Dimensions(in)</u></strong>: 191 x 73 x 59<br><u><strong>Curb Weight(lb)</u></strong>: 4,392<br><u><strong>Fuel Economy(MPG)</u></strong>: 17"
 
         }
         },
@@ -835,7 +835,7 @@
                 "make":"Cheverolet",
                 "model":"Camaro Z28",
                 "year":"1981",
-                "description":"Engine: 5.7L V8<br>Transmission: 3-Speed Automatic<br>0-60(mph): 8.7<br>Horsepower: 175<br>Torque(lb/ft): 275<br>Top Speed(mph): 120<br> Dimensions(in): 197.6 x 74.5 x 49.2<br> Curb Weight(lb): 3,374<br>Fuel Economy(MPG): 9.07<br>Description: This was the last year of the second generation Camaro. It included lower power specs due to stricter emission regulations"
+                "description":"<strong><u>Description</u></strong>: 1981 was the last year of the second generation Camaro. It included lower power specs due to stricter emission regulations. <br><u><strong>Engine</u></strong>: 5.7L V8<br><u><strong>Transmission</u></strong>: 3-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 8.7<br><u><strong>Horsepower</u></strong>: 175<br><u><strong>Torque(lb/ft)</u></strong>: 275<br><u><strong>Top Speed(mph)</u></strong>: 120<br><u><strong>Dimensions(in)</u></strong>: 197.6 x 74.5 x 49.2<br><u><strong>Curb Weight(lb)</u></strong>: 3,374<br><u><strong>Fuel Economy(MPG)</u></strong>: 9.07"
             }
         },
 
@@ -847,7 +847,7 @@
                 "make":"DeLorean",
                 "model":"DMC-12",
                 "year":"1981",
-                "description":"Engine: 2.85L V6<br>Transmission: 5-Speed Manual/3-Speed Automatic<br>0-60(mph): 10.5<br>Horsepower: 130<br>Torque(lb/ft): 153<br>Top Speed(mph): 130<br> Dimensions(in): 168.1 x 72.8 x 46.1<br> Curb Weight(lb): 2,718<br>Fuel Economy(MPG): 18.86<br>Description: The DeLorean DMC-12 became and remained famous as the time-traveling car in the Back to the Future movies—but the actual automobile was infamous for years before Marty McFly stepped inside one in 1985. And, though the fiction is better remembered today, the real story of the DeLorean is just as dramatic."
+                "description":"<strong><u>Description</u></strong>: The DeLorean DMC-12 became and remained famous as the time-traveling car in the Back to the Future movies—but the actual automobile was infamous for years before Marty McFly stepped inside one in 1985. And, though the fiction is better remembered today, the real story of the DeLorean is just as dramatic. <br><u><strong>Engine</u></strong>: 2.85L V6<br><u><strong>Transmission</u></strong>: 5-Speed Manual/3-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 10.5<br><u><strong>Horsepower</u></strong>: 130<br><u><strong>Torque(lb/ft)</u></strong>: 153<br><u><strong>Top Speed(mph)</u></strong>: 130<br><u><strong>Dimensions(in)</u></strong>: 168.1 x 72.8 x 46.1<br><u><strong>Curb Weight(lb)</u></strong>: 2,718<br><u><strong>Fuel Economy(MPG)</u></strong>: 18.86"
                 }
         },
 
@@ -859,7 +859,7 @@
                 "make":"Dodge",
                 "model":"Viper",
                 "year":"1992",
-                "description":"Engine: 8.0L V10<br>Transmission: 6-Speed Manual<br>0-60(mph): 4.5<br>Horsepower: 400<br>Torque(lb/ft): 450<br>Top Speed(mph): 165<br> Dimensions(in): 175 x 76 x 44<br> Curb Weight(lb): 3,476<br>Fuel Economy(MPG): 14<br>Description: The Dodge Viper (SR I) is the first-generation Viper sports car, manufactured by American automobile manufacturer Dodge. It was originally tested in January 1989 as a prototype, then later introduced in 1991 as a pace car for the Indianapolis 500, then finally going on sale in January 1992."
+                "description":"<strong><u>Description</u></strong>: The Dodge Viper (SR I) is the first-generation Viper sports car, manufactured by American automobile manufacturer Dodge. It was originally tested in January 1989 as a prototype, then later introduced in 1991 as a pace car for the Indianapolis 500, then finally going on sale in January 1992. <br><u><strong>Engine</u></strong>: 8.0L V10<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 4.5<br><u><strong>Horsepower</u></strong>: 400<br><u><strong>Torque(lb/ft)</u></strong>: 450<br><u><strong>Top Speed(mph)</u></strong>: 165<br><u><strong>Dimensions(in)</u></strong>: 175 x 76 x 44<br><u><strong>Curb Weight(lb)</u></strong>: 3,476<br><u><strong>Fuel Economy(MPG)</u></strong>: 14"
             }
         },
 
@@ -871,7 +871,7 @@
                 "make":"Ford",
                 "model":"F-150 Supercrew",
                 "year":"2001",
-                "description":"Engine: 5.4L V8<br>Transmission: 4-Speed Automatic <br>0-60(mph): 8.7<br>Horsepower: 220<br>Torque(lb/ft): 260<br>Top Speed(mph): 110<br> Dimensions(in): 244.1 x 79.3 x 72.5<br> Curb Weight(lb): 4,213<br>Fuel Economy(MPG): 15<br>Description: A 2001 Ford F-150 SuperCab with a 5.4L engine is significant because it represents a popular combination of a spacious extended cab ('SuperCab') with a powerful V8 engine, marking a time when Ford was offering strong performance in a mid-size pickup truck while also providing additional passenger space compared to standard cab models; the 5.4L 'Triton' V8 engine was particularly well-regarded for its power and towing capabilities in this generation of F-150s."
+                "description":"<strong><u>Description</u></strong>: The 2001 Ford F-150 SuperCab represents a popular combination of a spacious extended cab ('SuperCab') with a powerful V8 engine, marking a time when Ford was offering strong performance in a mid-size pickup truck while also providing additional passenger space compared to standard cab models; the 5.4L 'Triton' V8 engine was particularly well-regarded for its power and towing capabilities in this generation of F-150s. <br><u><strong>Engine</u></strong>: 5.4L V8<br><u><strong>Transmission</u></strong>: 4-Speed Automatic <br><u><strong>0-60(mph)</u></strong>: 8.7<br><u><strong>Horsepower</u></strong>: 220<br><u><strong>Torque(lb/ft)</u></strong>: 260<br><u><strong>Top Speed(mph)</u></strong>: 110<br><u><strong>Dimensions(in)</u></strong>: 244.1 x 79.3 x 72.5<br><u><strong>Curb Weight(lb)</u></strong>: 4,213<br><u><strong>Fuel Economy(MPG)</u></strong>: 15"
             },
             "GT":{
                 "dark":"/static/img/Slideshow/2005FordGTD.jpeg",
@@ -879,7 +879,7 @@
                 "make":"Ford",
                 "model":"GT",
                 "year":"2005",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"<strong><u>Description</u></strong>: The Ford GT is a masterpiece of design, blending form and function in a way that few vehicles can. Its aerodynamically optimized teardrop shape and multifunctional buttresses are aesthetically pleasing and serve a crucial role in minimizing drag and maximizing downforce. <br><u><strong>Engine</u></strong>: Supercharged 5.4L V8<br><u><strong>Transmission</u></strong>: 6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.3<br><u><strong>Horsepower</u></strong>: 550<br><u><strong>Torque(lb/ft)</u></strong>: 500<br><u><strong>Top Speed(mph)</u></strong>: 205<br><u><strong>Dimensions(in)</u></strong>: 183 x 77 x 44<br><u><strong>Curb Weight(lb)</u></strong>: 3,485<br><u><strong>Fuel Economy(MPG)</u></strong>: 14"
             },
             "GT40":{
                 "dark":"/static/img/Slideshow/GT40D.jpeg",
@@ -887,7 +887,7 @@
                 "make":"Ford",
                 "model":"GT40",
                 "year":"1965",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"<strong><u>Description</u></strong>: The Ford GT40 is a high-performance mid-engined racing car originally designed and built for and by the Ford Motor Company to compete in 1960s European endurance racing. Its specific impetus was to best Scuderia Ferrari, which had won the prestigious 24 Hours of Le Mans race for six years running from 1960 to 1965. <br><u><strong>Engine</u></strong>: 5.0L V8<br><u><strong>Transmission</u></strong>: 5-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 5.5<br><u><strong>Horsepower</u></strong>: 540<br><u><strong>Torque(lb/ft)</u></strong>: 325<br><u><strong>Top Speed(mph)</u></strong>: 200<br><u><strong>Dimensions(in)</u></strong>: 158.6 x 70 x 40.5<br><u><strong>Curb Weight(lb)</u></strong>: 2,100<br><u><strong>Fuel Economy(MPG)</u></strong>: 11"
             },
             "Mustang Dark Horse":{
                 "dark":"/static/img/Slideshow/darkhorseD.avif",
@@ -895,7 +895,7 @@
                 "make":"Ford",
                 "model":"Mustang Darkhorse",
                 "year":"2024",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"<strong><u>Description</u></strong>: When properly equipped, the Dark Horse is capable of remarkable handling and impressive braking. The 500-hp V8 isn't too shabby either. Some traditionalists might scoff at the 2024 Mustang's digital interior but we think the biggest detriment to the Dark Horse is its steep asking price. <br><u><strong>Engine</u></strong>: 5.0L V8<br><u><strong>Transmission</u></strong>: 10-Speed Automatic/6-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 3.7<br><u><strong>Horsepower</u></strong>: 500<br><u><strong>Torque(lb/ft)</u></strong>: <br><u><strong>Top Speed(mph)</u></strong>: 418<br><u><strong>Dimensions(in)</u></strong>: 190 x 76 x 55<br><u><strong>Curb Weight(lb)</u></strong>: 3,879<br><u><strong>Fuel Economy(MPG)</u></strong>: 17"
             },
             "Mustang Fastback":{
                 "dark":"/static/img/Slideshow/FordMustangFastbackD.webp",
@@ -903,7 +903,7 @@
                 "make":"Ford",
                 "model":"Mustang Fastback",
                 "year":"1968",
-                "description":"Engine: <br>Transmission: <br>0-60(mph): <br>Horsepower: <br>Torque(lb/ft): <br>Top Speed(mph): <br> Dimensions(in): <br> Curb Weight(lb): <br>Fuel Economy(MPG): <br>Description:"
+                "description":"<strong><u>Description</u></strong>: Improved suspension and handling characterised 1968 Mustangs, with the best stopping ability of any pony car to date. Cars with 390cid, 427, and 428cid used power discs; power steering was highly desirable with V8s or those with wide tires. <br><u><strong>Engine</u></strong>: 5.0L V<br><u><strong>Transmission</u></strong>: 4-Speed Manual Transmission<br><u><strong>0-60(mph)</u></strong>: 5.9<br><u><strong>Horsepower</u></strong>: 325<br><u><strong>Torque(lb/ft)</u></strong>: 310<br><u><strong>Top Speed(mph)</u></strong>: 123<br><u><strong>Dimensions(in)</u></strong>: 183.6 x 70.9 x 51.6<br><u><strong>Curb Weight(lb)</u></strong>: 2,990<br><u><strong>Fuel Economy(MPG)</u></strong>: 12.52"
             }
         },
 
@@ -915,7 +915,7 @@
                 "make":"Jeep",
                 "model":"CJ-7",
                 "year":"1976",
-                "description":"Engine: 4.2L Inline-6<br>Transmission: 3-Speed Automatic/3-Speed Manual<br>0-60(mph): 11<br>Horsepower: 90<br>Torque(lb/ft): 192<br>Top Speed(mph): NA<br> Dimensions(in): 148 x 68.5 x 70.3<br> Curb Weight(lb): 2,710<br>Fuel Economy(MPG): 9.61<br>Description: The 1976 CJ-7 stretched the wheelbase by 10 inches (25 cm), and made doors and a removable hardtop common items. After remaining in production through a range of model numbers, and several corporate parents, the Jeep CJ line was officially ended after 1986."
+                "description":"<strong><u>Description</u></strong>: The 1976 CJ-7 stretched the wheelbase by 10 inches (25 cm), and made doors and a removable hardtop common items. After remaining in production through a range of model numbers, and several corporate parents, the Jeep CJ line was officially ended after 1986. <br><u><strong>Engine</u></strong>: 4.2L Inline-6<br><u><strong>Transmission</u></strong>: 3-Speed Automatic/3-Speed Manual<br><u><strong>0-60(mph)</u></strong>: 11<br><u><strong>Horsepower</u></strong>: 90<br><u><strong>Torque(lb/ft)</u></strong>: 192<br><u><strong>Top Speed(mph)</u></strong>: NA<br><u><strong>Dimensions(in)</u></strong>: 148 x 68.5 x 70.3<br><u><strong>Curb Weight(lb)</u></strong>: 2,710<br><u><strong>Fuel Economy(MPG)</u></strong>: 9.61"
             }
         },
 
@@ -927,7 +927,7 @@
                 "make":"Lincoln",
                 "model":"Continental",
                 "year":"1969",
-                "description":"Engine: 7.5L V8<br>Transmission: 3-Speed Automatic<br>0-60(mph): 7.4<br>Horsepower: 365<br>Torque(lb/ft): 460<br>Top Speed(mph): 110<br> Dimensions(in): 224.2 x 79.7 x 54.2<br>Curb Weight(lb): 5,700<br>Fuel Economy(MPG): 11.1<br>Description: The 1969 Lincoln Continental was the last year of the classic Continental, and was designed to be a class act and the end of an era. The Continental was a luxury car that emphasized styling, comfort, and features over performance and handling."
+                "description":"<strong><u>Description</u></strong>: The 1969 Lincoln Continental was the last year of the classic Continental, and was designed to be a class act and the end of an era. The Continental was a luxury car that emphasized styling, comfort, and features over performance and handling. <br><u><strong>Engine</u></strong>: 7.5L V8<br><u><strong>Transmission</u></strong>: 3-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 7.4<br><u><strong>Horsepower</u></strong>: 365<br><u><strong>Torque(lb/ft)</u></strong>: 460<br><u><strong>Top Speed(mph)</u></strong>: 110<br><u><strong>Dimensions(in)</u></strong>: 224.2 x 79.7 x 54.2<br><u><strong>Curb Weight(lb)</u></strong>: 5,700<br><u><strong>Fuel Economy(MPG)</u></strong>: 11.1"
             }
         },
 
@@ -939,7 +939,7 @@
                 "make":"Mercury",
                 "model":"Comet",
                 "year":"1963",
-                "description":"Engine: 4.3L V8<br>Transmission: 3-Speed Manual/2-Speed Automatic<br>0-60(mph): 9.3<br>Horsepower: 164<br>Torque(lb/ft): 200<br>Top Speed(mph): 100<br> Dimensions(in): 194.5 x 70.4 x 54.5<br> Curb Weight(lb): 2,970<br>Fuel Economy(MPG): 17.0<br>Description: The 1963 Mercury Comet was significant because it was a compact car that offered luxury features at an affordable price. The Comet was marketed as a stylish and comfortable car that didn't sacrifice efficiency. This concept became more popular in the following decades."
+                "description":"<strong><u>Description</u></strong>: The 1963 Mercury Comet was significant because it was a compact car that offered luxury features at an affordable price. The Comet was marketed as a stylish and comfortable car that didn't sacrifice efficiency. This concept became more popular in the following decades. <br><u><strong>Engine</u></strong>: 4.3L V8<br><u><strong>Transmission</u></strong>: 3-Speed Manual/2-Speed Automatic<br><u><strong>0-60(mph)</u></strong>: 9.3<br><u><strong>Horsepower</u></strong>: 164<br><u><strong>Torque(lb/ft)</u></strong>: 200<br><u><strong>Top Speed(mph)</u></strong>: 100<br><u><strong>Dimensions(in)</u></strong>: 194.5 x 70.4 x 54.5<br><u><strong>Curb Weight(lb)</u></strong>: 2,970<br><u><strong>Fuel Economy(MPG)</u></strong>: 17.0"
             }
         }
     }
