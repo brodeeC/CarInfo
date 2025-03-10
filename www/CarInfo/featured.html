@@ -1,0 +1,228 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href = "static/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="javascript" href="static/js/functions.js">
+        <link rel="icon" href="static/img/CarInfo.png" type="image/png">
+
+        <style>
+            /* Default Light Mode Styles */
+          body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Light background color */
+          }
+
+          .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: #fff; /* Light background color for container */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          }
+
+          h2.form_name {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333; /* Dark text color for headings */
+          }
+
+          label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333; /* Label text color */
+          }
+
+          input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc; /* Light border color */
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: #f0f0f0; /* Light text area background */
+            color: #333; /* Dark text color */
+          }
+
+          textarea {
+            height: 150px;
+          }
+
+          input[type="submit"] {
+            background-color: #03396c; /* Button background */
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+          }
+
+          input[type="submit"]:hover {
+            background-color: #ef1a2d;
+          }
+
+          textarea::placeholder {
+            color: #595858; /* Placeholder text color */
+            font-style: italic;
+          }
+          @media (prefers-color-scheme: dark) {
+              body {
+              font-family: "Roboto", sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color:#333;
+            }
+
+            .container {
+              max-width: 600px;
+              margin: 20px auto;
+              background: #333;
+              padding: 20px;
+              border-radius: 8px;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+        
+            h2.form_name {
+              text-align: center;
+              margin-bottom: 20px;
+              color: white;
+            }
+        
+            label {
+              display: block;
+              margin-top: 10px;
+              font-weight: bold;
+            }
+        
+            input[type="text"], textarea {
+              width: 100%;
+              padding: 10px;
+              margin-top: 5px;
+              border: 1px solid #656565;
+              border-radius: 4px;
+              box-sizing: border-box;
+              background-color: #656565;
+              color: white;
+            }
+        
+            textarea {
+              height: 150px;
+            }
+        
+            input[type="submit"] {
+              background-color:#03396c ;
+              color: white;
+              padding: 10px 15px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              margin-top: 20px;
+              width: 100%;
+            }
+        
+            input[type="submit"]:hover {
+              background-color: #ef1a2d;
+            }
+
+            textarea::placeholder {
+              color: white; /* Placeholder text color */
+              font-style: italic; 
+            }
+
+            ::placeholder{
+              color: white; /* Placeholder text color */
+              font-style: italic; 
+            }
+        
+            @media (max-width: 600px) {
+              .container {
+                padding: 15px;
+              }
+        
+              input[type="text"], textarea, input[type="submit"] {
+                font-size: 16px;
+              }
+            }
+
+          }
+
+          
+        </style>
+    </head>
+
+    <title>
+        Car Info-Contact Us Page
+    </title>
+
+    <body class = "color-mode" onload="loadRandomImages(), loadInfo()">
+        <script type="text/javascript" src="static/js/functions.js"></script>
+
+        <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+        <div class="topnav">
+            <a href="/index.html" class="bottle"><h1 class = "HeadText">CAR
+                INFO</h1></a>
+            
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks" style="display: none;">
+              <a href="/index.html">Home</a>
+              <a href="/brandpage.html">Brands</a>
+              <a href="/aboutpage.html">About</a>
+              <a href="/contactus.html">Contact Us</a>
+            </div>
+            
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a class="icon" onclick="displayMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+          
+            <div class = "brandButton">
+              <button onclick="window.location.href='/brandpage.html'">
+              <img class="icon" id="icon" src="/static/img/CarInfo.png">
+            </button>
+           </div>
+
+          </div>
+          <button id="backButton" onclick="history.back()">Back</button>
+          
+          <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+
+
+          <!--Add a file type acceptance parameter so no one can do anything sneaky.-->
+
+          <div class="container">
+            <h2 class="form_name">Contact Us</h2>
+            <form action="/contact" method="POST" enctype="multipart/form-data">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Your first name.." required>
+              
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Your last name.." required>
+              
+              <label for="country">Country</label>
+              <input type="text" id="country" name="country" placeholder="Your country.." required>
+              
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" onchange="msgType()" placeholder="Write something.." required></textarea>
+
+              <!--Created so the user can submit a car they would like to see featured on the site.-->
+              <label for="file">Attach a File</label>
+              <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf, .doc, .docx">
+              <p>File formats accepted are: .jpg, .jpeg, .png, .pdf, .doc, .docx </p>
+
+              
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </body>
+
+    
+</html>
