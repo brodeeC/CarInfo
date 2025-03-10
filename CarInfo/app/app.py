@@ -21,14 +21,14 @@ cors = CORS(app)
 
 @app.route(prepend + "/cars")
 def cars():
-    with open("CarInfo/app/JSON/cars.JSON") as file:
+    with open("/CarInfo/app/JSON/cars.JSON") as file:
         cars = json.load(file)
     return jsonify(cars)
 
 
 # Load JSON data once at app startup
 def load_car_data():
-    with open("CarInfo/app/JSON/cars.JSON") as json_file:
+    with open("/CarInfo/app/JSON/cars.JSON") as json_file:
         return json.load(json_file)
 
 
