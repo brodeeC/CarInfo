@@ -1,0 +1,854 @@
+.HeadText{
+  font-family: "Roboto", sans-serif;
+  color: #fdf5e6;
+  font-size: 600%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*Make Head text smaller when screen is less than 600px*/
+@media screen and (max-width: 600px){
+  .HeadText{
+    font-family: "Roboto", sans-serif;
+    color: #fdf5e6;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/*Changes to the the BodyText Class*/
+.BodyText{  
+    font-size: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
+    
+    h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 150%;
+    }
+
+    h3 {
+      font-family: "Roboto", sans-serif;
+    }
+}
+
+a:link{
+  color: #03396c;
+}
+
+a:visited{
+  color: #ef1a2d;
+}
+
+a:hover{
+  color: #fdf5e6;
+}
+
+/*Make About Us section into columns when screen is greater than 1200px*/
+@media screen and (min-width: 1200px){
+  .Column{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-align-last: left;
+    gap: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+    .bigger{
+      font-family: "Roboto", sans-serif;
+      font-size: 150%;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+    }
+  }
+}
+
+/*Make About Us section into rows when screen is less than 1200px*/
+@media screen and (max-width: 1200px) {
+  .Column {
+    flex-direction: column;
+    justify-content: center; 
+    align-items: stretch; 
+    text-align: justify; 
+    text-align-last: left;
+    gap: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .Column {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .BodyText {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+
+  .bigger {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+  }
+}
+
+#logo{
+    width: 11%;
+    height: 45%;
+}
+
+/*Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
+.topnav {
+  overflow: hidden;
+  background-color: rgb(158, 159, 159);
+  position: relative;
+  padding: 10px 10px
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .topnav {
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+      padding: 10px 10px
+  }
+}
+
+
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+color: white;
+padding: 15px 15px;
+text-decoration: none;
+font-size: 17px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.brandButton {
+  display: block;
+  position: absolute;
+  right: 46px;
+  top: 0;
+}
+
+.brandButton button{
+  width: 45px;
+  height: 47px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.bottle {
+background: linear-gradient(to top, #ef1a2d 0%, #ef1a2d 50%, #03396c 50%, #03396c 100%);
+color: white;
+height: auto;
+max-height: 20%;
+overflow: hidden;
+}
+
+/* default, light mode styling */
+.color-mode {
+background-color: rgb(246, 246, 246);
+color: #000;
+}
+
+/* if user switches the system settings to dark mode */
+/* this media query will be applied */
+@media (prefers-color-scheme: dark) {
+    .color-mode {
+        background-color: #212020;
+        color: #fff;
+    }
+}
+
+/*Beginning the construction of the slideshow.  */
+* {
+  box-sizing: border-box;
+}
+
+#Slideshow-Container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(212, 219, 224); /* Temporary to visualize the container */
+}
+
+
+
+/* Image styles */
+.carslide {
+  width: 100%; /* Ensure the image takes up full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  border: 5px solid #333; /* Optional: adds a border around the images */
+}
+
+@media (prefers-color-scheme: dark){
+  .carslide{
+    border: 5px solid  rgb(212, 219, 224);
+  }
+}
+
+/* Next and previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Centers buttons vertically */
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5); /* Slight transparency */
+  transition: background-color 0.5s ease;
+}
+
+/* Position the next button to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the previous button to the left */
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Hover effect for the navigation buttons */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Add media query for responsive design */
+@media screen and (max-width: 768px) {
+  .prev, .next {
+    font-size: 14px;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .carslide {
+    width: 100%; /* Ensure image scales on smaller devices */
+  }
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.bottle, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Put brands into a flexbox*/
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+/*Dark Mode for Brands page*/
+@media (prefers-color-scheme: dark) {
+  #brands button {
+    background-color: #333;
+    color: white;
+  }
+
+  #brands button:hover {
+    background-color: #555;
+  }
+}
+
+#dropdown{
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  #dropdown {
+      color: white;
+  }
+}
+
+/*Dark mode for car_info template*/
+@media (prefers-color-scheme: dark) {
+  .car_info {
+      background-color: #212020;
+      color: #fff;
+  }
+}
+
+/*Centers brand pages*/
+.center-content{
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+/*Makes all homepage images the same size*/
+#resize img{
+  width: 1000px;
+  height: 680px;
+}
+
+@media (max-width: 1000px) {
+  #resize img {
+    width: 100%;
+    height: auto; 
+  }
+}
+
+.center-content img{
+  width: 588px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-center img{
+  width: 147px;
+  height: 100px;
+}
+
+@media (max-width: 600px) {
+  .center-content img {
+    width: 100%;
+    height: auto; 
+  }
+}
+
+@media (max-width: 600px) {
+  .image-center img {
+    width: 45%;
+    height: auto; 
+  }
+}
+
+.brands img{
+  width: 255px;
+  height: 184px;
+}
+
+
+/*Beginning of the accordion CSS. */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #03396c;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 75%;
+}
+
+@media (prefers-color-scheme: dark){
+  .accordion {
+    color: black;
+  }
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+  background-color: gray;
+}
+
+@media (prefers-color-scheme: dark){
+  .accordion:hover {
+    background-color: white;
+  }
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #ef1a2d;
+  display: none;
+  overflow: hidden;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark){
+  .panel {
+    color: black;
+  }
+}
+
+.hidden{
+  display:none;
+}
+
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Add spacing between items */
+  margin: 20px auto; /* Center on the page */
+  max-width: 800px; /* Limit width to prevent overflow */
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly translucent background */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for elevation */
+}
+
+/* Input box styling (inherits from current .search styles) */
+#brandInput {
+  flex-grow: 1; /* Allow search box to expand as needed */
+  position: relative;
+  min-width: 250px; /* Prevent input from shrinking too much */
+}
+
+/* Suggestion box styling */
+#suggestionBox {
+  position: relative; /* Position relative to the .search container */
+  top: calc(100% + 5px); /* Place it directly below the input with a 5px gap */
+  left: 0; /* Align it with the left edge of the search input */
+  width: 100%; /* Match the width of the search input */
+  background-color: rgba(255, 255, 255, 0.9); /* Translucent background */
+  border: 1px solid #ccc; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  z-index: 1000; /* Ensure it appears above other elements */
+  height: 110px; /* Forces box to only show a certain amount of results*/
+  overflow-y: scroll;
+}
+
+/* Individual buttons inside the suggestion box */
+#suggestionBox button {
+  width: 100%; /* Full width for each button */
+  border: none;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: left; /* Align text to the left */
+  cursor: pointer;
+  font-size: 14px;
+}
+/* Hover effect for suggestion buttons */
+#suggestionBox button:hover {
+  color: gray;
+}
+
+/* Style the search button */
+#searchButton {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  background-color: #03396c; /* Button background */
+  color: white; /* Button text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+#searchButton:hover {
+  background-color: gray; /* Change color on hover */
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .search-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    gap: 15px; /* Increase spacing between items */
+  }
+
+  #brandInput {
+    width: 100%;
+    flex-grow: 1; /* Input box takes full width */
+  }
+  #searchButton {
+    padding: 8px 12px; /* Slightly reduce padding for smaller screens */
+  }
+  #searchButton {
+    padding: 8px 12px; /* Slightly reduce padding for smaller screens */
+  }
+  #backButton {
+    padding: 8px 12px; /* Slightly reduce padding for smaller screens */
+  }
+}
+/* Style for the dropdown (inherits current styles) */
+#countries {
+  font-family: "Roboto", sans-serif;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  width: 100%; /* Full width to match the other elements */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover and focus state for dropdown */
+#countries:hover,
+#countries:focus {
+  border-color: #03396c; /* Matches the button hover border */
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Style for the dropdown options */
+#countries option {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: white; /* Default background */
+  color: #000; /* Text color */
+  padding: 8px; /* Spacing inside options */
+  cursor: pointer;
+}
+
+/* Option hover styling (browser-dependent but supported on many) */
+#countries option:hover {
+  background-color: rgba(3, 57, 108, 0.1); /* Light blue highlight */
+  color: #03396c; /* Text color changes on hover */
+}
+
+/* Option selected state (browser-dependent) */
+#countries option:checked {
+  background-color: #ef1a2d; /* Matches the button hover background */
+  color: white;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  #countries {
+    font-size: 16px; /* Slightly larger font for readability on smaller screens */
+  }
+}
+
+.search-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch, center;
+  gap: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ef1a2d;
+  border-color: #03396c;
+}
+
+@media screen and (max-width: 900px){
+  .search-container, .dropdown{
+    width: auto;
+  }
+}
+
+#suggestionBox{
+  background-color: #03396c;
+  border-color: #03396c;
+  color: #000;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+
+#countries{
+  border-color: #ef1a2d;
+  background-color: #03396c;
+}
+
+.dropSearch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35%;
+  padding-right: 35%;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 612px) {
+  .bigClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 20%;
+    flex-direction: column;
+  }
+}
+
+.dropdown{
+  width: 100%;
+}
+
+ /*Contact Us Page*/
+ /* Default Light Mode Styles */
+ body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #f9f9f9; /* Light background color for container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2.form_name {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color for headings */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333; /* Label text color */
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #8b8b8b; /* Light border color */
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ccc; /* Light text area background */
+  color: #333; /* Dark text color */
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #03396c; /* Button background */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #ef1a2d;
+}
+
+textarea::placeholder {
+  color: #595858; /* Placeholder text color */
+  font-style: italic;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h2.form_name {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #656565;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #656565;
+    color: white;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  input[type="submit"] {
+    background-color:#03396c ;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #ef1a2d;
+  }
+
+  textarea::placeholder {
+    color: white; /* Placeholder text color */
+    font-style: italic; 
+  }
+
+  ::placeholder{
+    color: white; /* Placeholder text color */
+    font-style: italic; 
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+
+    input[type="text"], textarea, input[type="submit"] {
+      font-size: 16px;
+    }
+  }
+
+}
+
+#caption{
+  color: black;
+}
+
+#backButton{
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  background-color: #03396c; /* Button background */
+  color: white; /* Button text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backButton:hover {
+  background-color: gray; /* Change color on hover */
+}
+
+button #icon{
+  width: 25px;
+  height: 25px;
+}
+
+#resize2 {
+  width: 75%;
+  height: auto;
+  border: 5px solid  rgb(212, 219, 224);
+}
+
+#oneCarPadding{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#description{
+  text-align: justify;
+  text-align-last: left;
+  padding-bottom: 2%;
+  padding-left: 12%;
+  padding-right: 12%;
+}

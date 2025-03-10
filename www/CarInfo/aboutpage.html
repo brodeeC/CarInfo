@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href = "/CarInfo/static/css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="javascript" href="/CarInfo/static/js/functions.js">
+        <link rel="icon" href="/CarInfo/static/img/CarInfo.png" type="image/png">
+    </head>
+    <title>
+        Car Info - About
+    </title>
+    <body class = color-mode>
+        <script type="text/javascript" src="/CarInfo/static/js/functions.js"></script>
+
+        <!--Some code sourced from w3 schools. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+        <div class="topnav">
+            <a href="/CarInfo/index.html" class="bottle"><h1 class = "HeadText">CAR
+                INFO</h1></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks" style="display: none;">
+              <a href="/CarInfo/index.html">Home</a>
+              <a href="/CarInfo/brandpage.html">Brands</a>
+              <a href="/CarInfo/aboutpage.html">About</a>
+              <a href="/CarInfo/contactus.html">Contact Us</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a class="icon" onclick="displayMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+
+            <div class = "brandButton">
+              <button onclick="window.location.href='/CarInfo/brandpage.html'">
+              <img class="icon" id="icon" src="/CarInfo/static/img/CarInfo.png">
+            </button>
+           </div>
+
+          </div>
+          <button id="backButton" onclick="history.back()">Back</button>
+        <!--May need to go in and add margins for the text to clean up the look of the page.
+        What if we make this whole thing a vertical flexbox and each h2 is a 'cell' in the box?-->
+        <div class = "BodyText">
+            <h2>About Car Info</h2>
+            <p>
+                We are a group of college students creating a website about Cars! We plan to implement an
+                image slideshow with at least 100 cars. As well as a brand page to navigate through a directory
+                of brands and find makes and models of many cars to help you navigate in your car selection process!
+            </p>
+        </div>
+
+        <!--Begining of the the Accordin.-->
+        <div class = "BodyText"><h2>FAQs</h2>
+            <button class="accordion"><h3>How often do you update the car directory with new models and brands?</h3></button>
+            <div class="panel">
+              <p>
+                We update our car directroy as frequently as twice a month or when a number of users have expressed a desire for a certain model 
+                or brand.
+              </p>
+            </div>
+            
+            <button class="accordion"><h3>Are there plans to add more features, like user reviews or ratings for cars?</h3></button>
+            <div class="panel">
+              <p>
+                Yes, we are always looking for more ways to improve this website over time. If you have any suggestions, fill out a contact us form 
+                found on the Contact Us page or by clicking the Contact Us subheading found below.
+              </p>
+            </div>
+            
+            <button class="accordion"><h3>Can I contribute content, such as my own car reviews or photos, to your website?</h3></button>
+            <div class="panel">
+              <p>
+                Yes, you can contribute to this website through various ways. While, we are developing features to where you can add car reviews
+              </p>
+            </div>
+        </div>
+
+        <div class = "BodyText">
+            <h2>About us</h2> 
+        </div>
+        <div class = "Column">
+            
+            <p>
+                <span class = 'bigger'>Brodee</span><br>A junior computer science and classics double major. I am one of the two programmers!
+            </p>
+
+            <p>
+                <span class = 'bigger'>Kyler</span><br>A junior Computer Science major. I am the second of the two programmers!
+            </p>
+            
+            <p>
+                <span class = 'bigger'>David</span><br>A senior Information Technology and Business Administration double major. I am the designer!
+            </p>
+
+            <p>
+                <span class = 'bigger'>Brady</span><br>A senior Information Technology and Studio Art double major. I am the content creator!
+            </p>
+        </div>
+        <!--May need to go in and add margins for the text to clean up the look of the page.-->
+        <!--Have a Google Form link that takes the user to page for them to fill out.-->
+        <div class = "BodyText"><h2><a href = "/contactus.html">Contact Us</a></h2>
+            <p class = "large-text"> If you have any questions or need more information about car models, maintenance tips, or anything related to cars, 
+                we are here to help. Feel free to reach out to us through the contact form below, and our team of car enthusiasts 
+                will get back to you promptly. Whether you are looking for advice on purchasing a new vehicle, 
+                need clarification on a car maintenance topic, or simply want to share your feedback about our website, 
+                we are eager to hear from you. Your input helps us improve and provide the most up-to-date and helpful car information.</p>
+        </div> 
+    </body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        var acc = document.getElementsByClassName("accordion");
+
+        for (var i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function () {
+            // Toggle between adding and removing the "active" class
+            this.classList.toggle("active");
+
+            // Toggle between hiding and showing the active panel
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      });
+    </script>
+</html>
